@@ -237,7 +237,7 @@
             style="font-size:16px"
           >Leading security specialists ready to respond to your round-the-clock security needs.</p>
           <div class="row mt-5">
-            <div class="col-12 col-sm-5">
+            <div class="col-12 col-sm-5 h-100">
               <div class="colored-rule w-100">
                 <a class="pad4__link-main" href>VISIT OUR CAREERS PORTAL</a>
               </div>
@@ -253,6 +253,9 @@
               <div class="mt-1">
                 <a class="pad4__link-sub" href>OPERATIONAL EMPLOYEES</a>
                 <img src alt />
+              </div>
+              <div class="mt-4">
+                <button style="width:100%" type="button" class="btn btn1">View All Vacancies</button>
               </div>
             </div>
             <div class="col-12 col-sm-7">
