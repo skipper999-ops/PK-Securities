@@ -26,21 +26,25 @@ export default {
       },
       {
         rel: "stylesheet",
+        href: "/css/framework.css"
+      },
+      {
+        rel: "stylesheet",
         href: "https://cdn.plyr.io/3.5.6/plyr.css"
       }
     ],
     script: [
       {
-        href: "https://code.jquery.com/jquery-3.4.1.slim.min.js",
+        src: "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js",
         type: "text/javascript"
       },
       {
-        href:
+        src:
           "https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js",
         type: "text/javascript"
       },
       {
-        href: "/js/bootstrap.min.js",
+        src: "/js/bootstrap.min.js",
         type: "text/javascript"
       }
     ]

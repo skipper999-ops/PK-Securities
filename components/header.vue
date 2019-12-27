@@ -1,42 +1,76 @@
 <template>
   <div>
     <div class="top-nav">
-      <div class="container">
-        <div class style="padding-top:5px">
-          <span>
-            <i class="fa fa-phone" aria-hidden="true"></i>
-          </span>
-          <a style="font-size:16px" href="tel:+91 9152685887">+91 9152685887</a>
-          <span>
-            <i class="fa fa-phone" aria-hidden="true"></i>
-          </span>
-          <a style="font-size:16px" href="mailto:pksecurity@gmail.com">pksecurity@gmail.com</a>
+      <div class="container" style="line-height: 44px;">
+        <div class="d-flex justify-content-between">
+          <div>
+            <span class="top-nav__contact">
+              <i class="fa fa-phone top-nav-icon" aria-hidden="true"></i>
+              <a
+                style="font-size:14px;padding-left: 10px"
+                href="tel:+91 9152685887"
+                >+91 9152685887</a
+              >
+            </span>
+            <span class="top-nav__contact" style="margin-left: 15px">
+              <i class="fa fa-envelope  top-nav-icon" aria-hidden="true"></i>
+              <a
+                style="font-size:14px;padding-left: 10px"
+                href="mailto:pksecurity@gmail.com"
+                >pksecurity@gmail.com</a
+              >
+            </span>
+          </div>
+          <div class="hide-on-small-and-down">
+            <div class="social-nav">
+              <span class="social-nav__contact">
+                <a
+                  style="font-size:14px;"
+                  href="https://www.facebook.com"
+                >
+                  <i class="fa fa-facebook top-nav-icon" aria-hidden="true"></i
+                ></a>
+              </span>
+              <span class="social-nav__contact">
+                <a
+                  style="font-size:14px;"
+                  href="https://www.twitter.com"
+                >
+                  <i class="fa fa-twitter top-nav-icon" aria-hidden="true"></i
+                ></a>
+              </span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="container mt-1">
-      <img class="logo" style="margin-right:10px" src="~/static/images/PK1.jpg" />
+    <div class="container mt-3 mb-3">
+      <img
+        class="logo"
+        style="margin-right:10px"
+        src="~/static/images/PK1.jpg"
+      />
       <img class="logo" src="~/static/images/PK2.jpg" />
     </div>
     <div class="custom-nav mt-1">
-      <div class="container d-flex justify-content-around">
-        <div class="custom-link">
-          <a href="/">HOME</a>
+      <div class="container d-flex justify-content-end">
+        <div>
+          <nuxt-link to="/">HOME</nuxt-link>
         </div>
         <div>
-          <a href="/whoweare">WHO WE ARE</a>
+          <nuxt-link to="/whoweare">WHO WE ARE</nuxt-link>
         </div>
         <div>
-          <a href="/ourclients">WHAT WE DO</a>
+          <nuxt-link to="/ourclients">WHAT WE DO</nuxt-link>
         </div>
         <div>
-          <a href="/career">CAREERS</a>
+          <nuxt-link to="/career">CAREERS</nuxt-link>
         </div>
         <div>
-          <a href>OUR CLIENTS</a>
+          <nuxt-link to="/">OUR CLIENTS</nuxt-link>
         </div>
         <div>
-          <a href>CONTACT US</a>
+          <nuxt-link to="/">CONTACT US</nuxt-link>
         </div>
       </div>
     </div>
@@ -50,15 +84,27 @@
           data-ride="carousel"
         >
           <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li
+              data-target="#carouselExampleIndicators"
+              data-slide-to="0"
+              class="active"
+            ></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
           </ol>
           <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
-              <img class="d-block w-100 img1" src="~static/images/pkcaro.jpg" alt="First slide" />
+              <img
+                class="d-block w-100 img1"
+                src="~static/images/pkcaro.jpg"
+                alt="First slide"
+              />
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100 img1" src="~static/images/pkteam1.jpeg" alt="First slide" />
+              <img
+                class="d-block w-100 img1"
+                src="~static/images/pkteam1.jpeg"
+                alt="First slide"
+              />
             </div>
           </div>
           <a
@@ -87,40 +133,83 @@
 <style scoped>
 .top-nav {
   background-color: rgb(237, 237, 237);
-  height: 35px;
+  height: 44px;
 }
-.top-nav a {
-  text-decoration: none;
-  font-weight: 500;
-  color: black;
+
+.top-nav-icon {
+  color: #707070;
   font-size: 14px;
 }
 
-a:hover {
-  color: blue;
+.top-nav a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #707070;
+  font-size: 14px;
+}
+
+.top-nav__contact:hover i,
+.top-nav__contact:hover a,
+.social-nav__contact:hover i {
+  color: #fdb06c;
+}
+
+.social-nav__contact i {
+  width: 44px;
+  text-align: center;
+  height: 42px;
+  line-height: 45px;
+  border-left: 1px solid #cfcfcf;
+}
+
+.social-nav .social-nav__contact:last-child i {
+  width: 44px;
+  text-align: center;
+  height: 42px;
+  line-height: 45px;
+  border-right: 1px solid #cfcfcf;
 }
 
 .logo {
   height: 75px;
   width: 170px;
+  object-fit: contain;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    height: 42px;
+    width: 90px;
+  }
 }
 
 .custom-nav {
   background-color: #931012;
+  height: 40px;
+  line-height: 40px;
 }
 
 .custom-nav a {
   text-decoration: none;
   color: #fff;
-  font-size: 22px;
-  padding: 5px 0;
+  font-size: 15px;
+  padding: 6px 0;
 }
 
 .custom-link {
   text-decoration: none;
 }
 
-.custom-link:hover {
-  border-bottom: 3px white;
+.custom-nav a:hover {
+  border-bottom: 3px solid white;
+}
+
+.nuxt-link-exact-active,
+.nuxt-link-active {
+  color: red;
+  border-bottom: 3px solid #fdb06c;
+}
+.custom-nav > div > div {
+  padding: 0 30px;
 }
 </style>

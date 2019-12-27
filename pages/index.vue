@@ -4,37 +4,8 @@
       <!-- 1st carousel -->
 
       <div class="container p-0 bg-white">
-        <!-- <div class="p-2" style="background-color:#ededed">
-        <div id="carouselExampleIndicators" class="carousel slide" style="background-color:#ededed" data-ride="carousel">
-           <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-           </ol>
-         <div class="carousel-inner" role="listbox">
-           <div class="carousel-item active">
-              <img class="d-block w-100 img1" src="~/static/images/pkcaro.jpg" alt="First slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="#" data-src="holder.js/900x400?theme=industrial" alt="Second slide">
-           </div>
-         </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-           <span class="sr-only">Previous</span>
-         </a>
-         <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-           <span class="sr-only">Next</span>
-         </a>
-        </div>
-        </div>-->
-
-        <!-- carousel end -->
-
-        <!-- 2nd carousel -->
-
         <div style="background-color:#ededed">
-          <div id="carouselExampleIndicators" class="px-5 carousel slide" data-ride="carousel">
+          <div id="carouselExampleIndicators" class="px-5 slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
