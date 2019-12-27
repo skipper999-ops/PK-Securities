@@ -6,38 +6,27 @@
           <div>
             <span class="top-nav__contact">
               <i class="fa fa-phone top-nav-icon" aria-hidden="true"></i>
-              <a
-                style="font-size:14px;padding-left: 10px"
-                href="tel:+91 9152685887"
-                >+91 9152685887</a
-              >
+              <a style="font-size:14px;padding-left: 10px" href="tel:+91 9152685887">+91 9152685887</a>
             </span>
             <span class="top-nav__contact" style="margin-left: 15px">
-              <i class="fa fa-envelope  top-nav-icon" aria-hidden="true"></i>
+              <i class="fa fa-envelope top-nav-icon" aria-hidden="true"></i>
               <a
                 style="font-size:14px;padding-left: 10px"
                 href="mailto:pksecurity@gmail.com"
-                >pksecurity@gmail.com</a
-              >
+              >pksecurity@gmail.com</a>
             </span>
           </div>
           <div class="hide-on-small-and-down">
             <div class="social-nav">
               <span class="social-nav__contact">
-                <a
-                  style="font-size:14px;"
-                  href="https://www.facebook.com"
-                >
-                  <i class="fa fa-facebook top-nav-icon" aria-hidden="true"></i
-                ></a>
+                <a style="font-size:14px;" href="https://www.facebook.com">
+                  <i class="fa fa-facebook top-nav-icon" aria-hidden="true"></i>
+                </a>
               </span>
               <span class="social-nav__contact">
-                <a
-                  style="font-size:14px;"
-                  href="https://www.twitter.com"
-                >
-                  <i class="fa fa-twitter top-nav-icon" aria-hidden="true"></i
-                ></a>
+                <a style="font-size:14px;" href="https://www.twitter.com">
+                  <i class="fa fa-twitter top-nav-icon" aria-hidden="true"></i>
+                </a>
               </span>
             </div>
           </div>
@@ -45,11 +34,7 @@
       </div>
     </div>
     <div class="container mt-3 mb-3">
-      <img
-        class="logo"
-        style="margin-right:10px"
-        src="~/static/images/PK1.jpg"
-      />
+      <img class="logo" style="margin-right:10px" src="~/static/images/PK1.jpg" />
       <img class="logo" src="~/static/images/PK2.jpg" />
     </div>
     <div class="custom-nav mt-1">
@@ -78,23 +63,20 @@
     <div style="background-color:black">
       <div class="container p-2" style="background-color:#ededed">
         <div
-          id="carouselExampleIndicators"
+          id="carouselExampleIndicators7"
           class="carousel slide"
           style="background-color:#ededed"
           data-ride="carousel"
         >
-          <ol class="carousel-indicators">
-            <li
-              data-target="#carouselExampleIndicators"
-              data-slide-to="0"
-              class="active"
-            ></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          </ol>
+          <!-- <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators7" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators7" data-slide-to="1"></li>
+          </ol>-->
           <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
               <img
                 class="d-block w-100 img1"
+                style="height:600px"
                 src="~static/images/pkcaro.jpg"
                 alt="First slide"
               />
@@ -102,6 +84,7 @@
             <div class="carousel-item">
               <img
                 class="d-block w-100 img1"
+                style="height:600px"
                 src="~static/images/pkteam1.jpeg"
                 alt="First slide"
               />
@@ -109,7 +92,7 @@
           </div>
           <a
             class="carousel-control-prev"
-            href="#carouselExampleIndicators"
+            href="#carouselExampleIndicators7"
             role="button"
             data-slide="prev"
           >
@@ -118,7 +101,7 @@
           </a>
           <a
             class="carousel-control-next"
-            href="#carouselExampleIndicators"
+            href="#carouselExampleIndicators7"
             role="button"
             data-slide="next"
           >

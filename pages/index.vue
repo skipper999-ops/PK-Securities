@@ -4,46 +4,54 @@
       <!-- 1st carousel -->
 
       <div class="container p-0 bg-white">
-        <div style="background-color:#ededed">
-          <div id="carouselExampleIndicators" class="px-5 slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            </ol>
-            <div class="carousel-inner" role="listbox">
-              <div class="carousel-item active">
-                <div class="row mt-5">
-                  <div class="col-12 col-sm-6">
-                    <div>
-                      <h3>WHO WE ARE</h3>
-                      <h5
-                        class="mt-3"
-                        style="font-size:17px"
-                      >A Security Agency with a degree of professionalism that is second to none.</h5>
-                      <p
-                        class="mt-4"
-                        style="font-sixe:15px !important;line-height:1.4"
-                      >PK Security Service is the trusted provider of cutting-edge quality security service. We are committed to providing reliable service through custom-designed security strategies. Gain improved access control to your property with a range of total solutions security package.</p>
-                    </div>
-                    <a class="custom-link" href>READ MORE</a>
-                  </div>
-                  <div class="col-12 col-sm-6">
-                    <img class="w-100 h-100" src="~/static/images/video.jpg" />
-                  </div>
+        <div class="p-4 pt-5" style="background-color:#f3f3f3">
+          <!-- <div id="carouselExampleIndicators1" class="px-5 slide" data-ride="carousel">
+             <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+          </ol>-->
+          <!-- <div class="carousel-inner" role="listbox"> -->
+          -->
+          <!-- <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                  <img class="d-block w-100 img1" src="~static/images/pkcaro.jpg" alt="First slide" />
                 </div>
+                <div class="carousel-item">
+                  <img
+                    class="d-block w-100 img1"
+                    src="~static/images/pkteam1.jpeg"
+                    alt="First slide"
+                  />
+                </div>
+          </div>-->
+          <!-- <div class="carousel-item active"> -->
+          <div class="row mt-5">
+            <div class="col-12 col-sm-6">
+              <div>
+                <h3>WHO WE ARE</h3>
+                <h5
+                  class="mt-3"
+                  style="font-size:17px"
+                >A Security Agency with a degree of professionalism that is second to none.</h5>
+                <p
+                  class="mt-4"
+                  style="font-sixe:15px !important;line-height:1.4"
+                >PK Security Service is the trusted provider of cutting-edge quality security service. We are committed to providing reliable service through custom-designed security strategies. Gain improved access control to your property with a range of total solutions security package.</p>
               </div>
-              <div class="carousel-item">
-                <img
-                  class="d-block w-100"
-                  src="#"
-                  data-src="holder.js/900x400?theme=industrial"
-                  alt="Second slide"
-                />
-              </div>
+              <a class="custom-link" href>READ MORE</a>
             </div>
-            <a
+            <div class="col-12 col-sm-6">
+              <video class="h-100 w-100" controls style="height:300px;width:545px" autoplay>
+                <source src="/video/video2.mp4" type="video/mp4" />
+              </video>
+            </div>
+          </div>
+          <!-- </div>
+              <div class="carousel-item"></div>
+          </div>-->
+          <!-- <a
               class="carousel-control-prev"
-              href="#carouselExampleIndicators"
+              href="#carouselExampleIndicators1"
               role="button"
               data-slide="prev"
             >
@@ -52,25 +60,25 @@
             </a>
             <a
               class="carousel-control-next"
-              href="#carouselExampleIndicators"
+              href="#carouselExampleIndicators1"
               role="button"
               data-slide="next"
             >
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="sr-only">Next</span>
-            </a>
-          </div>
+          </a>-->
         </div>
+        <!-- </div> -->
 
         <!-- carousel end -->
         <!-- 3rd carousel starts here -->
 
         <div class="px-5">
-          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            </ol>
+          <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+            <!-- <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+            </ol>-->
             <div class="carousel-inner" role="listbox">
               <div class="carousel-item active">
                 <div class="row mt-5">
@@ -119,7 +127,7 @@
               </div>
               <a
                 class="carousel-control-prev"
-                href="#carouselExampleIndicators"
+                href="#carouselExampleIndicators2"
                 role="button"
                 data-slide="prev"
               >
@@ -128,7 +136,7 @@
               </a>
               <a
                 class="carousel-control-next"
-                href="#carouselExampleIndicators"
+                href="#carouselExampleIndicators2"
                 role="button"
                 data-slide="next"
               >
@@ -190,28 +198,28 @@
           <div class="row">
             <div class="col-12 col-sm-3">
               <div class="circle-fill d-flex middle">
-                <img style="height:50px;width:50px" src="~/static/images/team-member.png" alt />
+                <img style="height:47px;width:47px" src="~/static/images/team-member.png" alt />
               </div>
               <p class="text3 mt-3">CUSTOMERS</p>
               <p class="text4">1862+</p>
             </div>
             <div class="col-12 col-sm-3">
               <div class="circle-empty d-flex middle">
-                <img style="height:50px;width:50px" src="~/static/images/policeman.png" alt />
+                <img style="height:47px;width:47px" src="~/static/images/policeman.png" alt />
               </div>
               <p class="text3 mt-3">Employee</p>
               <p class="text4">1293+</p>
             </div>
             <div class="col-12 col-sm-3">
               <div class="circle-empty d-flex middle">
-                <img style="height:50px;width:50px" src="~/static/images/time.png" alt />
+                <img style="height:47px;width:47px" src="~/static/images/time.png" alt />
               </div>
               <p class="text3 mt-3">years history</p>
               <p class="text4">6+</p>
             </div>
             <div class="col-12 col-sm-3">
               <div class="circle-empty d-flex middle">
-                <img style="height:50px;width:50px" src="~/static/images/flag.png" alt />
+                <img style="height:47px;width:47px" src="~/static/images/flag.png" alt />
               </div>
               <p class="text3 mt-3">cities</p>
               <p class="text4">11+</p>
@@ -278,10 +286,10 @@
 
         <div class="pad5">
           <h4 class="text-center">LATEST NEWS</h4>
-          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
             </ol>
             <div class="carousel-inner" role="listbox">
               <div class="carousel-item active">
@@ -325,7 +333,7 @@
               </div>
               <a
                 class="carousel-control-prev"
-                href="#carouselExampleIndicators"
+                href="#carouselExampleIndicators3"
                 role="button"
                 data-slide="prev"
               >
@@ -334,7 +342,7 @@
               </a>
               <a
                 class="carousel-control-next"
-                href="#carouselExampleIndicators"
+                href="#carouselExampleIndicators3"
                 role="button"
                 data-slide="next"
               >
@@ -386,10 +394,10 @@
           <div>
             <h4 class="text-center">Testimonials</h4>
           </div>
-          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <div id="carouselExampleIndicators4" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators4" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators4" data-slide-to="1"></li>
             </ol>
             <div class="carousel-inner" role="listbox">
               <div class="carousel-item active">
@@ -421,7 +429,7 @@
             </div>
             <a
               class="carousel-control-prev"
-              href="#carouselExampleIndicators"
+              href="#carouselExampleIndicators4"
               role="button"
               data-slide="prev"
             >
@@ -430,7 +438,7 @@
             </a>
             <a
               class="carousel-control-next"
-              href="#carouselExampleIndicators"
+              href="#carouselExampleIndicators4"
               role="button"
               data-slide="next"
             >
@@ -445,10 +453,10 @@
 
         <div class="pad5">
           <h4 class="text-center">OUR CERTIFICATES</h4>
-          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <div id="carouselExampleIndicators5" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators5" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators5" data-slide-to="1"></li>
             </ol>
             <div class="carousel-inner" role="listbox">
               <div class="carousel-item active">
@@ -480,7 +488,7 @@
             </div>
             <a
               class="carousel-control-prev"
-              href="#carouselExampleIndicators"
+              href="#carouselExampleIndicators5"
               role="button"
               data-slide="prev"
             >
@@ -489,7 +497,7 @@
             </a>
             <a
               class="carousel-control-next"
-              href="#carouselExampleIndicators"
+              href="#carouselExampleIndicators5"
               role="button"
               data-slide="next"
             >

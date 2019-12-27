@@ -17,7 +17,7 @@
         </div>
         <div class="middle mt-5">
           <!-- video section -->
-          <video style="height:300px;width:545px" autoplay>
+          <video controls style="height:300px;width:545px" autoplay>
             <source src="/video/pkvideo1.mp4" type="video/mp4" />
           </video>
         </div>
