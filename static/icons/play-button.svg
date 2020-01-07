@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="play-button_1_" width="30" height="30" data-name="play-button (1)" viewBox="0 0 30 30">
+    <defs>
+        <style>
+            .cls-1{fill:#931012}.cls-2{fill:#fff}
+        </style>
+    </defs>
+    <circle id="Ellipse_15" cx="15" cy="15" r="15" class="cls-1" data-name="Ellipse 15"/>
+    <g id="Group_145" data-name="Group 145" transform="translate(10.862 6.724)">
+        <path id="Path_7710" d="M33.379 21.759L22 29.517V14z" class="cls-2" data-name="Path 7710" transform="translate(-21.483 -13.483)"/>
+        <path id="Path_7711" d="M21.517 29.552a.518.518 0 0 1-.517-.517V13.517a.517.517 0 0 1 .809-.427l11.379 7.759a.517.517 0 0 1 0 .854l-11.38 7.759a.518.518 0 0 1-.291.09zm.517-15.052v13.556l9.944-6.78z" class="cls-2" data-name="Path 7711" transform="translate(-21 -13)"/>
+    </g>
+</svg>

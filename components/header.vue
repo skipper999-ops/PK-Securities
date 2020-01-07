@@ -46,16 +46,16 @@
           <nuxt-link to="/whoweare">WHO WE ARE</nuxt-link>
         </div>
         <div>
-          <nuxt-link to="/ourclients">WHAT WE DO</nuxt-link>
+          <nuxt-link to="/whatwedo">WHAT WE DO</nuxt-link>
         </div>
         <div>
           <nuxt-link to="/career">CAREERS</nuxt-link>
         </div>
         <div>
-          <nuxt-link to="/">OUR CLIENTS</nuxt-link>
+          <nuxt-link to="/ourclients">OUR CLIENTS</nuxt-link>
         </div>
         <div>
-          <nuxt-link to="/">CONTACT US</nuxt-link>
+          <nuxt-link to="/contactus">CONTACT US</nuxt-link>
         </div>
       </div>
     </div>
