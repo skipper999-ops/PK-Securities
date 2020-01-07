@@ -55,7 +55,7 @@
           <nuxt-link to="/ourclients">OUR CLIENTS</nuxt-link>
         </div>
         <div>
-          <nuxt-link to="/">CONTACT US</nuxt-link>
+          <nuxt-link to="/contactus">CONTACT US</nuxt-link>
         </div>
       </div>
     </div>

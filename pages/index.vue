@@ -11,7 +11,6 @@
               <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
           </ol>-->
           <!-- <div class="carousel-inner" role="listbox"> -->
-
           <!-- <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active">
                   <img class="d-block w-100 img1" src="~static/images/pkcaro.jpg" alt="First slide" />
@@ -28,7 +27,7 @@
           <div class="row mt-5">
             <div class="col-12 col-sm-6">
               <div>
-                <h3>WHO WE ARE</h3>
+                <h3 style="font-weight:700">WHO WE ARE</h3>
                 <h5
                   class="mt-3"
                   style="font-size:17px"
@@ -238,8 +237,11 @@
           >Leading security specialists ready to respond to your round-the-clock security needs.</p>
           <div class="row mt-5">
             <div class="col-12 col-sm-5 h-100">
-              <div class="colored-rule w-100">
+              <div class="d-flex colored-rule w-100">
                 <a class="pad4__link-main" href>VISIT OUR CAREERS PORTAL</a>
+                <a href>
+                  <img style="height:30px;width:30px" src="/icons/play-button.svg" />
+                </a>
               </div>
               <a class="pad4__link-sub" href>WE ARE GLAD YOU ARE CONSIDERING A CARRER WITH US</a>
               <div class="mt-1">
