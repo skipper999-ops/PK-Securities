@@ -40,19 +40,19 @@
     <div class="custom-nav mt-1">
       <div class="container d-flex justify-content-end">
         <div>
-          <nuxt-link to="/">HOME</nuxt-link>
+          <nuxt-link to="/" exact>HOME</nuxt-link>
         </div>
         <div>
           <nuxt-link to="/whoweare">WHO WE ARE</nuxt-link>
         </div>
         <div>
-          <nuxt-link to="/ourclients">WHAT WE DO</nuxt-link>
+          <nuxt-link to="/whatwedo">WHAT WE DO</nuxt-link>
         </div>
         <div>
           <nuxt-link to="/career">CAREERS</nuxt-link>
         </div>
         <div>
-          <nuxt-link to="/">OUR CLIENTS</nuxt-link>
+          <nuxt-link to="/ourclients">OUR CLIENTS</nuxt-link>
         </div>
         <div>
           <nuxt-link to="/">CONTACT US</nuxt-link>

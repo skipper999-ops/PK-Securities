@@ -11,7 +11,7 @@
               <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
           </ol>-->
           <!-- <div class="carousel-inner" role="listbox"> -->
-          -->
+
           <!-- <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active">
                   <img class="d-block w-100 img1" src="~static/images/pkcaro.jpg" alt="First slide" />
@@ -41,7 +41,7 @@
               <a class="custom-link" href>READ MORE</a>
             </div>
             <div class="col-12 col-sm-6">
-              <video class="h-100 w-100" controls style="height:300px;width:545px" autoplay>
+              <video class="h-100 w-100" controls style="height:300px;width:545px">
                 <source src="/video/video2.mp4" type="video/mp4" />
               </video>
             </div>
