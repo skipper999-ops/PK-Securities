@@ -86,4 +86,9 @@ export default {
   font-weight: normal;
   font-style: normal;
 }
+
+.btn{
+  border-radius: 0;
+  padding: 20px 0
+}
 </style>

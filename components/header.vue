@@ -60,18 +60,14 @@
       </div>
     </div>
     <!-- 1st carousel -->
-    <div style="background-color:black">
-      <div class="container p-2" style="background-color:#ededed">
+    <div style="background-color:black" v-if="$nuxt.$route.name != 'contactus'">
+      <div class="container p-0" style="background-color:#ededed">
         <div
           id="carouselExampleIndicators7"
           class="carousel slide"
           style="background-color:#ededed"
           data-ride="carousel"
         >
-          <!-- <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators7" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators7" data-slide-to="1"></li>
-          </ol>-->
           <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
               <img

@@ -28,19 +28,29 @@
             <div class="col-12 col-sm-6">
               <div>
                 <h3 style="font-weight:700">WHO WE ARE</h3>
-                <h5
-                  class="mt-3"
-                  style="font-size:17px"
-                >A Security Agency with a degree of professionalism that is second to none.</h5>
+                <h5 class="mt-3" style="font-size:17px">
+                  A Security Agency with a degree of professionalism that is
+                  second to none.
+                </h5>
                 <p
                   class="mt-4"
                   style="font-sixe:15px !important;line-height:1.4"
-                >PK Security Service is the trusted provider of cutting-edge quality security service. We are committed to providing reliable service through custom-designed security strategies. Gain improved access control to your property with a range of total solutions security package.</p>
+                >
+                  PK Security Service is the trusted provider of cutting-edge
+                  quality security service. We are committed to providing
+                  reliable service through custom-designed security strategies.
+                  Gain improved access control to your property with a range of
+                  total solutions security package.
+                </p>
               </div>
               <a class="custom-link" href>READ MORE</a>
             </div>
             <div class="col-12 col-sm-6">
-              <video class="h-100 w-100" controls style="height:300px;width:545px">
+              <video
+                class="h-100 w-100"
+                controls
+                style="height:300px;width:545px"
+              >
                 <source src="/video/video2.mp4" type="video/mp4" />
               </video>
             </div>
@@ -73,7 +83,11 @@
         <!-- 3rd carousel starts here -->
 
         <div class="px-5">
-          <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+          <div
+            id="carouselExampleIndicators2"
+            class="carousel slide"
+            data-ride="carousel"
+          >
             <!-- <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
               <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
@@ -87,9 +101,11 @@
                       style="background-color:#f2f2f2;box-shadow:0 3px 8px 0 rgba(0, 0, 0, 0.16);"
                     >
                       <img src="~/static/images/security.jpg" />
-                      <p
-                        class="text1"
-                      >Professionally trained guards for round the clock security to your... property.Keeping your homes and surroundings safe.</p>
+                      <p class="text1">
+                        Professionally trained guards for round the clock
+                        security to your... property.Keeping your homes and
+                        surroundings safe.
+                      </p>
                     </div>
                   </div>
                   <div class="col-12 col-sm-4">
@@ -98,9 +114,11 @@
                       style="background-color:#f2f2f2;box-shadow:0 3px 8px 0 rgba(0, 0, 0, 0.16);"
                     >
                       <img src="~/static/images/security.jpg" />
-                      <p
-                        class="text1"
-                      >Professionally trained guards for round the clock security to your... property.Keeping your homes and surroundings safe.</p>
+                      <p class="text1">
+                        Professionally trained guards for round the clock
+                        security to your... property.Keeping your homes and
+                        surroundings safe.
+                      </p>
                     </div>
                   </div>
                   <div class="col-12 col-sm-4">
@@ -109,19 +127,56 @@
                       style="background-color:#f2f2f2;box-shadow:0 3px 8px 0 rgba(0, 0, 0, 0.16);"
                     >
                       <img src="~/static/images/security.jpg" />
-                      <p
-                        class="text1"
-                      >Professionally trained guards for round the clock security to your... property.Keeping your homes and surroundings safe.</p>
+                      <p class="text1">
+                        Professionally trained guards for round the clock
+                        security to your... property.Keeping your homes and
+                        surroundings safe.
+                      </p>
                     </div>
                   </div>
                 </div>
-                <div class="carousel-item">
-                  <img
-                    class="d-block w-100"
-                    src="#"
-                    data-src="holder.js/900x400?theme=industrial"
-                    alt="Second slide"
-                  />
+              </div>
+              <div class="carousel-item">
+                <div class="row mt-5">
+                  <div class="col-12 col-sm-4">
+                    <div
+                      class="p-2"
+                      style="background-color:#f2f2f2;box-shadow:0 3px 8px 0 rgba(0, 0, 0, 0.16);"
+                    >
+                      <img src="~/static/images/security.jpg" />
+                      <p class="text1">
+                        Professionally trained guards for round the clock
+                        security to your... property.Keeping your homes and
+                        surroundings safe.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-4">
+                    <div
+                      class="p-2"
+                      style="background-color:#f2f2f2;box-shadow:0 3px 8px 0 rgba(0, 0, 0, 0.16);"
+                    >
+                      <img src="~/static/images/security.jpg" />
+                      <p class="text1">
+                        Professionally trained guards for round the clock
+                        security to your... property.Keeping your homes and
+                        surroundings safe.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-4">
+                    <div
+                      class="p-2"
+                      style="background-color:#f2f2f2;box-shadow:0 3px 8px 0 rgba(0, 0, 0, 0.16);"
+                    >
+                      <img src="~/static/images/security.jpg" />
+                      <p class="text1">
+                        Professionally trained guards for round the clock
+                        security to your... property.Keeping your homes and
+                        surroundings safe.
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
               <a
@@ -130,7 +185,10 @@
                 role="button"
                 data-slide="prev"
               >
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
                 <span class="sr-only">Previous</span>
               </a>
               <a
@@ -139,7 +197,10 @@
                 role="button"
                 data-slide="next"
               >
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
                 <span class="sr-only">Next</span>
               </a>
             </div>
@@ -196,29 +257,45 @@
         <div class="pad3 mt-3">
           <div class="row">
             <div class="col-12 col-sm-3">
-              <div class="circle-fill d-flex middle">
-                <img style="height:47px;width:47px" src="~/static/images/team-member.png" alt />
+              <div class="circle- d-flex middle">
+                <img
+                  style="height:47px;width:47px;object-fit: contain;"
+                  src="~/static/images/team-member.png"
+                  alt
+                />
               </div>
               <p class="text3 mt-3">CUSTOMERS</p>
               <p class="text4">1862+</p>
             </div>
             <div class="col-12 col-sm-3">
-              <div class="circle-empty d-flex middle">
-                <img style="height:47px;width:47px" src="~/static/images/policeman.png" alt />
+              <div class="circle d-flex middle">
+                <img
+                  style="height:47px;width:47px;object-fit: contain;"
+                  src="~/static/images/policeman.png"
+                  alt
+                />
               </div>
               <p class="text3 mt-3">Employee</p>
               <p class="text4">1293+</p>
             </div>
             <div class="col-12 col-sm-3">
-              <div class="circle-empty d-flex middle">
-                <img style="height:47px;width:47px" src="~/static/images/time.png" alt />
+              <div class="circle d-flex middle">
+                <img
+                  style="height:47px;width:47px;object-fit: contain;"
+                  src="~/static/images/time.png"
+                  alt
+                />
               </div>
               <p class="text3 mt-3">years history</p>
               <p class="text4">6+</p>
             </div>
             <div class="col-12 col-sm-3">
-              <div class="circle-empty d-flex middle">
-                <img style="height:47px;width:47px" src="~/static/images/flag.png" alt />
+              <div class="circle d-flex middle">
+                <img
+                  style="height:47px;width:47px;object-fit: contain;"
+                  src="~/static/images/flag.png"
+                  alt
+                />
               </div>
               <p class="text3 mt-3">cities</p>
               <p class="text4">11+</p>
@@ -231,55 +308,98 @@
 
         <div class="pad4">
           <h4 class="text-center">JOIN OUR TEAM</h4>
-          <p
-            class="text2 mt-2"
-            style="font-size:16px"
-          >Leading security specialists ready to respond to your round-the-clock security needs.</p>
+          <p class="text2 mt-2" style="font-size:16px">
+            Leading security specialists ready to respond to your
+            round-the-clock security needs.
+          </p>
           <div class="row mt-5">
             <div class="col-12 col-sm-5 h-100">
               <div class="d-flex colored-rule w-100">
-                <a class="pad4__link-main" href>VISIT OUR CAREERS PORTAL</a>
+                <h4 class="pad4__link-main career-portal">VISIT OUR CAREERS PORTAL</h4>
+              </div>
+              <p class="pad4__link-sub">
+                WE ARE GLAD YOU ARE CONSIDERING A CARRER WITH US
+              </p>
+              <div
+                class="mt-1 d-flex align-items-center justify-content-between career-portal"
+              >
+                <p class="pad4__link-sub">STRATEGIC MANAGEMENT</p>
                 <a href>
-                  <img style="height:30px;width:30px" src="/icons/play-button.svg" />
+                  <img
+                    style="height:30px;width:30px"
+                    src="/icons/play-button.svg"
+                  />
                 </a>
               </div>
-              <a class="pad4__link-sub" href>WE ARE GLAD YOU ARE CONSIDERING A CARRER WITH US</a>
-              <div class="mt-1">
-                <a class="pad4__link-sub" href>STRATEGIC MANAGEMENT</a>
-                <img src alt />
+              <div
+                class="mt-1 d-flex align-items-center justify-content-between career-portal"
+              >
+                <p class="pad4__link-sub">MANAGEMENT AND SUPPORT</p>
+                <a href>
+                  <img
+                    style="height:30px;width:30px"
+                    src="/icons/play-button.svg"
+                  />
+                </a>
               </div>
-              <div class="mt-1">
-                <a class="pad4__link-sub" href>MANAGEMENT AND SUPPORT</a>
-                <img src alt />
-              </div>
-              <div class="mt-1">
-                <a class="pad4__link-sub" href>OPERATIONAL EMPLOYEES</a>
-                <img src alt />
+              <div
+                class="mt-1 d-flex align-items-center justify-content-between career-portal"
+              >
+                <p class="pad4__link-sub">OPERATIONAL EMPLOYEES</p>
+                <a href>
+                  <img
+                    style="height:30px;width:30px"
+                    src="/icons/play-button.svg"
+                  />
+                </a>
               </div>
               <div class="mt-4">
-                <button style="width:100%" type="button" class="btn btn1">View All Vacancies</button>
+                <button style="width:100%" type="button" class="btn btn1">
+                  View All Vacancies
+                </button>
               </div>
             </div>
             <div class="col-12 col-sm-7">
               <div
-                style="background-color:#fff;height:350px;box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.16)"
+                style="background-color:#fff;height:100%;box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.16)"
               >
                 <div class="career">
-                  <p>CAREERS AT PK SECURITY</p>
+                  <h5 style="color: white;font-size:15px;padding: 10px 0">
+                    CARRERS AT PK SECURITY SERVICES
+                  </h5>
                 </div>
                 <form class="pad-submit" action>
-                  <div class="d-flex justify-content-between">
-                    <input type="text" class="career-input" placeholder="Name*" required />
-                    <input type="email" class="career-input" placeholder="E-mail*" />
+                  <div class="">
+                    <input
+                      type="text"
+                      class="career-input"
+                      placeholder="Name*"
+                      required
+                    />
+                    <input
+                      type="email"
+                      class="career-input"
+                      placeholder="E-mail*"
+                    />
+                    <input
+                      type="tel"
+                      class="career-input"
+                      placeholder="Phone No*"
+                      required
+                    />
+                    <input
+                      type="email"
+                      class="career-input"
+                      placeholder="Address*"
+                      required
+                    />
                   </div>
-                  <div class="mt-5 d-flex justify-content-between">
-                    <input type="tel" class="career-input" placeholder="Phone No*" required />
-                    <input type="email" class="career-input" placeholder="Address*" required />
-                  </div>
-                  <div class="mt-5">
+                  <div class="mt-2">
                     <input style type="file" placeholder="Upload" />
                   </div>
-                  <button type="button" class="mt-3 btn btn-submit">Submit</button>
+                  <button type="button" class="mt-3 btn btn-submit">
+                    Submit
+                  </button>
                 </form>
               </div>
             </div>
@@ -291,10 +411,21 @@
 
         <div class="pad5">
           <h4 class="text-center">LATEST NEWS</h4>
-          <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel">
+          <div
+            id="carouselExampleIndicators3"
+            class="carousel slide"
+            data-ride="carousel"
+          >
             <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
+              <li
+                data-target="#carouselExampleIndicators3"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators3"
+                data-slide-to="1"
+              ></li>
             </ol>
             <div class="carousel-inner" role="listbox">
               <div class="carousel-item active">
@@ -305,7 +436,9 @@
                       style="background-color:#f2f2f2;box-shadow:0 3px 8px 0 rgba(0, 0, 0, 0.16);"
                     >
                       <img class="w-100" src="~/static/images/fire.jpg" />
-                      <p class="text1">PK Security Services Fire Prevention Week</p>
+                      <p class="text1">
+                        PK Security Services Fire Prevention Week
+                      </p>
                       <a style="text-decoration:none" href>Read More</a>
                     </div>
                   </div>
@@ -315,9 +448,11 @@
                       style="background-color:#f2f2f2;box-shadow:0 3px 8px 0 rgba(0, 0, 0, 0.16);"
                     >
                       <img class="w-100" src="~/static/images/womensday.jpg" />
-                      <p
-                        class="text1"
-                      >Professionally trained guards for round the clock security to your... property.Keeping your homes and surroundings safe.</p>
+                      <p class="text1">
+                        Professionally trained guards for round the clock
+                        security to your... property.Keeping your homes and
+                        surroundings safe.
+                      </p>
                       <a style="text-decoration:none" href>Read More</a>
                     </div>
                   </div>
@@ -327,14 +462,59 @@
                       style="background-color:#f2f2f2;box-shadow:0 3px 8px 0 rgba(0, 0, 0, 0.16);"
                     >
                       <img class="w-100" src="~/static/images/fitness.jpg" />
-                      <p
-                        class="text1"
-                      >Professionally trained guards for round the clock security to your... property.Keeping your homes and surroundings safe.</p>
+                      <p class="text1">
+                        Professionally trained guards for round the clock
+                        security to your... property.Keeping your homes and
+                        surroundings safe.
+                      </p>
                       <a style="text-decoration:none" href>Read More</a>
                     </div>
                   </div>
                 </div>
-                <div class="carousel-item"></div>
+              </div>
+              <div class="carousel-item">
+                <div class="row mt-5">
+                  <div class="col-12 col-sm-4">
+                    <div
+                      class="p-2"
+                      style="background-color:#f2f2f2;box-shadow:0 3px 8px 0 rgba(0, 0, 0, 0.16);"
+                    >
+                      <img class="w-100" src="~/static/images/fire.jpg" />
+                      <p class="text1">
+                        PK Security Services Fire Prevention Week
+                      </p>
+                      <a style="text-decoration:none" href>Read More</a>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-4">
+                    <div
+                      class="p-2"
+                      style="background-color:#f2f2f2;box-shadow:0 3px 8px 0 rgba(0, 0, 0, 0.16);"
+                    >
+                      <img class="w-100" src="~/static/images/womensday.jpg" />
+                      <p class="text1">
+                        Professionally trained guards for round the clock
+                        security to your... property.Keeping your homes and
+                        surroundings safe.
+                      </p>
+                      <a style="text-decoration:none" href>Read More</a>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-4">
+                    <div
+                      class="p-2"
+                      style="background-color:#f2f2f2;box-shadow:0 3px 8px 0 rgba(0, 0, 0, 0.16);"
+                    >
+                      <img class="w-100" src="~/static/images/fitness.jpg" />
+                      <p class="text1">
+                        Professionally trained guards for round the clock
+                        security to your... property.Keeping your homes and
+                        surroundings safe.
+                      </p>
+                      <a style="text-decoration:none" href>Read More</a>
+                    </div>
+                  </div>
+                </div>
               </div>
               <a
                 class="carousel-control-prev"
@@ -342,7 +522,10 @@
                 role="button"
                 data-slide="prev"
               >
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
                 <span class="sr-only">Previous</span>
               </a>
               <a
@@ -351,7 +534,10 @@
                 role="button"
                 data-slide="next"
               >
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
                 <span class="sr-only">Next</span>
               </a>
             </div>
@@ -366,10 +552,30 @@
             <div class="col-12 col-sm-6">
               <div class="map-text">
                 <div style="padding:-5px 10px 0 10px">
-                  <span class="middle" style="height:50px">Extensive Client-Base Locations in Kamrup</span>
+                  <span class="middle" style="height:50px"
+                    >Extensive Client-Base Locations in Kamrup</span
+                  >
                 </div>
                 <div>
-                  <img class="w-100" src="~static/images/map1.jpg" alt />
+                  <GMap
+                    ref="gMap"
+                    :center="{ lat: locations[0].lat, lng: locations[0].lng }"
+                    :options="{ fullscreenControl: false }"
+                    :zoom="6"
+                  >
+                    <GMapMarker
+                      v-for="location in locations"
+                      :key="location.id"
+                      :position="{ lat: location.lat, lng: location.lng }"
+                      @click="currentLocation = location"
+                    >
+                      <GMapInfoWindow>
+                        <code>
+                          {{ location.name }}
+                        </code>
+                      </GMapInfoWindow>
+                    </GMapMarker>
+                  </GMap>
                 </div>
               </div>
             </div>
@@ -379,13 +585,30 @@
                 style="background-image: linear-gradient(to right, #44c1f7 0%, #3352ac 84%);"
               >
                 <div style="padding:-5px 10px 0 10px">
-                  <span
-                    class="middle"
-                    style="height:50px"
-                  >Expanding Client Territory in North East and beyond</span>
+                  <span class="middle" style="height:50px"
+                    >Expanding Client Territory in North East and beyond</span
+                  >
                 </div>
                 <div>
-                  <img class="w-100" src="~static/images/map1.jpg" alt />
+                  <GMap
+                    ref="gMap"
+                    :center="{ lat: locations[0].lat, lng: locations[0].lng }"
+                    :options="{ fullscreenControl: false }"
+                    :zoom="6"
+                  >
+                    <GMapMarker
+                      v-for="location in locations"
+                      :key="location.id"
+                      :position="{ lat: location.lat, lng: location.lng }"
+                      @click="currentLocation = location"
+                    >
+                      <GMapInfoWindow>
+                        <code>
+                          {{ location.name }}
+                        </code>
+                      </GMapInfoWindow>
+                    </GMapMarker>
+                  </GMap>
                 </div>
               </div>
             </div>
@@ -399,21 +622,40 @@
           <div>
             <h4 class="text-center">Testimonials</h4>
           </div>
-          <div id="carouselExampleIndicators4" class="carousel slide" data-ride="carousel">
+          <div
+            id="carouselExampleIndicators4"
+            class="carousel slide"
+            data-ride="carousel"
+          >
             <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators4" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators4" data-slide-to="1"></li>
+              <li
+                data-target="#carouselExampleIndicators4"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators4"
+                data-slide-to="1"
+              ></li>
             </ol>
             <div class="carousel-inner" role="listbox">
               <div class="carousel-item active">
                 <div style="padding-top:30px">
                   <div>
-                    <img style="margin:auto" class="middle" src="~/static/images/testi.jpg" alt />
+                    <img
+                      style="margin:auto"
+                      class="middle"
+                      src="~/static/images/testi.jpg"
+                      alt
+                    />
                     <div>
                       <p class="text2 mt-5" style="height:auto">
-                        “Our on-site PK security guards always provide quality service and are very customer-oriented.
-                        Their management team is very responsive to our needs, and they always provide strong support.
-                        We have been a client for several years, and I look forward to our continued working relationship."
+                        “Our on-site PK security guards always provide quality
+                        service and are very customer-oriented. Their management
+                        team is very responsive to our needs, and they always
+                        provide strong support. We have been a client for
+                        several years, and I look forward to our continued
+                        working relationship."
                       </p>
                       <div class="d-flex justify-content-center">
                         <span class="text-center">Rumi Chawla,</span>
@@ -424,12 +666,30 @@
                 </div>
               </div>
               <div class="carousel-item">
-                <img
-                  class="d-block w-100"
-                  src="#"
-                  data-src="holder.js/900x400?theme=industrial"
-                  alt="Second slide"
-                />
+                <div style="padding-top:30px">
+                  <div>
+                    <img
+                      style="margin:auto"
+                      class="middle"
+                      src="~/static/images/testi.jpg"
+                      alt
+                    />
+                    <div>
+                      <p class="text2 mt-5" style="height:auto">
+                        “Our on-site PK security guards always provide quality
+                        service and are very customer-oriented. Their management
+                        team is very responsive to our needs, and they always
+                        provide strong support. We have been a client for
+                        several years, and I look forward to our continued
+                        working relationship."
+                      </p>
+                      <div class="d-flex justify-content-center">
+                        <span class="text-center">Rumi Chawla,</span>
+                        <span class="text-center">Client</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
             <a
@@ -438,7 +698,10 @@
               role="button"
               data-slide="prev"
             >
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
               <span class="sr-only">Previous</span>
             </a>
             <a
@@ -447,7 +710,10 @@
               role="button"
               data-slide="next"
             >
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
               <span class="sr-only">Next</span>
             </a>
           </div>
@@ -458,10 +724,21 @@
 
         <div class="pad5">
           <h4 class="text-center">OUR CERTIFICATES</h4>
-          <div id="carouselExampleIndicators5" class="carousel slide" data-ride="carousel">
+          <div
+            id="carouselExampleIndicators5"
+            class="carousel slide"
+            data-ride="carousel"
+          >
             <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators5" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators5" data-slide-to="1"></li>
+              <li
+                data-target="#carouselExampleIndicators5"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators5"
+                data-slide-to="1"
+              ></li>
             </ol>
             <div class="carousel-inner" role="listbox">
               <div class="carousel-item active">
@@ -483,12 +760,22 @@
                 </div>
               </div>
               <div class="carousel-item">
-                <img
-                  class="d-block w-100"
-                  src="#"
-                  data-src="holder.js/900x400?theme=industrial"
-                  alt="Second slide"
-                />
+                <div style="padding:30px 0">
+                  <div class="row">
+                    <div class="col-12 col-sm-3">
+                      <img class="w-100" src="~/static/images/images.jpg" alt />
+                    </div>
+                    <div class="col-12 col-sm-3">
+                      <img class="w-100" src="~/static/images/images.jpg" alt />
+                    </div>
+                    <div class="col-12 col-sm-3">
+                      <img class="w-100" src="~/static/images/images.jpg" alt />
+                    </div>
+                    <div class="col-12 col-sm-3">
+                      <img class="w-100" src="~/static/images/images.jpg" alt />
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
             <a
@@ -497,7 +784,10 @@
               role="button"
               data-slide="prev"
             >
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
               <span class="sr-only">Previous</span>
             </a>
             <a
@@ -506,7 +796,10 @@
               role="button"
               data-slide="next"
             >
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
               <span class="sr-only">Next</span>
             </a>
           </div>
@@ -519,11 +812,40 @@
   </div>
 </template>
 
-<style scoped>
+<script>
+export default {
+  data() {
+    return {
+      currentLocation: {},
+      locations: [
+        {
+          lat: 26.1445,
+          lng: 91.7362,
+          name: "Guwahati"
+        },
+        {
+          lat: 45.815,
+          lng: "15.9819"
+        },
+        {
+          lat: "45.12",
+          lng: "16.21"
+        }
+      ]
+    };
+  }
+};
+</script>
+
+<style>
 .img1 {
   height: 600px;
   width: 500px;
-  border: 2px solid rgb(105, 5, 5);
+  /* border: 2px solid rgb(105, 5, 5); */
+  object-fit: cover !important;
+}
+
+img {
   object-fit: cover;
 }
 
@@ -590,14 +912,14 @@ h5 {
   box-shadow: 0 3px 6px 0 #c61b15;
   background-color: #931012;
   position: relative;
-  height: 130px;
-  width: 138px;
+  height: 100px;
+  width: 100px;
   margin: auto;
 }
 
 .text3 {
-  font-size: 12px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: bold;
   text-align: center;
   text-transform: uppercase;
 }
@@ -608,14 +930,14 @@ h5 {
   text-align: center;
 }
 
-.circle-empty {
+.circle{
   border: 1px solid #c61b15;
   border-radius: 50%;
   box-shadow: 0 3px 6px 0 #c61b15;
   /* background-color: #931012; */
   position: relative;
-  height: 130px;
-  width: 138px;
+  height: 100px;
+  width: 100px;
   margin: auto;
 }
 
@@ -629,19 +951,28 @@ h5 {
   font-weight: 700;
   color: #313b4a;
   text-align: left;
-  font-size: 27px;
-  border-bottom: 1px solid #707070;
+  font-size: 22px;
+  border-bottom: 1px solid #c4c4c4;
   margin-bottom: 2px;
+  padding-bottom: 20px;
+  width: 100%;
 }
 
 .pad4__link-sub {
+  width: 100%;
   text-decoration: none;
   font-weight: 600;
   color: #313b4a;
   text-align: left;
-  font-size: 22px;
-  border-bottom: 1px solid #707070;
-  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px 0;
+  border-bottom: 1px solid #f7f7f7;
+}
+
+.career-portal {
+  border-bottom: 1px solid #c4c4c4;
+  padding: 10px 0;
 }
 
 .pad5 {
@@ -667,6 +998,9 @@ h5 {
   border: solid 1px rgba(112, 112, 112, 0.26);
   background-color: #ffffff;
   height: 43px;
+  margin: 10px 0;
+  padding: 0 15px;
+  width: 100%;
 }
 
 .btn-submit {

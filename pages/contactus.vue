@@ -1,15 +1,25 @@
 <template>
   <div>
+    <div style="background-color:black">
+      <div class="container p-0" style="background-color:#ededed">
+        <img
+          class="d-block w-100 img1"
+          style="height:600px"
+          src="~static/images/contact.jpg"
+        />
+      </div>
+    </div>
     <div class="bg-black">
       <div class="container bg-white">
         <div class="pad-contact">
+          <h5 style="font-size:12px;margin-bottom: 25px"><nuxt-link style="color: #931012" to="/">HOME </nuxt-link> / CONTACT US</h5>
           <h2 style="font-weight:700">Write Us</h2>
           <div class="justify-content-center coloured-rule"></div>
           <p style="padding: 3rem 0;">
-            Minimal disruption with complete peace of mind is what our protection
-            services will give you. We like answering questions from our clients. If
-            you have any questions or feel you are ready to begin your next
-            contract, feel free to reach out to us.
+            Minimal disruption with complete peace of mind is what our
+            protection services will give you. We like answering questions from
+            our clients. If you have any questions or feel you are ready to
+            begin your next contract, feel free to reach out to us.
           </p>
           <div class="row">
             <div class="col-12 col-sm-6">
@@ -33,22 +43,45 @@
                 <p class="m-0 pad">pksecurity@gmail.com</p>
               </div>
               <div>
-                <img class="logo-margin" src="/images/twitter.png" alt />
-                <img class="logo-margin" src="/images/linkedin.png" alt />
-                <img class="logo-margin" src="/images/pinterest.png" alt />
-                <img class="logo-margin" src="/images/facebook.png" alt />
-                <img class="logo-margin" src="/images/gmail.png" alt />
+                <a href=""
+                  ><img class="logo-margin" src="/images/twitter.png" alt
+                /></a>
+                <a href=""
+                  ><img class="logo-margin" src="/images/linkedin.png" alt
+                /></a>
+                <a href=""
+                  ><img class="logo-margin" src="/images/pinterest.png" alt
+                /></a>
+                <a href=""
+                  ><img class="logo-margin" src="/images/facebook.png" alt
+                /></a>
+                <a href=""
+                  ><img class="logo-margin" src="/images/gmail.png" alt
+                /></a>
               </div>
             </div>
 
             <div class="col-12 col-sm-6">
               <div class="information-block">
-                <input class="primary-input" type="text" placeholder="Your Name" />
+                <input
+                  class="primary-input"
+                  type="text"
+                  placeholder="Your Name"
+                />
                 <input class="primary-input" type="text" placeholder="Email" />
-                <input class="primary-input" type="text" placeholder="Subject" />
-                <input class="secondary-input" type="text" placeholder="Your Message" />
+                <input
+                  class="primary-input"
+                  type="text"
+                  placeholder="Subject"
+                />
+                <textarea
+                  class="secondary-input"
+                  type="text"
+                  placeholder="Your Message"
+                >
+                </textarea>
               </div>
-              <div class="mt-2 d-flex justify-content-center">
+              <div class="mt-4 d-flex justify-content-center">
                 <button class="btn btn-send">
                   <span>
                     SEND
@@ -63,7 +96,7 @@
     </div>
   </div>
 </template>
-<style>
+<style scoped>
 .pad-contact {
   padding: 40px 60px;
 }
@@ -80,15 +113,19 @@ img {
 .primary-input {
   background: #f6f6f6;
   border: none;
-  width: 30rem;
+  width: 100%;
+  padding: 0 20px;
   height: 3rem;
   margin-bottom: 1.5rem;
+  outline: none;
 }
 .secondary-input {
   background: #f6f6f6;
   border: none;
-  width: 30rem;
+  padding: 10px 20px;
+  width: 100%;
   height: 7rem;
+  outline: none;
 }
 .information-block {
   text-align: end;
@@ -127,12 +164,13 @@ img {
 }
 
 .btn-send {
-  height: 40px;
+  height: 60px;
   width: 153px;
   padding: 9px 49px;
   font-size: 14px;
   font-weight: 400;
   color: #fff;
+  border-radius: 0;
   background: #931012;
   border: none;
   text-align: center;
