@@ -816,7 +816,13 @@ export default {
         payload.append('email' , this.email)
         payload.append('phone_number' , this.phone_number)
         payload.append('address' , this.address)
+
+      if(this.$refs.file.files.length > 0){
+
         payload.append('files' , this.$refs.file.files[0] )
+
+      }
+
 
         this.$store.dispatch('createQuery', payload).then(res=>{
           this.name = ""
