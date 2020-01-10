@@ -87,7 +87,7 @@ export const actions = {
             })
                 .then(res => {
                     console.log(res.data);
-                    commit('allClientListKamrup', res.data)
+                    commit('clientListKamrup', res.data)
                     resolve(res);
                 })
                 .catch((error) => {
@@ -111,7 +111,7 @@ export const actions = {
             })
                 .then(res => {
                     console.log(res.data);
-                    commit('allClientListOutside', res.data)
+                    commit('clientListOutside', res.data)
                     resolve(res);
                 })
                 .catch((error) => {

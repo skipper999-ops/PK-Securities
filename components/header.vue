@@ -79,7 +79,6 @@
           :per-page="1"
           :autoplay="true"
           :mouse-drag="true"
-          :navigationEnabled="true"
           paginationColor="#e91e63"
           paginationActiveColor="#ffffff"
         >

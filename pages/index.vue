@@ -254,10 +254,10 @@
 
         <!-- Our Services End Here -->
         <!-- Customer cities section starts here -->
-        <div class="container mt-3">
+        <div class="container pt-5 pb-5">
           <div class="row">
             <div class="col-12 col-sm-3">
-              <div class="circle- d-flex middle">
+              <div class="circle d-flex middle">
                 <img
                   style="height:47px;width:47px;object-fit: contain;"
                   src="~/static/images/team-member.png"
@@ -306,6 +306,7 @@
         <!-- Customer cities section ends here -->
         <!-- join our team starts here -->
 
+        <div class="join-our-team pt-5 pb-5" style="background-color:#f3f3f3;">
         <div class="container">
           <h4 class="text-center">JOIN OUR TEAM</h4>
           <p class="text2 mt-2" style="font-size:16px">
@@ -354,7 +355,7 @@
                 </a>
               </div>
               <div class="mt-4">
-                <button style="width:100%" type="button" class="btn btn1">
+                <button @click="goToCareer" style="width:100%" type="button" class="btn btn1">
                   View All Vacancies
                 </button>
               </div>
@@ -409,11 +410,12 @@
             </div>
           </div>
         </div>
+        </div>
 
         <!-- join out team section ends here -->
         <!-- Latest news starts here-->
 
-        <div class="container">
+        <div class="container pt-5 pb-5">
           <h4 class="text-center">LATEST NEWS</h4>
           <div
             id="carouselExampleIndicators3"
@@ -551,6 +553,7 @@
         <!-- latest news ends here -->
         <!-- Location starts here -->
 
+     <div class="join-our-team pt-5 pb-5" style="background-color:#f3f3f3;">
         <div class="container">
           <div class="row m-0 pb-5">
             <div class="col-12 col-sm-6">
@@ -568,7 +571,7 @@
                     :zoom="6"
                   >
                     <GMapMarker
-                      v-for="location in getAllClientListKamrup"
+                      v-for="location in allClientListKamrup"
                       :key="location.id"
                       :position="{ lat: location.latitude, lng: location.longitude }"
                       @click="currentLocation = location"
@@ -600,7 +603,7 @@
                     :zoom="6"
                   >
                     <GMapMarker
-                      v-for="location in getAllClientListOutside"
+                      v-for="location in allClientListOutside"
                       :key="location.id"
                       :position="{ lat: location.latitude, lng: location.longitude }"
                       @click="currentLocation = location"
@@ -616,18 +619,19 @@
               </div>
             </div>
           </div>
+          </div>
         </div>
 
         <!-- location section ends here -->
         <!-- testimonials section starts here -->
 
-        <div class="container bg-white">
+        <div class="container pb-5 pt-5 bg-white">
           <div>
-            <h4 class="text-center">Testimonials</h4>
+            <h4 class="text-center pb-5">Testimonials</h4>
           </div>
                   <client-only>
                   <carousel
-                    class="header-carousel"
+                    class="header-carousel container"
                     :per-page="1"
                     :autoplay="true"
                     :mouse-drag="true"
@@ -666,7 +670,9 @@
         <!-- Testimonials section ends here   -->
         <!-- our certificates section starts here -->
 
-        <div class="container bg-white">
+        <div class="container p-0">
+       <div class="join-our-team pt-5 pb-5" style="background-color:#f3f3f3;">
+        <div class="container">
           <h4 class="text-center">OUR CERTIFICATES</h4>
           <div
             id="carouselExampleIndicators5"
@@ -748,6 +754,8 @@
             </a>
           </div>
         </div>
+        </div>
+        </div>
 
         <!-- <-- Certificates section ends here -->
         <!-- Brands carousel section starts here -->
@@ -786,8 +794,8 @@ export default {
     };
   },
    computed: {
-        ...mapState(['getAllClientListKamrup']),
-        ...mapState(['getAllClientListOutside'])
+        ...mapState(['allClientListKamrup']),
+        ...mapState(['allClientListOutside'])
     },
 
   mounted(){
@@ -821,6 +829,12 @@ export default {
         }).catch(res=>{
           alert('Error on Query Submission')
         })
+
+      },
+      goToCareer: function(){
+
+
+        this.$router.push('/career')
 
       }
 
@@ -922,6 +936,8 @@ h5 {
 }
 
 .circle{
+  justify-content: center;
+    align-items: center;
   border: 1px solid #c61b15;
   border-radius: 50%;
   box-shadow: 0 3px 6px 0 #c61b15;
