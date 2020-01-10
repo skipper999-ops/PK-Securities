@@ -3,7 +3,7 @@
     <div class="bg-black">
       <!-- 1st carousel -->
 
-      <div class="container p-0 bg-white">
+      <div class="container-small p-0 bg-white">
         <div class="p-4 pt-5" style="background-color:#f3f3f3">
           <!-- <div id="carouselExampleIndicators1" class="px-5 slide" data-ride="carousel">
              <ol class="carousel-indicators">
@@ -82,7 +82,7 @@
         <!-- carousel end -->
         <!-- 3rd carousel starts here -->
 
-        <div class="px-5">
+        <div class="pl-3 pr-3">
           <div
             id="carouselExampleIndicators2"
             class="carousel slide"
@@ -214,7 +214,7 @@
           <div class="mt-3 mb-4">
             <h4 class="text-center pt-5">Our Services</h4>
           </div>
-          <div class="mt-5 pad3">
+          <div class="mt-5 container">
             <div class="row">
               <div class="col-12 col-sm-6">
                 <div class="pad2 d-block-inline" style="background:#fff">
@@ -254,7 +254,7 @@
 
         <!-- Our Services End Here -->
         <!-- Customer cities section starts here -->
-        <div class="pad3 mt-3">
+        <div class="container mt-3">
           <div class="row">
             <div class="col-12 col-sm-3">
               <div class="circle- d-flex middle">
@@ -306,7 +306,7 @@
         <!-- Customer cities section ends here -->
         <!-- join our team starts here -->
 
-        <div class="pad4">
+        <div class="container">
           <h4 class="text-center">JOIN OUR TEAM</h4>
           <p class="text2 mt-2" style="font-size:16px">
             Leading security specialists ready to respond to your
@@ -315,15 +315,15 @@
           <div class="row mt-5">
             <div class="col-12 col-sm-5 h-100">
               <div class="d-flex colored-rule w-100">
-                <h4 class="pad4__link-main career-portal">VISIT OUR CAREERS PORTAL</h4>
+                <h4 class="container__link-main career-portal">VISIT OUR CAREERS PORTAL</h4>
               </div>
-              <p class="pad4__link-sub">
+              <p class="container__link-sub">
                 WE ARE GLAD YOU ARE CONSIDERING A CARRER WITH US
               </p>
               <div
                 class="mt-1 d-flex align-items-center justify-content-between career-portal"
               >
-                <p class="pad4__link-sub">STRATEGIC MANAGEMENT</p>
+                <p class="container__link-sub">STRATEGIC MANAGEMENT</p>
                 <a href>
                   <img
                     style="height:30px;width:30px"
@@ -334,7 +334,7 @@
               <div
                 class="mt-1 d-flex align-items-center justify-content-between career-portal"
               >
-                <p class="pad4__link-sub">MANAGEMENT AND SUPPORT</p>
+                <p class="container__link-sub">MANAGEMENT AND SUPPORT</p>
                 <a href>
                   <img
                     style="height:30px;width:30px"
@@ -345,7 +345,7 @@
               <div
                 class="mt-1 d-flex align-items-center justify-content-between career-portal"
               >
-                <p class="pad4__link-sub">OPERATIONAL EMPLOYEES</p>
+                <p class="container__link-sub">OPERATIONAL EMPLOYEES</p>
                 <a href>
                   <img
                     style="height:30px;width:30px"
@@ -374,30 +374,34 @@
                       type="text"
                       class="career-input"
                       placeholder="Name*"
+                      v-model="name"
                       required
                     />
                     <input
                       type="email"
                       class="career-input"
                       placeholder="E-mail*"
+                      v-model="email"
                     />
                     <input
                       type="tel"
                       class="career-input"
                       placeholder="Phone No*"
+                      v-model="phone_number"
                       required
                     />
                     <input
                       type="email"
                       class="career-input"
                       placeholder="Address*"
+                      v-model="address"
                       required
                     />
                   </div>
                   <div class="mt-2">
-                    <input style type="file" placeholder="Upload" />
+                    <input type="file" id="file" ref="file" placeholder="Upload" />
                   </div>
-                  <button type="button" class="mt-3 btn btn-submit">
+                  <button @click="createQuery" type="button" class="mt-3 btn btn-submit">
                     Submit
                   </button>
                 </form>
@@ -409,7 +413,7 @@
         <!-- join out team section ends here -->
         <!-- Latest news starts here-->
 
-        <div class="pad5">
+        <div class="container">
           <h4 class="text-center">LATEST NEWS</h4>
           <div
             id="carouselExampleIndicators3"
@@ -547,26 +551,26 @@
         <!-- latest news ends here -->
         <!-- Location starts here -->
 
-        <div class="pad5" style="background-color:#f3f3f3">
-          <div class="row">
+        <div class="container">
+          <div class="row m-0 pb-5">
             <div class="col-12 col-sm-6">
               <div class="map-text">
-                <div style="padding:-5px 10px 0 10px">
+                <div style="padding:20px">
                   <span class="middle" style="height:50px"
                     >Extensive Client-Base Locations in Kamrup</span
                   >
                 </div>
                 <div>
-                  <GMap
+                    <GMap
                     ref="gMap"
-                    :center="{ lat: locations[0].lat, lng: locations[0].lng }"
+                    :center="{ lat: 25.247300, lng: 93.537400 }"
                     :options="{ fullscreenControl: false }"
                     :zoom="6"
                   >
                     <GMapMarker
-                      v-for="location in locations"
+                      v-for="location in getAllClientListKamrup"
                       :key="location.id"
-                      :position="{ lat: location.lat, lng: location.lng }"
+                      :position="{ lat: location.latitude, lng: location.longitude }"
                       @click="currentLocation = location"
                     >
                       <GMapInfoWindow>
@@ -584,22 +588,21 @@
                 class="map-text"
                 style="background-image: linear-gradient(to right, #44c1f7 0%, #3352ac 84%);"
               >
-                <div style="padding:-5px 10px 0 10px">
+                <div style="padding:20px">
                   <span class="middle" style="height:50px"
                     >Expanding Client Territory in North East and beyond</span
                   >
                 </div>
-                <div>
                   <GMap
                     ref="gMap"
-                    :center="{ lat: locations[0].lat, lng: locations[0].lng }"
+                    :center="{ lat: 25.247300, lng: 93.537400 }"
                     :options="{ fullscreenControl: false }"
                     :zoom="6"
                   >
                     <GMapMarker
-                      v-for="location in locations"
+                      v-for="location in getAllClientListOutside"
                       :key="location.id"
-                      :position="{ lat: location.lat, lng: location.lng }"
+                      :position="{ lat: location.latitude, lng: location.longitude }"
                       @click="currentLocation = location"
                     >
                       <GMapInfoWindow>
@@ -618,30 +621,22 @@
         <!-- location section ends here -->
         <!-- testimonials section starts here -->
 
-        <div class="pad5">
+        <div class="container bg-white">
           <div>
             <h4 class="text-center">Testimonials</h4>
           </div>
-          <div
-            id="carouselExampleIndicators4"
-            class="carousel slide"
-            data-ride="carousel"
-          >
-            <ol class="carousel-indicators">
-              <li
-                data-target="#carouselExampleIndicators4"
-                data-slide-to="0"
-                class="active"
-              ></li>
-              <li
-                data-target="#carouselExampleIndicators4"
-                data-slide-to="1"
-              ></li>
-            </ol>
-            <div class="carousel-inner" role="listbox">
-              <div class="carousel-item active">
-                <div style="padding-top:30px">
-                  <div>
+                  <client-only>
+                  <carousel
+                    class="header-carousel"
+                    :per-page="1"
+                    :autoplay="true"
+                    :mouse-drag="true"
+                    :navigationEnabled="true"
+                    paginationColor="#e91e63"
+                    paginationActiveColor="#ffffff"
+                  >
+                    <slide>
+                                          <div class="testimony-slide">
                     <img
                       style="margin:auto"
                       class="middle"
@@ -662,67 +657,16 @@
                         <span class="text-center">Client</span>
                       </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div style="padding-top:30px">
-                  <div>
-                    <img
-                      style="margin:auto"
-                      class="middle"
-                      src="~/static/images/testi.jpg"
-                      alt
-                    />
-                    <div>
-                      <p class="text2 mt-5" style="height:auto">
-                        “Our on-site PK security guards always provide quality
-                        service and are very customer-oriented. Their management
-                        team is very responsive to our needs, and they always
-                        provide strong support. We have been a client for
-                        several years, and I look forward to our continued
-                        working relationship."
-                      </p>
-                      <div class="d-flex justify-content-center">
-                        <span class="text-center">Rumi Chawla,</span>
-                        <span class="text-center">Client</span>
-                      </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <a
-              class="carousel-control-prev"
-              href="#carouselExampleIndicators4"
-              role="button"
-              data-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a
-              class="carousel-control-next"
-              href="#carouselExampleIndicators4"
-              role="button"
-              data-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
+                    </slide>
+                  </carousel>
+        </client-only>
         </div>
 
         <!-- Testimonials section ends here   -->
         <!-- our certificates section starts here -->
 
-        <div class="pad5">
+        <div class="container bg-white">
           <h4 class="text-center">OUR CERTIFICATES</h4>
           <div
             id="carouselExampleIndicators5"
@@ -813,6 +757,9 @@
 </template>
 
 <script>
+
+import {mapState} from 'vuex'
+
 export default {
   data() {
     return {
@@ -831,16 +778,60 @@ export default {
           lat: "45.12",
           lng: "16.21"
         }
-      ]
+      ],
+      name: "",
+      phone_number: "",
+      email: "",
+      address: ""
     };
+  },
+   computed: {
+        ...mapState(['getAllClientListKamrup']),
+        ...mapState(['getAllClientListOutside'])
+    },
+
+  mounted(){
+
+              this.$store.dispatch('getAllClientListOutside')
+              this.$store.dispatch('getAllClientListKamrup')
+
+  },
+  methods:{
+
+
+      createQuery: function(){
+
+
+        var payload = new FormData()
+        
+        payload.append('name' , this.name)
+        payload.append('email' , this.email)
+        payload.append('phone_number' , this.phone_number)
+        payload.append('address' , this.address)
+        payload.append('files' , this.$refs.file.files[0] )
+
+        this.$store.dispatch('createQuery', payload).then(res=>{
+          this.name = ""
+          this.email = ""
+          this.phone_number = ""
+          this.address = ""
+          $("#file").val("")
+
+          alert('Query Successfully Sent')
+        }).catch(res=>{
+          alert('Error on Query Submission')
+        })
+
+      }
+
   }
 };
 </script>
 
 <style>
 .img1 {
-  height: 600px;
-  width: 500px;
+  height: 500px;
+  width: 100%;
   /* border: 2px solid rgb(105, 5, 5); */
   object-fit: cover !important;
 }
@@ -902,9 +893,9 @@ h5 {
   font-size: 18px;
 }
 
-.pad3 {
+/* .container {
   padding: 20px 35px;
-}
+} */
 
 .circle-fill {
   border: 1px solid #c61b15;
@@ -941,12 +932,12 @@ h5 {
   margin: auto;
 }
 
-.pad4 {
+/* .container {
   padding: 50px 100px;
   background-color: #f3f3f3;
-}
+} */
 
-.pad4__link-main {
+.container__link-main {
   text-decoration: none;
   font-weight: 700;
   color: #313b4a;
@@ -958,7 +949,7 @@ h5 {
   width: 100%;
 }
 
-.pad4__link-sub {
+.container__link-sub {
   width: 100%;
   text-decoration: none;
   font-weight: 600;
@@ -967,7 +958,6 @@ h5 {
   font-size: 16px;
   font-weight: bold;
   margin: 10px 0;
-  border-bottom: 1px solid #f7f7f7;
 }
 
 .career-portal {
@@ -975,9 +965,9 @@ h5 {
   padding: 10px 0;
 }
 
-.pad5 {
+/* .container {
   padding: 50px 100px;
-}
+} */
 
 .map-text {
   color: #fff;
@@ -1020,4 +1010,28 @@ h5 {
 .coloured-rule {
   border-bottom: 1px solid #707070;
 }
+
+
+.testimony-slide{
+  display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 600px) {
+.img1 {
+  height: 300px;
+}
+}
+
+@media only screen and (min-width: 601px) and (max-width: 991px) {
+.img1 {
+  height: 400px;
+}
+}
+
+@media only screen and (min-width: 992px) {
+
+}
+
+
 </style>

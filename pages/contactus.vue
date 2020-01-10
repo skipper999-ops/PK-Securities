@@ -12,7 +12,10 @@
     <div class="bg-black">
       <div class="container bg-white">
         <div class="pad-contact">
-          <h5 style="font-size:12px;margin-bottom: 25px"><nuxt-link style="color: #931012" to="/">HOME </nuxt-link> / CONTACT US</h5>
+          <h5 style="font-size:12px;margin-bottom: 25px">
+            <nuxt-link style="color: #931012" to="/">HOME </nuxt-link> / CONTACT
+            US
+          </h5>
           <h2 style="font-weight:700">Write Us</h2>
           <div class="justify-content-center coloured-rule"></div>
           <p style="padding: 3rem 0;">
@@ -67,22 +70,25 @@
                   class="primary-input"
                   type="text"
                   placeholder="Your Name"
+                  v-model="name"
                 />
-                <input class="primary-input" type="text" placeholder="Email" />
+                <input class="primary-input" v-model="email" type="text" placeholder="Email" />
                 <input
                   class="primary-input"
                   type="text"
                   placeholder="Subject"
+                  v-model="subject"
                 />
                 <textarea
                   class="secondary-input"
                   type="text"
                   placeholder="Your Message"
+                  v-model="message"
                 >
                 </textarea>
               </div>
               <div class="mt-4 d-flex justify-content-center">
-                <button class="btn btn-send">
+                <button class="btn btn-send" @click="createContact">
                   <span>
                     SEND
                     <img src="/images/sent-mail-1.png" alt />
@@ -96,6 +102,45 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      name: "",
+      subject: "",
+      email: "",
+      message: ""
+    };
+  },
+
+  methods: {
+    createContact: function() {
+      var payload = new FormData();
+
+      payload.append("name", this.name);
+      payload.append("email", this.email);
+      payload.append("subject", this.subject);
+      payload.append("message", this.message);
+
+      this.$store
+        .dispatch("createContact", payload)
+        .then(res => {
+          this.name = "";
+          this.email = "";
+          this.subject = "";
+          this.message = "";
+
+          alert("Query Successfully Sent");
+        })
+        .catch(res => {
+          alert("Error on Query Submission");
+        });
+    }
+  }
+};
+</script>
+
 <style scoped>
 .pad-contact {
   padding: 40px 60px;

@@ -17,55 +17,30 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr>
-                    <th class="text-center" scope="row">1</th>
-                    <td class="text-center">Abhijeet Auto Lokhra</td>
-                    <td class="text-center">Lalong Gaon</td>
+                  <tr v-for="(p, index) in getAllClientListKamrup" :key="p.id">
+                    <th class="text-center" scope="row">{{index + 1}}</th>
+                    <td class="text-center">{{p.name}}</td>
+                    <td class="text-center">{{p.location_name}}</td>
                   </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="pad-table">
+            <div class="container">
+              <table class="table table-striped table-bordered">
+                <thead>
                   <tr>
-                    <th class="text-center" scope="row">2</th>
-                    <td class="text-center">Achuyt Square</td>
-                    <td class="text-center">2 no Rail Gate</td>
+                    <th class="text-center">Sl. No</th>
+                    <th class="text-center">Name of Sites</th>
+                    <th class="text-center">Location</th>
                   </tr>
-                  <tr>
-                    <th class="text-center" scope="row">3</th>
-                    <td class="text-center">Aerocity</td>
-                    <td class="text-center">Dharapur</td>
-                  </tr>
-                  <tr>
-                    <th class="text-center" scope="row">4</th>
-                    <td class="text-center">Agrim Infra Project Pvt Ltd</td>
-                    <td class="text-center">Khanamukh</td>
-                  </tr>
-                  <tr>
-                    <th class="text-center" scope="row">5</th>
-                    <td class="text-center">Amaze Constructions</td>
-                    <td class="text-center">Guwahati Club</td>
-                  </tr>
-                  <tr>
-                    <th class="text-center" scope="row">6</th>
-                    <td class="text-center">Amaze Constructions</td>
-                    <td class="text-center">Jayanagar</td>
-                  </tr>
-                  <tr>
-                    <th class="text-center" scope="row">7</th>
-                    <td class="text-center">Amaze Constructions</td>
-                    <td class="text-center">Paltan Bazar</td>
-                  </tr>
-                  <tr>
-                    <th class="text-center" scope="row">8</th>
-                    <td class="text-center">Agrim Infra Project Pvt Ltd</td>
-                    <td class="text-center">Khanamukh</td>
-                  </tr>
-                  <tr>
-                    <th class="text-center" scope="row">9</th>
-                    <td class="text-center">Amaze Constructions</td>
-                    <td class="text-center">Guwahati Club</td>
-                  </tr>
-                  <tr>
-                    <th class="text-center" scope="row">10</th>
-                    <td class="text-center">Amaze Constructions</td>
-                    <td class="text-center">Jayanagar</td>
+                </thead>
+                <tbody>
+                  <tr v-for="(p, index) in getAllClientListOutside" :key="p.id">
+                    <th class="text-center" scope="row">{{index + 1}}</th>
+                    <td class="text-center">{{p.name}}</td>
+                    <td class="text-center">{{p.location_name}}</td>
                   </tr>
                 </tbody>
               </table>
@@ -76,6 +51,41 @@
     </div>
   </div>
 </template>
+
+<script>
+
+import {mapState} from 'vuex'
+
+export default {
+
+  data(){
+    return{
+
+    }
+  },
+
+   computed: {
+        ...mapState(['getAllClientListKamrup']),
+        ...mapState(['getAllClientListOutside'])
+    },
+
+  mounted(){
+
+        this.$store.dispatch('getAllClientListOutside')
+        this.$store.dispatch('getAllClientListKamrup')
+
+  },
+  methods:{
+
+
+
+
+  }
+
+
+}
+</script>
+
 <style>
 .pad-table {
   padding: 20px 15px;
