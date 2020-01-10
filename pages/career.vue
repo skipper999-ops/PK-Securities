@@ -3,29 +3,34 @@
     <div class="bg-black">
       <div class="container bg-white p-0">
         <div class="pad-career">
-          <a class="home" href>Home</a>
+          <h5 style="font-size:12px;margin-bottom: 25px">
+            <nuxt-link style="color: #931012" to="/">HOME </nuxt-link> / CAREER
+          </h5>
           <div class="align">
             <div>
               <h2 style="text-align:center">Join Our Team</h2>
-              <div class="w-100 d-flex justify-content-center coloured-rule"></div>
+              <div
+                class="w-100 d-flex justify-content-center coloured-rule"
+              ></div>
             </div>
             <div class="pb-0" style="padding: 3rem 0;">
               <p>
                 PK Security Service is the trusted provider of cutting-edge
                 quality security service. We are committed to providing reliable
-                service through custom-designed security strategies. Gain improved
-                access control to your property with a range of total solutions
-                security package. PK Security service has a reputation of being
-                the top player in providing exclusive security services across
-                Guwahati and North-East. We follow stringent benchmarked standards
-                of security services with a holistic approach towards securing
-                your property. With a firm foothold in the industry, our clientele
-                represents a wide range of specialized industry sectors. Our
-                security services are flexible and encompass all requirements as
-                per our clients dictate. PK Security has always managed to impress
-                clients with a degree of professionalism that is second to none.
-                Our office is based in Guwahati at a prominent location easily
-                accessible via various modes of transport.
+                service through custom-designed security strategies. Gain
+                improved access control to your property with a range of total
+                solutions security package. PK Security service has a reputation
+                of being the top player in providing exclusive security services
+                across Guwahati and North-East. We follow stringent benchmarked
+                standards of security services with a holistic approach towards
+                securing your property. With a firm foothold in the industry,
+                our clientele represents a wide range of specialized industry
+                sectors. Our security services are flexible and encompass all
+                requirements as per our clients dictate. PK Security has always
+                managed to impress clients with a degree of professionalism that
+                is second to none. Our office is based in Guwahati at a
+                prominent location easily accessible via various modes of
+                transport.
               </p>
             </div>
           </div>

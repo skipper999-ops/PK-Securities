@@ -43,7 +43,7 @@
                   total solutions security package.
                 </p>
               </div>
-              <a class="custom-link" href>READ MORE</a>
+              <nuxt-link to="/whoweare" class="custom-link" href>READ MORE</nuxt-link>
             </div>
             <div class="col-12 col-sm-6">
               <video
@@ -416,138 +416,28 @@
         <!-- Latest news starts here-->
 
         <div class="container pt-5 pb-5">
-          <h4 class="text-center">LATEST NEWS</h4>
-          <div
-            id="carouselExampleIndicators3"
-            class="carousel slide"
-            data-ride="carousel"
-          >
-            <ol class="carousel-indicators">
-              <li
-                data-target="#carouselExampleIndicators3"
-                data-slide-to="0"
-                class="active"
-              ></li>
-              <li
-                data-target="#carouselExampleIndicators3"
-                data-slide-to="1"
-              ></li>
-            </ol>
-            <div class="carousel-inner" role="listbox">
-              <div class="carousel-item active">
-                <div class="row mt-5">
-                  <div class="col-12 col-sm-4">
-                    <div
-                      class="p-2"
-                      style="background-color:#f2f2f2;box-shadow:0 3px 8px 0 rgba(0, 0, 0, 0.16);"
-                    >
-                      <img class="w-100" src="~/static/images/fire.jpg" />
-                      <p class="text1">
-                        PK Security Services Fire Prevention Week
-                      </p>
+          <h4 class="text-center pb-3">LATEST NEWS</h4>
+
+        <client-only>
+        <carousel
+          :per-page-custom="[[0, 1], [992, 2], [1300, 3]]"
+          :mouse-drag="true"
+          paginationColor="#e91e63"
+          paginationActiveColor="#000"
+        >
+          <slide v-for="p in allNews" :key="p.id">
+            <div class="p-2">
+            <div style="background-color:#f2f2f2;box-shadow:0 3px 8px 0 rgba(0, 0, 0, 0.16);">
+                      <img class="w-100" :src="p.image" style="height:180px" />
+                 <div class="p-3">     <h5 class="clamp2" style="height: 50px;">{{p.title}}</h5>
+                      <div class="clamp4" style="height: 55px;max-width:300px" v-html="p.body"></div>
                       <a style="text-decoration:none" href>Read More</a>
                     </div>
-                  </div>
-                  <div class="col-12 col-sm-4">
-                    <div
-                      class="p-2"
-                      style="background-color:#f2f2f2;box-shadow:0 3px 8px 0 rgba(0, 0, 0, 0.16);"
-                    >
-                      <img class="w-100" src="~/static/images/womensday.jpg" />
-                      <p class="text1">
-                        Professionally trained guards for round the clock
-                        security to your... property.Keeping your homes and
-                        surroundings safe.
-                      </p>
-                      <a style="text-decoration:none" href>Read More</a>
                     </div>
-                  </div>
-                  <div class="col-12 col-sm-4">
-                    <div
-                      class="p-2"
-                      style="background-color:#f2f2f2;box-shadow:0 3px 8px 0 rgba(0, 0, 0, 0.16);"
-                    >
-                      <img class="w-100" src="~/static/images/fitness.jpg" />
-                      <p class="text1">
-                        Professionally trained guards for round the clock
-                        security to your... property.Keeping your homes and
-                        surroundings safe.
-                      </p>
-                      <a style="text-decoration:none" href>Read More</a>
                     </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row mt-5">
-                  <div class="col-12 col-sm-4">
-                    <div
-                      class="p-2"
-                      style="background-color:#f2f2f2;box-shadow:0 3px 8px 0 rgba(0, 0, 0, 0.16);"
-                    >
-                      <img class="w-100" src="~/static/images/fire.jpg" />
-                      <p class="text1">
-                        PK Security Services Fire Prevention Week
-                      </p>
-                      <a style="text-decoration:none" href>Read More</a>
-                    </div>
-                  </div>
-                  <div class="col-12 col-sm-4">
-                    <div
-                      class="p-2"
-                      style="background-color:#f2f2f2;box-shadow:0 3px 8px 0 rgba(0, 0, 0, 0.16);"
-                    >
-                      <img class="w-100" src="~/static/images/womensday.jpg" />
-                      <p class="text1">
-                        Professionally trained guards for round the clock
-                        security to your... property.Keeping your homes and
-                        surroundings safe.
-                      </p>
-                      <a style="text-decoration:none" href>Read More</a>
-                    </div>
-                  </div>
-                  <div class="col-12 col-sm-4">
-                    <div
-                      class="p-2"
-                      style="background-color:#f2f2f2;box-shadow:0 3px 8px 0 rgba(0, 0, 0, 0.16);"
-                    >
-                      <img class="w-100" src="~/static/images/fitness.jpg" />
-                      <p class="text1">
-                        Professionally trained guards for round the clock
-                        security to your... property.Keeping your homes and
-                        surroundings safe.
-                      </p>
-                      <a style="text-decoration:none" href>Read More</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <a
-                class="carousel-control-prev"
-                href="#carouselExampleIndicators3"
-                role="button"
-                data-slide="prev"
-              >
-                <span
-                  class="carousel-control-prev-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a
-                class="carousel-control-next"
-                href="#carouselExampleIndicators3"
-                role="button"
-                data-slide="next"
-              >
-                <span
-                  class="carousel-control-next-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="sr-only">Next</span>
-              </a>
-            </div>
-          </div>
+          </slide>
+        </carousel>
+        </client-only>
         </div>
 
         <!-- latest news ends here -->
@@ -795,13 +685,15 @@ export default {
   },
    computed: {
         ...mapState(['allClientListKamrup']),
-        ...mapState(['allClientListOutside'])
+        ...mapState(['allClientListOutside']),
+        ...mapState(['allNews'])
     },
 
   mounted(){
 
               this.$store.dispatch('getAllClientListOutside')
               this.$store.dispatch('getAllClientListKamrup')
+              this.$store.dispatch('getAllNews')
 
   },
   methods:{

@@ -31,6 +31,7 @@ export const state = () => ({
     createQuery: url + "queries/createQuery",
     createContact: url + "queries/createContact",
     getHomepageSliderImages: url + "homepage/homepageslider",
+    getAllNews: url + "news/getAllNews",
 
 
 
@@ -41,6 +42,7 @@ export const state = () => ({
     allClientListOutside: [],
     allClientListKamrup: [],
     HomepageSliderImages: [],
+    allNews: []
 
 })
 
@@ -62,6 +64,11 @@ export const mutations = {
         state.HomepageSliderImages = HomepageSliderImages
     },
 
+    allNews(state, allNews) {
+        console.log('selecting exercise mutation, ' + allNews)
+        state.allNews = allNews
+    },
+
 }
 
 
@@ -81,9 +88,6 @@ export const actions = {
                 method: 'GET',
                 url: state.getAllClientListKamrup,
                 contentType: 'application/json',
-                // headers: {
-                //     'Authorization': "bearer " + this.$cookies.get('access_token')
-                // }
             })
                 .then(res => {
                     console.log(res.data);
@@ -105,13 +109,31 @@ export const actions = {
                 method: 'GET',
                 url: state.getAllClientListOutside,
                 contentType: 'application/json',
-                // headers: {
-                //     'Authorization': "bearer " + this.$cookies.get('access_token')
-                // }
             })
                 .then(res => {
                     console.log(res.data);
                     commit('clientListOutside', res.data)
+                    resolve(res);
+                })
+                .catch((error) => {
+                    console.log(error)
+                    reject(error);
+                })
+        })
+    },
+
+    getAllNews({ commit, state }) {
+
+        return new Promise((resolve, reject) => {
+
+            axios({
+                method: 'GET',
+                url: state.getAllNews,
+                contentType: 'application/json',
+            })
+                .then(res => {
+                    console.log(res.data);
+                    commit('allNews', res.data)
                     resolve(res);
                 })
                 .catch((error) => {
@@ -128,10 +150,7 @@ export const actions = {
             axios({
                 method: 'GET',
                 url: state.getHomepageSliderImages,
-                contentType: 'application/json',
-                // headers: {
-                //     'Authorization': "bearer " + this.$cookies.get('access_token')
-                // }
+                contentType: 'application/json'
             })
                 .then(res => {
                     console.log(res.data);
@@ -153,10 +172,7 @@ export const actions = {
                 method: 'POST',
                 url: state.createQuery,
                 data: payload,
-                contentType: 'application/json',
-                // headers: {
-                //     'Authorization': "bearer " + this.$cookies.get('access_token')
-                // }
+                contentType: 'application/json'
             })
                 .then(res => {
                     console.log(res.data);
@@ -177,10 +193,7 @@ export const actions = {
                 method: 'POST',
                 url: state.createContact,
                 data: payload,
-                contentType: 'application/json',
-                // headers: {
-                //     'Authorization': "bearer " + this.$cookies.get('access_token')
-                // }
+                contentType: 'application/json'
             })
                 .then(res => {
                     console.log(res.data);

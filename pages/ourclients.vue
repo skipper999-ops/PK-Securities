@@ -17,7 +17,7 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr v-for="(p, index) in getAllClientListKamrup" :key="p.id">
+                  <tr v-for="(p, index) in allClientListKamrup" :key="p.id">
                     <th class="text-center" scope="row">{{index + 1}}</th>
                     <td class="text-center">{{p.name}}</td>
                     <td class="text-center">{{p.location_name}}</td>
@@ -37,7 +37,7 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr v-for="(p, index) in getAllClientListOutside" :key="p.id">
+                  <tr v-for="(p, index) in allClientListOutside" :key="p.id">
                     <th class="text-center" scope="row">{{index + 1}}</th>
                     <td class="text-center">{{p.name}}</td>
                     <td class="text-center">{{p.location_name}}</td>
@@ -65,8 +65,8 @@ export default {
   },
 
    computed: {
-        ...mapState(['getAllClientListKamrup']),
-        ...mapState(['getAllClientListOutside'])
+        ...mapState(['allClientListKamrup']),
+        ...mapState(['allClientListOutside'])
     },
 
   mounted(){
