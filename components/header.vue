@@ -39,14 +39,16 @@
       </div>
     </div>
     <div class="secondary-nav pt-3 pb-3">
-      <div class="container p-0 d-flex justify-content-between align-items-center">
+      <div
+        class="container p-0 d-flex justify-content-between align-items-center"
+      >
         <div>
-        <img
-          class="logo"
-          style="margin-right:10px"
-          src="~/static/images/PK1.jpg"
-        />
-        <img class="logo" src="~/static/images/PK2.jpg" />
+          <img
+            class="logo"
+            style="margin-right:10px"
+            src="~/static/images/PK1.jpg"
+          />
+          <img class="logo" src="~/static/images/PK2.jpg" />
         </div>
         <div
           @click="showMenu"
@@ -93,7 +95,7 @@
             <nuxt-link class="link" to="/about">About Us</nuxt-link>
             <nuxt-link class="link" to="/contact">Contact Us</nuxt-link>
           </div>
-          <div>
+          <div class="contact-navigation">
             <span class="top-nav__contact">
               <i
                 class="fa fa-phone top-nav-icon"
@@ -432,5 +434,22 @@ export default {
   line-height: 19px;
   transition: all 0.4s ease;
   opacity: 1;
+}
+
+@media only screen and (max-width: 450px) {
+  .nav-header {
+    height: 60px;
+  }
+  .top-nav__contact {
+    text-align: center;
+  }
+  .contact-navigation .top-nav__contact {
+    margin-left: 0 !important;
+  }
+  .contact-navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 </style>

@@ -14,7 +14,7 @@
               Gate, Opp. Khadi Board office, Hengrabari, Guwahati - 781006
             </a>
           </div>
-          <div class="col-12 col-md-12 col-lg-4 offset-1 pt-5">
+          <div class="col-12 col-md-12 col-lg-4 offset-lg-1 pt-5">
             <p class="footer-head">CONTACT US</p>
             <div>
             <div class="d-flex align-items-center">
