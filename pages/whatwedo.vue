@@ -5,7 +5,7 @@
 
         <div class="pt-5 padd-wwd">
                   <h5 style="font-size:12px;margin-bottom: 25px">
-          <nuxt-link style="color: #931012" to="/">HOME </nuxt-link> / WHAT WE DO
+          <nuxt-link style="color: #B71C1C" to="/">HOME </nuxt-link> / WHAT WE DO
         </h5>
           <h1 class="text-center" style="color:#454545">What we do</h1>
           <p class="text-center col-head" style>PK Security Services</p>

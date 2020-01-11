@@ -13,7 +13,7 @@
       <div class="container bg-white">
         <div class="pad-contact">
           <h5 style="font-size:12px;margin-bottom: 25px">
-            <nuxt-link style="color: #931012" to="/">HOME </nuxt-link> / CONTACT
+            <nuxt-link style="color: #B71C1C" to="/">HOME </nuxt-link> / CONTACT
             US
           </h5>
           <h2 style="font-weight:700">Write Us</h2>
@@ -177,7 +177,7 @@ img {
 }
 
 .coloured-rule {
-  border-top: 2px solid #931012;
+  border-top: 2px solid #B71C1C;
   width: 5%;
 }
 .align {
@@ -216,7 +216,7 @@ img {
   font-weight: 400;
   color: #fff;
   border-radius: 0;
-  background: #931012;
+  background: #B71C1C;
   border: none;
   text-align: center;
 }

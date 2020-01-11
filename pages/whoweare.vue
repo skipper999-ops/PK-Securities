@@ -3,7 +3,7 @@
     <div class="container p-0 bg-white">
       <div class="pad-who">
         <h5 style="font-size:12px;margin-bottom: 25px">
-          <nuxt-link style="color: #931012" to="/">HOME </nuxt-link> / WHO WE ARE
+          <nuxt-link style="color: #B71C1C" to="/">HOME </nuxt-link> / WHO WE ARE
           US
         </h5>
         <div>
@@ -130,14 +130,14 @@
   font-weight: 700;
   font-size: 12px;
   text-align: left;
-  color: #931012;
+  color: #B71C1C;
 }
 
 .p-header-sub {
   font-weight: 600;
   font-size: 13px;
   /* text-align: left; */
-  /* color: #931012; */
+  /* color: #B71C1C; */
   text-align: left;
   color: #454545;
   line-height: 1.2;

@@ -1,10 +1,10 @@
 <template>
   <div>
     <div class="bg-black">
-      <div class="container bg-white p-0">
+      <div class="container-small bg-white p-0">
         <div class="pad-career">
           <h5 style="font-size:12px;margin-bottom: 25px">
-            <nuxt-link style="color: #931012" to="/">HOME </nuxt-link> / CAREER
+            <nuxt-link style="color: #B71C1C" to="/">HOME </nuxt-link> / CAREER
           </h5>
           <div class="align">
             <div>
@@ -94,7 +94,7 @@
 }
 
 .coloured-rule {
-  border-top: 2px solid #931012;
+  border-top: 2px solid #B71C1C;
   width: 5%;
 }
 .align {
@@ -152,7 +152,7 @@ img {
   text-align: end;
 }
 .red-button {
-  background: #931012;
+  background: #B71C1C;
   color: white;
   border: none;
 }
