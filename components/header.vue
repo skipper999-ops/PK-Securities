@@ -38,52 +38,54 @@
         </div>
       </div>
     </div>
-    <div class="secondary-nav pt-3 pb-3">
-      <div
-        class="container p-0 d-flex justify-content-between align-items-center"
-      >
-        <div>
-          <img
-            class="logo"
-            style="margin-right:10px"
-            src="~/static/images/PK1.jpg"
-          />
-          <img class="logo" src="~/static/images/PK2.jpg" />
-        </div>
+    <div class="nav-header-main">
+      <div class="secondary-nav pt-3 pb-3">
         <div
-          @click="showMenu"
-          class="show-on-medium-and-down hide-on-large-only menu"
-          style="align-items: center;"
+          class="container p-0 d-flex justify-content-between align-items-center"
         >
-          <img src="~static/menu.svg" style="height:30px" />
+          <div>
+            <img
+              class="logo"
+              style="margin-right:10px"
+              src="~/static/images/PK1.jpg"
+            />
+            <img class="logo" src="~/static/images/PK2.jpg" />
+          </div>
+          <div
+            @click="showMenu"
+            class="show-on-medium-and-down hide-on-large-only menu"
+            style="align-items: center;"
+          >
+            <img src="~static/menu.svg" style="height:30px" />
+          </div>
         </div>
       </div>
-    </div>
-    <div class="custom-nav hide-on-med-and-down">
-      <div class="container d-flex justify-content-end">
-        <div class="nav-link">
-          <nuxt-link class="link" to="/" exact>Home</nuxt-link>
-        </div>
-        <div class="nav-link">
-          <nuxt-link class="link" to="/whoweare">Who We Are</nuxt-link>
-        </div>
-        <div class="nav-link">
-          <nuxt-link class="link" to="/whoweare">Who We Are</nuxt-link>
-        </div>
-        <div class="nav-link">
-          <nuxt-link class="link" to="/career">Careers</nuxt-link>
-        </div>
-        <div class="nav-link">
-          <nuxt-link class="link" to="/ourclients">Our Clients</nuxt-link>
-        </div>
-        <div class="nav-link">
-          <nuxt-link class="link" to="/contactus">Contact Us</nuxt-link>
+      <div class="custom-nav hide-on-med-and-down">
+        <div class="container d-flex justify-content-end">
+          <div class="nav-link">
+            <nuxt-link class="link" to="/" exact>Home</nuxt-link>
+          </div>
+          <div class="nav-link">
+            <nuxt-link class="link" to="/whoweare">Who We Are</nuxt-link>
+          </div>
+          <div class="nav-link">
+            <nuxt-link class="link" to="/whatwedo">Who We Do</nuxt-link>
+          </div>
+          <div class="nav-link">
+            <nuxt-link class="link" to="/career">Careers</nuxt-link>
+          </div>
+          <div class="nav-link">
+            <nuxt-link class="link" to="/ourclients">Our Clients</nuxt-link>
+          </div>
+          <div class="nav-link">
+            <nuxt-link class="link" to="/contactus">Contact Us</nuxt-link>
+          </div>
         </div>
       </div>
     </div>
 
     <div class="nav-header hide-on-large-only">
-      <div class="container h-100">
+      <div class="container h-100 position-relative">
         <div
           class="nav-icon w-100"
           style="display:flex; justify-content: center;align-items:center"
@@ -185,16 +187,38 @@ export default {
 
   mounted() {
     this.$store.dispatch("getHomepageSliderImages");
+
+    // var lastScrollTop = 0;
+    // $(window).scroll(function(event) {
+    //   var st = $(this).scrollTop();
+    //   if (st > lastScrollTop && st > 200) {
+    //     $(".nav-header-main").addClass("hide-up");
+    //   } else {
+    //     // upscroll code
+    //     $(".nav-header-main").removeClass("hide-up");
+    //   }
+    //   lastScrollTop = st;
+    // });
+
+    // $(window).scroll(function() {
+    //   var scroll = $(window).scrollTop();
+
+    //   //>=, not <=
+    //   if (scroll <= 0) {
+    //     //clearHeader, not clearheader - caps H
+    //     $(".nav-header-main").removeClass("darkHeader");
+    //   } else if (scroll > 0) {
+    //     $(".nav-header-main").addClass("darkHeader");
+    //   }
+    // }); //missing );
   },
   methods: {
     showMenu: function() {
       $(".mobile-nav").removeClass("opacity-hide");
-
       $(".nav").addClass("animation");
     },
     closeMenu: function() {
       $(".mobile-nav").addClass("opacity-hide");
-
       $(".nav").removeClass("animation");
     }
   }
@@ -397,12 +421,13 @@ export default {
   left: 0;
   bottom: 0;
   color: white;
-  background-color: #232323;
+  background-color: rgba(35, 35, 35, 0.91);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   z-index: 99;
+  transition: all 0.5s;
 }
 
 .nav {
@@ -434,6 +459,20 @@ export default {
   line-height: 19px;
   transition: all 0.4s ease;
   opacity: 1;
+}
+
+/* .nav-header-main {
+  display: flex;
+  align-items: center;
+  transition: all 0.5s;
+} */
+
+.hide-up {
+  top: -60px !important;
+}
+
+.darkHeader {
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.07);
 }
 
 @media only screen and (max-width: 450px) {

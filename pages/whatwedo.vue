@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="bg-black">
-      <div class="p-0 container bg-white">
+      <div class="p-0 container-small bg-white">
 
         <div class="pt-5 padd-wwd">
                   <h5 style="font-size:12px;margin-bottom: 25px">

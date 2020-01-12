@@ -1,10 +1,10 @@
 <template>
   <div class="bg-black">
-    <div class="container p-0 bg-white">
-      <div class="pad-who">
+    <div class="container-small p-0 bg-white">
+      <div class="container p-0 pt-5 pb-5">
         <h5 style="font-size:12px;margin-bottom: 25px">
-          <nuxt-link style="color: #B71C1C" to="/">HOME </nuxt-link> / WHO WE ARE
-          US
+          <nuxt-link style="color: #B71C1C" to="/">HOME </nuxt-link> / WHO WE
+          ARE US
         </h5>
         <div>
           <h3 class="text-left">Who we are</h3>
@@ -28,7 +28,7 @@
         </div>
         <div class="middle mt-5">
           <!-- video section -->
-          <video controls style="height:300px;width:545px">
+          <video controls style="height:100%;width:100%">
             <source src="/video/pkvideo1.mp4" type="video/mp4" />
           </video>
         </div>
@@ -57,10 +57,10 @@
 
         <div class="mt-5">
           <div class="row">
-            <div class="col-12 col-sm-4">
-              <img class="w-100" src="/images/bgsecurity.jpg" alt />
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 pb-3">
+              <img class="w-100 h-100" src="/images/bgsecurity.jpg" alt />
             </div>
-            <div class="col-12 col-sm-4">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4">
               <div>
                 <div>
                   <p class="p-header">MISSION</p>
@@ -82,7 +82,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-12 col-sm-4">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4">
               <div>
                 <div>
                   <p class="p-header">VISION</p>
@@ -112,34 +112,36 @@
 </template>
 <style>
 .pad-who {
-  padding: 70px;
+  padding: 70px 0;
 }
 
 .who-we {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.6;
+  line-height: 28px;
   letter-spacing: normal;
   text-align: left;
   color: #454545;
 }
 
 .p-header {
+  margin-bottom: 15px;
   font-weight: 700;
-  font-size: 12px;
+  font-size: 15px;
   text-align: left;
-  color: #B71C1C;
+  color: #b71c1c;
 }
 
 .p-header-sub {
-  font-weight: 600;
-  font-size: 13px;
-  /* text-align: left; */
-  /* color: #B71C1C; */
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 28px;
+  letter-spacing: normal;
   text-align: left;
   color: #454545;
-  line-height: 1.2;
 }
 </style>

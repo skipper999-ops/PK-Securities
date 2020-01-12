@@ -1,13 +1,13 @@
 <template>
   <div>
     <div class="bg-black">
-      <div class="container p-0">
+      <div class="container-small p-0">
         <div class="bg-white">
           <div class="pt-5">
             <h1 class="text-center" style="color:#454545">Our Clients</h1>
           </div>
           <div class="pad-table">
-            <div class="container">
+            <div class="container-small">
               <table class="table table-striped table-bordered">
                 <thead>
                   <tr>
@@ -27,7 +27,7 @@
             </div>
           </div>
           <div class="pad-table">
-            <div class="container">
+            <div class="container-small">
               <table class="table table-striped table-bordered">
                 <thead>
                   <tr>

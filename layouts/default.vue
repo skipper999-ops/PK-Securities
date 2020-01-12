@@ -154,11 +154,12 @@ body {
   width: 78px;
   position: absolute;
   left: 0;
+  right: 0;
   bottom: -15px;
   margin: auto;
   content: "";
-  background: #11998e; /* fallback for old browsers */
-  background: linear-gradient(to right, #008494, #11998e);
+  background: #b71c1c; /* fallback for old browsers */
+  background: linear-gradient(to right, #b71c1c, #b71c1c);
 }
 
 .underline.right span::after {
@@ -171,8 +172,8 @@ body {
   margin: auto;
   z-index: -1;
   content: "";
-  background: #11998e;
-  background: linear-gradient(to right, #008494, #11998e);
+  background: #b71c1c;
+  background: linear-gradient(to right, #b71c1c, #b71c1c);
 }
 
 .underline span.white::after {

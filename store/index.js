@@ -32,6 +32,7 @@ export const state = () => ({
     createContact: url + "queries/createContact",
     getHomepageSliderImages: url + "homepage/homepageslider",
     getAllNews: url + "news/getAllNews",
+    getAllTestimonialAPI: url + "homepage/testimonial",
 
 
 
@@ -42,7 +43,8 @@ export const state = () => ({
     allClientListOutside: [],
     allClientListKamrup: [],
     HomepageSliderImages: [],
-    allNews: []
+    allNews: [],
+    alltestimonial: []
 
 })
 
@@ -67,6 +69,11 @@ export const mutations = {
     allNews(state, allNews) {
         console.log('selecting exercise mutation, ' + allNews)
         state.allNews = allNews
+    },
+
+    alltestimonial(state, alltestimonial) {
+        console.log('selecting exercise mutation, ' + alltestimonial)
+        state.alltestimonial = alltestimonial
     },
 
 }
@@ -134,6 +141,27 @@ export const actions = {
                 .then(res => {
                     console.log(res.data);
                     commit('allNews', res.data)
+                    resolve(res);
+                })
+                .catch((error) => {
+                    console.log(error)
+                    reject(error);
+                })
+        })
+    },
+
+    getAlltestimonial({ commit, state }) {
+
+        return new Promise((resolve, reject) => {
+
+            axios({
+                method: 'GET',
+                url: state.getAllTestimonialAPI,
+                contentType: 'application/json',
+            })
+                .then(res => {
+                    console.log(res.data);
+                    commit('alltestimonial', res.data)
                     resolve(res);
                 })
                 .catch((error) => {

@@ -213,12 +213,14 @@
         <!-- Our Services starts here -->
 
         <div class style="background-color:#f3f3f3;padding-bottom:30px">
-          <div class="mt-3 mb-4">
-            <h4 class="text-center pt-5">Our Services</h4>
+          <div class="pt-5 mb-4">
+            <h4 class="header text-center underline pb-3">
+              <span>Our Services</span>
+            </h4>
           </div>
           <div class="mt-5 container">
             <div class="row">
-              <div class="col-12 col-sm-6">
+              <div class="col-12 col-sm-12 col-md-6 pb-3">
                 <div class="pad2 d-block-inline" style="background:#fff">
                   <h3 style="text-align:center">PK SECURITY SERVICES</h3>
                   <div class="mt-4 mb-4 d-flex justify-content-center">
@@ -234,7 +236,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-12 col-sm-6">
+              <div class="col-12 col-sm-12 col-md-6">
                 <div class="pad2 d-block-inline" style="background:#fff">
                   <h3 style="text-align:center">PK SERVICES</h3>
                   <div class="mt-4 mb-4 d-flex justify-content-center">
@@ -256,7 +258,7 @@
 
         <!-- Our Services End Here -->
         <!-- Customer cities section starts here -->
-        <div class="container pt-5 pb-5">
+        <div class="container pt-5 pb-2">
           <div class="row">
             <div class="col-12 col-sm-3">
               <div class="circle d-flex middle">
@@ -310,7 +312,9 @@
 
         <div class="join-our-team pt-5 pb-5" style="background-color:#f3f3f3;">
           <div class="container">
-            <h4 class="text-center">JOIN OUR TEAM</h4>
+            <h4 class="header text-center underline pb-5">
+              <span>JOIN OUR TEAM</span>
+            </h4>
             <p class="text2 mt-2" style="font-size:16px">
               Leading security specialists ready to respond to your
               round-the-clock security needs.
@@ -413,6 +417,7 @@
                         type="file"
                         id="file"
                         ref="file"
+                        style="width: 100%;"
                         placeholder="Upload"
                       />
                     </div>
@@ -433,8 +438,10 @@
         <!-- join out team section ends here -->
         <!-- Latest news starts here-->
 
-        <div class="container pt-5 pb-5">
-          <h4 class="text-center pb-3">LATEST NEWS</h4>
+        <div class="container pt-4 pb-5">
+          <h4 class="header text-center underline pb-5">
+            <span>LATEST NEWS</span>
+          </h4>
 
           <client-only>
             <carousel
@@ -454,11 +461,13 @@
                   >
                     <img class="w-100" :src="p.image" style="height:180px" />
                     <div class="p-3">
-                      <h5 class="clamp2" style="height: 50px;">
+                      <h5 class="clamp2" style="height: 50px;font-size: 15px;">
                         {{ p.title }}
                       </h5>
                       <div class="clamp4" style="height: 55px;max-width:300px">
-                        <p>{{ p.body | striphtml }}</p>
+                        <p style="font-size: 13px;line-height: 18px;">
+                          {{ p.body | striphtml }}
+                        </p>
                       </div>
                       <a style="text-decoration:none" href>Read More</a>
                     </div>
@@ -552,7 +561,9 @@
 
       <div class="container-small pb-5 pt-5 bg-white">
         <div>
-          <h4 class="text-center pb-5">Testimonials</h4>
+          <h4 class="header text-center underline pb-5">
+            <span>Testimonials</span>
+          </h4>
         </div>
         <client-only>
           <carousel
@@ -564,26 +575,21 @@
             paginationColor="#e91e63"
             paginationActiveColor="#ffffff"
           >
-            <slide>
+            <slide v-for="p in alltestimonial" :key="p.id">
               <div class="testimony-slide">
                 <img
-                  style="margin:auto"
+                  style="margin:auto;width: 150px;height: 150px;border-radius: 50%;"
                   class="middle"
-                  src="~/static/images/testi.jpg"
+                  :src="p.image"
                   alt
                 />
                 <div>
                   <p class="text2 mt-5" style="height:auto">
-                    “Our on-site PK security guards always provide quality
-                    service and are very customer-oriented. Their management
-                    team is very responsive to our needs, and they always
-                    provide strong support. We have been a client for several
-                    years, and I look forward to our continued working
-                    relationship."
+                    {{ p.testimonial }}
                   </p>
-                  <div class="d-flex justify-content-center">
-                    <span class="text-center">Rumi Chawla,</span>
-                    <span class="text-center">Client</span>
+                  <div class="d-flex justify-content-center flex-column">
+                    <p class="text-center m-0">{{ p.name }}</p>
+                    <p class="text-center m-0 small">{{ p.user_type }}</p>
                   </div>
                 </div>
               </div>
@@ -598,7 +604,9 @@
       <div class="container-small p-0">
         <div class="join-our-team pt-5 pb-5" style="background-color:#f3f3f3;">
           <div class="container">
-            <h4 class="text-center">OUR CERTIFICATES</h4>
+            <h4 class="header text-center underline pb-5">
+              <span>OUR CERTIFICATES</span>
+            </h4>
             <div
               id="carouselExampleIndicators5"
               class="carousel slide"
@@ -751,13 +759,15 @@ export default {
   computed: {
     ...mapState(["allClientListKamrup"]),
     ...mapState(["allClientListOutside"]),
-    ...mapState(["allNews"])
+    ...mapState(["allNews"]),
+    ...mapState(["alltestimonial"])
   },
 
   mounted() {
     this.$store.dispatch("getAllClientListOutside");
     this.$store.dispatch("getAllClientListKamrup");
     this.$store.dispatch("getAllNews");
+    this.$store.dispatch("getAlltestimonial");
   },
   filters: {
     striphtml: function(string) {
@@ -812,23 +822,23 @@ img {
 }
 
 h3 {
-  color: #B71C1C;
+  color: #b71c1c;
 }
 
 h4 {
-  color: #B71C1C;
+  color: #b71c1c;
   font-weight: 400;
 }
 
 h5 {
-  color: #B71C1C;
+  color: #b71c1c;
 }
 
 .custom-link {
   font-size: 13px;
   font-weight: 700;
   text-decoration: none;
-  color: #B71C1C;
+  color: #b71c1c;
 }
 
 .text1 {
@@ -839,8 +849,8 @@ h5 {
 }
 
 .pad2 {
-  padding: 30px 40px;
-  border: 1px solid #B71C1C;
+  padding: 30px 0px;
+  border: 1px solid #b71c1c;
   border-radius: 3px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
 }
@@ -858,7 +868,7 @@ h5 {
   width: 160px;
   height: 50px;
   text-decoration: none;
-  background-color: #B71C1C;
+  background-color: #b71c1c;
   padding: 10px 20px;
   color: #fff;
   font-size: 18px;
@@ -872,7 +882,7 @@ h5 {
   border: 1px solid #c61b15;
   border-radius: 50%;
   box-shadow: 0 3px 6px 0 #c61b15;
-  background-color: #B71C1C;
+  background-color: #b71c1c;
   position: relative;
   height: 100px;
   width: 100px;
@@ -950,7 +960,7 @@ h5 {
 }
 
 .career {
-  background-color: #B71C1C;
+  background-color: #b71c1c;
   color: #fff;
   text-align: center;
   font-size: 25px;
@@ -970,7 +980,7 @@ h5 {
   width: 120px;
   height: 36px;
   text-decoration: none;
-  background-color: #B71C1C;
+  background-color: #b71c1c;
   padding: 4px 16px;
   color: #fff;
   font-size: 15px;
