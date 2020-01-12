@@ -438,6 +438,7 @@ export default {
   flex-direction: column;
   line-height: 40px;
   opacity: 0;
+  transition: all 0.4s ease;
 }
 
 .nav .link {
