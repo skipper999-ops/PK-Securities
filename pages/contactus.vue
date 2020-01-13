@@ -142,7 +142,7 @@ export default {
 
 <style scoped>
 .pad-contact {
-  padding: 40px 60px;
+  padding: 40px 0;
 }
 
 img {
