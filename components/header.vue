@@ -150,6 +150,7 @@
             :per-page="1"
             :autoplay="true"
             :mouse-drag="true"
+            :loop="true"
             paginationColor="#e91e63"
             paginationActiveColor="#ffffff"
           >

@@ -4,14 +4,12 @@
       <div class="container-small bg-white p-0">
         <div class="pad-career">
           <h5 style="font-size:12px;margin-bottom: 25px">
-            <nuxt-link style="color: #B71C1C" to="/">HOME </nuxt-link> / CAREER
+            <nuxt-link style="color: #B71C1C" to="/">HOME</nuxt-link>/ CAREER
           </h5>
           <div class="align">
             <div>
               <h2 style="text-align:center">Join Our Team</h2>
-              <div
-                class="w-100 d-flex justify-content-center coloured-rule"
-              ></div>
+              <div class="w-100 d-flex justify-content-center coloured-rule"></div>
             </div>
             <div class="pb-0" style="padding: 3rem 0;">
               <p>
@@ -36,65 +34,45 @@
           </div>
         </div>
         <div class="pad-table para">
-          <div class>
-            <p class="fonts">Management</p>
+          <div class v-for="p in career" :key="p.id">
+            <p class="fonts">{{p.category_name}}</p>
             <div class="d-flex justify-content-between">
-              <p class="fonts-primary">Management Trainee</p>
-              <p class="fonts-secondary">Location:Remote</p>
-              <p class="fonts-secondary">Full time/ Part Time</p>
+              <p class="fonts-primary">{{p.title}}</p>
+              <p class="fonts-secondary">Location:{{p.location}}</p>
+              <p class="fonts-secondary">{{p.job_type}}</p>
             </div>
             <hr />
-            <div>
-              <p class="fonts">Security Personnel</p>
-              <div class="d-flex justify-content-between">
-                <p class="fonts-primary">Security Service</p>
-                <p class="fonts-secondary">Location:Remote</p>
-                <p class="fonts-secondary">Full time/ Part Time</p>
-              </div>
-              <hr />
-            </div>
-            <div>
-              <p class="fonts">Housekeeping</p>
-              <div class="d-flex justify-content-between">
-                <p class="fonts-primary">Housekeeping Staff</p>
-                <p class="fonts-secondary">Location:Remote</p>
-                <p class="fonts-secondary">Full time/ Part Time</p>
-              </div>
-              <hr />
-              <div class="d-flex justify-content-between">
-                <p class="fonts-primary">Plumber</p>
-                <p class="fonts-secondary">Location:Remote</p>
-                <p class="fonts-secondary">Full time/ Part Time</p>
-              </div>
-              <hr />
-            </div>
-            <div class="d-flex justify-content-between">
-              <p class="fonts-primary">Cleaner</p>
-              <p class="fonts-secondary">Location:Remote</p>
-              <p class="fonts-secondary">Full time/ Part Time</p>
-            </div>
-            <hr />
-            <div class="d-flex justify-content-between">
-              <p class="fonts-primary">Maid</p>
-              <p class="fonts-secondary">Location:Remote</p>
-              <p class="fonts-secondary">Full time/ Part Time</p>
-            </div>
-            <hr />
-            <br />
-            <br />
           </div>
         </div>
       </div>
     </div>
   </div>
 </template>
+
+<script>
+import { mapState } from "vuex";
+
+export default {
+  computed: {
+    ...mapState(["career"])
+  },
+
+  mounted() {
+    this.$store.dispatch("getAllCareer");
+  }
+};
+</script>
+
+
+
+
 <style scoped>
 .pad-career {
   padding: 70px;
 }
 
 .coloured-rule {
-  border-top: 2px solid #B71C1C;
+  border-top: 2px solid #b71c1c;
   width: 5%;
 }
 .align {
@@ -152,7 +130,7 @@ img {
   text-align: end;
 }
 .red-button {
-  background: #B71C1C;
+  background: #b71c1c;
   color: white;
   border: none;
 }

@@ -32,7 +32,12 @@ export const state = () => ({
     createContact: url + "queries/createContact",
     getHomepageSliderImages: url + "homepage/homepageslider",
     getAllNews: url + "news/getAllNews",
+    getAllBlogs: url + "news/getAllBlog",
     getAllTestimonialAPI: url + "homepage/testimonial",
+
+    whatwedosecurity: url + "whatwedo/security",
+    whatwedoservices: url + "whatwedo/services",
+    career: url + "career/",
 
 
 
@@ -44,7 +49,11 @@ export const state = () => ({
     allClientListKamrup: [],
     HomepageSliderImages: [],
     allNews: [],
-    alltestimonial: []
+    allBlogs: [],
+    alltestimonial: [],
+    services: [],
+    security: [],
+    allcareer: [],
 
 })
 
@@ -69,6 +78,26 @@ export const mutations = {
     allNews(state, allNews) {
         console.log('selecting exercise mutation, ' + allNews)
         state.allNews = allNews
+    },
+
+    allBlogs(state, allBlogs) {
+        console.log('selecting exercise mutation, ' + allBlogs)
+        state.allBlogs = allBlogs
+    },
+
+    services(state, services) {
+        console.log('selecting exercise mutation, ' + services)
+        state.services = services
+    },
+
+    security(state, security) {
+        console.log('selecting exercise mutation, ' + security)
+        state.security = security
+    },
+
+    career(state, career) {
+        console.log('selecting exercise mutation, ' + career)
+        state.career = career
     },
 
     alltestimonial(state, alltestimonial) {
@@ -150,6 +179,48 @@ export const actions = {
         })
     },
 
+    getAllBlogs({ commit, state }) {
+
+        return new Promise((resolve, reject) => {
+
+            axios({
+                method: 'GET',
+                url: state.getAllBlogs,
+                contentType: 'application/json',
+            })
+                .then(res => {
+                    console.log(res.data);
+                    commit('allBlogs', res.data)
+                    resolve(res);
+                })
+                .catch((error) => {
+                    console.log(error)
+                    reject(error);
+                })
+        })
+    },
+
+    getAllCareer({ commit, state }) {
+
+        return new Promise((resolve, reject) => {
+
+            axios({
+                method: 'GET',
+                url: state.career,
+                contentType: 'application/json',
+            })
+                .then(res => {
+                    console.log(res.data);
+                    commit('career', res.data)
+                    resolve(res);
+                })
+                .catch((error) => {
+                    console.log(error)
+                    reject(error);
+                })
+        })
+    },
+
     getAlltestimonial({ commit, state }) {
 
         return new Promise((resolve, reject) => {
@@ -162,6 +233,48 @@ export const actions = {
                 .then(res => {
                     console.log(res.data);
                     commit('alltestimonial', res.data)
+                    resolve(res);
+                })
+                .catch((error) => {
+                    console.log(error)
+                    reject(error);
+                })
+        })
+    },
+
+    getAllServices({ commit, state }) {
+
+        return new Promise((resolve, reject) => {
+
+            axios({
+                method: 'GET',
+                url: state.whatwedoservices,
+                contentType: 'application/json',
+            })
+                .then(res => {
+                    console.log(res.data);
+                    commit('services', res.data)
+                    resolve(res);
+                })
+                .catch((error) => {
+                    console.log(error)
+                    reject(error);
+                })
+        })
+    },
+
+    getAllSecurity({ commit, state }) {
+
+        return new Promise((resolve, reject) => {
+
+            axios({
+                method: 'GET',
+                url: state.whatwedosecurity,
+                contentType: 'application/json',
+            })
+                .then(res => {
+                    console.log(res.data);
+                    commit('security', res.data)
                     resolve(res);
                 })
                 .catch((error) => {
