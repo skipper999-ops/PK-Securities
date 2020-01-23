@@ -6,19 +6,14 @@
           <div>
             <span class="top-nav__contact">
               <i class="fa fa-phone top-nav-icon" aria-hidden="true"></i>
-              <a
-                style="font-size:14px;padding-left: 10px"
-                href="tel:+91 9152685887"
-                >+91 9152685887</a
-              >
+              <a style="font-size:14px;padding-left: 10px" href="tel:+91 9152685887">+91 9152685887</a>
             </span>
             <span class="top-nav__contact" style="margin-left: 15px">
               <i class="fa fa-envelope top-nav-icon" aria-hidden="true"></i>
               <a
                 style="font-size:14px;padding-left: 10px"
                 href="mailto:pksecurity@gmail.com"
-                >pksecurity@gmail.com</a
-              >
+              >pksecurity@gmail.com</a>
             </span>
           </div>
           <div class="hide-on-small-and-down">
@@ -40,15 +35,9 @@
     </div>
     <div class="nav-header-main">
       <div class="secondary-nav pt-3 pb-3">
-        <div
-          class="container p-0 d-flex justify-content-between align-items-center"
-        >
+        <div class="container p-0 d-flex justify-content-between align-items-center">
           <div>
-            <img
-              class="logo"
-              style="margin-right:10px"
-              src="~/static/images/PK1.jpg"
-            />
+            <img class="logo" style="margin-right:10px" src="~/static/images/PK1.jpg" />
             <img class="logo" src="~/static/images/PK2.jpg" />
           </div>
           <div
@@ -69,7 +58,7 @@
             <nuxt-link class="link" to="/whoweare">Who We Are</nuxt-link>
           </div>
           <div class="nav-link">
-            <nuxt-link class="link" to="/whatwedo">Who We Do</nuxt-link>
+            <nuxt-link class="link" to="/whatwedo">What We Do</nuxt-link>
           </div>
           <div class="nav-link">
             <nuxt-link class="link" to="/career">Careers</nuxt-link>
@@ -99,28 +88,15 @@
           </div>
           <div class="contact-navigation">
             <span class="top-nav__contact">
-              <i
-                class="fa fa-phone top-nav-icon"
-                style="color: white"
-                aria-hidden="true"
-              ></i>
-              <a
-                style="font-size:14px;padding-left: 10px"
-                href="tel:+91 9152685887"
-                >+91 9152685887</a
-              >
+              <i class="fa fa-phone top-nav-icon" style="color: white" aria-hidden="true"></i>
+              <a style="font-size:14px;padding-left: 10px" href="tel:+91 9152685887">+91 9152685887</a>
             </span>
             <span class="top-nav__contact" style="margin-left: 15px">
-              <i
-                class="fa fa-envelope top-nav-icon"
-                style="color: white"
-                aria-hidden="true"
-              ></i>
+              <i class="fa fa-envelope top-nav-icon" style="color: white" aria-hidden="true"></i>
               <a
                 style="font-size:14px;padding-left: 10px"
                 href="mailto:pksecurity@gmail.com"
-                >pksecurity@gmail.com</a
-              >
+              >pksecurity@gmail.com</a>
             </span>
           </div>
         </div>
@@ -155,11 +131,7 @@
             paginationActiveColor="#ffffff"
           >
             <slide v-for="p in HomepageSliderImages" :key="p.id">
-              <img
-                class="d-block w-100 img1"
-                :src="p.image"
-                alt="First slide"
-              />
+              <img class="d-block w-100 img1" :src="p.image" alt="First slide" />
             </slide>
           </carousel>
         </client-only>
