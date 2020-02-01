@@ -37,8 +37,8 @@
       <div class="secondary-nav pt-3 pb-3">
         <div class="container p-0 d-flex justify-content-between align-items-center">
           <div>
-            <img class="logo" style="margin-right:10px" src="~/static/images/PK1.jpg" />
-            <img class="logo" src="~/static/images/PK2.jpg" />
+            <img class="logo" style="margin-right:10px" src="~/static/images/PK1.png" />
+            <img class="logo" src="~/static/images/PK2.png" />
           </div>
           <div
             @click="showMenu"
@@ -50,24 +50,30 @@
         </div>
       </div>
       <div class="custom-nav hide-on-med-and-down">
-        <div class="container d-flex justify-content-end">
+        <div class="container d-flex justify-content-center">
           <div class="nav-link">
-            <nuxt-link class="link" to="/" exact>Home</nuxt-link>
+            <nuxt-link class="link" to="/" exact>HOME</nuxt-link>
           </div>
           <div class="nav-link">
-            <nuxt-link class="link" to="/whoweare">Who We Are</nuxt-link>
+            <nuxt-link class="link" to="/whoweare">ABOUT US</nuxt-link>
           </div>
           <div class="nav-link">
-            <nuxt-link class="link" to="/whatwedo">What We Do</nuxt-link>
+            <nuxt-link class="link" to="/whatwedo">SERVICES</nuxt-link>
           </div>
           <div class="nav-link">
-            <nuxt-link class="link" to="/career">Careers</nuxt-link>
+            <nuxt-link class="link" to="/career">PK NETWORK</nuxt-link>
           </div>
           <div class="nav-link">
-            <nuxt-link class="link" to="/ourclients">Our Clients</nuxt-link>
+            <nuxt-link class="link" to="/ourclients">TRAINING AND ORIENTATION</nuxt-link>
           </div>
           <div class="nav-link">
-            <nuxt-link class="link" to="/contactus">Contact Us</nuxt-link>
+            <nuxt-link class="link" to="/contactus">OUR CLIENTS</nuxt-link>
+          </div>
+          <div class="nav-link">
+            <nuxt-link class="link" to="/contactus">CAREERS</nuxt-link>
+          </div>
+          <div class="nav-link">
+            <nuxt-link class="link" to="/contactus">CONTACT US</nuxt-link>
           </div>
         </div>
       </div>
@@ -252,9 +258,11 @@ export default {
 }
 
 .custom-nav {
-  background-color: #b71c1c;
+  background-color: #110b0b;
   height: 40px;
   line-height: 40px;
+  border-top: 2px solid #9e7b5f;
+  border-bottom: 2px solid #9e7b5f;
 }
 
 .custom-nav a {
@@ -278,17 +286,17 @@ export default {
   /* border-bottom: 3px solid #fdb06c; */
 }
 .custom-nav > div > div {
-  padding: 0 30px;
+  padding: 0 27px;
 }
 
 .secondary-nav {
-  background-color: white;
+  background-color: rgb(0, 0, 0);
 }
 
 /* mechfab */
 
 .nav-header {
-  background-color: #b71c1c;
+  background-color: #110b0b;
   height: 40px;
   display: flex;
   align-items: center;
@@ -348,7 +356,7 @@ export default {
 }
 
 .nav-link a:hover {
-  color: #fff;
+  color: #9e7b5f;
 }
 .nav-link a:after {
   content: "";

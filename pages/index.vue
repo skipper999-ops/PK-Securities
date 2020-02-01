@@ -2,37 +2,99 @@
   <div>
     <div class="bg-black">
       <!-- 1st carousel -->
+      <div class="container">
+        <div class="row" style="background-color:#f3f3f3">
+          <div class="col-12 col-lg-4 p-0">
+            <div class="pad-new">
+              <h2>Security Services</h2>
+              <hr />
+              <h5>
+                Transforming Service Management
+                into an Innovative Force.
+              </h5>
+              <p style="color:#323232">
+                With years of experience, we understand the challenges to the ever-evolving security environment. We have become the most preferred partners of a huge clientele by setting a benchmark in creating smart measures.
+                PK Security surpasses competitors by providing our clients with the most competent, motivated and caring staff of professionals. This is the result of our industry-leading recruiting, training, compensation and recognition programs.
+              </p>
+              <button class="btn btn-security">Read More</button>
+            </div>
+          </div>
+          <div class="col-12 col-lg-8 p-0">
+            <div class="d-flex h-100" style="background-color:#333333">
+              <div class="row">
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                  <div class="services-pad">
+                    <div class="d-flex justify-content-center">
+                      <img src="/images/policeman.png" alt />
+                    </div>
+                    <p>Unarmed Manned Guarding</p>
+                  </div>
+                  <div class="services-pad">
+                    <div class="d-flex justify-content-center">
+                      <img src="/images/policeman.png" alt />
+                    </div>
+                    <p>Hotel Security</p>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                  <div class="services-pad">
+                    <div class="d-flex justify-content-center">
+                      <img src="/images/policeman.png" alt />
+                    </div>
+                    <p>Residential Security</p>
+                  </div>
+                  <div class="services-pad">
+                    <div class="d-flex justify-content-center">
+                      <img src="/images/policeman.png" alt />
+                    </div>
+                    <p>Event Security</p>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                  <div class="services-pad">
+                    <div class="d-flex justify-content-center">
+                      <img src="/images/policeman.png" alt />
+                    </div>
+                    <p>Commercial Security</p>
+                  </div>
+                  <div class="services-pad">
+                    <div class="d-flex justify-content-center">
+                      <img src="/images/policeman.png" alt />
+                    </div>
+                    <p>School Security</p>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                  <div class="services-pad">
+                    <div class="d-flex justify-content-center">
+                      <img src="/images/policeman.png" alt />
+                    </div>
+                    <p>Hospital Security</p>
+                  </div>
+                  <div class="services-pad">
+                    <div class="d-flex justify-content-center">
+                      <img src="/images/policeman.png" alt />
+                    </div>
+                    <p>Industrial Security</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-      <div class="container-small p-0 bg-white">
-        <div class="p-4 pt-5" style="background-color:#f3f3f3">
-          <!-- <div id="carouselExampleIndicators1" class="px-5 slide" data-ride="carousel">
-             <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
-          </ol>-->
-          <!-- <div class="carousel-inner" role="listbox"> -->
-          <!-- <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active">
-                  <img class="d-block w-100 img1" src="~static/images/pkcaro.jpg" alt="First slide" />
-                </div>
-                <div class="carousel-item">
-                  <img
-                    class="d-block w-100 img1"
-                    src="~static/images/pkteam1.jpeg"
-                    alt="First slide"
-                  />
-                </div>
-          </div>-->
-          <!-- <div class="carousel-item active"> -->
+      <div class="container-small p-0 bg-black">
+        <div class="p-4 pt-5">
           <div class="row mt-5">
             <div class="col-12 col-sm-6">
               <div>
-                <h3 style="font-weight:700">WHO WE ARE</h3>
-                <h5 class="mt-3" style="font-size:17px">
-                  A Security Agency with a degree of professionalism that is
-                  second to none.
-                </h5>
-                <p class="mt-4" style="font-sixe:15px !important;line-height:1.4">
+                <h3 style="font-weight:700;color:#fff;text-align:right;font-size:19px">We provide</h3>
+                <h5
+                  class="mt-3"
+                  style="color:#fff;font-size:29px"
+                >An Agency big enough to serve, yet small enough to care.</h5>
+                <p class="mt-4" style="font-size:15px !important;line-height:1.4;color:#fff">
                   PK Security Service is the trusted provider of cutting-edge
                   quality security service. We are committed to providing
                   reliable service through custom-designed security strategies.
@@ -40,114 +102,114 @@
                   total solutions security package.
                 </p>
               </div>
-              <nuxt-link to="/whoweare" class="custom-link" href>READ MORE</nuxt-link>
+              <nuxt-link to="/whoweare" class="custom-link" style="color:#9e7b5f" href>READ MORE</nuxt-link>
+              <div class="row mt-3">
+                <div class="col-12 col-lg-4">
+                  <p class="text-center text-white" style="font-size:17px">OUR CUSTOMERS</p>
+                  <div class="circle middle">
+                    <p class="m-0 text-center" style="font-size:20px">1862</p>
+                    <span class="align-items-center" style="color:#9e7b5f;font-size:10px">CUSTOMERS</span>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                  <p class="text-center text-white" style="font-size:17px">OUR TEAM</p>
+                  <div class="circle middle">
+                    <p class="m-0 text-center" style="font-size:20px">1862</p>
+                    <span class="align-items-center" style="color:#9e7b5f;font-size:10px">EMPLOYEES</span>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                  <p class="text-center text-white" style="font-size:17px">CITIES</p>
+                  <div class="circle middle">
+                    <p class="m-0 text-center" style="font-size:20px">1862</p>
+                    <span class="align-items-center" style="color:#9e7b5f;font-size:10px">CITIES</span>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="col-12 col-sm-6">
+              <div>
+                <h4 class="text-center" style="color:#9e7b5f">THE EXPERTS</h4>
+                <h3 class="text-center" style="color:#9e7b5f">VIDEO DEMO</h3>
+                <hr style="margin:auto;width:20%" />
+              </div>
               <video class="h-100 w-100" controls style="height:300px;width:545px">
                 <source src="/video/video2.mp4" type="video/mp4" />
               </video>
             </div>
           </div>
-          <!-- </div>
-              <div class="carousel-item"></div>
-          </div>-->
-          <!-- <a
-              class="carousel-control-prev"
-              href="#carouselExampleIndicators1"
-              role="button"
-              data-slide="prev"
-            >
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a
-              class="carousel-control-next"
-              href="#carouselExampleIndicators1"
-              role="button"
-              data-slide="next"
-            >
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-          </a>-->
         </div>
-        <!-- </div> -->
+        <!-- special amenities starts here -->
 
-        <!-- carousel end -->
-        <!-- 3rd carousel starts here -->
-
-        <div class="container pt-4 pb-5">
-          <!-- <h4 class="header text-center underline pb-5">
-            <span>LATEST NEWS</span>
-          </h4> -->
-
-          <client-only>
-            <carousel
-              :per-page-custom="[
-                [0, 1],
-                [992, 2],
-                [1300, 3]
-              ]"
-              :mouse-drag="true"
-              paginationColor="#e91e63"
-              paginationActiveColor="#000"
-            >
-              <slide v-for="p in allBlogs" :key="p.id">
-                <div class="p-2">
-                  <div style="background-color:#f2f2f2;box-shadow:0 3px 8px 0 rgba(0, 0, 0, 0.16);">
-                    <img class="w-100" :src="p.image" style="height:180px" />
-                    <div class="p-3">
-                      <h5 class="clamp2" style="height: 50px;font-size: 15px;">{{ p.title }}</h5>
-                      <div style="height: 100%;max-width:300px">
-                        <p style="font-size: 13px;line-height: 18px;">{{ p.body | striphtml }}</p>
-                      </div>
+        <div class="row mt-5" style="background-color:#f3f3f3">
+          <div class="col-12 col-lg-4 p-0">
+            <div class="pad-new">
+              <h2>Special Amenities</h2>
+              <hr />
+              <h5>Leading Service provider with exceptional quality management skills.</h5>
+              <p
+                style="color:#323232"
+              >Integrated security services with expert solutions to minimize the risks and render smooth running of your operations. Having a basic security presence around your residential, commercial or industrial site will ensure that your assets are strictly protected. We have the required expertise and resources to identify customizable security programs and strategies specific to meet the security needs of each client.</p>
+              <button class="btn btn-security">Read More</button>
+            </div>
+          </div>
+          <div class="col-12 col-lg-8 p-0">
+            <div class="d-flex h-100" style="background-color:#333333">
+              <div class="row">
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                  <div class="services-pad">
+                    <div class="d-flex justify-content-center">
+                      <img src="/images/policeman.png" alt />
                     </div>
+                    <p>Electrical Services</p>
+                  </div>
+                  <div class="services-pad">
+                    <div class="d-flex justify-content-center">
+                      <img src="/images/policeman.png" alt />
+                    </div>
+                    <p>Swimming Pool Maintenance</p>
                   </div>
                 </div>
-              </slide>
-            </carousel>
-          </client-only>
-        </div>
-
-        <!-- 3rd carousel ends here -->
-        <!-- Our Services starts here -->
-
-        <div class style="background-color:#f3f3f3;padding-bottom:30px">
-          <div class="pt-5 mb-4">
-            <h4 class="header text-center underline pb-3">
-              <span>Our Services</span>
-            </h4>
-          </div>
-          <div class="mt-5 container">
-            <div class="row">
-              <div class="col-12 col-sm-12 col-md-6 pb-3">
-                <div class="pad2 d-block-inline" style="background:#fff">
-                  <h3 style="text-align:center">PK SECURITY SERVICES</h3>
-                  <div class="mt-4 mb-4 d-flex justify-content-center">
-                    <img src="~/static/images/gaurd.png" />
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                  <div class="services-pad">
+                    <div class="d-flex justify-content-center">
+                      <img src="/images/policeman.png" alt />
+                    </div>
+                    <p>Electronic Security Systems</p>
                   </div>
-                  <p class="text2">Commercial Security</p>
-                  <p class="text2">Residential Security</p>
-                  <p class="text2">Society Maintenance</p>
-                  <p class="text2">Event Security</p>
-                  <p class="text2">Security Services for Hospitals</p>
-                  <div class="d-flex justify-content-center">
-                    <a class="btn btn1" href>Read More</a>
+                  <div class="services-pad">
+                    <div class="d-flex justify-content-center">
+                      <img src="/images/policeman.png" alt />
+                    </div>
+                    <p>Housekeeping Services</p>
                   </div>
                 </div>
-              </div>
-              <div class="col-12 col-sm-12 col-md-6">
-                <div class="pad2 d-block-inline" style="background:#fff">
-                  <h3 style="text-align:center">PK SERVICES</h3>
-                  <div class="mt-4 mb-4 d-flex justify-content-center">
-                    <img src="~/static/images/mechanic.png" />
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                  <div class="services-pad">
+                    <div class="d-flex justify-content-center">
+                      <img src="/images/policeman.png" alt />
+                    </div>
+                    <p>Mechanized Cleaning Services</p>
                   </div>
-                  <p class="text2">Electronic Security Systems</p>
-                  <p class="text2">Maintenance Services</p>
-                  <p class="text2">Mechanized Cleaning Services</p>
-                  <p class="text2">Housekeeping</p>
-                  <p class="text2">Plumbing Services</p>
-                  <div class="d-flex justify-content-center">
-                    <a class="btn btn1" href>Read More</a>
+                  <div class="services-pad">
+                    <div class="d-flex justify-content-center">
+                      <img src="/images/policeman.png" alt />
+                    </div>
+                    <p>Plumbing Services</p>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                  <div class="services-pad">
+                    <div class="d-flex justify-content-center">
+                      <img src="/images/policeman.png" alt />
+                    </div>
+                    <p>Maintenance Services</p>
+                  </div>
+                  <div class="services-pad">
+                    <div class="d-flex justify-content-center">
+                      <img src="/images/policeman.png" alt />
+                    </div>
+                    <p>STP/WTP Maintenance</p>
                   </div>
                 </div>
               </div>
@@ -155,53 +217,17 @@
           </div>
         </div>
 
-        <!-- Our Services End Here -->
+        <!-- special anemities ends here -->
+
+        <!-- why choose us starts here -->
+
         <!-- Customer cities section starts here -->
-        <div class="container pt-5 pb-2">
+        <div class="container mt-5">
           <div class="row">
-            <div class="col-12 col-sm-3">
-              <div class="circle d-flex middle">
-                <img
-                  style="height:47px;width:47px;object-fit: contain;"
-                  src="~/static/images/team-member.png"
-                  alt
-                />
+            <div class="col-12 col-md-6">
+              <div>
+                <h4>WHY CHOOSE US></h4>
               </div>
-              <p class="text3 mt-3">CUSTOMERS</p>
-              <p class="text4">1862+</p>
-            </div>
-            <div class="col-12 col-sm-3">
-              <div class="circle d-flex middle">
-                <img
-                  style="height:47px;width:47px;object-fit: contain;"
-                  src="~/static/images/policeman.png"
-                  alt
-                />
-              </div>
-              <p class="text3 mt-3">Employee</p>
-              <p class="text4">1293+</p>
-            </div>
-            <div class="col-12 col-sm-3">
-              <div class="circle d-flex middle">
-                <img
-                  style="height:47px;width:47px;object-fit: contain;"
-                  src="~/static/images/time.png"
-                  alt
-                />
-              </div>
-              <p class="text3 mt-3">years history</p>
-              <p class="text4">6+</p>
-            </div>
-            <div class="col-12 col-sm-3">
-              <div class="circle d-flex middle">
-                <img
-                  style="height:47px;width:47px;object-fit: contain;"
-                  src="~/static/images/flag.png"
-                  alt
-                />
-              </div>
-              <p class="text3 mt-3">cities</p>
-              <p class="text4">11+</p>
             </div>
           </div>
         </div>
@@ -625,6 +651,45 @@ export default {
 </script>
 
 <style>
+hr {
+  background-color: rgb(158, 123, 95);
+  width: 24%;
+  height: 2px;
+}
+
+.pad-new {
+  padding: 27px 15px;
+}
+
+.services-pad {
+  padding: 19px 18px;
+}
+
+.services-pad > p {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+  height: 70px;
+}
+
+.btn-security {
+  height: 31px;
+  width: 128px;
+  color: #fff;
+  background-color: #9e7b5f;
+  border-radius: 6px;
+  font-size: 13px;
+}
+
+.bg-black {
+  background-color: #000000;
+}
+
+.container .row {
+  margin: 0 !important;
+}
+
 .img1 {
   height: 500px;
   width: 100%;
@@ -646,9 +711,13 @@ h4 {
 }
 
 h5 {
-  color: #b71c1c;
+  color: #323232;
 }
 
+h2 {
+  color: #9e7b5f;
+  font-size: 30px;
+}
 .custom-link {
   font-size: 13px;
   font-weight: 700;
@@ -720,13 +789,12 @@ h5 {
 .circle {
   justify-content: center;
   align-items: center;
-  border: 1px solid #c61b15;
+  border: 3px solid #9e7b5f;
   border-radius: 50%;
-  box-shadow: 0 3px 6px 0 #c61b15;
   /* background-color: #B71C1C; */
   position: relative;
-  height: 100px;
-  width: 100px;
+  height: 120px;
+  width: 120px;
   margin: auto;
 }
 

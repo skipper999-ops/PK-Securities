@@ -18,9 +18,10 @@ export default {
 </script>
 
 <style>
-html, body {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
+html,
+body {
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -38,7 +39,13 @@ html, body {
   margin: 0;
 }
 
-
+.middle {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-flow: column;
+}
 
 @font-face {
   font-family: "Light";
@@ -48,18 +55,10 @@ html, body {
   font-style: normal;
 }
 
-.header-carousel .VueCarousel-pagination{
+.header-carousel .VueCarousel-pagination {
   position: absolute;
-    bottom: 20px;
+  bottom: 20px;
 }
-
-
-
-
-
-
-
-
 
 hr {
   height: 1px;
@@ -233,7 +232,6 @@ body {
   justify-content: space-between;
 }
 
-
 .align-items-center {
   align-items: center;
 }
@@ -321,5 +319,4 @@ input[type="email"] {
   padding: 10px;
   border-radius: 2px;
 }
-
 </style>
