@@ -107,21 +107,21 @@
                 <div class="col-12 col-lg-4">
                   <p class="text-center text-white" style="font-size:17px">OUR CUSTOMERS</p>
                   <div class="circle middle">
-                    <p class="m-0 text-center" style="font-size:20px">1862</p>
+                    <p class="m-0 text-center text-white" style="font-size:20px">1862</p>
                     <span class="align-items-center" style="color:#9e7b5f;font-size:10px">CUSTOMERS</span>
                   </div>
                 </div>
                 <div class="col-12 col-lg-4">
                   <p class="text-center text-white" style="font-size:17px">OUR TEAM</p>
                   <div class="circle middle">
-                    <p class="m-0 text-center" style="font-size:20px">1862</p>
+                    <p class="m-0 text-center text-white" style="font-size:20px">1862</p>
                     <span class="align-items-center" style="color:#9e7b5f;font-size:10px">EMPLOYEES</span>
                   </div>
                 </div>
                 <div class="col-12 col-lg-4">
                   <p class="text-center text-white" style="font-size:17px">CITIES</p>
                   <div class="circle middle">
-                    <p class="m-0 text-center" style="font-size:20px">1862</p>
+                    <p class="m-0 text-center text-white" style="font-size:20px">1862</p>
                     <span class="align-items-center" style="color:#9e7b5f;font-size:10px">CITIES</span>
                   </div>
                 </div>
@@ -229,7 +229,7 @@
                 <h4>WHY CHOOSE US</h4>
                 <h3>MAKE SMARTER CHOICES</h3>
                 <p
-                  class="mt-3"
+                  class="mt-3 text-white"
                   style="font-size:18px;line-height:1.25;text-align:justify"
                 >PK Security Service is the trusted provider of cutting-edge quality security service. We are committed to providing reliable service through custom-designed security strategies.</p>
                 <img src="/images/man-shadow.png" alt />
@@ -241,198 +241,129 @@
                   <img src="/images/like.png" alt />
                   <span class="ml-5" style="color:#fff;font-size:20px">Satisfied Customers</span>
                 </div>
+                <p
+                  class="text-white mt-4"
+                  style="font-size:18px"
+                >Our extensive security industry experience enables us to exceed the expectations of our customers.</p>
+              </div>
+              <div class="mt-5">
+                <div class="d-flex align-items-center">
+                  <img src="/images/like.png" alt />
+                  <span class="ml-5" style="color:#fff;font-size:20px">Satisfied Customers</span>
+                </div>
+                <p
+                  class="text-white mt-4"
+                  style="font-size:18px"
+                >Our extensive security industry experience enables us to exceed the expectations of our customers.</p>
+              </div>
+              <div class="mt-5">
+                <div class="d-flex align-items-center">
+                  <img src="/images/like.png" alt />
+                  <span class="ml-5" style="color:#fff;font-size:20px">Satisfied Customers</span>
+                </div>
+                <p
+                  class="text-white mt-4"
+                  style="font-size:18px"
+                >Our extensive security industry experience enables us to exceed the expectations of our customers.</p>
+              </div>
+            </div>
+          </div>
+          <div class="m-5 d-flex align-item-center">
+            <button class="brochure">DOWNLOAD BROCHURE</button>
+          </div>
+        </div>
+
+        <!-- why choose our section ends here -->
+        <!-- Detective Services starts here -->
+
+        <div class="row mt-5" style="background-color:#f3f3f3">
+          <div class="col-12 col-lg-4 p-0">
+            <div class="pad-new">
+              <h2>Detective Services</h2>
+              <hr />
+              <h5>Leading Service provider with exceptional quality management skills..</h5>
+              <p
+                style="color:#323232"
+              >Integrated security services with expert solutions to minimize the risks and render smooth running of your operations. Having a basic security presence around your residential, commercial or industrial site will ensure that your assets are strictly protected. We have the required expertise and resources to identify customizable security programs and strategies specific to meet the security needs of each client.</p>
+              <button class="btn btn-security">Read More</button>
+            </div>
+          </div>
+          <div class="col-12 col-lg-8 p-0">
+            <div class="d-flex h-100" style="background-color:#333333">
+              <div class="row">
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                  <div class="services-pad">
+                    <div class="d-flex justify-content-center">
+                      <img src="/images/policeman.png" alt />
+                    </div>
+                    <p>Personal Investigation</p>
+                  </div>
+                  <div class="services-pad">
+                    <div class="d-flex justify-content-center">
+                      <img src="/images/policeman.png" alt />
+                    </div>
+                    <p>Survellience</p>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                  <div class="services-pad">
+                    <div class="d-flex justify-content-center">
+                      <img src="/images/policeman.png" alt />
+                    </div>
+                    <p>Corporate Investigation</p>
+                  </div>
+                  <div class="services-pad">
+                    <div class="d-flex justify-content-center">
+                      <img src="/images/policeman.png" alt />
+                    </div>
+                    <p>Pre-Matrimonial Investigation</p>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                  <div class="services-pad">
+                    <div class="d-flex justify-content-center">
+                      <img src="/images/policeman.png" alt />
+                    </div>
+                    <p>MLegal Services</p>
+                  </div>
+                  <div class="services-pad">
+                    <div class="d-flex justify-content-center">
+                      <img src="/images/policeman.png" alt />
+                    </div>
+                    <p>Post-Matrimonial Investigation</p>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                  <div class="services-pad">
+                    <div class="d-flex justify-content-center">
+                      <img src="/images/policeman.png" alt />
+                    </div>
+                    <p>Missing Person/Help Tracing</p>
+                  </div>
+                  <div class="services-pad">
+                    <div class="d-flex justify-content-center">
+                      <img src="/images/policeman.png" alt />
+                    </div>
+                    <p>Post-Employment Verification</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
 
-        <!-- Customer cities section ends here -->
-        <!-- join our team starts here -->
+        <!-- Detective services ends here -->
 
-        <div class="join-our-team pt-5 pb-5" style="background-color:#f3f3f3;">
-          <div class="container">
-            <h4 class="header text-center underline pb-5">
-              <span>JOIN OUR TEAM</span>
-            </h4>
-            <p class="text2 mt-2" style="font-size:16px">
-              Leading security specialists ready to respond to your
-              round-the-clock security needs.
-            </p>
-            <div class="row mt-5">
-              <div class="col-12 col-sm-12 col-md-5 h-100">
-                <div class="d-flex colored-rule w-100">
-                  <h4 class="container__link-main career-portal">VISIT OUR CAREERS PORTAL</h4>
-                </div>
-                <p class="container__link-sub">WE ARE GLAD YOU ARE CONSIDERING A CARRER WITH US</p>
-                <div class="mt-1 d-flex align-items-center justify-content-between career-portal">
-                  <p class="container__link-sub">STRATEGIC MANAGEMENT</p>
-                  <a href>
-                    <img style="height:30px;width:30px" src="/icons/play-button.svg" />
-                  </a>
-                </div>
-                <div class="mt-1 d-flex align-items-center justify-content-between career-portal">
-                  <p class="container__link-sub">MANAGEMENT AND SUPPORT</p>
-                  <a href>
-                    <img style="height:30px;width:30px" src="/icons/play-button.svg" />
-                  </a>
-                </div>
-                <div class="mt-1 d-flex align-items-center justify-content-between career-portal">
-                  <p class="container__link-sub">OPERATIONAL EMPLOYEES</p>
-                  <a href>
-                    <img style="height:30px;width:30px" src="/icons/play-button.svg" />
-                  </a>
-                </div>
-                <div class="mt-4">
-                  <button
-                    @click="goToCareer"
-                    style="width:100%"
-                    type="button"
-                    class="btn btn1"
-                  >View All Vacancies</button>
-                </div>
-              </div>
-              <div class="col-12 col-sm-12 col-md-7">
-                <div
-                  style="background-color:#fff;height:100%;box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.16)"
-                >
-                  <div class="career">
-                    <h5
-                      style="color: white;font-size:15px;padding: 10px 0"
-                    >CARRERS AT PK SECURITY SERVICES</h5>
-                  </div>
-                  <form class="pad-submit" action>
-                    <div class>
-                      <input
-                        type="text"
-                        class="career-input"
-                        placeholder="Name*"
-                        v-model="name"
-                        required
-                      />
-                      <input
-                        type="email"
-                        class="career-input"
-                        placeholder="E-mail*"
-                        v-model="email"
-                      />
-                      <input
-                        type="tel"
-                        class="career-input"
-                        placeholder="Phone No*"
-                        v-model="phone_number"
-                        required
-                      />
-                      <input
-                        type="email"
-                        class="career-input"
-                        placeholder="Address*"
-                        v-model="address"
-                        required
-                      />
-                    </div>
-                    <div class="mt-2">
-                      <input
-                        type="file"
-                        id="file"
-                        ref="file"
-                        style="width: 100%;"
-                        placeholder="Upload"
-                      />
-                    </div>
-                    <button @click="createQuery" type="button" class="mt-3 btn btn-submit">Submit</button>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- join out team section ends here -->
-        <!-- Latest news starts here-->
-
-        <div class="container pt-4 pb-5">
-          <h4 class="header text-center underline pb-5">
-            <span>LATEST NEWS</span>
-          </h4>
-
-          <client-only>
-            <carousel
-              :per-page-custom="[
-                [0, 1],
-                [992, 2],
-                [1300, 3]
-              ]"
-              :mouse-drag="true"
-              paginationColor="#e91e63"
-              paginationActiveColor="#000"
-            >
-              <slide v-for="p in allNews" :key="p.id">
-                <div class="p-2">
-                  <div style="background-color:#f2f2f2;box-shadow:0 3px 8px 0 rgba(0, 0, 0, 0.16);">
-                    <img class="w-100" :src="p.image" style="height:180px" />
-                    <div class="p-3">
-                      <h5 class="clamp2" style="height: 50px;font-size: 15px;">{{ p.title }}</h5>
-                      <div class="clamp4" style="height: 55px;max-width:300px">
-                        <p style="font-size: 13px;line-height: 18px;">{{ p.body | striphtml }}</p>
-                      </div>
-                      <a style="text-decoration:none" href>Read More</a>
-                    </div>
-                  </div>
-                </div>
-              </slide>
-            </carousel>
-          </client-only>
-        </div>
-
-        <!-- latest news ends here -->
         <!-- Location starts here -->
 
-        <div class="join-our-team pt-5 pb-5" style="background-color:#f3f3f3;">
-          <div class="container">
-            <div class="row m-0 pb-5">
-              <div class="col-12 col-sm-6">
-                <div class="map-text">
-                  <div style="padding:20px">
-                    <span
-                      class="middle"
-                      style="height:50px"
-                    >Extensive Client-Base Locations in Kamrup</span>
-                  </div>
-                  <div>
-                    <GMap
-                      ref="gMap"
-                      :center="{ lat: 25.2473, lng: 93.5374 }"
-                      :options="{ fullscreenControl: false }"
-                      :zoom="6"
-                    >
-                      <GMapMarker
-                        v-for="location in allClientListKamrup"
-                        :key="location.id"
-                        :position="{
-                          lat: location.latitude,
-                          lng: location.longitude
-                        }"
-                        @click="currentLocation = location"
-                      >
-                        <GMapInfoWindow>
-                          <code>{{ location.name }}</code>
-                        </GMapInfoWindow>
-                      </GMapMarker>
-                    </GMap>
-                  </div>
+        <div class="join-our-team pt-5 pb-5">
+          <div class="row m-0 pb-5">
+            <div class="col-12 col-sm-6">
+              <div class="map-text">
+                <div style="padding:18px 20px">
+                  <span class="middle" style="height:50px">Extensive Client-Base Locations in Kamrup</span>
                 </div>
-              </div>
-              <div class="col-12 col-sm-6">
-                <div
-                  class="map-text"
-                  style="background-image: linear-gradient(to right, #44c1f7 0%, #3352ac 84%);"
-                >
-                  <div style="padding:20px">
-                    <span
-                      class="middle"
-                      style="height:50px"
-                    >Expanding Client Territory in North East and beyond</span>
-                  </div>
+                <div>
                   <GMap
                     ref="gMap"
                     :center="{ lat: 25.2473, lng: 93.5374 }"
@@ -440,12 +371,12 @@
                     :zoom="6"
                   >
                     <GMapMarker
-                      v-for="location in allClientListOutside"
+                      v-for="location in allClientListKamrup"
                       :key="location.id"
                       :position="{
-                        lat: location.latitude,
-                        lng: location.longitude
-                      }"
+                          lat: location.latitude,
+                          lng: location.longitude
+                        }"
                       @click="currentLocation = location"
                     >
                       <GMapInfoWindow>
@@ -456,11 +387,51 @@
                 </div>
               </div>
             </div>
+            <div class="col-12 col-sm-6">
+              <div class="map-text">
+                <div style="padding:20px">
+                  <span
+                    class="middle"
+                    style="height:50px"
+                  >Expanding Client Territory in North East and beyond</span>
+                </div>
+                <GMap
+                  ref="gMap"
+                  :center="{ lat: 25.2473, lng: 93.5374 }"
+                  :options="{ fullscreenControl: false }"
+                  :zoom="6"
+                >
+                  <GMapMarker
+                    v-for="location in allClientListOutside"
+                    :key="location.id"
+                    :position="{
+                        lat: location.latitude,
+                        lng: location.longitude
+                      }"
+                    @click="currentLocation = location"
+                  >
+                    <GMapInfoWindow>
+                      <code>{{ location.name }}</code>
+                    </GMapInfoWindow>
+                  </GMapMarker>
+                </GMap>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
       <!-- location section ends here -->
+
+      <!-- career oportunities starts here -->
+      <div>
+        <div class="row">
+          <div class="col-12 col-lg-9">
+            <img style="height:100%;width:300px" src="/images/careerphoto.png" alt />
+          </div>
+        </div>
+      </div>
+
       <!-- testimonials section starts here -->
 
       <div class="container-small pb-5 pt-5 bg-white">
@@ -501,81 +472,6 @@
       </div>
 
       <!-- Testimonials section ends here   -->
-      <!-- our certificates section starts here -->
-
-      <div class="container-small p-0">
-        <div class="join-our-team pt-5 pb-5" style="background-color:#f3f3f3;">
-          <div class="container">
-            <h4 class="header text-center underline pb-5">
-              <span>OUR CERTIFICATES</span>
-            </h4>
-            <div id="carouselExampleIndicators5" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators5" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators5" data-slide-to="1"></li>
-              </ol>
-              <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active">
-                  <div style="padding:30px 0">
-                    <div class="row">
-                      <div class="col-12 col-sm-3">
-                        <img class="w-100" src="~/static/images/images.jpg" alt />
-                      </div>
-                      <div class="col-12 col-sm-3">
-                        <img class="w-100" src="~/static/images/images.jpg" alt />
-                      </div>
-                      <div class="col-12 col-sm-3">
-                        <img class="w-100" src="~/static/images/images.jpg" alt />
-                      </div>
-                      <div class="col-12 col-sm-3">
-                        <img class="w-100" src="~/static/images/images.jpg" alt />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div style="padding:30px 0">
-                    <div class="row">
-                      <div class="col-12 col-sm-3">
-                        <img class="w-100" src="~/static/images/images.jpg" alt />
-                      </div>
-                      <div class="col-12 col-sm-3">
-                        <img class="w-100" src="~/static/images/images.jpg" alt />
-                      </div>
-                      <div class="col-12 col-sm-3">
-                        <img class="w-100" src="~/static/images/images.jpg" alt />
-                      </div>
-                      <div class="col-12 col-sm-3">
-                        <img class="w-100" src="~/static/images/images.jpg" alt />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <a
-                class="carousel-control-prev"
-                href="#carouselExampleIndicators5"
-                role="button"
-                data-slide="prev"
-              >
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a
-                class="carousel-control-next"
-                href="#carouselExampleIndicators5"
-                role="button"
-                data-slide="next"
-              >
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- <-- Certificates section ends here -->
       <!-- Brands carousel section starts here -->
     </div>
   </div>
@@ -671,6 +567,14 @@ hr {
   height: 2px;
 }
 
+.brochure {
+  height: 50px;
+  width: 250px;
+  color: black;
+  background-color: #e5b214;
+  text-align: center;
+  margin: auto;
+}
 .pad-new {
   padding: 27px 15px;
 }
@@ -850,10 +754,11 @@ h2 {
 } */
 
 .map-text {
-  color: #fff;
+  color: #9e7b5f;
   border-radius: 4px;
   box-shadow: 0 8px 6px 0 rgba(0, 0, 0, 0.16);
-  background-image: linear-gradient(to right, #fecb6f 0%, #fa6b63 84%);
+  background-color: #2d2d37;
+  font-size: 18px;
 }
 
 .career {
