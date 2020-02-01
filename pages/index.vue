@@ -222,11 +222,25 @@
         <!-- why choose us starts here -->
 
         <!-- Customer cities section starts here -->
-        <div class="container mt-5">
+        <div class="mt-5">
           <div class="row">
+            <div class="col-12 col-md-6 p-0">
+              <div>
+                <h4>WHY CHOOSE US</h4>
+                <h3>MAKE SMARTER CHOICES</h3>
+                <p
+                  class="mt-3"
+                  style="font-size:18px;line-height:1.25;text-align:justify"
+                >PK Security Service is the trusted provider of cutting-edge quality security service. We are committed to providing reliable service through custom-designed security strategies.</p>
+                <img src="/images/man-shadow.png" alt />
+              </div>
+            </div>
             <div class="col-12 col-md-6">
               <div>
-                <h4>WHY CHOOSE US></h4>
+                <div class="d-flex align-items-center">
+                  <img src="/images/like.png" alt />
+                  <span class="ml-5" style="color:#fff;font-size:20px">Satisfied Customers</span>
+                </div>
               </div>
             </div>
           </div>
@@ -702,11 +716,11 @@ img {
 }
 
 h3 {
-  color: #b71c1c;
+  color: #9e7b5f;
 }
 
 h4 {
-  color: #b71c1c;
+  color: #9e7b5f;
   font-weight: 400;
 }
 
