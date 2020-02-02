@@ -235,7 +235,7 @@
                 <img src="/images/man-shadow.png" alt />
               </div>
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 mt-3 mt-sm-0">
               <div>
                 <div class="d-flex align-items-center">
                   <img src="/images/like.png" alt />
@@ -356,7 +356,7 @@
 
         <!-- Location starts here -->
 
-        <div class="join-our-team pt-5 pb-5">
+        <div class="join-our-team pt-5">
           <div class="row m-0 pb-5">
             <div class="col-12 col-sm-6">
               <div class="map-text">
@@ -424,17 +424,111 @@
       <!-- location section ends here -->
 
       <!-- career oportunities starts here -->
-      <div>
+      <div class="container">
         <div class="row">
-          <div class="col-12 col-lg-9">
-            <img style="height:100%;width:300px" src="/images/careerphoto.png" alt />
+          <div class="col-12 col-lg-8 p-0">
+            <img style="height:600px;width:100%" src="/images/careerphoto.png" alt />
+          </div>
+          <div class="col-12 col-lg-4">
+            <div>
+              <h3 class="text-center">CAREER OPORTUNITIES</h3>
+              <hr style="width:20%;margin:auto" />
+            </div>
+            <div class="d-flex mt-5 align-items-center">
+              <span style="color:#fff">
+                Security Officer/P413/52400/1
+                Salary: Rs10.46 – Rs10.46
+                Location: Nagaon
+              </span>
+              <img style="height:25px;width:25px;margin-left:10px" src="/images/left-arrow.svg" alt />
+            </div>
+            <hr style="width:100%" />
+            <div class="d-flex mt-5 align-items-center">
+              <span style="color:#fff">
+                Security Officer/P413/52400/1
+                Salary: Rs10.46 – Rs10.46
+                Location: Nagaon
+              </span>
+              <img style="height:25px;width:25px;margin-left:10px" src="/images/left-arrow.svg" alt />
+            </div>
+            <hr style="width:100%" />
+            <div class="d-flex mt-5 align-items-center">
+              <span style="color:#fff">
+                Security Officer/P413/52400/1
+                Salary: Rs10.46 – Rs10.46
+                Location: Nagaon
+              </span>
+              <img style="height:25px;width:25px;margin-left:10px" src="/images/left-arrow.svg" alt />
+            </div>
+            <hr style="width:100%" />
+          </div>
+        </div>
+      </div>
+
+      <!-- career oportunities ends here -->
+
+      <!-- our blogs and latest news starts here -->
+
+      <div class="container mt-5" style="background-color:#333333">
+        <div style="padding:25px 0">
+          <div>
+            <h2 class="text-center">OUR BLOG</h2>
+            <h3 class="text-center">RECENT NEWS</h3>
+            <hr style="width:10%;margin:auto" />
+          </div>
+          <div class="row" style="margin-top:40px !important">
+            <div class="col-12 col-lg-4">
+              <div style="padding:0 10px 10px 10px;border-bottom:3px solid #9e7b5f;">
+                <img class="w-100" style="margin:auto;height:210px" src="/images/services1.png" alt />
+                <p style="color:white;margin-top:10px;font-size:18px;font-weight:bold">
+                  PK Security Services
+                  Fire Prevention Week
+                </p>
+                <p
+                  class="text-white text-justify"
+                >In keeping with annual tradition, the Fire Prevention week was celebrated by the members and officials of PK Security Services.</p>
+                <div class="d-flex justify-content-center">
+                  <button class="btn btn1" style="font-size:14px" type="button">Read More</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 mt-3 mt-sm-0">
+              <div style="padding:0 10px 10px 10px;border-bottom:3px solid #9e7b5f;">
+                <img class="w-100" style="margin:auto;height:210px" src="/images/services1.png" alt />
+                <p style="color:white;margin-top:10px;font-size:18px;font-weight:bold">
+                  PK Security Services
+                  Fire Prevention Week
+                </p>
+                <p
+                  class="text-white text-justify"
+                >In keeping with annual tradition, the Fire Prevention week was celebrated by the members and officials of PK Security Services.</p>
+                <div class="d-flex justify-content-center">
+                  <button class="btn btn1" style="font-size:14px" type="button">Read More</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 mt-3 mt-sm-0">
+              <div style="padding:0 10px 10px 10px;border-bottom:3px solid #9e7b5f;">
+                <img class="w-100" style="margin:auto;height:210px" src="/images/services1.png" alt />
+                <p style="color:white;margin-top:10px;font-size:18px;font-weight:bold">
+                  PK Security Services
+                  Fire Prevention Week
+                </p>
+                <p
+                  class="text-white text-justify mt-3 mt-sm-0"
+                >In keeping with annual tradition, the Fire Prevention week was celebrated by the members and officials of PK Security Services.</p>
+                <div class="d-flex justify-content-center">
+                  <button class="btn btn1" style="font-size:14px" type="button">Read More</button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
       <!-- testimonials section starts here -->
 
-      <div class="container-small pb-5 pt-5 bg-white">
+      <div class="container-small pb-5 pt-5 bg-black">
         <div>
           <h4 class="header text-center underline pb-5">
             <span>Testimonials</span>
@@ -670,10 +764,10 @@ h2 {
   width: 160px;
   height: 50px;
   text-decoration: none;
-  background-color: #b71c1c;
+  background-color: #2d2d37;
   padding: 10px 20px;
   color: #fff;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 /* .container {
@@ -709,7 +803,6 @@ h2 {
   align-items: center;
   border: 3px solid #9e7b5f;
   border-radius: 50%;
-  /* background-color: #B71C1C; */
   position: relative;
   height: 120px;
   width: 120px;
