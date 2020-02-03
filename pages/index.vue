@@ -4,7 +4,7 @@
       <!-- 1st carousel -->
       <div class="container">
         <div class="row" style="background-color:#f3f3f3">
-          <div class="col-12 col-lg-4 p-0">
+          <div class="col-12 col-lg-5 p-0">
             <div class="pad-new">
               <h2>Security Services</h2>
               <hr />
@@ -12,66 +12,82 @@
                 Transforming Service Management
                 into an Innovative Force.
               </h5>
-              <p style="color:#323232">
+              <p class="text-justify" style="color:#323232;line-height:1.4">
                 With years of experience, we understand the challenges to the ever-evolving security environment. We have become the most preferred partners of a huge clientele by setting a benchmark in creating smart measures.
                 PK Security surpasses competitors by providing our clients with the most competent, motivated and caring staff of professionals. This is the result of our industry-leading recruiting, training, compensation and recognition programs.
               </p>
               <button class="btn btn-security">Read More</button>
             </div>
           </div>
-          <div class="col-12 col-lg-8 p-0">
+          <div class="col-12 col-lg-7 p-0">
             <div class="d-flex h-100" style="background-color:#333333">
               <div class="row">
-                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
-                  <div class="services-pad">
+                <div class="col-6 px-0 border-right col-sm-6 col-md-4 col-lg-3">
+                  <div
+                    class="services-pad d-flex flex-column justify-content-center align-items-center border-bottom"
+                  >
                     <div class="d-flex justify-content-center">
                       <img src="/images/policeman.png" alt />
                     </div>
                     <p>Unarmed Manned Guarding</p>
                   </div>
-                  <div class="services-pad">
+                  <div
+                    class="services-pad d-flex flex-column justify-content-center align-items-center"
+                  >
                     <div class="d-flex justify-content-center">
                       <img src="/images/policeman.png" alt />
                     </div>
                     <p>Hotel Security</p>
                   </div>
                 </div>
-                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
-                  <div class="services-pad">
+                <div class="col-6 px-0 border-right col-sm-6 col-md-4 col-lg-3">
+                  <div
+                    class="services-pad d-flex flex-column justify-content-center align-items-center border-bottom"
+                  >
                     <div class="d-flex justify-content-center">
                       <img src="/images/policeman.png" alt />
                     </div>
                     <p>Residential Security</p>
                   </div>
-                  <div class="services-pad">
+                  <div
+                    class="services-pad d-flex flex-column justify-content-center align-items-center"
+                  >
                     <div class="d-flex justify-content-center">
                       <img src="/images/policeman.png" alt />
                     </div>
                     <p>Event Security</p>
                   </div>
                 </div>
-                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
-                  <div class="services-pad">
+                <div class="col-6 px-0 border-right col-sm-6 col-md-4 col-lg-3">
+                  <div
+                    class="services-pad d-flex flex-column justify-content-center align-items-center border-bottom"
+                  >
                     <div class="d-flex justify-content-center">
                       <img src="/images/policeman.png" alt />
                     </div>
                     <p>Commercial Security</p>
                   </div>
-                  <div class="services-pad">
+                  <div
+                    class="services-pad d-flex flex-column justify-content-center align-items-center"
+                  >
                     <div class="d-flex justify-content-center">
                       <img src="/images/policeman.png" alt />
                     </div>
                     <p>School Security</p>
                   </div>
                 </div>
-                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
-                  <div class="services-pad">
+                <div class="col-6 px-0 col-sm-6 col-md-4 col-lg-3">
+                  <div
+                    class="services-pad d-flex flex-column justify-content-center align-items-center border-bottom"
+                  >
                     <div class="d-flex justify-content-center">
                       <img src="/images/policeman.png" alt />
                     </div>
                     <p>Hospital Security</p>
                   </div>
-                  <div class="services-pad">
+                  <div
+                    class="services-pad d-flex flex-column justify-content-center align-items-center"
+                  >
                     <div class="d-flex justify-content-center">
                       <img src="/images/policeman.png" alt />
                     </div>
@@ -141,8 +157,8 @@
         </div>
         <!-- special amenities starts here -->
 
-        <div class="row mt-5" style="background-color:#f3f3f3">
-          <div class="col-12 col-lg-4 p-0">
+        <div class="row mt-5" style="background-color:#f3f3f3;margin-bottom:0 !important">
+          <div class="col-12 col-lg-5 p-0">
             <div class="pad-new">
               <h2>Special Amenities</h2>
               <hr />
@@ -153,59 +169,75 @@
               <button class="btn btn-security">Read More</button>
             </div>
           </div>
-          <div class="col-12 col-lg-8 p-0">
+          <div class="col-12 col-lg-7 p-0">
             <div class="d-flex h-100" style="background-color:#333333">
               <div class="row">
-                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
-                  <div class="services-pad">
+                <div class="col-6 px-0 border-right col-sm-6 col-md-4 col-lg-3">
+                  <div
+                    class="services-pad d-flex flex-column justify-content-center align-items-center border-bottom"
+                  >
                     <div class="d-flex justify-content-center">
                       <img src="/images/policeman.png" alt />
                     </div>
                     <p>Electrical Services</p>
                   </div>
-                  <div class="services-pad">
+                  <div
+                    class="services-pad d-flex flex-column justify-content-center align-items-center"
+                  >
                     <div class="d-flex justify-content-center">
                       <img src="/images/policeman.png" alt />
                     </div>
                     <p>Swimming Pool Maintenance</p>
                   </div>
                 </div>
-                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
-                  <div class="services-pad">
+                <div class="col-6 px-0 border-right col-sm-6 col-md-4 col-lg-3">
+                  <div
+                    class="services-pad d-flex flex-column justify-content-center align-items-center border-bottom"
+                  >
                     <div class="d-flex justify-content-center">
                       <img src="/images/policeman.png" alt />
                     </div>
                     <p>Electronic Security Systems</p>
                   </div>
-                  <div class="services-pad">
+                  <div
+                    class="services-pad d-flex flex-column justify-content-center align-items-center"
+                  >
                     <div class="d-flex justify-content-center">
                       <img src="/images/policeman.png" alt />
                     </div>
                     <p>Housekeeping Services</p>
                   </div>
                 </div>
-                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
-                  <div class="services-pad">
+                <div class="col-6 px-0 border-right col-sm-6 col-md-4 col-lg-3">
+                  <div
+                    class="services-pad d-flex flex-column justify-content-center align-items-center border-bottom"
+                  >
                     <div class="d-flex justify-content-center">
                       <img src="/images/policeman.png" alt />
                     </div>
                     <p>Mechanized Cleaning Services</p>
                   </div>
-                  <div class="services-pad">
+                  <div
+                    class="services-pad d-flex flex-column justify-content-center align-items-center"
+                  >
                     <div class="d-flex justify-content-center">
                       <img src="/images/policeman.png" alt />
                     </div>
                     <p>Plumbing Services</p>
                   </div>
                 </div>
-                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
-                  <div class="services-pad">
+                <div class="col-6 px-0 col-sm-6 col-md-4 col-lg-3">
+                  <div
+                    class="services-pad d-flex flex-column justify-content-center align-items-center border-bottom"
+                  >
                     <div class="d-flex justify-content-center">
                       <img src="/images/policeman.png" alt />
                     </div>
                     <p>Maintenance Services</p>
                   </div>
-                  <div class="services-pad">
+                  <div
+                    class="services-pad d-flex flex-column justify-content-center align-items-center"
+                  >
                     <div class="d-flex justify-content-center">
                       <img src="/images/policeman.png" alt />
                     </div>
@@ -235,7 +267,7 @@
                 <img src="/images/man-shadow.png" alt />
               </div>
             </div>
-            <div class="col-12 col-md-6 mt-3 mt-sm-0">
+            <div class="col-12 col-md-6 mt-3 mt-sm-0 d-flex flex-column justify-content-around">
               <div>
                 <div class="d-flex align-items-center">
                   <img src="/images/like.png" alt />
@@ -276,8 +308,8 @@
         <!-- why choose our section ends here -->
         <!-- Detective Services starts here -->
 
-        <div class="row mt-5" style="background-color:#f3f3f3">
-          <div class="col-12 col-lg-4 p-0">
+        <div class="row mt-5" style="background-color:#f3f3f3;margin-bottom:0 !important">
+          <div class="col-12 col-lg-5 p-0">
             <div class="pad-new">
               <h2>Detective Services</h2>
               <hr />
@@ -288,7 +320,7 @@
               <button class="btn btn-security">Read More</button>
             </div>
           </div>
-          <div class="col-12 col-lg-8 p-0">
+          <div class="col-12 col-lg-7 p-0">
             <div class="d-flex h-100" style="background-color:#333333">
               <div class="row">
                 <div class="col-6 col-sm-6 col-md-4 col-lg-3">
@@ -320,13 +352,17 @@
                   </div>
                 </div>
                 <div class="col-6 col-sm-6 col-md-4 col-lg-3">
-                  <div class="services-pad">
+                  <div
+                    class="services-pad d-flex flex-column justify-content-center align-items-center border-bottom border-right"
+                  >
                     <div class="d-flex justify-content-center">
                       <img src="/images/policeman.png" alt />
                     </div>
-                    <p>MLegal Services</p>
+                    <p>Legal Services</p>
                   </div>
-                  <div class="services-pad">
+                  <div
+                    class="services-pad d-flex flex-column justify-content-center align-items-center"
+                  >
                     <div class="d-flex justify-content-center">
                       <img src="/images/policeman.png" alt />
                     </div>
@@ -334,13 +370,17 @@
                   </div>
                 </div>
                 <div class="col-6 col-sm-6 col-md-4 col-lg-3">
-                  <div class="services-pad">
+                  <div
+                    class="services-pad d-flex flex-column justify-content-center align-items-center border-bottom"
+                  >
                     <div class="d-flex justify-content-center">
                       <img src="/images/policeman.png" alt />
                     </div>
                     <p>Missing Person/Help Tracing</p>
                   </div>
-                  <div class="services-pad">
+                  <div
+                    class="services-pad d-flex flex-column justify-content-center align-items-center"
+                  >
                     <div class="d-flex justify-content-center">
                       <img src="/images/policeman.png" alt />
                     </div>
@@ -357,7 +397,11 @@
         <!-- Location starts here -->
 
         <div class="join-our-team pt-5">
-          <div class="row m-0 pb-5">
+          <div>
+            <h3 class="text-center">PK NETWORK</h3>
+            <hr style="width:7%;margin:auto" />
+          </div>
+          <div class="row mt-3 mt-lg-5 pb-5">
             <div class="col-12 col-sm-6">
               <div class="map-text">
                 <div style="padding:18px 20px">
@@ -429,7 +473,7 @@
           <div class="col-12 col-lg-8 p-0">
             <img style="height:600px;width:100%" src="/images/careerphoto.png" alt />
           </div>
-          <div class="col-12 col-lg-4">
+          <div class="col-12 col-lg-4 d-flex flex-column justify-content-around">
             <div>
               <h3 class="text-center">CAREER OPORTUNITIES</h3>
               <hr style="width:20%;margin:auto" />
@@ -492,31 +536,31 @@
                 </div>
               </div>
             </div>
-            <div class="col-12 col-lg-4 mt-3 mt-sm-0">
+            <div class="col-12 col-lg-4 mt-3 mt-sm-0" style="height:500px">
               <div style="padding:0 10px 10px 10px;border-bottom:3px solid #9e7b5f;">
-                <img class="w-100" style="margin:auto;height:210px" src="/images/services1.png" alt />
+                <img class="w-100" style="margin:auto;height:210px" src="/images/services2.png" alt />
                 <p style="color:white;margin-top:10px;font-size:18px;font-weight:bold">
-                  PK Security Services
-                  Fire Prevention Week
+                  Women’sDay
+                  Celebration with Female Security Personnel’s
                 </p>
                 <p
                   class="text-white text-justify"
-                >In keeping with annual tradition, the Fire Prevention week was celebrated by the members and officials of PK Security Services.</p>
+                >On the occasion of International Women’s Day, the Women Security personnel’s were felicitated by our .</p>
                 <div class="d-flex justify-content-center">
                   <button class="btn btn1" style="font-size:14px" type="button">Read More</button>
                 </div>
               </div>
             </div>
-            <div class="col-12 col-lg-4 mt-3 mt-sm-0">
+            <div class="col-12 col-lg-4 mt-3 mt-sm-0" style="height:500px">
               <div style="padding:0 10px 10px 10px;border-bottom:3px solid #9e7b5f;">
-                <img class="w-100" style="margin:auto;height:210px" src="/images/services1.png" alt />
+                <img class="w-100" style="margin:auto;height:210px" src="/images/services3.png" alt />
                 <p style="color:white;margin-top:10px;font-size:18px;font-weight:bold">
-                  PK Security Services
-                  Fire Prevention Week
+                  Fitness Training of
+                  Security Guards
                 </p>
                 <p
                   class="text-white text-justify mt-3 mt-sm-0"
-                >In keeping with annual tradition, the Fire Prevention week was celebrated by the members and officials of PK Security Services.</p>
+                >PK Security services organize annual formal training programs through vocational institutes. Topics covered</p>
                 <div class="d-flex justify-content-center">
                   <button class="btn btn1" style="font-size:14px" type="button">Read More</button>
                 </div>
@@ -670,11 +714,12 @@ hr {
   margin: auto;
 }
 .pad-new {
-  padding: 27px 15px;
+  padding: 27px 48px;
 }
 
 .services-pad {
   padding: 19px 18px;
+  height: 50%;
 }
 
 .services-pad > p {
@@ -682,7 +727,7 @@ hr {
   text-align: center;
   font-size: 14px;
   margin-top: 10px;
-  height: 70px;
+  /* height: 70px; */
 }
 
 .btn-security {

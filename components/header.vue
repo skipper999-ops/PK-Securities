@@ -286,7 +286,7 @@ export default {
   /* border-bottom: 3px solid #fdb06c; */
 }
 .custom-nav > div > div {
-  padding: 0 27px;
+  padding: 0 25px;
 }
 
 .secondary-nav {
