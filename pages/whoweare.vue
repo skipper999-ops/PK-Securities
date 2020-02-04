@@ -3,7 +3,7 @@
     <div class="container-small p-0 bg-white">
       <div class="container p-0 pt-5 pb-5">
         <h5 style="font-size:12px;margin-bottom: 25px">
-          <nuxt-link style="color: #B71C1C" to="/">HOME </nuxt-link> / WHO WE
+          <nuxt-link style="color: #B71C1C" to="/">HOME</nuxt-link>/ WHO WE
           ARE US
         </h5>
         <div>
@@ -126,7 +126,7 @@
   color: #454545;
 }
 
-.p-header {
+/* .p-header {
   margin-bottom: 15px;
   font-weight: 700;
   font-size: 15px;
@@ -143,5 +143,5 @@
   letter-spacing: normal;
   text-align: left;
   color: #454545;
-}
+} */
 </style>

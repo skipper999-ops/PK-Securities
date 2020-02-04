@@ -166,7 +166,6 @@ export default {
 
   mounted() {
     this.$store.dispatch("getHomepageSliderImages");
-
     // var lastScrollTop = 0;
     // $(window).scroll(function(event) {
     //   var st = $(this).scrollTop();
@@ -178,10 +177,8 @@ export default {
     //   }
     //   lastScrollTop = st;
     // });
-
     // $(window).scroll(function() {
     //   var scroll = $(window).scrollTop();
-
     //   //>=, not <=
     //   if (scroll <= 0) {
     //     //clearHeader, not clearheader - caps H

@@ -110,7 +110,10 @@
                   class="mt-3"
                   style="color:#fff;font-size:29px"
                 >An Agency big enough to serve, yet small enough to care.</h5>
-                <p class="mt-4" style="font-size:15px !important;line-height:1.4;color:#fff">
+                <p
+                  class="mt-4"
+                  style="font-size:16px !important;line-height:1.4;color:#fff;opacity:0.71"
+                >
                   PK Security Service is the trusted provider of cutting-edge
                   quality security service. We are committed to providing
                   reliable service through custom-designed security strategies.
@@ -262,7 +265,7 @@
                 <h3>MAKE SMARTER CHOICES</h3>
                 <p
                   class="mt-3 text-white"
-                  style="font-size:18px;line-height:1.25;text-align:justify"
+                  style="font-size:18px;line-height:1.25;text-align:justify;opacity:.88"
                 >PK Security Service is the trusted provider of cutting-edge quality security service. We are committed to providing reliable service through custom-designed security strategies.</p>
                 <img src="/images/man-shadow.png" alt />
               </div>
@@ -724,6 +727,7 @@ hr {
 
 .services-pad > p {
   color: #fff;
+  opacity: 0.8;
   text-align: center;
   font-size: 14px;
   margin-top: 10px;
