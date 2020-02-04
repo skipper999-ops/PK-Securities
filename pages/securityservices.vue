@@ -150,7 +150,7 @@ p {
 
 .pk-card-text {
   margin-top: 66%;
-  transition: all 0.6s;
+  transition: all 0.3s linear;
 }
 
 .pk-card-text p:nth-child(1) {
@@ -172,6 +172,6 @@ p {
 
 .pk-cards:hover > .pk-card-text {
   margin-top: 25%;
-  transition: all 0.6s cubic-bezier(0.33, 2.84, 0.83, 0.67);
+  transition: all 0.6s linear;
 }
 </style>
