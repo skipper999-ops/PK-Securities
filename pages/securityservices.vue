@@ -141,6 +141,13 @@ p {
   overflow: hidden;
 }
 
+.pk-cards:hover {
+  background-image: url("/images/serv1.png"),
+    linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  transform: scale(1.1);
+  transition: all 0.4s linear;
+}
+
 .pk-card-text {
   margin-top: 66%;
   transition: all 0.6s;
