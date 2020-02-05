@@ -118,6 +118,7 @@
     </div>
   </div>
 </template>
+ 
 <style scoped>
 .coma {
   height: 55px;

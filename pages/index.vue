@@ -720,6 +720,9 @@ hr {
   padding: 27px 48px;
 }
 
+.pad-new p {
+  font-family: Roboto;
+}
 .services-pad {
   padding: 19px 18px;
   height: 50%;
@@ -732,6 +735,7 @@ hr {
   font-size: 14px;
   margin-top: 10px;
   /* height: 70px; */
+  font-family: Roboto;
 }
 
 .btn-security {
