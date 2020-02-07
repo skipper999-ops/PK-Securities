@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="top-nav hide-on-med-and-down">
+    <!-- <div class="top-nav hide-on-med-and-down">
       <div class="container p-0" style="line-height: 44px;">
         <div class="d-flex justify-content-between">
           <div>
@@ -32,7 +32,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div>-->
     <div class="nav-header-main">
       <div class="secondary-nav pt-3 pb-3">
         <div class="container p-0 d-flex justify-content-between align-items-center">

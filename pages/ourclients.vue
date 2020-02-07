@@ -2,9 +2,9 @@
   <div>
     <div class="bg-black">
       <div class="container-small p-0">
-        <div class="bg-white">
+        <div>
           <div class="pt-5">
-            <h1 class="text-center" style="color:#454545">Our Clients</h1>
+            <h1 class="text-center" style="color:#9e7b5f">Our Clients</h1>
           </div>
           <div class="pad-table">
             <div class="container-small">
@@ -53,41 +53,38 @@
 </template>
 
 <script>
-
-import {mapState} from 'vuex'
+import { mapState } from "vuex";
 
 export default {
-
-  data(){
-    return{
-
-    }
+  data() {
+    return {};
   },
 
-   computed: {
-        ...mapState(['allClientListKamrup']),
-        ...mapState(['allClientListOutside'])
-    },
-
-  mounted(){
-
-        this.$store.dispatch('getAllClientListOutside')
-        this.$store.dispatch('getAllClientListKamrup')
-
+  computed: {
+    ...mapState(["allClientListKamrup"]),
+    ...mapState(["allClientListOutside"])
   },
-  methods:{
 
-
-
-
-  }
-
-
-}
+  mounted() {
+    this.$store.dispatch("getAllClientListOutside");
+    this.$store.dispatch("getAllClientListKamrup");
+  },
+  methods: {}
+};
 </script>
 
-<style>
+<style scoped>
 .pad-table {
   padding: 20px 15px;
+}
+
+.table {
+  border: 2px solid #9e7b5f;
+  color: white !important;
+}
+
+.table-bordered td,
+.table-bordered th {
+  border: 2px solid #9e7b5f;
 }
 </style>

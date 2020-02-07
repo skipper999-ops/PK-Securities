@@ -35,7 +35,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/policeman.png" alt />
+                      <img src="/images/hotel.png" alt />
                     </div>
                     <p>Hotel Security</p>
                   </div>
@@ -45,7 +45,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center border-bottom"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/policeman.png" alt />
+                      <img src="/images/key.png" alt />
                     </div>
                     <p>Residential Security</p>
                   </div>
@@ -53,7 +53,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/policeman.png" alt />
+                      <img src="/images/event.png" alt />
                     </div>
                     <p>Event Security</p>
                   </div>
@@ -63,7 +63,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center border-bottom"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/policeman.png" alt />
+                      <img src="/images/sociology.png" alt />
                     </div>
                     <p>Commercial Security</p>
                   </div>
@@ -71,7 +71,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/policeman.png" alt />
+                      <img src="/images/school.png" alt />
                     </div>
                     <p>School Security</p>
                   </div>
@@ -81,7 +81,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center border-bottom"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/policeman.png" alt />
+                      <img src="/images/hospital.png" alt />
                     </div>
                     <p>Hospital Security</p>
                   </div>
@@ -174,7 +174,7 @@
           </div>
           <div class="col-12 col-lg-7 p-0">
             <div class="d-flex h-100" style="background-color:#333333">
-              <div class="row">
+              <div class="row" style="margin-bottom:0!important">
                 <div class="col-6 px-0 border-right col-sm-6 col-md-4 col-lg-3">
                   <div
                     class="services-pad d-flex flex-column justify-content-center align-items-center border-bottom"
