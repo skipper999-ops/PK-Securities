@@ -110,7 +110,7 @@
     </div>
   </div>
 </template>
-<style>
+<style scoped>
 .pad-who {
   padding: 70px 0;
 }

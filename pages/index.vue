@@ -732,7 +732,7 @@ hr {
   color: #fff;
   opacity: 0.8;
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
   margin-top: 10px;
   /* height: 70px; */
   font-family: Roboto;
