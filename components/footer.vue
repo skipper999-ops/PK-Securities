@@ -8,34 +8,53 @@
               <img class="w-100" src="/images/PK1.png" alt />
               <img class="w-100" src="/images/PK2.png" alt />
             </div>
+            <div class="mt-3 d-flex justify-content-center">
+              <img style="height:300px;width:60%" src="/images/pkcertificate.jpg" alt />
+            </div>
           </div>
           <div class="col-12 col-md-12 col-lg-4 pt-5">
             <p class="footer-head">GET IN TOUCH</p>
-            <div>
-              <div class>
-                <span class="d-flex">
-                  <p style="color:white">PHONE NUMBER:</p>
-                  <a href="tel:8486027325" class="footer-sub">+91 8486027325</a>
+            <div class="h-50 d-flex flex-column justify-content-around">
+              <span class="d-flex mt-5">
+                <p style="color:white">PHONE NUMBER:</p>
+                <a href="tel:8486027325" class="footer-sub">+91 8486027325</a>
+              </span>
+              <span class="d-flex">
+                <p style="color:white">FAX:</p>
+                <a href="tel:8486027325" class="footer-sub">+91 8486027325</a>
+              </span>
+              <span class="d-flex">
+                <p style="color:white">E-MAIL:</p>
+                <a href="mailto:pawan@pkservices.in" class="footer-sub">pawan@pkservices.in</a>
+              </span>
+              <span>
+                <span class="text-white">ADDRESS:</span>
+                <span class="text-white" style="opacity:.8">
+                  Head Office:
+                  Protech Centre,4th Floor,Ganeshguri,G.S. Road,Guwahati - 781006
                 </span>
-                <span class="d-flex">
-                  <p style="color:white">FAX:</p>
-                  <a href="tel:8486027325" class="footer-sub">+91 8486027325</a>
-                </span>
-                <span class="d-flex">
-                  <p style="color:white">E-MAIL:</p>
-                  <a href="mailto:pawan@pkservices.in" class="footer-sub">pawan@pkservices.in</a>
-                </span>
-              </div>
+              </span>
             </div>
           </div>
           <div class="col-12 col-md-4 col-lg-4 pt-5">
             <div>
-              <p>GET A QUOTE</p>
-              <div>
+              <p style="color:white">GET A QUOTE</p>
+              <div class="mt-5">
                 <form action>
                   <input type="text" name="quote" id />
                   <button class="ml-5 btn btn-go">GO</button>
                 </form>
+              </div>
+              <div class="justify-content-between mt-4 w-100">
+                <img style="height:15px;width:5px;margin-right:15px" src="/icons/facebook.svg" alt />
+                <img style="height:15px;width:13px;margin-right:15px" src="/icons/google.svg" alt />
+                <img
+                  style="height:15px;width:15px;margin-right:15px"
+                  src="/icons/instagram.svg"
+                  alt
+                />
+                <img style="height:15px;width:15px;margin-right:15px" src="/icons/twitter.svg" alt />
+                <img style="height:15px;width:15px" src="/icons/pinterest.svg" alt />
               </div>
             </div>
           </div>
@@ -75,6 +94,7 @@
   font-weight: 400;
   color: #fff;
   text-align: left;
+  opacity: 0.75;
 }
 
 .footer-sub-mail {

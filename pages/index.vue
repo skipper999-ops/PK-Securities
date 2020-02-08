@@ -101,7 +101,7 @@
       </div>
 
       <div class="container-small p-0 bg-black">
-        <div class="p-4 pt-5">
+        <div class="p-4 pt-2">
           <div class="row mt-5">
             <div class="col-12 col-sm-6">
               <div>
@@ -304,7 +304,7 @@
             </div>
           </div>
           <div class="m-5 d-flex align-item-center">
-            <button class="brochure">DOWNLOAD BROCHURE</button>
+            <button class="btn brochure">DOWNLOAD BROCHURE</button>
           </div>
         </div>
 
@@ -326,37 +326,45 @@
           <div class="col-12 col-lg-7 p-0">
             <div class="d-flex h-100" style="background-color:#333333">
               <div class="row">
-                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
-                  <div class="services-pad">
+                <div class="col-6 px-0 border-right col-sm-6 col-md-4 col-lg-3">
+                  <div
+                    class="services-pad d-flex flex-column justify-content-center align-items-center border-bottom"
+                  >
                     <div class="d-flex justify-content-center">
                       <img src="/images/policeman.png" alt />
                     </div>
                     <p>Personal Investigation</p>
                   </div>
-                  <div class="services-pad">
+                  <div
+                    class="services-pad d-flex flex-column justify-content-center align-items-center"
+                  >
                     <div class="d-flex justify-content-center">
                       <img src="/images/policeman.png" alt />
                     </div>
                     <p>Survellience</p>
                   </div>
                 </div>
-                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
-                  <div class="services-pad">
+                <div class="col-6 px-0 border-right col-sm-6 col-md-4 col-lg-3">
+                  <div
+                    class="services-pad d-flex flex-column justify-content-center align-items-center border-bottom"
+                  >
                     <div class="d-flex justify-content-center">
                       <img src="/images/policeman.png" alt />
                     </div>
                     <p>Corporate Investigation</p>
                   </div>
-                  <div class="services-pad">
+                  <div
+                    class="services-pad d-flex flex-column justify-content-center align-items-center"
+                  >
                     <div class="d-flex justify-content-center">
                       <img src="/images/policeman.png" alt />
                     </div>
                     <p>Pre-Matrimonial Investigation</p>
                   </div>
                 </div>
-                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                <div class="col-6 px-0 border-right col-sm-6 col-md-4 col-lg-3">
                   <div
-                    class="services-pad d-flex flex-column justify-content-center align-items-center border-bottom border-right"
+                    class="services-pad d-flex flex-column justify-content-center align-items-center border-bottom"
                   >
                     <div class="d-flex justify-content-center">
                       <img src="/images/policeman.png" alt />
@@ -372,7 +380,7 @@
                     <p>Post-Matrimonial Investigation</p>
                   </div>
                 </div>
-                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                <div class="col-6 px-0 col-sm-6 col-md-4 col-lg-3">
                   <div
                     class="services-pad d-flex flex-column justify-content-center align-items-center border-bottom"
                   >
