@@ -55,25 +55,25 @@
             <nuxt-link class="link" to="/" exact>HOME</nuxt-link>
           </div>
           <div class="nav-link">
-            <nuxt-link class="link" to="/whoweare">ABOUT US</nuxt-link>
+            <nuxt-link class="link" to="/whoweare2">ABOUT US</nuxt-link>
           </div>
           <div class="nav-link">
-            <nuxt-link class="link" to="/whatwedo">SERVICES</nuxt-link>
+            <nuxt-link class="link" to="/securityservices">SERVICES</nuxt-link>
           </div>
           <div class="nav-link">
-            <nuxt-link class="link" to="/career">PK NETWORK</nuxt-link>
+            <nuxt-link class="link" to="/ourclients">PK NETWORK</nuxt-link>
           </div>
           <div class="nav-link">
-            <nuxt-link class="link" to="/ourclients">TRAINING AND ORIENTATION</nuxt-link>
+            <nuxt-link class="link" to="/trainingandorientation">TRAINING AND ORIENTATION</nuxt-link>
           </div>
           <div class="nav-link">
-            <nuxt-link class="link" to="/contactus">OUR CLIENTS</nuxt-link>
+            <nuxt-link class="link" to="/contactus2">OUR CLIENTS</nuxt-link>
           </div>
           <div class="nav-link">
-            <nuxt-link class="link" to="/contactus">CAREERS</nuxt-link>
+            <nuxt-link class="link" to="/career2">CAREERS</nuxt-link>
           </div>
           <div class="nav-link">
-            <nuxt-link class="link" to="/contactus">CONTACT US</nuxt-link>
+            <nuxt-link class="link" to="/contactus2">CONTACT US</nuxt-link>
           </div>
         </div>
       </div>
