@@ -89,7 +89,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/policeman.png" alt />
+                      <img src="/images/surface1.png" alt />
                     </div>
                     <p>Industrial Security</p>
                   </div>
@@ -180,7 +180,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center border-bottom"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/policeman.png" alt />
+                      <img src="/images/electrician.png" alt />
                     </div>
                     <p>Electrical Services</p>
                   </div>
@@ -188,7 +188,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/policeman.png" alt />
+                      <img src="/images/water.png" alt />
                     </div>
                     <p>Swimming Pool Maintenance</p>
                   </div>
@@ -198,7 +198,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center border-bottom"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/policeman.png" alt />
+                      <img src="/images/cctv.png" alt />
                     </div>
                     <p>Electronic Security Systems</p>
                   </div>
@@ -206,7 +206,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/policeman.png" alt />
+                      <img src="/images/mop.png" alt />
                     </div>
                     <p>Housekeeping Services</p>
                   </div>
@@ -216,7 +216,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center border-bottom"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/policeman.png" alt />
+                      <img src="/images/cleaning.png" alt />
                     </div>
                     <p>Mechanized Cleaning Services</p>
                   </div>
@@ -224,7 +224,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/policeman.png" alt />
+                      <img src="/images/plumbing.png" alt />
                     </div>
                     <p>Plumbing Services</p>
                   </div>
@@ -234,7 +234,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center border-bottom"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/policeman.png" alt />
+                      <img src="/images/empire-state-building.png" alt />
                     </div>
                     <p>Maintenance Services</p>
                   </div>
@@ -242,7 +242,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/policeman.png" alt />
+                      <img src="/images/guard1.png" alt />
                     </div>
                     <p>STP/WTP Maintenance</p>
                   </div>
@@ -283,23 +283,23 @@
               </div>
               <div class="mt-5">
                 <div class="d-flex align-items-center">
-                  <img src="/images/like.png" alt />
-                  <span class="ml-5" style="color:#fff;font-size:20px">Satisfied Customers</span>
+                  <img src="/images/support1.png" alt />
+                  <span class="ml-5" style="color:#fff;font-size:20px">24/7 Support</span>
                 </div>
                 <p
                   class="text-white mt-4"
                   style="font-size:18px"
-                >Our extensive security industry experience enables us to exceed the expectations of our customers.</p>
+                >Security personals are subject to 24 * 7 guard duties for providing access control in the entrance areas to secure customer sites.</p>
               </div>
               <div class="mt-5">
                 <div class="d-flex align-items-center">
-                  <img src="/images/like.png" alt />
-                  <span class="ml-5" style="color:#fff;font-size:20px">Satisfied Customers</span>
+                  <img src="/images/goal.png" alt />
+                  <span class="ml-5" style="color:#fff;font-size:20px">Accredited</span>
                 </div>
                 <p
                   class="text-white mt-4"
                   style="font-size:18px"
-                >Our extensive security industry experience enables us to exceed the expectations of our customers.</p>
+                >Reliable security service with licensed security officers to make your residential spaces risk-free.</p>
               </div>
             </div>
           </div>
@@ -325,13 +325,13 @@
           </div>
           <div class="col-12 col-lg-7 p-0">
             <div class="d-flex h-100" style="background-color:#333333">
-              <div class="row">
+              <div class="row" style="margin:0">
                 <div class="col-6 px-0 border-right col-sm-6 col-md-4 col-lg-3">
                   <div
                     class="services-pad d-flex flex-column justify-content-center align-items-center border-bottom"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/policeman.png" alt />
+                      <img src="/images/surface1.png" alt />
                     </div>
                     <p>Personal Investigation</p>
                   </div>
@@ -339,7 +339,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/policeman.png" alt />
+                      <img src="/images/world.png" alt />
                     </div>
                     <p>Survellience</p>
                   </div>
@@ -349,7 +349,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center border-bottom"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/policeman.png" alt />
+                      <img src="/images/insight.png" alt />
                     </div>
                     <p>Corporate Investigation</p>
                   </div>
@@ -357,7 +357,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/policeman.png" alt />
+                      <img src="/images/detective.png" alt />
                     </div>
                     <p>Pre-Matrimonial Investigation</p>
                   </div>
@@ -367,7 +367,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center border-bottom"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/policeman.png" alt />
+                      <img src="/images/files-and-folders.png" alt />
                     </div>
                     <p>Legal Services</p>
                   </div>
@@ -375,7 +375,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/policeman.png" alt />
+                      <img src="/images/research.png" alt />
                     </div>
                     <p>Post-Matrimonial Investigation</p>
                   </div>
@@ -385,7 +385,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center border-bottom"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/policeman.png" alt />
+                      <img src="/images/footprint.png" alt />
                     </div>
                     <p>Missing Person/Help Tracing</p>
                   </div>
@@ -393,7 +393,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/policeman.png" alt />
+                      <img src="/images/loupe.png" alt />
                     </div>
                     <p>Post-Employment Verification</p>
                   </div>
