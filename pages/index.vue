@@ -751,7 +751,6 @@ hr {
   width: 128px;
   color: #fff;
   background-color: #9e7b5f;
-  border-radius: 6px;
   font-size: 13px;
 }
 
