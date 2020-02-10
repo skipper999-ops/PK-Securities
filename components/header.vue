@@ -40,7 +40,7 @@
             <img class="logo" style="margin-right:10px" src="~/static/images/PK1.png" />
             <img class="logo" src="~/static/images/PK2.png" />
           </div>
-          <div class="d-flex  hide-on-med-and-down">
+          <div class="d-flex hide-on-med-and-down">
             <span class="d-flex">
               <img class="mr-2" style="height:35px" src="/images/clock.png" alt />
               <p style="color:#fff">
@@ -49,7 +49,7 @@
               </p>
             </span>
             <span class="d-flex" style="margin-left:10px">
-              <img class="mr-2" style="height:35px" src="/images/email.png" alt />
+              <img class="lkasdkl mr-2" style="height:35px" src="/images/email.png" alt />
               <p style="color:#fff">
                 MAIL US,
                 <br />pawan@pkservices.in
