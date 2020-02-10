@@ -304,7 +304,7 @@
             </div>
           </div>
           <div class="m-5 d-flex align-item-center">
-            <button class="btn brochure">DOWNLOAD BROCHURE</button>
+            <button class="btn rounded-0 brochure">DOWNLOAD BROCHURE</button>
           </div>
         </div>
 

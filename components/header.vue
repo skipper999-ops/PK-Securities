@@ -40,6 +40,22 @@
             <img class="logo" style="margin-right:10px" src="~/static/images/PK1.png" />
             <img class="logo" src="~/static/images/PK2.png" />
           </div>
+          <div class="d-flex">
+            <span class="d-flex">
+              <img class="mr-2" style="height:35px" src="/images/clock.png" alt />
+              <p style="color:#fff">
+                Working Hours
+                <br />24 X 7
+              </p>
+            </span>
+            <span class="d-flex" style="margin-left:10px">
+              <img class="mr-2" style="height:35px" src="/images/email.png" alt />
+              <p style="color:#fff">
+                MAIL US,
+                <br />pawan@pkservices.in
+              </p>
+            </span>
+          </div>
           <div
             @click="showMenu"
             class="show-on-medium-and-down hide-on-large-only menu"
@@ -47,6 +63,13 @@
           >
             <img src="~static/menu.svg" style="height:30px" />
           </div>
+        </div>
+        <div class="container">
+          <marquee
+            style="color:#9e7b5f;width:100%;display:flex;align-items:right;margin-left:30%"
+            behavior
+            direction="left"
+          >NEWS:Expansion of Pension scheme- To new selected people will be announced and ha</marquee>
         </div>
       </div>
       <div class="custom-nav hide-on-med-and-down">
