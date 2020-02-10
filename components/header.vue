@@ -40,7 +40,7 @@
             <img class="logo" style="margin-right:10px" src="~/static/images/PK1.png" />
             <img class="logo" src="~/static/images/PK2.png" />
           </div>
-          <div class="d-flex">
+          <div class="d-flex  hide-on-med-and-down">
             <span class="d-flex">
               <img class="mr-2" style="height:35px" src="/images/clock.png" alt />
               <p style="color:#fff">
@@ -64,9 +64,9 @@
             <img src="~static/menu.svg" style="height:30px" />
           </div>
         </div>
-        <div class="container">
+        <div class="container hide-on-med-and-down">
           <marquee
-            style="color:#9e7b5f;width:100%;display:flex;align-items:right;margin-left:30%"
+            style="color:#9e7b5f;display:flex;align-items:right;margin-left:auto;width:70%"
             behavior
             direction="left"
           >NEWS:Expansion of Pension scheme- To new selected people will be announced and ha</marquee>
