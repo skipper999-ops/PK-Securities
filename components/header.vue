@@ -49,7 +49,6 @@
               </p>
             </span>
             <span class="d-flex" style="margin-left:10px">
-              <img class="lkasdkl mr-2" style="height:35px" src="/images/email.png" alt />
               <p style="color:#fff">
                 MAIL US,
                 <br />pawan@pkservices.in
