@@ -16,7 +16,7 @@
                 With years of experience, we understand the challenges to the ever-evolving security environment. We have become the most preferred partners of a huge clientele by setting a benchmark in creating smart measures.
                 PK Security surpasses competitors by providing our clients with the most competent, motivated and caring staff of professionals. This is the result of our industry-leading recruiting, training, compensation and recognition programs.
               </p>
-              <button class="btn btn-security">Read More</button>
+              <button type="button" href="/securityservices" class="btn btn-security">Read More</button>
             </div>
           </div>
           <div class="col-12 col-lg-7 p-0">
@@ -865,8 +865,8 @@ h2 {
   border: 3px solid #9e7b5f;
   border-radius: 50%;
   position: relative;
-  height: 120px;
-  width: 120px;
+  height: 125px;
+  width: 130px;
   margin: auto;
 }
 

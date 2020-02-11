@@ -59,6 +59,20 @@
             </div>
           </div>
         </div>
+        <div class="d-flex justify-content-center mt-4">
+          <div class="px-3 border-right">
+            <a style="color:white;text-decoration:none" href="/">Home</a>
+          </div>
+          <div class="px-3 border-right">
+            <a style="color:white;text-decoration:none" href="#">About Us</a>
+          </div>
+          <div class="px-3 border-right">
+            <a style="color:white;text-decoration:none" href="/career2">Career</a>
+          </div>
+          <div class="px-3">
+            <a style="color:white;text-decoration:none" href="/contactus2">Contact Us</a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
