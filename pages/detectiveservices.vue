@@ -8,7 +8,7 @@
             <img class="coma" src="/images/asset1.png" alt />
           </div>
           <div class="container">
-            <p>PK Security service has a reputation of being the top player in providing exclusive security services. We follow stringent benchmarked standards of security services with a holistic approach towards securing your property. Our security services are flexible and encompass all requirements as per our clients dictate.</p>
+            <p>Gain the information edge with expert, efficient legal investigation. Whether you are an individual, law firm, business, or insurance company, the private detectives PK Security has the track record and proven experience to provide the investigation services specific to your needs. We employ only experienced private detectives from varied background and experience that meet the high standard requirement of experience required to meet each client's specific need.</p>
           </div>
           <div class="d-flex justify-content-end">
             <img style="right:100%" class="coma" src="/images/asset3.png" alt />
@@ -20,10 +20,10 @@
           <div class="pk-cards" style="background-image:url('/images/serv1.png')">
             <div class="pk-card-text">
               <div style="background-color: #9e7b5f; width: 80%; z-index: 10000000;">
-                <p class="mb-0 py-1 px-1" style="color:white">Commercial Security Services</p>
+                <p class="mb-0 py-1 px-1" style="color:white">Personal Investigation</p>
               </div>
               <div style="background-color:white;margin:0!important;padding:12px 10px!important">
-                <p>Customized 24* 7 security service to suit the type of property. Properties encompass commercial buildings, banks to hospitals and hotels.</p>
+                <p>If you have a suspicion on a family member or dealing with a cheating partner, investigation and careful observation is almost always needed. We make use of our astute inspectors arranged suitably to screen secretively the meeting, activities and advancement of a person.</p>
               </div>
             </div>
           </div>
@@ -32,10 +32,10 @@
           <div class="pk-cards" style="background-image:url('/images/serv2.png')">
             <div class="pk-card-text">
               <div style="background-color: #9e7b5f; width: 80%; z-index: 10000000;">
-                <p class="mb-0 py-1 px-1" style="color:white">Industial Security Services</p>
+                <p class="mb-0 py-1 px-1" style="color:white">Corporate Investigation</p>
               </div>
               <div style="background-color:white;margin:0!important;padding:12px 10px!important">
-                <p>Housing expensive machinery, tools and chemicals, industrial premises are a prime target for criminals and thieves. Keep your warehouse, factory or industrial premises secure with our team of professional guards.</p>
+                <p>When corporate investigations are done well, it can uncover situations that impact security, identify wrongdoing and mitigate risks for your organization. We help ensuring a company is running smoothly and within the law.</p>
               </div>
             </div>
           </div>
@@ -44,10 +44,10 @@
           <div class="pk-cards" style="background-image:url('/images/serv3.png')">
             <div class="pk-card-text">
               <div style="background-color: #9e7b5f; width: 80%; z-index: 10000000;">
-                <p class="mb-0 py-1 px-1" style="color:white">Residential Security Services</p>
+                <p class="mb-0 py-1 px-1" style="color:white">Legal Services</p>
               </div>
               <div style="background-color:white;margin:0!important;padding:12px 10px!important">
-                <p>The need for residential security systems exists for the protection of valuable assets. Our reliable security guards have the expertise to make your residential spaces and its valued assets risk-free.</p>
+                <p>Legal investigation requires gathering together of facts in a situation which will be tried in a court of law. We help you efficiently manage your case load and protect you from becoming a witness to your own case.</p>
               </div>
             </div>
           </div>
@@ -56,10 +56,10 @@
           <div class="pk-cards" style="background-image:url('/images/serv4.png')">
             <div class="pk-card-text">
               <div style="background-color: #9e7b5f; width: 80%; z-index: 10000000;">
-                <p class="mb-0 py-1 px-1" style="color:white">Special Event Security Services</p>
+                <p class="mb-0 py-1 px-1" style="color:white">Missing Person/Help Tracing</p>
               </div>
               <div style="background-color:white;margin:0!important;padding:12px 10px!important">
-                <p>Effective risk prevention and crowd management are at the core of every successful event security plan. PK security has expertise in security solutions to handle any size public and private events.</p>
+                <p>A missing person investigation requires high attention to detail and analytical skills. Our investigator team is dedicated to helping families find their missing dear ones in a short time.</p>
               </div>
             </div>
           </div>
@@ -70,10 +70,10 @@
           <div class="pk-cards" style="background-image:url('/images/choose-us.png')">
             <div class="pk-card-text">
               <div style="background-color: #9e7b5f; width: 80%; z-index: 10000000;">
-                <p class="mb-0 py-1 px-1" style="color:white">Unarmed Manned Gaurding</p>
+                <p class="mb-0 py-1 px-1" style="color:white">Surveillance</p>
               </div>
               <div style="background-color:white;margin:0!important;padding:12px 10px!important">
-                <p>The effective protection of your office, restaurant or any commercial premises cannot be undervalued. Our manned guarding services will not only safeguard your property from intruders and vandals, they will keep your staff, sensitive company information and any other valuables secure</p>
+                <p>Whether you are suspicious of a Spouse or “significant other” or if you need to keep an eye on someone, we have the right team to get the job done.</p>
               </div>
             </div>
           </div>
@@ -82,10 +82,10 @@
           <div class="pk-cards" style="background-image:url('/images/images_5.png')">
             <div class="pk-card-text">
               <div style="background-color: #9e7b5f; width: 80%; z-index: 10000000;">
-                <p class="mb-0 py-1 px-1" style="color:white">Hotel Security Services</p>
+                <p class="mb-0 py-1 px-1" style="color:white">Pre-Matrimonial Investigation</p>
               </div>
               <div style="background-color:white;margin:0!important;padding:12px 10px!important">
-                <p>Hotels are mostly vulnerable to cyber attacks, break-ins, and other crimes. Our vetted security professionals aim at securing the interior, lobby, and guestrooms; exterior and parking area along with the necessary service and protection to the Hotel guests and staff.</p>
+                <p>Getting married is one of the chief and biggest decisions for a person and their family. We help you run a confidential background check on your to-be partner without causing any imbalance.</p>
               </div>
             </div>
           </div>
@@ -94,10 +94,10 @@
           <div class="pk-cards" style="background-image:url('/images/images_6.png')">
             <div class="pk-card-text">
               <div style="background-color: #9e7b5f; width: 80%; z-index: 10000000;">
-                <p class="mb-0 py-1 px-1" style="color:white">School Security Services</p>
+                <p class="mb-0 py-1 px-1" style="color:white">Post-Matrimonial Investigation</p>
               </div>
               <div style="background-color:white;margin:0!important;padding:12px 10px!important">
-                <p>Schools should have arrangements for security in the school premises for creating a safe and pleasant atmosphere for the students and teachers.</p>
+                <p>Our investigators solve cases in given time with full privacy and efficiency. We take care of your confidentiality while finding evidences.</p>
               </div>
             </div>
           </div>
@@ -106,10 +106,10 @@
           <div class="pk-cards" style="background-image:url('/images/images_8.png')">
             <div class="pk-card-text">
               <div style="background-color: #9e7b5f; width: 80%; z-index: 10000000;">
-                <p class="mb-0 py-1 px-1" style="color:white">Hospital Security Services</p>
+                <p class="mb-0 py-1 px-1" style="color:white">Post-Employment Investigation</p>
               </div>
               <div style="background-color:white;margin:0!important;padding:12px 10px!important">
-                <p>Hospitals need to address a long list of high-priority security measures. Our security officers are trained for special patrolling skills in hospital premises, as well as possess adequate reporting and customer service skills.</p>
+                <p>An efficient verification team helps you wind up the surplus and disloyal employees involved in espionage or suspicious activities against interest of company.</p>
               </div>
             </div>
           </div>

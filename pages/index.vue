@@ -331,7 +331,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center border-bottom"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/surface1.png" alt />
+                      <img src="/images/surface1_2.png" alt />
                     </div>
                     <p>Personal Investigation</p>
                   </div>

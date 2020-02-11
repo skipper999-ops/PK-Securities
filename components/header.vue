@@ -34,7 +34,7 @@
       </div>
     </div>-->
     <div class="nav-header-main">
-      <div class="secondary-nav pt-3 pb-3">
+      <div class="secondary-nav pt-3 pb-2">
         <div class="container p-0 d-flex justify-content-between align-items-center">
           <div>
             <img class="logo" style="margin-right:10px" src="~/static/images/PK1.png" />
@@ -66,7 +66,7 @@
         </div>
         <div class="container hide-on-med-and-down">
           <marquee
-            style="color:#9e7b5f;display:flex;align-items:right;margin-left:auto;width:70%"
+            style="color:#9e7b5f;display:flex;align-items:right;margin-left:auto;width:70%;border-top:2px solid #9e7b5f;padding-top:2px"
             behavior
             direction="left"
           >NEWS:Expansion of Pension scheme- To new selected people will be announced and ha</marquee>
