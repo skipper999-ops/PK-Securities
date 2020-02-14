@@ -90,7 +90,7 @@
             <nuxt-link class="link" to="/trainingandorientation">TRAINING AND ORIENTATION</nuxt-link>
           </div>
           <div class="nav-link">
-            <nuxt-link class="link" to="/contactus2">OUR CLIENTS</nuxt-link>
+            <nuxt-link class="link" to="/ourclients">OUR CLIENTS</nuxt-link>
           </div>
           <div class="nav-link">
             <nuxt-link class="link" to="/career2">CAREERS</nuxt-link>
