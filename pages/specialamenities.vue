@@ -8,7 +8,7 @@
             <img class="coma" src="/images/asset1.png" alt />
           </div>
           <div class="container">
-            <p>PK Security service has a reputation of being the top player in providing exclusive security services. We follow stringent benchmarked standards of security services with a holistic approach towards securing your property. Our security services are flexible and encompass all requirements as per our clients dictate.</p>
+            <p>With an extensive knowledge and expertise, PK security has invested in various innovative amenities to minimise security risks and deter threats. We strive to lead within the security industry, in supplying professional, innovative and proactive security service solutions that exceed customers’ expectations.</p>
           </div>
           <div class="d-flex justify-content-end">
             <img style="right:100%" class="coma" src="/images/asset3.png" alt />

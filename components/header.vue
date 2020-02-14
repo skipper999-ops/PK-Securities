@@ -37,7 +37,7 @@
       <div class="secondary-nav pt-3 pb-2">
         <div class="container p-0 d-flex justify-content-between align-items-center">
           <div>
-            <img class="logo" style="margin-right:10px" src="~/static/images/PK1.png" />
+            <img class="logo" style="margin-right:10px" src="~/static/images/PK1_new.png" />
             <img class="logo" src="~/static/images/PK2.png" />
           </div>
           <div class="d-flex hide-on-med-and-down">
@@ -84,7 +84,7 @@
             <nuxt-link class="link" to="/securityservices">SERVICES</nuxt-link>
           </div>
           <div class="nav-link">
-            <nuxt-link class="link" to="/ourclients">PK NETWORK</nuxt-link>
+            <nuxt-link class="link" to="/pknetwork">PK NETWORK</nuxt-link>
           </div>
           <div class="nav-link">
             <nuxt-link class="link" to="/trainingandorientation">TRAINING AND ORIENTATION</nuxt-link>
