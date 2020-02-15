@@ -16,7 +16,7 @@
                 With years of experience, we understand the challenges to the ever-evolving security environment. We have become the most preferred partners of a huge clientele by setting a benchmark in creating smart measures.
                 PK Security surpasses competitors by providing our clients with the most competent, motivated and caring staff of professionals. This is the result of our industry-leading recruiting, training, compensation and recognition programs.
               </p>
-              <button class="btn btn-security">Read More</button>
+              <button type="button" href="/securityservices" class="btn btn-security">Read More</button>
             </div>
           </div>
           <div class="col-12 col-lg-7 p-0">
@@ -130,14 +130,14 @@
                     <span class="align-items-center" style="color:#9e7b5f;font-size:10px">CUSTOMERS</span>
                   </div>
                 </div>
-                <div class="col-12 col-lg-4">
+                <div class="col-12 mt-4 mt-sm-0 col-lg-4">
                   <p class="text-center text-white" style="font-size:17px">OUR TEAM</p>
                   <div class="circle middle">
                     <p class="m-0 text-center text-white" style="font-size:20px">1862</p>
                     <span class="align-items-center" style="color:#9e7b5f;font-size:10px">EMPLOYEES</span>
                   </div>
                 </div>
-                <div class="col-12 col-lg-4">
+                <div class="col-12 mt-4 mt-sm-0 col-lg-4">
                   <p class="text-center text-white" style="font-size:17px">CITIES</p>
                   <div class="circle middle">
                     <p class="m-0 text-center text-white" style="font-size:20px">1862</p>
@@ -267,7 +267,7 @@
                   class="mt-3 text-white"
                   style="font-size:18px;line-height:1.25;text-align:justify;opacity:.88"
                 >PK Security Service is the trusted provider of cutting-edge quality security service. We are committed to providing reliable service through custom-designed security strategies.</p>
-                <img src="/images/man-shadow.png" alt />
+                <img class="w-100" src="/images/man-shadow.png" alt />
               </div>
             </div>
             <div class="col-12 col-md-6 mt-3 mt-sm-0 d-flex flex-column justify-content-around">
@@ -331,7 +331,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center border-bottom"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/surface1.png" alt />
+                      <img src="/images/surface1_2.png" alt />
                     </div>
                     <p>Personal Investigation</p>
                   </div>
@@ -865,8 +865,8 @@ h2 {
   border: 3px solid #9e7b5f;
   border-radius: 50%;
   position: relative;
-  height: 120px;
-  width: 120px;
+  height: 125px;
+  width: 130px;
   margin: auto;
 }
 

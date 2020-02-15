@@ -8,7 +8,7 @@
             <img class="coma" src="/images/asset1.png" alt />
           </div>
           <div class="container">
-            <p>PK Security service has a reputation of being the top player in providing exclusive security services. We follow stringent benchmarked standards of security services with a holistic approach towards securing your property. Our security services are flexible and encompass all requirements as per our clients dictate.</p>
+            <p>With an extensive knowledge and expertise, PK security has invested in various innovative amenities to minimise security risks and deter threats. We strive to lead within the security industry, in supplying professional, innovative and proactive security service solutions that exceed customers’ expectations.</p>
           </div>
           <div class="d-flex justify-content-end">
             <img style="right:100%" class="coma" src="/images/asset3.png" alt />
@@ -20,10 +20,10 @@
           <div class="pk-cards" style="background-image:url('/images/serv1.png')">
             <div class="pk-card-text">
               <div style="background-color: #9e7b5f; width: 80%; z-index: 10000000;">
-                <p class="mb-0 py-1 px-1" style="color:white">Commercial Security Services</p>
+                <p class="mb-0 py-1 px-1" style="color:white">Electrical Services</p>
               </div>
               <div style="background-color:white;margin:0!important;padding:12px 10px!important">
-                <p>Customized 24* 7 security service to suit the type of property. Properties encompass commercial buildings, banks to hospitals and hotels.</p>
+                <p>We provide certified and skilled electricians, who perform regular preventive maintenance, earthing checks and complete solutions for a society and corporate buildings.</p>
               </div>
             </div>
           </div>
@@ -32,10 +32,10 @@
           <div class="pk-cards" style="background-image:url('/images/serv2.png')">
             <div class="pk-card-text">
               <div style="background-color: #9e7b5f; width: 80%; z-index: 10000000;">
-                <p class="mb-0 py-1 px-1" style="color:white">Industial Security Services</p>
+                <p class="mb-0 py-1 px-1" style="color:white">Electronic Security System</p>
               </div>
               <div style="background-color:white;margin:0!important;padding:12px 10px!important">
-                <p>Housing expensive machinery, tools and chemicals, industrial premises are a prime target for criminals and thieves. Keep your warehouse, factory or industrial premises secure with our team of professional guards.</p>
+                <p>CCTV or IP surveillance systems, fire detection and alarm system, attendance and access control system are a part of our security management services.</p>
               </div>
             </div>
           </div>
@@ -44,10 +44,10 @@
           <div class="pk-cards" style="background-image:url('/images/serv3.png')">
             <div class="pk-card-text">
               <div style="background-color: #9e7b5f; width: 80%; z-index: 10000000;">
-                <p class="mb-0 py-1 px-1" style="color:white">Residential Security Services</p>
+                <p class="mb-0 py-1 px-1" style="color:white">Mechanized Cleaning Services</p>
               </div>
               <div style="background-color:white;margin:0!important;padding:12px 10px!important">
-                <p>The need for residential security systems exists for the protection of valuable assets. Our reliable security guards have the expertise to make your residential spaces and its valued assets risk-free.</p>
+                <p>We provide the right set of services and cleaning solutions and the most reliable, trusted, and efficient cleaners to keep your surroundings clean and hygienic.</p>
               </div>
             </div>
           </div>
@@ -56,10 +56,10 @@
           <div class="pk-cards" style="background-image:url('/images/serv4.png')">
             <div class="pk-card-text">
               <div style="background-color: #9e7b5f; width: 80%; z-index: 10000000;">
-                <p class="mb-0 py-1 px-1" style="color:white">Special Event Security Services</p>
+                <p class="mb-0 py-1 px-1" style="color:white">Maintenance Services</p>
               </div>
               <div style="background-color:white;margin:0!important;padding:12px 10px!important">
-                <p>Effective risk prevention and crowd management are at the core of every successful event security plan. PK security has expertise in security solutions to handle any size public and private events.</p>
+                <p>Our maintenance includes important tasks like maintaining records, visitor & vehicle management, power supply issues, and other such routine tasks.</p>
               </div>
             </div>
           </div>
@@ -70,10 +70,10 @@
           <div class="pk-cards" style="background-image:url('/images/choose-us.png')">
             <div class="pk-card-text">
               <div style="background-color: #9e7b5f; width: 80%; z-index: 10000000;">
-                <p class="mb-0 py-1 px-1" style="color:white">Unarmed Manned Gaurding</p>
+                <p class="mb-0 py-1 px-1" style="color:white">Swimming Pool Maintenance</p>
               </div>
               <div style="background-color:white;margin:0!important;padding:12px 10px!important">
-                <p>The effective protection of your office, restaurant or any commercial premises cannot be undervalued. Our manned guarding services will not only safeguard your property from intruders and vandals, they will keep your staff, sensitive company information and any other valuables secure</p>
+                <p>Complete Swimming pool maintenance for a safe and healthy pool in your facility and protection from any malfunctions on a regular basis.</p>
               </div>
             </div>
           </div>
@@ -82,10 +82,10 @@
           <div class="pk-cards" style="background-image:url('/images/images_5.png')">
             <div class="pk-card-text">
               <div style="background-color: #9e7b5f; width: 80%; z-index: 10000000;">
-                <p class="mb-0 py-1 px-1" style="color:white">Hotel Security Services</p>
+                <p class="mb-0 py-1 px-1" style="color:white">Housekeeping Services</p>
               </div>
               <div style="background-color:white;margin:0!important;padding:12px 10px!important">
-                <p>Hotels are mostly vulnerable to cyber attacks, break-ins, and other crimes. Our vetted security professionals aim at securing the interior, lobby, and guestrooms; exterior and parking area along with the necessary service and protection to the Hotel guests and staff.</p>
+                <p>Comprehensive housekeeping services to carry out all your home and office chores carried out with the highest precision and care.</p>
               </div>
             </div>
           </div>
@@ -94,10 +94,10 @@
           <div class="pk-cards" style="background-image:url('/images/images_6.png')">
             <div class="pk-card-text">
               <div style="background-color: #9e7b5f; width: 80%; z-index: 10000000;">
-                <p class="mb-0 py-1 px-1" style="color:white">School Security Services</p>
+                <p class="mb-0 py-1 px-1" style="color:white">Plumbing Service</p>
               </div>
               <div style="background-color:white;margin:0!important;padding:12px 10px!important">
-                <p>Schools should have arrangements for security in the school premises for creating a safe and pleasant atmosphere for the students and teachers.</p>
+                <p>We provide professional plumbing experts to ensure that your residence or building is running proper and maintained plumbing systems, and also to get them checked regularly.</p>
               </div>
             </div>
           </div>
@@ -106,10 +106,10 @@
           <div class="pk-cards" style="background-image:url('/images/images_8.png')">
             <div class="pk-card-text">
               <div style="background-color: #9e7b5f; width: 80%; z-index: 10000000;">
-                <p class="mb-0 py-1 px-1" style="color:white">Hospital Security Services</p>
+                <p class="mb-0 py-1 px-1" style="color:white">STP/WTP Maintenance</p>
               </div>
               <div style="background-color:white;margin:0!important;padding:12px 10px!important">
-                <p>Hospitals need to address a long list of high-priority security measures. Our security officers are trained for special patrolling skills in hospital premises, as well as possess adequate reporting and customer service skills.</p>
+                <p>A distinguished enterprise that optimum and effluent sewage & water treatment support for industrial units as well as residential societies as per their requirement.</p>
               </div>
             </div>
           </div>

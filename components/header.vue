@@ -34,10 +34,10 @@
       </div>
     </div>-->
     <div class="nav-header-main">
-      <div class="secondary-nav pt-3 pb-3">
+      <div class="secondary-nav pt-3 pb-2">
         <div class="container p-0 d-flex justify-content-between align-items-center">
           <div>
-            <img class="logo" style="margin-right:10px" src="~/static/images/PK1.png" />
+            <img class="logo" style="margin-right:10px" src="~/static/images/PK1_new.png" />
             <img class="logo" src="~/static/images/PK2.png" />
           </div>
           <div class="d-flex hide-on-med-and-down">
@@ -49,6 +49,7 @@
               </p>
             </span>
             <span class="d-flex" style="margin-left:10px">
+              <img class="lkasdkl mr-2" style="height:35px" src="/images/email.png" alt />
               <p style="color:#fff">
                 MAIL US,
                 <br />pawan@pkservices.in
@@ -65,7 +66,7 @@
         </div>
         <div class="container hide-on-med-and-down">
           <marquee
-            style="color:#9e7b5f;display:flex;align-items:right;margin-left:auto;width:70%"
+            style="color:#9e7b5f;display:flex;align-items:right;margin-left:auto;width:70%;border-top:2px solid #9e7b5f;padding-top:2px"
             behavior
             direction="left"
           >NEWS:Expansion of Pension scheme- To new selected people will be announced and ha</marquee>
@@ -83,13 +84,13 @@
             <nuxt-link class="link" to="/securityservices">SERVICES</nuxt-link>
           </div>
           <div class="nav-link">
-            <nuxt-link class="link" to="/ourclients">PK NETWORK</nuxt-link>
+            <nuxt-link class="link" to="/pknetwork">PK NETWORK</nuxt-link>
           </div>
           <div class="nav-link">
             <nuxt-link class="link" to="/trainingandorientation">TRAINING AND ORIENTATION</nuxt-link>
           </div>
           <div class="nav-link">
-            <nuxt-link class="link" to="/contactus2">OUR CLIENTS</nuxt-link>
+            <nuxt-link class="link" to="/ourclients">OUR CLIENTS</nuxt-link>
           </div>
           <div class="nav-link">
             <nuxt-link class="link" to="/career2">CAREERS</nuxt-link>
