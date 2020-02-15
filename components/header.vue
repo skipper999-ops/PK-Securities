@@ -38,7 +38,7 @@
         <div class="container p-0 d-flex justify-content-between align-items-center">
           <div>
             <img class="logo" style="margin-right:10px" src="~/static/images/PK1_new.png" />
-            <img class="logo" src="~/static/images/PK2.png" />
+            <img class="logo" src="~/static/images/PK2_new.png" />
           </div>
           <div class="d-flex hide-on-med-and-down">
             <span class="d-flex">
