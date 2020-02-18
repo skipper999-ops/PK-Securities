@@ -2,6 +2,7 @@
   <div>
     <div class="bg-black">
       <!-- 1st carousel -->
+      <main-header />
       <div class="container-small">
         <div class="row" style="background-color:#f3f3f3">
           <div class="col-12 col-lg-5 p-0">
@@ -482,7 +483,7 @@
       <div class="container-small">
         <div class="row">
           <div class="col-12 col-lg-8 p-0">
-            <img style="height:600px;width:100%" src="/images/careerphoto.png" alt />
+            <img class="career-photo" style="width:100%" src="/images/careerphoto.png" alt />
           </div>
           <div class="col-12 col-lg-4 d-flex flex-column justify-content-around">
             <div>
@@ -535,17 +536,20 @@
             <div class="col-12 col-lg-4" v-for="p in allBlogs" :key="p.id">
               <div style="padding:0 10px 10px 10px;border-bottom:3px solid #9e7b5f;">
                 <img class="w-100" style="margin:auto;height:210px" :src="p.image" alt />
-                <p style="color:white;margin-top:10px;font-size:18px;font-weight:bold;height:55px">
-                  {{p.title}}
-                </p>
+                <p
+                  style="color:white;margin-top:10px;font-size:18px;font-weight:bold;height:55px"
+                >{{p.title}}</p>
                 <!-- <p
                   class="text-white text-justify clamp4" style="height:100px"
-                >{{p.body}}</p> -->
-                <div class="text-white text-justify clamp4" style="height:100px" v-html="p.body">
-
-                </div>
+                >{{p.body}}</p>-->
+                <div class="text-white text-justify clamp4" style="height:100px" v-html="p.body"></div>
                 <div class="d-flex justify-content-center">
-                  <button class="btn btn1" style="font-size:14px" type="button"  @click="goToSingleBlog(p.id)">Read More</button>
+                  <button
+                    class="btn btn1"
+                    style="font-size:14px"
+                    type="button"
+                    @click="goToSingleBlog(p.id)"
+                  >Read More</button>
                 </div>
               </div>
             </div>
@@ -600,6 +604,7 @@
 
 <script>
 import { mapState } from "vuex";
+import MainHeader from "@/components/Header-Nitu";
 
 export default {
   data() {
@@ -625,6 +630,9 @@ export default {
       email: "",
       address: ""
     };
+  },
+  components: {
+    MainHeader
   },
   computed: {
     ...mapState(["allClientListKamrup"]),
@@ -675,8 +683,8 @@ export default {
         });
     },
     goToSingleBlog: function(id) {
-      console.log('goToSingleBlog')
-      localStorage.setItem('blog_id' , id)
+      console.log("goToSingleBlog");
+      localStorage.setItem("blog_id", id);
       this.$router.push("/blog");
     },
     goToCareer: function() {
@@ -702,7 +710,7 @@ hr {
   margin: auto;
 }
 .pad-new {
-  padding: 27px 48px;
+  padding: 27px;
 }
 
 .pad-new p {
@@ -932,21 +940,31 @@ h2 {
   flex-direction: column;
 }
 
+.career-photo {
+  height: 600px;
+}
+
 @media only screen and (max-width: 600px) {
   .img1 {
     height: 300px;
   }
-  .padding-choose{
-    padding: 3rem
+  .padding-choose {
+    padding: 3rem;
+  }
+  .career-photo {
+    height: 300px;
   }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 991px) {
   .img1 {
     height: 400px;
-  } 
-  .padding-choose{
-    padding: 3rem
+  }
+  .padding-choose {
+    padding: 3rem;
+  }
+    .career-photo {
+    height: 300px;
   }
 }
 

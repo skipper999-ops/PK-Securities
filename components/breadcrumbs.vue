@@ -3,8 +3,8 @@
     <div style="background-color:black;position:relative">
       <div class="img-text">
         <h3>{{title}}</h3>
-        <h3>{{subtitle}}</h3>
-        <h3>{{crumbs}}</h3>
+        <h5>{{subtitle}}</h5>
+        <p>{{crumbs}}</p>
       </div>
       <div class="p-0 bg-img overlay" style="background-color:#ededed">
         <!-- <img class="d-block w-100 img1" src="~static/images/contact.png" /> -->
@@ -61,6 +61,10 @@ export default {
   position: relative;
 }
 
+h3, h5, p{
+  color: white
+}
+
 .bg-img {
   background-image: url("~static/images/contact.png");
   height: 420px;
@@ -68,15 +72,23 @@ export default {
 }
 
 .img-text h3 {
-  color: white;
+  color: #9e7b5f;
+  font-weight: bold;
 }
 .img-text {
-  position: absolute;
-  z-index: 99;
-  margin: 0 auto;
-  max-width: 1280px;
-  left: 0;
-  right: 0;
+    position: absolute;
+    z-index: 99;
+    margin: 0 auto;
+    max-width: 1280px;
+    left: 0;
+    right: 0;
+    TOP: 0;
+    height: 100%;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
 }
 
 .overlay:after {

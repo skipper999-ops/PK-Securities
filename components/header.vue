@@ -69,7 +69,7 @@
             style="color:#9e7b5f;display:flex;align-items:right;margin-left:auto;width:70%;border-top:2px solid #9e7b5f;padding-top:2px"
             behavior
             direction="left"
-          >NEWS:Expansion of Pension scheme- To new selected people will be announced and ha</marquee>
+          >NEWS:<span v-for="p in blog" :key="p.id">{{p.title}} | </span></marquee>
         </div>
       </div>
       <div class="custom-nav hide-on-med-and-down">
@@ -178,7 +178,9 @@ import { mapState } from "vuex";
 
 export default {
   data() {
-    return {};
+    return {
+      blog: []
+    };
   },
 
   watch: {
@@ -188,11 +190,16 @@ export default {
   },
 
   computed: {
-    ...mapState(["HomepageSliderImages"])
+    ...mapState(["HomepageSliderImages"]),
+    ...mapState(["allBlogs"]),
   },
 
   mounted() {
     this.$store.dispatch("getHomepageSliderImages");
+    
+    this.$store.dispatch("getAllBlogs").then(res=>{
+      this.blog = Object.assign([] , res.data).splice(0,5)
+    });
     // var lastScrollTop = 0;
     // $(window).scroll(function(event) {
     //   var st = $(this).scrollTop();
@@ -310,7 +317,7 @@ export default {
   /* border-bottom: 3px solid #fdb06c; */
 }
 .custom-nav > div > div {
-  padding: 0 25px;
+  padding: 0 10px;
 }
 
 .secondary-nav {

@@ -70,8 +70,8 @@ export default {
 
 <style scoped>
 .header {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 700px;
   position: relative;
   overflow: hidden;
   /* cursor: none; */
@@ -118,4 +118,13 @@ export default {
 .controle--left img {
   transform: rotate(180deg);
 }
+
+
+@media only screen and (max-width: 600px) {
+
+  .header{
+    height:380px!important
+  }
+}
+
 </style>

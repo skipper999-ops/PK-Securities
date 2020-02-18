@@ -122,6 +122,34 @@ export default {};
   height: 100%;
 }
 
+@media only screen and (max-width: 600px) {
+  .svg-main-container {
+    position: relative;
+    height: 200px;
+    width: 460px;
+  }
+
+  /* .header-content{
+    top: 0!important
+  } */
+
+  .svg-main-container svg{
+    display: none
+  }
+
+  .heading--1{
+    font-size: 25px
+  }
+
+  .heading--2{
+    font-size: 30px
+  }
+
+  .heading--3{
+    font-size: 25px
+  }
+}
+
 .header-content {
   width: 100%;
   height: 100%;

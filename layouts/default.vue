@@ -55,6 +55,10 @@ body {
   font-style: normal;
 }
 
+.nuxt-link-exact-active.nuxt-link-active{
+  color: #fdb06c!important
+}
+
 .header-carousel .VueCarousel-pagination {
   position: absolute;
   bottom: 20px;
