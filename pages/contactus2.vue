@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Breadcrumbs></Breadcrumbs>
     <div class="container px-5 py-4" style="background-color: #353535;">
       <p class="contact m-0">Contact Us</p>
       <span>We're here to help. Let us know if you have any questions at all.</span>
@@ -91,6 +92,19 @@
     </div>
   </div>
 </template>
+
+
+<script>
+import Breadcrumbs from "@/components/breadcrumbs.vue";
+
+export default {
+  components: {
+    Breadcrumbs
+  }
+};
+</script>
+
+
 <style scoped>
 .contact {
   color: #9e7b5f;

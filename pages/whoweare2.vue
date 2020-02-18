@@ -1,5 +1,6 @@
 <template>
   <div style="background-color:black">
+    <Breadcrumbs title="About Us" subtitle="Unmatchable Quality meets Unbeatable Price Quote" crumbs="Home > Security Companies > About Us"></Breadcrumbs>
     <div class="container">
       <div class="row mt-5">
         <div class="col-12 col-lg-8">
@@ -102,6 +103,18 @@
     </div>
   </div>
 </template>
+
+
+<script>
+import Breadcrumbs from "@/components/breadcrumbs.vue";
+
+export default {
+  components: {
+    Breadcrumbs
+  }
+};
+</script>
+
 <style>
 /* .bg-black-custom {
 } */

@@ -11,7 +11,7 @@
               <table class="table table-striped table-bordered">
                 <thead>
                   <tr>
-                    <th class="text-center">Sl. No</th>
+                    <th width="100px" class="text-center">Sl. No</th>
                     <th class="text-center">Name of Sites</th>
                     <th class="text-center">Location</th>
                   </tr>
@@ -31,7 +31,7 @@
               <table class="table table-striped table-bordered">
                 <thead>
                   <tr>
-                    <th class="text-center">Sl. No</th>
+                    <th width="100px" class="text-center">Sl. No</th>
                     <th class="text-center">Name of Sites</th>
                     <th class="text-center">Location</th>
                   </tr>

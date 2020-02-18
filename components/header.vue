@@ -34,7 +34,7 @@
       </div>
     </div>-->
     <div class="nav-header-main">
-      <div class="secondary-nav pt-3 pb-2">
+      <div class="secondary-nav pt-3 pb-3">
         <div class="container p-0 d-flex justify-content-between align-items-center">
           <div>
             <img class="logo" style="margin-right:10px" src="~/static/images/PK1_new.png" />
@@ -42,15 +42,15 @@
           </div>
           <div class="d-flex hide-on-med-and-down">
             <span class="d-flex">
-              <img class="mr-2" style="height:35px" src="/images/clock.png" alt />
-              <p style="color:#fff">
+              <img class="mr-2" style="height:18px" src="/images/clock.png" alt />
+              <p style="color:#fff;font-size: 13px;">
                 Working Hours
                 <br />24 X 7
               </p>
             </span>
             <span class="d-flex" style="margin-left:10px">
-              <img class="lkasdkl mr-2" style="height:35px" src="/images/email.png" alt />
-              <p style="color:#fff">
+              <img class="lkasdkl mr-2" style="height:18px" src="/images/email.png" alt />
+              <p style="color:#fff;font-size: 13px;">
                 MAIL US,
                 <br />pawan@pkservices.in
               </p>
@@ -61,7 +61,7 @@
             class="show-on-medium-and-down hide-on-large-only menu"
             style="align-items: center;"
           >
-            <img src="~static/menu.svg" style="height:30px" />
+            <img src="~static/menu.svg" style="height:20px" />
           </div>
         </div>
         <div class="container hide-on-med-and-down">
@@ -80,8 +80,12 @@
           <div class="nav-link">
             <nuxt-link class="link" to="/whoweare2">ABOUT US</nuxt-link>
           </div>
-          <div class="nav-link">
+          <div class="nav-link hover">
             <nuxt-link class="link" to="/securityservices">SERVICES</nuxt-link>
+            <ul>
+              <li>Sub Link</li>
+              <li>Sub Link</li>
+            </ul>
           </div>
           <div class="nav-link">
             <nuxt-link class="link" to="/pknetwork">PK NETWORK</nuxt-link>
@@ -147,7 +151,7 @@
     </div>
 
     <!-- 1st carousel -->
-    <div v-if="$nuxt.$route.name != 'contactus'">
+    <!-- <div v-if="$nuxt.$route.name != 'contactus'">
       <div class="container-small p-0" style="background-color:#ededed">
         <client-only>
           <carousel
@@ -165,7 +169,7 @@
           </carousel>
         </client-only>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -279,8 +283,8 @@ export default {
 
 .custom-nav {
   background-color: #110b0b;
-  height: 40px;
-  line-height: 40px;
+  height: 60px;
+  line-height: 60px;
   border-top: 2px solid #9e7b5f;
   border-bottom: 2px solid #9e7b5f;
 }

@@ -1,6 +1,6 @@
 <template>
   <div class="bg-black">
-    <div></div>
+    <Breadcrumbs name="Training and Orientation"></Breadcrumbs>
     <div class="container">
       <div>
         <div class="w-100">
@@ -22,17 +22,17 @@
         <div class="accordion mt-5 border-0" id="accordionExample">
           <div class="card border-bottom">
             <div class="card-header" id="headingOne">
-              <h2 class="mb-0">
+
                 <button
                   class="btn"
                   type="button"
-                  style="color:white;font-size:20px"
+                  style="color:white;font-size:20px;text-align:left"
                   data-toggle="collapse"
                   data-target="#collapseOne"
                   aria-expanded="true"
                   aria-controls="collapseOne"
                 >Account Officer</button>
-              </h2>
+
             </div>
 
             <div
@@ -141,6 +141,16 @@
   </div>
 </template>
   
+<script>
+import Breadcrumbs from "@/components/breadcrumbs.vue";
+
+export default {
+  components: {
+    Breadcrumbs
+  }
+};
+</script>
+
 <style scoped>
 .bg-black {
   background-color: black;

@@ -2,7 +2,7 @@
   <div>
     <div class="bg-black">
       <!-- 1st carousel -->
-      <div class="container">
+      <div class="container-small">
         <div class="row" style="background-color:#f3f3f3">
           <div class="col-12 col-lg-5 p-0">
             <div class="pad-new">
@@ -21,7 +21,7 @@
           </div>
           <div class="col-12 col-lg-7 p-0">
             <div class="d-flex h-100" style="background-color:#333333">
-              <div class="row">
+              <div class="row" style="margin-bottom: 0">
                 <div class="col-6 px-0 border-right col-sm-6 col-md-4 col-lg-3">
                   <div
                     class="services-pad d-flex flex-column justify-content-center align-items-center border-bottom"
@@ -257,9 +257,9 @@
         <!-- why choose us starts here -->
 
         <!-- Customer cities section starts here -->
-        <div class="mt-5">
+        <div class="mt-5 padding-choose">
           <div class="row">
-            <div class="col-12 col-md-6 p-0">
+            <div class="col-12 col-md-6">
               <div>
                 <h4>WHY CHOOSE US</h4>
                 <h3>MAKE SMARTER CHOICES</h3>
@@ -479,7 +479,7 @@
       <!-- location section ends here -->
 
       <!-- career oportunities starts here -->
-      <div class="container">
+      <div class="container-small">
         <div class="row">
           <div class="col-12 col-lg-8 p-0">
             <img style="height:600px;width:100%" src="/images/careerphoto.png" alt />
@@ -524,7 +524,7 @@
 
       <!-- our blogs and latest news starts here -->
 
-      <div class="container mt-5" style="background-color:#333333">
+      <div class="container-small mt-5" style="background-color:#333333">
         <div style="padding:25px 0">
           <div>
             <h2 class="text-center">OUR BLOG</h2>
@@ -532,48 +532,20 @@
             <hr style="width:10%;margin:auto" />
           </div>
           <div class="row" style="margin-top:40px !important">
-            <div class="col-12 col-lg-4">
+            <div class="col-12 col-lg-4" v-for="p in allBlogs" :key="p.id">
               <div style="padding:0 10px 10px 10px;border-bottom:3px solid #9e7b5f;">
-                <img class="w-100" style="margin:auto;height:210px" src="/images/services1.png" alt />
-                <p style="color:white;margin-top:10px;font-size:18px;font-weight:bold">
-                  PK Security Services
-                  Fire Prevention Week
+                <img class="w-100" style="margin:auto;height:210px" :src="p.image" alt />
+                <p style="color:white;margin-top:10px;font-size:18px;font-weight:bold;height:55px">
+                  {{p.title}}
                 </p>
-                <p
-                  class="text-white text-justify"
-                >In keeping with annual tradition, the Fire Prevention week was celebrated by the members and officials of PK Security Services.</p>
-                <div class="d-flex justify-content-center">
-                  <button class="btn btn1" style="font-size:14px" type="button">Read More</button>
+                <!-- <p
+                  class="text-white text-justify clamp4" style="height:100px"
+                >{{p.body}}</p> -->
+                <div class="text-white text-justify clamp4" style="height:100px" v-html="p.body">
+
                 </div>
-              </div>
-            </div>
-            <div class="col-12 col-lg-4 mt-3 mt-sm-0" style="height:500px">
-              <div style="padding:0 10px 10px 10px;border-bottom:3px solid #9e7b5f;">
-                <img class="w-100" style="margin:auto;height:210px" src="/images/services2.png" alt />
-                <p style="color:white;margin-top:10px;font-size:18px;font-weight:bold">
-                  Women’sDay
-                  Celebration with Female Security Personnel’s
-                </p>
-                <p
-                  class="text-white text-justify"
-                >On the occasion of International Women’s Day, the Women Security personnel’s were felicitated by our .</p>
                 <div class="d-flex justify-content-center">
-                  <button class="btn btn1" style="font-size:14px" type="button">Read More</button>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-lg-4 mt-3 mt-sm-0" style="height:500px">
-              <div style="padding:0 10px 10px 10px;border-bottom:3px solid #9e7b5f;">
-                <img class="w-100" style="margin:auto;height:210px" src="/images/services3.png" alt />
-                <p style="color:white;margin-top:10px;font-size:18px;font-weight:bold">
-                  Fitness Training of
-                  Security Guards
-                </p>
-                <p
-                  class="text-white text-justify mt-3 mt-sm-0"
-                >PK Security services organize annual formal training programs through vocational institutes. Topics covered</p>
-                <div class="d-flex justify-content-center">
-                  <button class="btn btn1" style="font-size:14px" type="button">Read More</button>
+                  <button class="btn btn1" style="font-size:14px" type="button"  @click="goToSingleBlog(p.id)">Read More</button>
                 </div>
               </div>
             </div>
@@ -608,10 +580,10 @@
                   alt
                 />
                 <div>
-                  <p class="text2 mt-5" style="height:auto">{{ p.testimonial }}</p>
+                  <p class="text2 mt-5 text-white" style="height:auto">{{ p.testimonial }}</p>
                   <div class="d-flex justify-content-center flex-column">
-                    <p class="text-center m-0">{{ p.name }}</p>
-                    <p class="text-center m-0 small">{{ p.user_type }}</p>
+                    <p class="text-white text-center m-0">{{ p.name }}</p>
+                    <p class="text-white text-center m-0 small">{{ p.user_type }}</p>
                   </div>
                 </div>
               </div>
@@ -701,6 +673,11 @@ export default {
         .catch(res => {
           alert("Error on Query Submission");
         });
+    },
+    goToSingleBlog: function(id) {
+      console.log('goToSingleBlog')
+      localStorage.setItem('blog_id' , id)
+      this.$router.push("/blog");
     },
     goToCareer: function() {
       this.$router.push("/career");
@@ -815,7 +792,7 @@ h2 {
 .text2 {
   text-align: center;
   color: #737373;
-  opacity: 0.54;
+  opacity: 1;
   line-height: 1;
   font-size: 18px;
   height: 23px;
@@ -959,11 +936,17 @@ h2 {
   .img1 {
     height: 300px;
   }
+  .padding-choose{
+    padding: 3rem
+  }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 991px) {
   .img1 {
     height: 400px;
+  } 
+  .padding-choose{
+    padding: 3rem
   }
 }
 

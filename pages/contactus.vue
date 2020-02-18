@@ -1,10 +1,10 @@
 <template>
   <div>
     <div style="background-color:black">
-      <div class="container-small p-0" style="background-color:#ededed">
+      <div class="container-small overlay p-0" style="background-color:#ededed">
         <img
           class="d-block w-100 img1"
-          src="~static/images/contact.jpg"
+          src="~static/images/contact.png"
         />
       </div>
     </div>
@@ -143,6 +143,16 @@ export default {
 <style scoped>
 .pad-contact {
   padding: 40px 0;
+}
+
+.overlay{
+  position: relative;
+}
+
+.overlay:before{
+  position: absolute;
+  content: "";
+  background-color: red;
 }
 
 img {
