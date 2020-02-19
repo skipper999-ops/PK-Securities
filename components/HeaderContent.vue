@@ -52,15 +52,25 @@
         <span class="coloured">sleeps</span>
       </span>
       <span class="btn-container">
-        <button class="button button--1">About Us</button>
-        <button class="button button--2">Contact</button>
+        <button class="button button--1" @click="goTo('whoweare2')">About Us</button>
+        <button class="button button--2" @click="goTo('contactus2')">Contact</button>
       </span>
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  methods:{
+    goTo(id){
+
+
+
+      this.$router.push('/'+ id)
+
+    }
+  }
+};
 </script>
 
 <style scoped>

@@ -1,7 +1,7 @@
 <template>
   <div style="background-color:black">
     <Breadcrumbs title="About Us" subtitle="Unmatchable Quality meets Unbeatable Price Quote" crumbs="Home > Security Companies > About Us"></Breadcrumbs>
-    <div class="container">
+    <div class="container-small">
       <div class="row mt-5">
         <div class="col-12 col-lg-8">
           <div>
@@ -115,13 +115,13 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 /* .bg-black-custom {
 } */
 
 .text-whoweare {
   color: #fff;
-  font-size: 22px;
+  font-size: 16px;
   opacity: 0.62;
   text-align: justify;
 }

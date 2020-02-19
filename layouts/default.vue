@@ -64,6 +64,11 @@ body {
   bottom: 20px;
 }
 
+
+.VueCarousel-pagination{
+  display: none
+}
+
 hr {
   height: 1px;
   border: none;

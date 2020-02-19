@@ -69,7 +69,10 @@
             style="color:#9e7b5f;display:flex;align-items:right;margin-left:auto;width:70%;border-top:2px solid #9e7b5f;padding-top:2px"
             behavior
             direction="left"
-          >NEWS:<span v-for="p in blog" :key="p.id">{{p.title}} | </span></marquee>
+          >
+            NEWS:
+            <span v-for="p in blog" :key="p.id">{{p.title}} |</span>
+          </marquee>
         </div>
       </div>
       <div class="custom-nav hide-on-med-and-down">
@@ -80,12 +83,18 @@
           <div class="nav-link">
             <nuxt-link class="link" to="/whoweare2">ABOUT US</nuxt-link>
           </div>
-          <div class="nav-link hover">
+          <div class="nav-link hover" @mouseover="showMenuOpen" @mouseleave="showMenuClose">
             <nuxt-link class="link" to="/securityservices">SERVICES</nuxt-link>
-            <ul>
-              <li>Sub Link</li>
-              <li>Sub Link</li>
-            </ul>
+            <div v-if="showMenu1" style="z-index: 9999; position: absolute;background-color:#110b0b;padding: 10px">
+              <ul style="list-style:none">
+                <li>
+                  <nuxt-link class="link" to="/detectiveservices">Detective Services</nuxt-link>
+                </li>
+                <li>
+                  <nuxt-link class="link" to="/specialamenities">Special Amenities</nuxt-link>
+                </li>
+              </ul>
+            </div>
           </div>
           <div class="nav-link">
             <nuxt-link class="link" to="/pknetwork">PK NETWORK</nuxt-link>
@@ -169,7 +178,7 @@
           </carousel>
         </client-only>
       </div>
-    </div> -->
+    </div>-->
   </div>
 </template>
 
@@ -179,7 +188,8 @@ import { mapState } from "vuex";
 export default {
   data() {
     return {
-      blog: []
+      blog: [],
+      showMenu1: false
     };
   },
 
@@ -191,14 +201,14 @@ export default {
 
   computed: {
     ...mapState(["HomepageSliderImages"]),
-    ...mapState(["allBlogs"]),
+    ...mapState(["allBlogs"])
   },
 
   mounted() {
     this.$store.dispatch("getHomepageSliderImages");
-    
-    this.$store.dispatch("getAllBlogs").then(res=>{
-      this.blog = Object.assign([] , res.data).splice(0,5)
+
+    this.$store.dispatch("getAllBlogs").then(res => {
+      this.blog = Object.assign([], res.data).splice(0, 5);
     });
     // var lastScrollTop = 0;
     // $(window).scroll(function(event) {
@@ -223,6 +233,14 @@ export default {
     // }); //missing );
   },
   methods: {
+    showMenuOpen: function() {
+      console.log("Sdsd");
+      this.showMenu1 = true;
+    },
+    showMenuClose: function() {
+      console.log("Sdsd");
+      this.showMenu1 = false;
+    },
     showMenu: function() {
       $(".mobile-nav").removeClass("opacity-hide");
       $(".nav").addClass("animation");
@@ -265,6 +283,10 @@ export default {
   height: 42px;
   line-height: 45px;
   border-left: 1px solid #cfcfcf;
+}
+
+ul li {
+  list-style-type: none;
 }
 
 .social-nav .social-nav__contact:last-child i {

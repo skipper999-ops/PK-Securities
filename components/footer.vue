@@ -1,5 +1,25 @@
 <template>
   <div>
+    <div class="pt-5 pb-5" style="background-color: white;margin-top: 60px;">
+    <div class="container-small">
+      <h4 class="text-center">Accredited By</h4>
+      <p class="text-center">Pk Security Services have licensed personnels approved by top national agencies for rendering quality services around the country.</p>
+      <client-only>
+        <carousel
+          :per-page="10"
+          :mouse-drag="true"
+          :loop="true"
+          style="height: 100px"
+          paginationColor="#e91e63"
+          paginationActiveColor="#ffffff"
+        >
+          <slide v-for="p in 20" :key="p.id">
+            <img class="d-block" style="height:50px" src="https://via.placeholder.com/50" alt="First slide" />
+          </slide>
+        </carousel>
+      </client-only>
+    </div>
+    </div>
     <div class="bg-grey">
       <div class="container-small footer-pad">
         <div class="row">
@@ -81,6 +101,7 @@
 .bg-grey {
   background-color: #323232;
 }
+
 
 .btn-go {
   height: 50px;

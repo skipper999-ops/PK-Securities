@@ -1,8 +1,8 @@
 <template>
   <div class="bg-black">
-    <div></div>
-    <div class="container">
-      <div>
+    <Breadcrumbs title="Special Amenities" subtitle="" crumbs="Home > Special Amenities"></Breadcrumbs>
+    <div class="container-small">
+      <div style="padding-top: 40px">
         <div class="w-100">
           <div>
             <img class="coma" src="/images/asset1.png" alt />

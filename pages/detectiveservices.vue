@@ -1,8 +1,8 @@
 <template>
   <div class="bg-black">
-    <div></div>
-    <div class="container">
-      <div>
+     <Breadcrumbs title="Detective Services" subtitle="" crumbs="Home > Detective Services"></Breadcrumbs>
+    <div class="container-small">
+      <div style="padding-top: 40px">
         <div class="w-100">
           <div>
             <img class="coma" src="/images/asset1.png" alt />
@@ -119,6 +119,15 @@
   </div>
 </template>
  
+<script>
+import Breadcrumbs from "@/components/breadcrumbs.vue";
+
+export default {
+  components: {
+    Breadcrumbs
+  }
+};
+</script>
 <style scoped>
 .coma {
   height: 55px;
