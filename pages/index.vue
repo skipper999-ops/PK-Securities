@@ -528,7 +528,7 @@
       <div class="container-small mt-5" style="background-color:#333333">
         <div style="padding:25px 0">
           <div>
-            <h2 class="text-center">OUR BLOG</h2>
+            <!-- <h2 class="text-center">OUR BLOG</h2> -->
             <h3 class="text-center">RECENT NEWS</h3>
             <hr style="width:10%;margin:auto" />
           </div>
