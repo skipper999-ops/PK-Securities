@@ -77,7 +77,7 @@ h3, h5, p{
 }
 .img-text {
     position: absolute;
-    z-index: 99;
+    z-index: 98;
     margin: 0 auto;
     max-width: 1280px;
     left: 0;

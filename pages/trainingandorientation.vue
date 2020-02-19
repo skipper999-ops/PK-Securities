@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div @click="hide" class="backdrop"></div>
+    <Breadcrumbs title="Training and Orientation" subtitle crumbs="Home > Training and Orientation"></Breadcrumbs>
     <div class="container-small" style="margin-top:50px!important" @click="removeTrans">
       <div class="row" style="#333333">
         <div class="col-12 col-lg-7">
@@ -11,12 +11,12 @@
           </div>
         </div>
         <div class="col-12 col-lg-5">
-                  <iframe
-          src="https://maps.google.com/maps?q=pk%20security&t=&z=13&ie=UTF8&iwloc=&output=embed"
-          frameborder="0"
-          style="border:0;width: 100%;height: 500px"
-          allowfullscreen
-        ></iframe>
+          <iframe
+            src="https://maps.google.com/maps?q=pk%20security&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            frameborder="0"
+            style="border:0;width: 100%;height: 500px"
+            allowfullscreen
+          ></iframe>
         </div>
       </div>
 
@@ -37,7 +37,11 @@
   </div>
 </template>
 <script>
+import Breadcrumbs from "@/components/breadcrumbs.vue";
 export default {
+  components: {
+    Breadcrumbs
+  },
   mounted() {
     $(".train")
       .click(function() {

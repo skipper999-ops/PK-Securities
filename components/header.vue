@@ -476,7 +476,9 @@ ul li {
   line-height: 40px;
   opacity: 0;
   transition: all 0.4s ease;
+  overflow: auto;
 }
+
 
 .nav .link {
   margin: 15px 0;
