@@ -1,7 +1,7 @@
 <template>
   <div>
     <Breadcrumbs title="Contact Us" subtitle="" crumbs="Home > Contact Us"></Breadcrumbs>
-    <div class="container-small px-5 py-4" style="background-color: #353535;">
+    <div class="container-small p-3 py-4" style="background-color: #353535;">
       <p class="contact m-0">Contact Us</p>
       <span>We're here to help. Let us know if you have any questions at all.</span>
       <div class="border__btm my-5"></div>
@@ -140,7 +140,7 @@ export default {
 <style scoped>
 .contact {
   color: #9e7b5f;
-  font-size: 4rem;
+  font-size: 30px;
   font-weight: 700;
   font-style: italic;
 }

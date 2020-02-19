@@ -1,7 +1,7 @@
 <template>
   <div>
     <div @click="hide" class="backdrop"></div>
-    <div class="container" style="margin-top:50px!important" @click="removeTrans">
+    <div class="container-small" style="margin-top:50px!important" @click="removeTrans">
       <div class="row" style="#333333">
         <div class="col-12 col-lg-7">
           <div class="train-pad">
@@ -10,7 +10,14 @@
             <p>Training as per PSARA Act 2005 is compulsorily provided to security personnel recruited for deployment free of cost. A proper course of syllabus is being followed at all our IISM which is well equipped and managed by competent training staff and experts.</p>
           </div>
         </div>
-        <div class="col-12 col-lg-5"></div>
+        <div class="col-12 col-lg-5">
+                  <iframe
+          src="https://maps.google.com/maps?q=pk%20security&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          frameborder="0"
+          style="border:0;width: 100%;height: 500px"
+          allowfullscreen
+        ></iframe>
+        </div>
       </div>
 
       <div class="mt-5">
@@ -73,7 +80,7 @@ export default {
 }
 
 .train-pad {
-  padding: 50px 10px 10px;
+  padding: 0 10px 10px;
 }
 
 .train-pad > p {

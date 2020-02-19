@@ -17,7 +17,7 @@
                 With years of experience, we understand the challenges to the ever-evolving security environment. We have become the most preferred partners of a huge clientele by setting a benchmark in creating smart measures.
                 PK Security surpasses competitors by providing our clients with the most competent, motivated and caring staff of professionals. This is the result of our industry-leading recruiting, training, compensation and recognition programs.
               </p>
-              <button type="button" href="/securityservices" class="btn btn-security">Read More</button>
+              <nuxt-link type="button" to="/securityservices" class="btn btn-security">Read More</nuxt-link>
             </div>
           </div>
           <div class="col-12 col-lg-7 p-0">
@@ -106,7 +106,7 @@
           <div class="row mt-5">
             <div class="col-12 col-sm-6">
               <div>
-                <h3 style="font-weight:700;color:#fff;text-align:right;font-size:19px">We provide</h3>
+                <h3 style="font-weight:700;color:#fff;font-size:19px">We provide</h3>
                 <h5
                   class="mt-3"
                   style="color:#fff;font-size:29px"
@@ -122,7 +122,7 @@
                   total solutions security package.
                 </p>
               </div>
-              <nuxt-link to="/whoweare" class="custom-link" style="color:#9e7b5f" href>READ MORE</nuxt-link>
+              <nuxt-link to="/whoweare2" class="custom-link" style="color:#9e7b5f" href>READ MORE</nuxt-link>
               <div class="row mt-3">
                 <div class="col-12 col-lg-4">
                   <p class="text-center text-white" style="font-size:17px">OUR CUSTOMERS</p>
@@ -170,7 +170,7 @@
               <p
                 style="color:#323232"
               >Integrated security services with expert solutions to minimize the risks and render smooth running of your operations. Having a basic security presence around your residential, commercial or industrial site will ensure that your assets are strictly protected. We have the required expertise and resources to identify customizable security programs and strategies specific to meet the security needs of each client.</p>
-              <button class="btn btn-security">Read More</button>
+               <nuxt-link type="button" to="/specialamenities" class="btn btn-security">Read More</nuxt-link>
             </div>
           </div>
           <div class="col-12 col-lg-7 p-0">
@@ -321,7 +321,7 @@
               <p
                 style="color:#323232"
               >Integrated security services with expert solutions to minimize the risks and render smooth running of your operations. Having a basic security presence around your residential, commercial or industrial site will ensure that your assets are strictly protected. We have the required expertise and resources to identify customizable security programs and strategies specific to meet the security needs of each client.</p>
-              <button class="btn btn-security">Read More</button>
+              <nuxt-link type="button" to="/detectiveservices" class="btn btn-security">Read More</nuxt-link>
             </div>
           </div>
           <div class="col-12 col-lg-7 p-0">

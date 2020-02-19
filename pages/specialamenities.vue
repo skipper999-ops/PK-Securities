@@ -119,6 +119,17 @@
   </div>
 </template>
  
+
+<script>
+import Breadcrumbs from "@/components/breadcrumbs.vue";
+
+export default {
+  components: {
+    Breadcrumbs
+  }
+};
+</script>
+
 <style scoped>
 .coma {
   height: 55px;

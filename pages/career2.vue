@@ -1,7 +1,7 @@
 <template>
   <div class="bg-black">
-    <Breadcrumbs name="Training and Orientation"></Breadcrumbs>
-    <div class="container">
+     <Breadcrumbs title="Training and Orientation" subtitle="" crumbs="Home > Training and Orientation"></Breadcrumbs>
+    <div class="container-small" style="padding-top:40px">
       <div>
         <div class="w-100">
           <div>
@@ -61,7 +61,7 @@
                   </tbody>
                 </table>
                 <div class="d-flex justify-content-center m-4">
-                  <button class="btn btn-apply" type="button">APPLY NOW</button>
+                  <!-- <button class="btn btn-apply" type="button">APPLY NOW</button> -->
                 </div>
               </div>
             </div>
@@ -106,7 +106,7 @@
                   </tbody>
                 </table>
                 <div class="d-flex justify-content-center m-4">
-                  <button class="btn btn-apply" type="button">APPLY NOW</button>
+                  <!-- <button class="btn btn-apply" type="button">APPLY NOW</button> -->
                 </div>
               </div>
             </div>

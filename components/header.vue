@@ -76,7 +76,7 @@
         </div>
       </div>
       <div class="custom-nav hide-on-med-and-down">
-        <div class="container d-flex justify-content-center">
+        <div class="container d-flex justify-content-center" style="position:relative">
           <div class="nav-link">
             <nuxt-link class="link" to="/" exact>HOME</nuxt-link>
           </div>
@@ -85,7 +85,7 @@
           </div>
           <div class="nav-link hover" @mouseover="showMenuOpen" @mouseleave="showMenuClose">
             <nuxt-link class="link" to="/securityservices">SERVICES</nuxt-link>
-            <div v-if="showMenu1" style="z-index: 9999; position: absolute;background-color:#110b0b;padding: 10px">
+            <div v-if="showMenu1" style="z-index: 9999; position: absolute;background-color:#110b0b;padding: 10px;top: 53px;width: 160px;">
               <ul style="list-style:none">
                 <li>
                   <nuxt-link class="link" to="/detectiveservices">Detective Services</nuxt-link>
@@ -123,6 +123,7 @@
         >
           <div class="nav-link hide-on-med-and-down">
             <nuxt-link class="link" to="/">Home</nuxt-link>
+            <nuxt-link class="link" to="/pknetwork">PK NETWORK</nuxt-link>
             <nuxt-link class="link" to="/services">Services</nuxt-link>
             <nuxt-link class="link" to="/ourwork">Our Work</nuxt-link>
             <nuxt-link class="link" to="/about">About Us</nuxt-link>
@@ -146,11 +147,13 @@
         <div class="mobile-nav opacity-hide">
           <div class="nav">
             <nuxt-link class="link" to="/">Home</nuxt-link>
-            <nuxt-link class="link" to="/whoweare">Who We Are</nuxt-link>
-            <nuxt-link class="link" to="/whatwedo">What We Do</nuxt-link>
-            <nuxt-link class="link" to="/career">Careers</nuxt-link>
+            <nuxt-link class="link" to="/pknetwork">PK Network</nuxt-link>
+            <nuxt-link class="link" to="/whoweare2">Who We Are</nuxt-link>
+            <nuxt-link class="link" to="/services">Services</nuxt-link>
+            <nuxt-link class="link" to="/career2">Careers</nuxt-link>
+            <nuxt-link class="link" to="/trainingandorientation">Training AND Orientation</nuxt-link>
             <nuxt-link class="link" to="/ourclients">Our Clients</nuxt-link>
-            <nuxt-link class="link" to="/contactus">Contact Us</nuxt-link>
+            <nuxt-link class="link" to="/contactus2">Contact Us</nuxt-link>
           </div>
           <div @click="closeMenu" class="show-on-medium-and-down hamburger">
             <img src="~static/close.svg" style="height:20px" />
