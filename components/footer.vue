@@ -25,8 +25,8 @@
         <div class="row">
           <div class="col-12 col-lg-4 pt-5">
             <div class="d-flex">
-              <img style="height:80px" class="w-50" src="/images/PK1_new.png" alt />
-              <img class="w-50" src="/images/PK2.png" alt />
+              <img style="width: 100px;height: 100%;" src="/images/PK1_new.png" alt />
+              <img style="width: 100px;height: 100%;" src="/images/PK2.png" alt />
             </div>
             <div class="mt-3 d-flex justify-content-center">
               <img style="height:300px;width:60%" src="/images/pkcertificate.jpg" alt />

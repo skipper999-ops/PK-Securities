@@ -1,5 +1,6 @@
 <template>
   <div>
+     <Breadcrumbs title="Our Clients" subtitle="" crumbs="Home > Our Clients"></Breadcrumbs>
     <div class="bg-black">
       <div class="container-small p-0">
         <div>
@@ -53,13 +54,16 @@
 </template>
 
 <script>
+import Breadcrumbs from "@/components/breadcrumbs.vue";
 import { mapState } from "vuex";
 
 export default {
   data() {
     return {};
   },
-
+  components: {
+    Breadcrumbs
+  },
   computed: {
     ...mapState(["allClientListKamrup"]),
     ...mapState(["allClientListOutside"])

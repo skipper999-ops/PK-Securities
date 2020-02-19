@@ -36,10 +36,10 @@
     <div class="nav-header-main">
       <div class="secondary-nav pt-3 pb-3">
         <div class="container p-0 d-flex justify-content-between align-items-center">
-          <div>
+          <nuxt-link to="/">
             <img class="logo" style="margin-right:10px" src="~/static/images/PK1_new.png" />
             <img class="logo" src="~/static/images/PK2.png" />
-          </div>
+          </nuxt-link>
           <div class="d-flex hide-on-med-and-down">
             <span class="d-flex">
               <img class="mr-2" style="height:18px" src="/images/clock.png" alt />
@@ -84,9 +84,12 @@
             <nuxt-link class="link" to="/whoweare2">ABOUT US</nuxt-link>
           </div>
           <div class="nav-link hover" @mouseover="showMenuOpen" @mouseleave="showMenuClose">
-            <nuxt-link class="link" to="/securityservices">SERVICES</nuxt-link>
+            <nuxt-link class="link" to="#">SERVICES</nuxt-link>
             <div v-if="showMenu1" style="z-index: 9999; position: absolute;background-color:#110b0b;padding: 10px;top: 53px;width: 160px;">
               <ul style="list-style:none">
+                <li>
+                  <nuxt-link class="link" to="/securityservices">Security Services</nuxt-link>
+                </li>
                 <li>
                   <nuxt-link class="link" to="/detectiveservices">Detective Services</nuxt-link>
                 </li>
@@ -204,13 +207,13 @@ export default {
 
   computed: {
     ...mapState(["HomepageSliderImages"]),
-    ...mapState(["allBlogs"])
+    ...mapState(["allNews"])
   },
 
   mounted() {
     this.$store.dispatch("getHomepageSliderImages");
 
-    this.$store.dispatch("getAllBlogs").then(res => {
+    this.$store.dispatch("getAllNews").then(res => {
       this.blog = Object.assign([], res.data).splice(0, 5);
     });
     // var lastScrollTop = 0;
