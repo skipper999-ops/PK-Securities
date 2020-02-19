@@ -4,8 +4,8 @@ var url
 
 if (process.env.NODE_ENV == "development") {
 
-    // var url = "http://api.pkservices.in/backend/";
-    var url = "http://127.0.0.1:8000/backend/";
+    var url = "http://api.pkservices.in/backend/";
+    // var url = "http://127.0.0.1:8000/backend/";
 
 } else {
 

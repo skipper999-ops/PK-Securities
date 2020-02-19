@@ -8,12 +8,12 @@
     >
       <HeaderContent />
     </div>
-    <span @click="goLeft" class="controle controle--left">
+    <!-- <span @click="goLeft" class="controle controle--left">
       <img src="/arrow.svg" />
-    </span>
-    <span @click="goRight" class="controle controle--right">
+    </span> -->
+    <!-- <span @click="goRight" class="controle controle--right">
       <img src="/arrow.svg" />
-    </span>
+    </span> -->
   </div>
 </template>
 

@@ -76,7 +76,7 @@
         </div>
       </div>
       <div class="custom-nav hide-on-med-and-down">
-        <div class="container d-flex justify-content-center" style="position:relative">
+        <div class="container d-flex justify-content-center" style="position:relative;width: 100%;">
           <div class="nav-link">
             <nuxt-link class="link" to="/" exact>HOME</nuxt-link>
           </div>
@@ -324,7 +324,7 @@ ul li {
 .custom-nav a {
   text-decoration: none;
   color: #fff;
-  font-size: 15px;
+  font-size: 13px;
   padding: 11px 0;
 }
 

@@ -533,7 +533,7 @@
             <hr style="width:10%;margin:auto" />
           </div>
           <div class="row" style="margin-top:40px !important">
-            <div class="col-12 col-lg-4" v-for="p in allBlogs" :key="p.id">
+            <div class="col-12 col-lg-4" v-for="p in allNews" :key="p.id">
               <div style="padding:0 10px 10px 10px;border-bottom:3px solid #9e7b5f;">
                 <img class="w-100" style="margin:auto;height:210px" :src="p.image" alt />
                 <p
