@@ -8,8 +8,10 @@
               <img style="height:80px" class="w-50" src="/images/PK1_new.png" alt />
               <img style="height:80px" class="w-50" src="/images/PK2_new.png" alt />
             </div>
-            <div class="mt-3 d-flex justify-content-center">
-              <img style="height:300px;width:60%" src="/images/pkcertificate.jpg" alt />
+            <div class="mt-3 d-flex justify-content-between">
+              <!-- <img style="height:300px;width:auto" src="/images/certficate1.jpg" alt /> -->
+              <img style="height:300px;width:auto" src="/images/securitycertificate.jpg" alt />
+              <img style="height:300px;width:auto" src="/images/servicescertificate.jpg" alt />
             </div>
           </div>
           <div class="col-12 col-md-12 col-lg-4 pt-5">
