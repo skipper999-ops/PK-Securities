@@ -279,7 +279,7 @@
                 <p
                   class="text-white mt-4"
                   style="font-size:18px"
-                >Our extensive security industry experience enables us to exceed the expectations of our customers.</p>
+                >Our extensive security industry experience enables us to exceed customers expectations.We now have around 120 satisfied customers and still counting.</p>
               </div>
               <div class="mt-5">
                 <div class="d-flex align-items-center">
@@ -289,7 +289,7 @@
                 <p
                   class="text-white mt-4"
                   style="font-size:18px"
-                >Security personals are subject to 24 * 7 guard duties for providing access control in the entrance areas to secure customer sites.</p>
+                >We have more than 400 members & Security personals who are subject to 24 * 7 guard duties to to unload you of the burden connected with all your security aspects.</p>
               </div>
               <div class="mt-5">
                 <div class="d-flex align-items-center">
@@ -299,7 +299,7 @@
                 <p
                   class="text-white mt-4"
                   style="font-size:18px"
-                >Reliable security service with licensed security officers to make your residential spaces risk-free.</p>
+                >Reliable and Govt. approved security service provider with an ISO 9001:2015 certification to make your residential spaces risk-free.</p>
               </div>
             </div>
           </div>

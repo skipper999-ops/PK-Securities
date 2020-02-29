@@ -10,8 +10,8 @@
             </div>
             <div class="mt-3 d-flex justify-content-between">
               <!-- <img style="height:300px;width:auto" src="/images/certficate1.jpg" alt /> -->
-              <img style="height:300px;width:auto" src="/images/securitycertificate.jpg" alt />
-              <img style="height:300px;width:auto" src="/images/servicescertificate.jpg" alt />
+              <img style="height:220px;width:auto" src="/images/securitycertificate.jpg" alt />
+              <img style="height:220px;width:auto" src="/images/servicescertificate.jpg" alt />
             </div>
           </div>
           <div class="col-12 col-md-12 col-lg-4 pt-5">
