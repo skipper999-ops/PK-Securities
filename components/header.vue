@@ -39,7 +39,7 @@
           <nuxt-link to="/">
             <img class="logo" style="margin-right:10px" src="~/static/images/PK1_new.png" />
             <img class="logo" src="~/static/images/PK2_new.png" />
-          </div>
+          </nuxt-link>
           <div class="d-flex hide-on-med-and-down">
             <span class="d-flex">
               <img class="mr-2" style="height:18px" src="/images/clock.png" alt />
@@ -56,64 +56,67 @@
               </p>
             </span>
           </div>
-          <div
-            @click="showMenu"
-            class="show-on-medium-and-down hide-on-large-only menu"
-            style="align-items: center;"
-          >
-            <img src="~static/menu.svg" style="height:20px" />
-          </div>
         </div>
-        <div class="container hide-on-med-and-down">
-          <marquee
-            style="color:#9e7b5f;display:flex;align-items:right;margin-left:auto;width:70%;border-top:2px solid #9e7b5f;padding-top:2px"
-            behavior
-            direction="left"
-          >
-            NEWS:
-            <span v-for="p in blog" :key="p.id">{{p.title}} |</span>
-          </marquee>
+        <div
+          @click="showMenu"
+          class="show-on-medium-and-down hide-on-large-only menu"
+          style="align-items: center;"
+        >
+          <img src="~static/menu.svg" style="height:20px" />
         </div>
       </div>
-      <div class="custom-nav hide-on-med-and-down">
-        <div class="container d-flex justify-content-center" style="position:relative;width: 100%;">
-          <div class="nav-link">
-            <nuxt-link class="link" to="/" exact>HOME</nuxt-link>
+      <div class="container hide-on-med-and-down">
+        <marquee
+          style="color:#9e7b5f;display:flex;align-items:right;margin-left:auto;width:70%;border-top:2px solid #9e7b5f;padding-top:2px"
+          behavior
+          direction="left"
+        >
+          NEWS:
+          <span v-for="p in blog" :key="p.id">{{p.title}} |</span>
+        </marquee>
+      </div>
+    </div>
+    <div class="custom-nav hide-on-med-and-down">
+      <div class="container d-flex justify-content-center" style="position:relative;width: 100%;">
+        <div class="nav-link">
+          <nuxt-link class="link" to="/" exact>HOME</nuxt-link>
+        </div>
+        <div class="nav-link">
+          <nuxt-link class="link" to="/whoweare2">ABOUT US</nuxt-link>
+        </div>
+        <div class="nav-link hover" @mouseover="showMenuOpen" @mouseleave="showMenuClose">
+          <nuxt-link class="link" to="#">SERVICES</nuxt-link>
+          <div
+            v-if="showMenu1"
+            style="z-index: 9999; position: absolute;background-color:#110b0b;padding: 10px;top: 53px;width: 160px;"
+          >
+            <ul style="list-style:none">
+              <li>
+                <nuxt-link class="link" to="/securityservices">Security Services</nuxt-link>
+              </li>
+              <li>
+                <nuxt-link class="link" to="/detectiveservices">Detective Services</nuxt-link>
+              </li>
+              <li>
+                <nuxt-link class="link" to="/specialamenities">Special Amenities</nuxt-link>
+              </li>
+            </ul>
           </div>
-          <div class="nav-link">
-            <nuxt-link class="link" to="/whoweare2">ABOUT US</nuxt-link>
-          </div>
-          <div class="nav-link hover" @mouseover="showMenuOpen" @mouseleave="showMenuClose">
-            <nuxt-link class="link" to="#">SERVICES</nuxt-link>
-            <div v-if="showMenu1" style="z-index: 9999; position: absolute;background-color:#110b0b;padding: 10px;top: 53px;width: 160px;">
-              <ul style="list-style:none">
-                <li>
-                  <nuxt-link class="link" to="/securityservices">Security Services</nuxt-link>
-                </li>
-                <li>
-                  <nuxt-link class="link" to="/detectiveservices">Detective Services</nuxt-link>
-                </li>
-                <li>
-                  <nuxt-link class="link" to="/specialamenities">Special Amenities</nuxt-link>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="nav-link">
-            <nuxt-link class="link" to="/pknetwork">PK NETWORK</nuxt-link>
-          </div>
-          <div class="nav-link">
-            <nuxt-link class="link" to="/trainingandorientation">TRAINING AND ORIENTATION</nuxt-link>
-          </div>
-          <div class="nav-link">
-            <nuxt-link class="link" to="/ourclients">OUR CLIENTS</nuxt-link>
-          </div>
-          <div class="nav-link">
-            <nuxt-link class="link" to="/career2">CAREERS</nuxt-link>
-          </div>
-          <div class="nav-link">
-            <nuxt-link class="link" to="/contactus2">CONTACT US</nuxt-link>
-          </div>
+        </div>
+        <div class="nav-link">
+          <nuxt-link class="link" to="/pknetwork">PK NETWORK</nuxt-link>
+        </div>
+        <div class="nav-link">
+          <nuxt-link class="link" to="/trainingandorientation">TRAINING AND ORIENTATION</nuxt-link>
+        </div>
+        <div class="nav-link">
+          <nuxt-link class="link" to="/ourclients">OUR CLIENTS</nuxt-link>
+        </div>
+        <div class="nav-link">
+          <nuxt-link class="link" to="/career2">CAREERS</nuxt-link>
+        </div>
+        <div class="nav-link">
+          <nuxt-link class="link" to="/contactus2">CONTACT US</nuxt-link>
         </div>
       </div>
     </div>
@@ -164,9 +167,10 @@
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- 1st carousel -->
-    <!-- <div v-if="$nuxt.$route.name != 'contactus'">
+  <!-- 1st carousel -->
+  <!-- <div v-if="$nuxt.$route.name != 'contactus'">
       <div class="container-small p-0" style="background-color:#ededed">
         <client-only>
           <carousel
@@ -184,8 +188,7 @@
           </carousel>
         </client-only>
       </div>
-    </div>-->
-  </div>
+  </div>-->
 </template>
 
 <script>
@@ -481,7 +484,6 @@ ul li {
   transition: all 0.4s ease;
   overflow: auto;
 }
-
 
 .nav .link {
   margin: 15px 0;

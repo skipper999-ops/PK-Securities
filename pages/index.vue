@@ -170,7 +170,7 @@
               <p
                 style="color:#323232"
               >Integrated security services with expert solutions to minimize the risks and render smooth running of your operations. Having a basic security presence around your residential, commercial or industrial site will ensure that your assets are strictly protected. We have the required expertise and resources to identify customizable security programs and strategies specific to meet the security needs of each client.</p>
-               <nuxt-link type="button" to="/specialamenities" class="btn btn-security">Read More</nuxt-link>
+              <nuxt-link type="button" to="/specialamenities" class="btn btn-security">Read More</nuxt-link>
             </div>
           </div>
           <div class="col-12 col-lg-7 p-0">
@@ -584,10 +584,13 @@
                   alt
                 />
                 <div>
-                  <p class="text2 mt-5 text-white" style="height:auto">{{ p.testimonial }}</p>
+                  <p
+                    class="text2 mt-5 text-white"
+                    style="height:auto;opacity:.8"
+                  >{{ p.testimonial }}</p>
                   <div class="d-flex justify-content-center flex-column">
-                    <p class="text-white text-center m-0">{{ p.name }}</p>
-                    <p class="text-white text-center m-0 small">{{ p.user_type }}</p>
+                    <p class="text-white text-center m-0" style="opacity:.8">{{ p.name }}</p>
+                    <p class="text-white text-center m-0 small" style="opacity:.8">{{ p.user_type }}</p>
                   </div>
                 </div>
               </div>
@@ -963,7 +966,7 @@ h2 {
   .padding-choose {
     padding: 3rem;
   }
-    .career-photo {
+  .career-photo {
     height: 300px;
   }
 }

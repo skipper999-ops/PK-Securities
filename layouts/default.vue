@@ -55,8 +55,8 @@ body {
   font-style: normal;
 }
 
-.nuxt-link-exact-active.nuxt-link-active{
-  color: #fdb06c!important
+.nuxt-link-exact-active.nuxt-link-active {
+  color: #fdb06c !important;
 }
 
 .header-carousel .VueCarousel-pagination {
@@ -64,9 +64,8 @@ body {
   bottom: 20px;
 }
 
-
-.VueCarousel-pagination{
-  display: none
+.VueCarousel-pagination {
+  display: none;
 }
 
 hr {
@@ -166,8 +165,8 @@ body {
   bottom: -15px;
   margin: auto;
   content: "";
-  background: #b71c1c; /* fallback for old browsers */
-  background: linear-gradient(to right, #b71c1c, #b71c1c);
+  background: rgb(158, 123, 95); /* fallback for old browsers */
+  background: linear-gradient(to right, rgb(158, 123, 95), rgb(158, 123, 95));
 }
 
 .underline.right span::after {
@@ -325,7 +324,7 @@ input[type="text"],
 input[type="email"] {
   outline: 0;
   border: 1px solid #e8e8e8;
-  padding: 10px;
+  padding: 5px;
   border-radius: 2px;
 }
 </style>

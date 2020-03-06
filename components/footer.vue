@@ -1,24 +1,71 @@
 <template>
   <div>
     <div class="pt-5 pb-5" style="background-color: white;margin-top: 60px;">
-    <div class="container-small">
-      <h4 class="text-center">Accredited By</h4>
-      <p class="text-center">Pk Security Services have licensed personnels approved by top national agencies for rendering quality services around the country.</p>
-      <client-only>
-        <carousel
-          :per-page="10"
-          :mouse-drag="true"
-          :loop="true"
-          style="height: 100px"
-          paginationColor="#e91e63"
-          paginationActiveColor="#ffffff"
-        >
-          <slide v-for="p in 20" :key="p.id">
-            <img class="d-block" style="height:50px" src="https://via.placeholder.com/50" alt="First slide" />
-          </slide>
-        </carousel>
-      </client-only>
-    </div>
+      <div class="container-small">
+        <h4 class="text-center">Accredited By</h4>
+        <p
+          class="text-center"
+        >PK Security Services is an ISO 9001:2015 certified organization approved by Government for rendering quality services around the country.</p>
+        <client-only>
+          <carousel
+            :per-page="10"
+            :mouse-drag="true"
+            :loop="true"
+            style="height: 100px"
+            paginationColor="#e91e63"
+            paginationActiveColor="#ffffff"
+          >
+            <slide>
+              <img class style="height:70px" src="/c_logo/amul.jpg" alt="First slide" />
+            </slide>
+            <slide>
+              <img class style="height:70px" src="/c_logo/Picture1.jpg" alt="First slide" />
+            </slide>
+            <slide>
+              <img class style="height:70px" src="/c_logo/Picture3.png" alt="First slide" />
+            </slide>
+            <slide>
+              <img class style="height:70px" src="/c_logo/Picture4.jpg" alt="First slide" />
+            </slide>
+            <slide>
+              <img class style="height:70px" src="/c_logo/Picture5.jpg" alt="First slide" />
+            </slide>
+            <slide>
+              <img class style="height:70px" src="/c_logo/Picture6.jpg" alt="First slide" />
+            </slide>
+            <slide>
+              <img class style="height:70px" src="/c_logo/Picture7.png" alt="First slide" />
+            </slide>
+            <slide>
+              <img class style="height:70px" src="/c_logo/Picture8.png" alt="First slide" />
+            </slide>
+            <slide>
+              <img class style="height:70px" src="/c_logo/Picture9.png" alt="First slide" />
+            </slide>
+            <slide>
+              <img class style="height:70px" src="/c_logo/Picture10.jpg" alt="First slide" />
+            </slide>
+            <slide>
+              <img class style="height:70px" src="/c_logo/Picture11.jpg" alt="First slide" />
+            </slide>
+            <slide>
+              <img class style="height:70px" src="/c_logo/Picture12.jpg" alt="First slide" />
+            </slide>
+            <slide>
+              <img class style="height:70px" src="/c_logo/Picture13.jpg" alt="First slide" />
+            </slide>
+            <slide>
+              <img class style="height:70px" src="/c_logo/Picture14.jpg" alt="First slide" />
+            </slide>
+            <slide>
+              <img class style="height:70px" src="/c_logo/Picture15.jpg" alt="First slide" />
+            </slide>
+            <slide>
+              <img class style="height:70px" src="/c_logo/poll.jpg" alt="First slide" />
+            </slide>
+          </carousel>
+        </client-only>
+      </div>
     </div>
     <div class="bg-grey">
       <div class="container-small footer-pad">
@@ -68,15 +115,15 @@
                 </form>
               </div>
               <div class="justify-content-between mt-4 w-100">
-                <img style="height:15px;width:5px;margin-right:15px" src="/icons/facebook.svg" alt />
-                <img style="height:15px;width:13px;margin-right:15px" src="/icons/google.svg" alt />
+                <img style="height:15px;width:auto;margin-right:15px" src="/icons/facebook.svg" alt />
+                <img style="height:15px;width:auto;margin-right:15px" src="/icons/google.svg" alt />
                 <img
-                  style="height:15px;width:15px;margin-right:15px"
+                  style="height:15px;width:auto;margin-right:15px"
                   src="/icons/instagram.svg"
                   alt
                 />
-                <img style="height:15px;width:15px;margin-right:15px" src="/icons/twitter.svg" alt />
-                <img style="height:15px;width:15px" src="/icons/pinterest.svg" alt />
+                <img style="height:15px;width:auto;margin-right:15px" src="/icons/twitter.svg" alt />
+                <img style="height:15px;width:auto" src="/icons/pinterest.svg" alt />
               </div>
             </div>
           </div>
@@ -104,9 +151,8 @@
   background-color: #323232;
 }
 
-
 .btn-go {
-  height: 50px;
+  height: 37px;
   width: 50px;
   background-color: #9e7b5f;
   color: white;
