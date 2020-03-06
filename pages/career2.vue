@@ -1,7 +1,7 @@
 <template>
   <div class="bg-black">
-    <div></div>
-    <div class="container">
+     <Breadcrumbs title="Training and Orientation" subtitle="" crumbs="Home > Training and Orientation"></Breadcrumbs>
+    <div class="container-small" style="padding-top:40px">
       <div>
         <div class="w-100">
           <div>
@@ -22,17 +22,17 @@
         <div class="accordion mt-5 border-0" id="accordionExample">
           <div class="card border-bottom">
             <div class="card-header" id="headingOne">
-              <h2 class="mb-0">
+
                 <button
                   class="btn"
                   type="button"
-                  style="color:white;font-size:20px"
+                  style="color:white;font-size:20px;text-align:left"
                   data-toggle="collapse"
                   data-target="#collapseOne"
                   aria-expanded="true"
                   aria-controls="collapseOne"
                 >Account Officer</button>
-              </h2>
+
             </div>
 
             <div
@@ -61,7 +61,7 @@
                   </tbody>
                 </table>
                 <div class="d-flex justify-content-center m-4">
-                  <button class="btn btn-apply" type="button">APPLY NOW</button>
+                  <!-- <button class="btn btn-apply" type="button">APPLY NOW</button> -->
                 </div>
               </div>
             </div>
@@ -106,41 +106,28 @@
                   </tbody>
                 </table>
                 <div class="d-flex justify-content-center m-4">
-                  <button class="btn btn-apply" type="button">APPLY NOW</button>
+                  <!-- <button class="btn btn-apply" type="button">APPLY NOW</button> -->
                 </div>
               </div>
             </div>
           </div>
-          <div class="card border-0">
-            <div class="card-header" id="headingThree">
-              <h2 class="mb-0">
-                <button
-                  class="btn btn-link collapsed"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#collapseThree"
-                  aria-expanded="false"
-                  aria-controls="collapseThree"
-                >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor?</button>
-              </h2>
-            </div>
-            <div
-              id="collapseThree"
-              class="collapse"
-              aria-labelledby="headingThree"
-              data-parent="#accordionExample"
-            >
-              <div
-                class="card-body"
-              >Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
-            </div>
-          </div>
+
         </div>
       </div>
     </div>
   </div>
 </template>
   
+<script>
+import Breadcrumbs from "@/components/breadcrumbs.vue";
+
+export default {
+  components: {
+    Breadcrumbs
+  }
+};
+</script>
+
 <style scoped>
 .bg-black {
   background-color: black;
@@ -150,7 +137,7 @@
   background-color: #333333;
 }
 
-.accordion > .card:not(:last-of-type) {
+.accordion > .card {
   border-bottom: 0;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;

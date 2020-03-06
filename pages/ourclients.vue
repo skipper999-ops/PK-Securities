@@ -1,5 +1,6 @@
 <template>
   <div>
+     <Breadcrumbs title="Our Clients" subtitle="" crumbs="Home > Our Clients"></Breadcrumbs>
     <div class="bg-black">
       <div class="container-small p-0">
         <div>
@@ -11,7 +12,7 @@
               <table class="table table-striped table-bordered">
                 <thead>
                   <tr>
-                    <th class="text-center">Sl. No</th>
+                    <th width="100px" class="text-center">Sl. No</th>
                     <th class="text-center">Name of Sites</th>
                     <th class="text-center">Location</th>
                   </tr>
@@ -31,7 +32,7 @@
               <table class="table table-striped table-bordered">
                 <thead>
                   <tr>
-                    <th class="text-center">Sl. No</th>
+                    <th width="100px" class="text-center">Sl. No</th>
                     <th class="text-center">Name of Sites</th>
                     <th class="text-center">Location</th>
                   </tr>
@@ -53,13 +54,16 @@
 </template>
 
 <script>
+import Breadcrumbs from "@/components/breadcrumbs.vue";
 import { mapState } from "vuex";
 
 export default {
   data() {
     return {};
   },
-
+  components: {
+    Breadcrumbs
+  },
   computed: {
     ...mapState(["allClientListKamrup"]),
     ...mapState(["allClientListOutside"])

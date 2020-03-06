@@ -1,15 +1,15 @@
-
 console.log(process.env.NODE_ENV)
 
 var url
 
 if (process.env.NODE_ENV == "development") {
 
-    var url = "http://127.0.0.1:8000/backend/";
+    var url = "http://api.pkservices.in/backend/";
+    // var url = "http://127.0.0.1:8000/backend/";
 
 } else {
 
-    var url = "/backend/";
+    var url = "http://api.pkservices.in/backend/";
 
 }
 
@@ -33,6 +33,7 @@ export const state = () => ({
     getHomepageSliderImages: url + "homepage/homepageslider",
     getAllNews: url + "news/getAllNews",
     getAllBlogs: url + "news/getAllBlog",
+    getSingleBlog: url + "news/getSingleBlog/", //id
     getAllTestimonialAPI: url + "homepage/testimonial",
 
     whatwedosecurity: url + "whatwedo/security",
@@ -50,6 +51,7 @@ export const state = () => ({
     HomepageSliderImages: [],
     allNews: [],
     allBlogs: [],
+    singleBlog: {},
     alltestimonial: [],
     services: [],
     security: [],
@@ -83,6 +85,11 @@ export const mutations = {
     allBlogs(state, allBlogs) {
         console.log('selecting exercise mutation, ' + allBlogs)
         state.allBlogs = allBlogs
+    },
+
+    singleBlog(state, singleBlog) {
+        console.log('selecting exercise mutation, ' + singleBlog)
+        state.singleBlog = singleBlog
     },
 
     services(state, services) {
@@ -121,10 +128,10 @@ export const actions = {
         return new Promise((resolve, reject) => {
 
             axios({
-                method: 'GET',
-                url: state.getAllClientListKamrup,
-                contentType: 'application/json',
-            })
+                    method: 'GET',
+                    url: state.getAllClientListKamrup,
+                    contentType: 'application/json',
+                })
                 .then(res => {
                     console.log(res.data);
                     commit('clientListKamrup', res.data)
@@ -142,10 +149,10 @@ export const actions = {
         return new Promise((resolve, reject) => {
 
             axios({
-                method: 'GET',
-                url: state.getAllClientListOutside,
-                contentType: 'application/json',
-            })
+                    method: 'GET',
+                    url: state.getAllClientListOutside,
+                    contentType: 'application/json',
+                })
                 .then(res => {
                     console.log(res.data);
                     commit('clientListOutside', res.data)
@@ -163,10 +170,10 @@ export const actions = {
         return new Promise((resolve, reject) => {
 
             axios({
-                method: 'GET',
-                url: state.getAllNews,
-                contentType: 'application/json',
-            })
+                    method: 'GET',
+                    url: state.getAllNews,
+                    contentType: 'application/json',
+                })
                 .then(res => {
                     console.log(res.data);
                     commit('allNews', res.data)
@@ -184,13 +191,34 @@ export const actions = {
         return new Promise((resolve, reject) => {
 
             axios({
-                method: 'GET',
-                url: state.getAllBlogs,
-                contentType: 'application/json',
-            })
+                    method: 'GET',
+                    url: state.getAllBlogs,
+                    contentType: 'application/json',
+                })
                 .then(res => {
                     console.log(res.data);
                     commit('allBlogs', res.data)
+                    resolve(res);
+                })
+                .catch((error) => {
+                    console.log(error)
+                    reject(error);
+                })
+        })
+    },
+
+    getSingleBlog({ commit, state }, payload) {
+
+        return new Promise((resolve, reject) => {
+
+            axios({
+                    method: 'GET',
+                    url: state.getSingleBlog + payload,
+                    contentType: 'application/json',
+                })
+                .then(res => {
+                    console.log(res.data);
+                    commit('singleBlog', res.data)
                     resolve(res);
                 })
                 .catch((error) => {
@@ -205,10 +233,10 @@ export const actions = {
         return new Promise((resolve, reject) => {
 
             axios({
-                method: 'GET',
-                url: state.career,
-                contentType: 'application/json',
-            })
+                    method: 'GET',
+                    url: state.career,
+                    contentType: 'application/json',
+                })
                 .then(res => {
                     console.log(res.data);
                     commit('career', res.data)
@@ -226,10 +254,10 @@ export const actions = {
         return new Promise((resolve, reject) => {
 
             axios({
-                method: 'GET',
-                url: state.getAllTestimonialAPI,
-                contentType: 'application/json',
-            })
+                    method: 'GET',
+                    url: state.getAllTestimonialAPI,
+                    contentType: 'application/json',
+                })
                 .then(res => {
                     console.log(res.data);
                     commit('alltestimonial', res.data)
@@ -247,10 +275,10 @@ export const actions = {
         return new Promise((resolve, reject) => {
 
             axios({
-                method: 'GET',
-                url: state.whatwedoservices,
-                contentType: 'application/json',
-            })
+                    method: 'GET',
+                    url: state.whatwedoservices,
+                    contentType: 'application/json',
+                })
                 .then(res => {
                     console.log(res.data);
                     commit('services', res.data)
@@ -268,10 +296,10 @@ export const actions = {
         return new Promise((resolve, reject) => {
 
             axios({
-                method: 'GET',
-                url: state.whatwedosecurity,
-                contentType: 'application/json',
-            })
+                    method: 'GET',
+                    url: state.whatwedosecurity,
+                    contentType: 'application/json',
+                })
                 .then(res => {
                     console.log(res.data);
                     commit('security', res.data)
@@ -289,10 +317,10 @@ export const actions = {
         return new Promise((resolve, reject) => {
 
             axios({
-                method: 'GET',
-                url: state.getHomepageSliderImages,
-                contentType: 'application/json'
-            })
+                    method: 'GET',
+                    url: state.getHomepageSliderImages,
+                    contentType: 'application/json'
+                })
                 .then(res => {
                     console.log(res.data);
                     commit('HomepageSliderImages', res.data)
@@ -310,11 +338,11 @@ export const actions = {
         return new Promise((resolve, reject) => {
 
             axios({
-                method: 'POST',
-                url: state.createQuery,
-                data: payload,
-                contentType: 'application/json'
-            })
+                    method: 'POST',
+                    url: state.createQuery,
+                    data: payload,
+                    contentType: 'application/json'
+                })
                 .then(res => {
                     console.log(res.data);
                     resolve(res);
@@ -331,11 +359,11 @@ export const actions = {
         return new Promise((resolve, reject) => {
 
             axios({
-                method: 'POST',
-                url: state.createContact,
-                data: payload,
-                contentType: 'application/json'
-            })
+                    method: 'POST',
+                    url: state.createContact,
+                    data: payload,
+                    contentType: 'application/json'
+                })
                 .then(res => {
                     console.log(res.data);
                     resolve(res);
@@ -348,4 +376,3 @@ export const actions = {
     },
 
 }
-

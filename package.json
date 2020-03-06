@@ -1,27 +1,28 @@
 {
-  "name": "pksecurity",
-  "version": "1.0.0",
-  "description": "My unreal Nuxt.js project",
-  "author": "Chiranjib Paul",
-  "private": true,
-  "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
-    "test": "jest"
-  },
-  "dependencies": {
-    "@nuxtjs/axios": "^5.3.6",
-    "@nuxtjs/pwa": "^3.0.0-0",
-    "nuxt": "^2.0.0",
-    "nuxt-gmaps": "^1.1.7",
-    "vue-carousel": "^0.18.0"
-  },
-  "devDependencies": {
-    "@vue/test-utils": "^1.0.0-beta.27",
-    "babel-jest": "^24.1.0",
-    "jest": "^24.1.0",
-    "vue-jest": "^4.0.0-0"
-  }
+    "name": "pksecurity",
+    "version": "1.0.0",
+    "description": "My unreal Nuxt.js project",
+    "author": "Chiranjib Paul",
+    "private": true,
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "start": "nuxt start",
+        "generate": "nuxt generate",
+        "test": "jest"
+    },
+    "dependencies": {
+        "@nuxtjs/axios": "^5.3.6",
+        "@nuxtjs/pwa": "^3.0.0-0",
+        "nuxt": "^2.0.0",
+        "nuxt-gmaps": "^1.1.7",
+        "vue-carousel": "^0.18.0",
+        "gsap": "^3.1.1"
+    },
+    "devDependencies": {
+        "@vue/test-utils": "^1.0.0-beta.27",
+        "babel-jest": "^24.1.0",
+        "jest": "^24.1.0",
+        "vue-jest": "^4.0.0-0"
+    }
 }

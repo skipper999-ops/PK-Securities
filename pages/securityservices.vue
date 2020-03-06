@@ -1,8 +1,8 @@
 <template>
   <div class="bg-black">
-    <div></div>
-    <div class="container">
-      <div>
+    <Breadcrumbs title="Security Services" subtitle="" crumbs="Home > Security Services"></Breadcrumbs>
+    <div class="container-small">
+      <div style="padding-top: 40px">
         <div class="w-100">
           <div>
             <img class="coma" src="/images/asset1.png" alt />
@@ -16,7 +16,7 @@
         </div>
       </div>
       <div class="row" style="margin-top:50px!important">
-        <div class="col-6 col-lg-3">
+        <div class="col-12 col-sm-6 col-lg-3">
           <div class="pk-cards" style="background-image:url('/images/serv1.png')">
             <div class="pk-card-text">
               <div style="background-color: #9e7b5f; width: 80%; z-index: 10000000;">
@@ -28,7 +28,7 @@
             </div>
           </div>
         </div>
-        <div class="col-6 col-lg-3">
+        <div class="col-12 col-sm-6 col-lg-3">
           <div class="pk-cards" style="background-image:url('/images/serv2.png')">
             <div class="pk-card-text">
               <div style="background-color: #9e7b5f; width: 80%; z-index: 10000000;">
@@ -40,7 +40,7 @@
             </div>
           </div>
         </div>
-        <div class="col-6 col-lg-3">
+        <div class="col-12 col-sm-6 col-lg-3">
           <div class="pk-cards" style="background-image:url('/images/serv3.png')">
             <div class="pk-card-text">
               <div style="background-color: #9e7b5f; width: 80%; z-index: 10000000;">
@@ -52,7 +52,7 @@
             </div>
           </div>
         </div>
-        <div class="col-6 col-lg-3">
+        <div class="col-12 col-sm-6 col-lg-3">
           <div class="pk-cards" style="background-image:url('/images/serv4.png')">
             <div class="pk-card-text">
               <div style="background-color: #9e7b5f; width: 80%; z-index: 10000000;">
@@ -66,7 +66,7 @@
         </div>
       </div>
       <div class="row" style="margin-top:50px!important">
-        <div class="col-6 col-lg-3">
+        <div class="col-12 col-sm-6 col-lg-3">
           <div class="pk-cards" style="background-image:url('/images/choose-us.png')">
             <div class="pk-card-text">
               <div style="background-color: #9e7b5f; width: 80%; z-index: 10000000;">
@@ -78,7 +78,7 @@
             </div>
           </div>
         </div>
-        <div class="col-6 col-lg-3">
+        <div class="col-12 col-sm-6 col-lg-3">
           <div class="pk-cards" style="background-image:url('/images/images_5.png')">
             <div class="pk-card-text">
               <div style="background-color: #9e7b5f; width: 80%; z-index: 10000000;">
@@ -90,7 +90,7 @@
             </div>
           </div>
         </div>
-        <div class="col-6 col-lg-3">
+        <div class="col-12 col-sm-6 col-lg-3">
           <div class="pk-cards" style="background-image:url('/images/images_6.png')">
             <div class="pk-card-text">
               <div style="background-color: #9e7b5f; width: 80%; z-index: 10000000;">
@@ -102,7 +102,7 @@
             </div>
           </div>
         </div>
-        <div class="col-6 col-lg-3">
+        <div class="col-12 col-sm-6 col-lg-3">
           <div class="pk-cards" style="background-image:url('/images/images_8.png')">
             <div class="pk-card-text">
               <div style="background-color: #9e7b5f; width: 80%; z-index: 10000000;">
@@ -119,6 +119,18 @@
   </div>
 </template>
  
+
+<script>
+import Breadcrumbs from "@/components/breadcrumbs.vue";
+
+export default {
+  components: {
+    Breadcrumbs
+  }
+};
+</script>
+
+
 <style scoped>
 .coma {
   height: 55px;

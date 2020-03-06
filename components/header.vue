@@ -34,23 +34,23 @@
       </div>
     </div>-->
     <div class="nav-header-main">
-      <div class="secondary-nav pt-3 pb-2">
+      <div class="secondary-nav pt-3 pb-3">
         <div class="container p-0 d-flex justify-content-between align-items-center">
-          <div>
+          <nuxt-link to="/">
             <img class="logo" style="margin-right:10px" src="~/static/images/PK1_new.png" />
             <img class="logo" src="~/static/images/PK2_new.png" />
           </div>
           <div class="d-flex hide-on-med-and-down">
             <span class="d-flex">
-              <img class="mr-2" style="height:35px" src="/images/clock.png" alt />
-              <p style="color:#fff">
+              <img class="mr-2" style="height:18px" src="/images/clock.png" alt />
+              <p style="color:#fff;font-size: 13px;">
                 Working Hours
                 <br />24 X 7
               </p>
             </span>
             <span class="d-flex" style="margin-left:10px">
-              <img class="lkasdkl mr-2" style="height:35px" src="/images/email.png" alt />
-              <p style="color:#fff">
+              <img class="lkasdkl mr-2" style="height:18px" src="/images/email.png" alt />
+              <p style="color:#fff;font-size: 13px;">
                 MAIL US,
                 <br />pawan@pkservices.in
               </p>
@@ -61,7 +61,7 @@
             class="show-on-medium-and-down hide-on-large-only menu"
             style="align-items: center;"
           >
-            <img src="~static/menu.svg" style="height:30px" />
+            <img src="~static/menu.svg" style="height:20px" />
           </div>
         </div>
         <div class="container hide-on-med-and-down">
@@ -69,19 +69,35 @@
             style="color:#9e7b5f;display:flex;align-items:right;margin-left:auto;width:70%;border-top:2px solid #9e7b5f;padding-top:2px"
             behavior
             direction="left"
-          >NEWS:Expansion of Pension scheme- To new selected people will be announced and ha</marquee>
+          >
+            NEWS:
+            <span v-for="p in blog" :key="p.id">{{p.title}} |</span>
+          </marquee>
         </div>
       </div>
       <div class="custom-nav hide-on-med-and-down">
-        <div class="container d-flex justify-content-center">
+        <div class="container d-flex justify-content-center" style="position:relative;width: 100%;">
           <div class="nav-link">
             <nuxt-link class="link" to="/" exact>HOME</nuxt-link>
           </div>
           <div class="nav-link">
             <nuxt-link class="link" to="/whoweare2">ABOUT US</nuxt-link>
           </div>
-          <div class="nav-link">
-            <nuxt-link class="link" to="/securityservices">SERVICES</nuxt-link>
+          <div class="nav-link hover" @mouseover="showMenuOpen" @mouseleave="showMenuClose">
+            <nuxt-link class="link" to="#">SERVICES</nuxt-link>
+            <div v-if="showMenu1" style="z-index: 9999; position: absolute;background-color:#110b0b;padding: 10px;top: 53px;width: 160px;">
+              <ul style="list-style:none">
+                <li>
+                  <nuxt-link class="link" to="/securityservices">Security Services</nuxt-link>
+                </li>
+                <li>
+                  <nuxt-link class="link" to="/detectiveservices">Detective Services</nuxt-link>
+                </li>
+                <li>
+                  <nuxt-link class="link" to="/specialamenities">Special Amenities</nuxt-link>
+                </li>
+              </ul>
+            </div>
           </div>
           <div class="nav-link">
             <nuxt-link class="link" to="/pknetwork">PK NETWORK</nuxt-link>
@@ -110,6 +126,7 @@
         >
           <div class="nav-link hide-on-med-and-down">
             <nuxt-link class="link" to="/">Home</nuxt-link>
+            <nuxt-link class="link" to="/pknetwork">PK NETWORK</nuxt-link>
             <nuxt-link class="link" to="/services">Services</nuxt-link>
             <nuxt-link class="link" to="/ourwork">Our Work</nuxt-link>
             <nuxt-link class="link" to="/about">About Us</nuxt-link>
@@ -133,11 +150,13 @@
         <div class="mobile-nav opacity-hide">
           <div class="nav">
             <nuxt-link class="link" to="/">Home</nuxt-link>
-            <nuxt-link class="link" to="/whoweare">Who We Are</nuxt-link>
-            <nuxt-link class="link" to="/whatwedo">What We Do</nuxt-link>
-            <nuxt-link class="link" to="/career">Careers</nuxt-link>
+            <nuxt-link class="link" to="/pknetwork">PK Network</nuxt-link>
+            <nuxt-link class="link" to="/whoweare2">Who We Are</nuxt-link>
+            <nuxt-link class="link" to="/services">Services</nuxt-link>
+            <nuxt-link class="link" to="/career2">Careers</nuxt-link>
+            <nuxt-link class="link" to="/trainingandorientation">Training AND Orientation</nuxt-link>
             <nuxt-link class="link" to="/ourclients">Our Clients</nuxt-link>
-            <nuxt-link class="link" to="/contactus">Contact Us</nuxt-link>
+            <nuxt-link class="link" to="/contactus2">Contact Us</nuxt-link>
           </div>
           <div @click="closeMenu" class="show-on-medium-and-down hamburger">
             <img src="~static/close.svg" style="height:20px" />
@@ -147,7 +166,7 @@
     </div>
 
     <!-- 1st carousel -->
-    <div v-if="$nuxt.$route.name != 'contactus'">
+    <!-- <div v-if="$nuxt.$route.name != 'contactus'">
       <div class="container-small p-0" style="background-color:#ededed">
         <client-only>
           <carousel
@@ -165,7 +184,7 @@
           </carousel>
         </client-only>
       </div>
-    </div>
+    </div>-->
   </div>
 </template>
 
@@ -174,7 +193,10 @@ import { mapState } from "vuex";
 
 export default {
   data() {
-    return {};
+    return {
+      blog: [],
+      showMenu1: false
+    };
   },
 
   watch: {
@@ -184,11 +206,16 @@ export default {
   },
 
   computed: {
-    ...mapState(["HomepageSliderImages"])
+    ...mapState(["HomepageSliderImages"]),
+    ...mapState(["allNews"])
   },
 
   mounted() {
     this.$store.dispatch("getHomepageSliderImages");
+
+    this.$store.dispatch("getAllNews").then(res => {
+      this.blog = Object.assign([], res.data).splice(0, 5);
+    });
     // var lastScrollTop = 0;
     // $(window).scroll(function(event) {
     //   var st = $(this).scrollTop();
@@ -212,6 +239,14 @@ export default {
     // }); //missing );
   },
   methods: {
+    showMenuOpen: function() {
+      console.log("Sdsd");
+      this.showMenu1 = true;
+    },
+    showMenuClose: function() {
+      console.log("Sdsd");
+      this.showMenu1 = false;
+    },
     showMenu: function() {
       $(".mobile-nav").removeClass("opacity-hide");
       $(".nav").addClass("animation");
@@ -256,6 +291,10 @@ export default {
   border-left: 1px solid #cfcfcf;
 }
 
+ul li {
+  list-style-type: none;
+}
+
 .social-nav .social-nav__contact:last-child i {
   width: 44px;
   text-align: center;
@@ -279,8 +318,8 @@ export default {
 
 .custom-nav {
   background-color: #110b0b;
-  height: 40px;
-  line-height: 40px;
+  height: 60px;
+  line-height: 60px;
   border-top: 2px solid #9e7b5f;
   border-bottom: 2px solid #9e7b5f;
 }
@@ -288,7 +327,7 @@ export default {
 .custom-nav a {
   text-decoration: none;
   color: #fff;
-  font-size: 15px;
+  font-size: 13px;
   padding: 11px 0;
 }
 
@@ -306,7 +345,7 @@ export default {
   /* border-bottom: 3px solid #fdb06c; */
 }
 .custom-nav > div > div {
-  padding: 0 25px;
+  padding: 0 10px;
 }
 
 .secondary-nav {
@@ -440,7 +479,9 @@ export default {
   line-height: 40px;
   opacity: 0;
   transition: all 0.4s ease;
+  overflow: auto;
 }
+
 
 .nav .link {
   margin: 15px 0;

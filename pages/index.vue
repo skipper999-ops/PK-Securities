@@ -2,7 +2,8 @@
   <div>
     <div class="bg-black">
       <!-- 1st carousel -->
-      <div class="container">
+      <main-header />
+      <div class="container-small">
         <div class="row" style="background-color:#f3f3f3">
           <div class="col-12 col-lg-5 p-0">
             <div class="pad-new">
@@ -16,12 +17,12 @@
                 With years of experience, we understand the challenges to the ever-evolving security environment. We have become the most preferred partners of a huge clientele by setting a benchmark in creating smart measures.
                 PK Security surpasses competitors by providing our clients with the most competent, motivated and caring staff of professionals. This is the result of our industry-leading recruiting, training, compensation and recognition programs.
               </p>
-              <button type="button" href="/securityservices" class="btn btn-security">Read More</button>
+              <nuxt-link type="button" to="/securityservices" class="btn btn-security">Read More</nuxt-link>
             </div>
           </div>
           <div class="col-12 col-lg-7 p-0">
             <div class="d-flex h-100" style="background-color:#333333">
-              <div class="row">
+              <div class="row" style="margin-bottom: 0">
                 <div class="col-6 px-0 border-right col-sm-6 col-md-4 col-lg-3">
                   <div
                     class="services-pad d-flex flex-column justify-content-center align-items-center border-bottom"
@@ -105,7 +106,7 @@
           <div class="row mt-5">
             <div class="col-12 col-sm-6">
               <div>
-                <h3 style="font-weight:700;color:#fff;text-align:right;font-size:19px">We provide</h3>
+                <h3 style="font-weight:700;color:#fff;font-size:19px">We provide</h3>
                 <h5
                   class="mt-3"
                   style="color:#fff;font-size:29px"
@@ -121,7 +122,7 @@
                   total solutions security package.
                 </p>
               </div>
-              <nuxt-link to="/whoweare" class="custom-link" style="color:#9e7b5f" href>READ MORE</nuxt-link>
+              <nuxt-link to="/whoweare2" class="custom-link" style="color:#9e7b5f" href>READ MORE</nuxt-link>
               <div class="row mt-3">
                 <div class="col-12 col-lg-4">
                   <p class="text-center text-white" style="font-size:17px">OUR CUSTOMERS</p>
@@ -169,7 +170,7 @@
               <p
                 style="color:#323232"
               >Integrated security services with expert solutions to minimize the risks and render smooth running of your operations. Having a basic security presence around your residential, commercial or industrial site will ensure that your assets are strictly protected. We have the required expertise and resources to identify customizable security programs and strategies specific to meet the security needs of each client.</p>
-              <button class="btn btn-security">Read More</button>
+               <nuxt-link type="button" to="/specialamenities" class="btn btn-security">Read More</nuxt-link>
             </div>
           </div>
           <div class="col-12 col-lg-7 p-0">
@@ -257,9 +258,9 @@
         <!-- why choose us starts here -->
 
         <!-- Customer cities section starts here -->
-        <div class="mt-5">
+        <div class="mt-5 padding-choose">
           <div class="row">
-            <div class="col-12 col-md-6 p-0">
+            <div class="col-12 col-md-6">
               <div>
                 <h4>WHY CHOOSE US</h4>
                 <h3>MAKE SMARTER CHOICES</h3>
@@ -320,7 +321,7 @@
               <p
                 style="color:#323232"
               >Integrated security services with expert solutions to minimize the risks and render smooth running of your operations. Having a basic security presence around your residential, commercial or industrial site will ensure that your assets are strictly protected. We have the required expertise and resources to identify customizable security programs and strategies specific to meet the security needs of each client.</p>
-              <button class="btn btn-security">Read More</button>
+              <nuxt-link type="button" to="/detectiveservices" class="btn btn-security">Read More</nuxt-link>
             </div>
           </div>
           <div class="col-12 col-lg-7 p-0">
@@ -479,10 +480,10 @@
       <!-- location section ends here -->
 
       <!-- career oportunities starts here -->
-      <div class="container">
+      <div class="container-small">
         <div class="row">
           <div class="col-12 col-lg-8 p-0">
-            <img style="height:600px;width:100%" src="/images/careerphoto.png" alt />
+            <img class="career-photo" style="width:100%" src="/images/careerphoto.png" alt />
           </div>
           <div class="col-12 col-lg-4 d-flex flex-column justify-content-around">
             <div>
@@ -524,56 +525,31 @@
 
       <!-- our blogs and latest news starts here -->
 
-      <div class="container mt-5" style="background-color:#333333">
+      <div class="container-small mt-5" style="background-color:#333333">
         <div style="padding:25px 0">
           <div>
-            <h2 class="text-center">OUR BLOG</h2>
+            <!-- <h2 class="text-center">OUR BLOG</h2> -->
             <h3 class="text-center">RECENT NEWS</h3>
             <hr style="width:10%;margin:auto" />
           </div>
           <div class="row" style="margin-top:40px !important">
-            <div class="col-12 col-lg-4">
+            <div class="col-12 col-lg-4" v-for="p in allNews" :key="p.id">
               <div style="padding:0 10px 10px 10px;border-bottom:3px solid #9e7b5f;">
-                <img class="w-100" style="margin:auto;height:210px" src="/images/services1.png" alt />
-                <p style="color:white;margin-top:10px;font-size:18px;font-weight:bold">
-                  PK Security Services
-                  Fire Prevention Week
-                </p>
+                <img class="w-100" style="margin:auto;height:210px" :src="p.image" alt />
                 <p
-                  class="text-white text-justify"
-                >In keeping with annual tradition, the Fire Prevention week was celebrated by the members and officials of PK Security Services.</p>
+                  style="color:white;margin-top:10px;font-size:18px;font-weight:bold;height:55px"
+                >{{p.title}}</p>
+                <!-- <p
+                  class="text-white text-justify clamp4" style="height:100px"
+                >{{p.body}}</p>-->
+                <div class="text-white text-justify clamp4" style="height:100px" v-html="p.body"></div>
                 <div class="d-flex justify-content-center">
-                  <button class="btn btn1" style="font-size:14px" type="button">Read More</button>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-lg-4 mt-3 mt-sm-0" style="height:500px">
-              <div style="padding:0 10px 10px 10px;border-bottom:3px solid #9e7b5f;">
-                <img class="w-100" style="margin:auto;height:210px" src="/images/services2.png" alt />
-                <p style="color:white;margin-top:10px;font-size:18px;font-weight:bold">
-                  Women’sDay
-                  Celebration with Female Security Personnel’s
-                </p>
-                <p
-                  class="text-white text-justify"
-                >On the occasion of International Women’s Day, the Women Security personnel’s were felicitated by our .</p>
-                <div class="d-flex justify-content-center">
-                  <button class="btn btn1" style="font-size:14px" type="button">Read More</button>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-lg-4 mt-3 mt-sm-0" style="height:500px">
-              <div style="padding:0 10px 10px 10px;border-bottom:3px solid #9e7b5f;">
-                <img class="w-100" style="margin:auto;height:210px" src="/images/services3.png" alt />
-                <p style="color:white;margin-top:10px;font-size:18px;font-weight:bold">
-                  Fitness Training of
-                  Security Guards
-                </p>
-                <p
-                  class="text-white text-justify mt-3 mt-sm-0"
-                >PK Security services organize annual formal training programs through vocational institutes. Topics covered</p>
-                <div class="d-flex justify-content-center">
-                  <button class="btn btn1" style="font-size:14px" type="button">Read More</button>
+                  <button
+                    class="btn btn1"
+                    style="font-size:14px"
+                    type="button"
+                    @click="goToSingleBlog(p.id)"
+                  >Read More</button>
                 </div>
               </div>
             </div>
@@ -608,10 +584,10 @@
                   alt
                 />
                 <div>
-                  <p class="text2 mt-5" style="height:auto">{{ p.testimonial }}</p>
+                  <p class="text2 mt-5 text-white" style="height:auto">{{ p.testimonial }}</p>
                   <div class="d-flex justify-content-center flex-column">
-                    <p class="text-center m-0">{{ p.name }}</p>
-                    <p class="text-center m-0 small">{{ p.user_type }}</p>
+                    <p class="text-white text-center m-0">{{ p.name }}</p>
+                    <p class="text-white text-center m-0 small">{{ p.user_type }}</p>
                   </div>
                 </div>
               </div>
@@ -628,6 +604,7 @@
 
 <script>
 import { mapState } from "vuex";
+import MainHeader from "@/components/Header-Nitu";
 
 export default {
   data() {
@@ -653,6 +630,9 @@ export default {
       email: "",
       address: ""
     };
+  },
+  components: {
+    MainHeader
   },
   computed: {
     ...mapState(["allClientListKamrup"]),
@@ -702,6 +682,11 @@ export default {
           alert("Error on Query Submission");
         });
     },
+    goToSingleBlog: function(id) {
+      console.log("goToSingleBlog");
+      localStorage.setItem("blog_id", id);
+      this.$router.push("/blog");
+    },
     goToCareer: function() {
       this.$router.push("/career");
     }
@@ -725,7 +710,7 @@ hr {
   margin: auto;
 }
 .pad-new {
-  padding: 27px 48px;
+  padding: 27px;
 }
 
 .pad-new p {
@@ -815,7 +800,7 @@ h2 {
 .text2 {
   text-align: center;
   color: #737373;
-  opacity: 0.54;
+  opacity: 1;
   line-height: 1;
   font-size: 18px;
   height: 23px;
@@ -955,8 +940,18 @@ h2 {
   flex-direction: column;
 }
 
+.career-photo {
+  height: 600px;
+}
+
 @media only screen and (max-width: 600px) {
   .img1 {
+    height: 300px;
+  }
+  .padding-choose {
+    padding: 3rem;
+  }
+  .career-photo {
     height: 300px;
   }
 }
@@ -964,6 +959,12 @@ h2 {
 @media only screen and (min-width: 601px) and (max-width: 991px) {
   .img1 {
     height: 400px;
+  }
+  .padding-choose {
+    padding: 3rem;
+  }
+    .career-photo {
+    height: 300px;
   }
 }
 
