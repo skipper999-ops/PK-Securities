@@ -1,6 +1,6 @@
 <template>
   <div class="bg-black">
-    <Breadcrumbs title="Security Services" subtitle="" crumbs="Home > Security Services"></Breadcrumbs>
+    <Breadcrumbs title="Security Services" subtitle crumbs="Home > Security Services"></Breadcrumbs>
     <div class="container-small">
       <div style="padding-top: 40px">
         <div class="w-100">
@@ -17,19 +17,19 @@
       </div>
       <div class="row" style="margin-top:50px!important">
         <div class="col-12 col-sm-6 col-lg-3">
-          <div class="pk-cards" style="background-image:url('/images/serv1.png')">
+          <div class="pk-cards" style="background-image:url('/images/commsecurity.jpg')">
             <div class="pk-card-text">
               <div style="background-color: #9e7b5f; width: 80%; z-index: 10000000;">
                 <p class="mb-0 py-1 px-1" style="color:white">Commercial Security Services</p>
               </div>
               <div style="background-color:white;margin:0!important;padding:12px 10px!important">
-                <p>Customized 24* 7 security service to suit the type of property. Properties encompass commercial buildings, banks to hospitals and hotels.</p>
+                <p>Customized 24x7 security service to suit the type of property. Properties encompass commercial buildings, banks to hospitals and hotels.</p>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-12 col-sm-6 col-lg-3">
-          <div class="pk-cards" style="background-image:url('/images/serv2.png')">
+        <div class="col-12 mt-5 mt-md-0 col-sm-6 col-lg-3">
+          <div class="pk-cards" style="background-image:url('/images/industrial.jpg')">
             <div class="pk-card-text">
               <div style="background-color: #9e7b5f; width: 80%; z-index: 10000000;">
                 <p class="mb-0 py-1 px-1" style="color:white">Industial Security Services</p>
@@ -40,8 +40,8 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-sm-6 col-lg-3">
-          <div class="pk-cards" style="background-image:url('/images/serv3.png')">
+        <div class="col-12 mt-5 mt-md-0 col-sm-6 col-lg-3">
+          <div class="pk-cards" style="background-image:url('/images/residence.jpg')">
             <div class="pk-card-text">
               <div style="background-color: #9e7b5f; width: 80%; z-index: 10000000;">
                 <p class="mb-0 py-1 px-1" style="color:white">Residential Security Services</p>
@@ -52,7 +52,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-sm-6 col-lg-3">
+        <div class="col-12 mt-5 mt-md-0 col-sm-6 col-lg-3">
           <div class="pk-cards" style="background-image:url('/images/serv4.png')">
             <div class="pk-card-text">
               <div style="background-color: #9e7b5f; width: 80%; z-index: 10000000;">
@@ -66,7 +66,7 @@
         </div>
       </div>
       <div class="row" style="margin-top:50px!important">
-        <div class="col-12 col-sm-6 col-lg-3">
+        <div class="col-12 mt-5 mt-md-0 col-sm-6 col-lg-3">
           <div class="pk-cards" style="background-image:url('/images/choose-us.png')">
             <div class="pk-card-text">
               <div style="background-color: #9e7b5f; width: 80%; z-index: 10000000;">
@@ -78,7 +78,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-sm-6 col-lg-3">
+        <div class="col-12 mt-5 mt-md-0 col-sm-6 col-lg-3">
           <div class="pk-cards" style="background-image:url('/images/images_5.png')">
             <div class="pk-card-text">
               <div style="background-color: #9e7b5f; width: 80%; z-index: 10000000;">
@@ -90,7 +90,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-sm-6 col-lg-3">
+        <div class="col-12 mt-5 mt-md-0 col-sm-6 col-lg-3">
           <div class="pk-cards" style="background-image:url('/images/images_6.png')">
             <div class="pk-card-text">
               <div style="background-color: #9e7b5f; width: 80%; z-index: 10000000;">
@@ -102,7 +102,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-sm-6 col-lg-3">
+        <div class="col-12 mt-5 mt-md-0 col-sm-6 col-lg-3">
           <div class="pk-cards" style="background-image:url('/images/images_8.png')">
             <div class="pk-card-text">
               <div style="background-color: #9e7b5f; width: 80%; z-index: 10000000;">
@@ -186,5 +186,14 @@ p {
 .pk-cards:hover > .pk-card-text {
   margin-top: 25%;
   transition: all 0.6s linear;
+}
+
+@media (max-width: 37.5rem) {
+  .pk-cards:hover {
+    background-image: url("/images/serv1.png"),
+      linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    transform: none;
+    transition: all 0.4s linear;
+  }
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Breadcrumbs title="Contact Us" subtitle="" crumbs="Home > Contact Us"></Breadcrumbs>
+    <Breadcrumbs title="Contact Us" subtitle crumbs="Home > Contact Us"></Breadcrumbs>
     <div class="container-small p-3 py-4" style="background-color: #353535;">
       <p class="contact m-0">Contact Us</p>
       <span>We're here to help. Let us know if you have any questions at all.</span>
@@ -11,10 +11,12 @@
           <div class="d-flex">
             <i class="mt-3 fa fa-map-marker" aria-hidden="true"></i>
             <div class="ml-3 mt-3">
-              <span>
+              <span class="d-inline-block">
+                Head Office:
                 4th Floor, Protech Centre, Ganeshguri, Ganeshguri, Guwahati -
-                781006, Above Vishal Mega Mart
+                781006,
               </span>
+              <span>Administrative Office: House No. 51; 1st Floor, Sanjog Path, Hengrabari Road, Guwahati -781006</span>
             </div>
           </div>
         </div>
@@ -28,18 +30,18 @@
           <div class="d-flex">
             <i class="mt-3 fa fa-phone" aria-hidden="true"></i>
             <div class="ml-3">
-              <span>+91 9152685887</span>
+              <span>+91 8486027325, +91 8638511195</span>
             </div>
           </div>
           <div class="d-flex">
             <i class="mt-3 fa fa-location-arrow" aria-hidden="true"></i>
             <div class="ml-3">
-              <span>pksecurity@gmail.com</span>
+              <span>pawan@pkservices.in / khatuwalapawan75@gmail.com</span>
             </div>
           </div>
         </div>
       </div>
-      
+
       <div class="border__btm my-5"></div>
       <div class="d-flex justify-content-center mb-5">
         <iframe

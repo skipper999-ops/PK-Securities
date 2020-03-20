@@ -127,7 +127,7 @@
                 <div class="col-12 col-lg-4">
                   <p class="text-center text-white" style="font-size:17px">OUR CUSTOMERS</p>
                   <div class="circle middle">
-                    <p class="m-0 text-center text-white" style="font-size:20px">1862</p>
+                    <p class="m-0 text-center text-white" style="font-size:20px">103</p>
                     <span class="align-items-center" style="color:#9e7b5f;font-size:10px">CUSTOMERS</span>
                   </div>
                 </div>
@@ -153,9 +153,17 @@
                 <h3 class="text-center" style="color:#9e7b5f">VIDEO DEMO</h3>
                 <hr style="margin:auto;width:20%" />
               </div>
-              <video class="h-100 w-100" controls style="height:300px;width:545px">
-                <source src="/video/video2.mp4" type="video/mp4" />
-              </video>
+              <embed
+                class="h-100 w-100"
+                src="/video/video2.webm"
+                autostart="false"
+                height="30"
+                width="144"
+                style="height:300px;width:545px"
+              />
+              <!-- <video class="h-100 w-100" controls style="height:300px;width:545px">
+                <source src="/video/video2.webm" type="video/webm; codecs='vp8.0, vorbis'" />
+              </video>-->
             </div>
           </div>
         </div>
@@ -164,12 +172,12 @@
         <div class="row mt-5" style="background-color:#f3f3f3;margin-bottom:0 !important">
           <div class="col-12 col-lg-5 p-0">
             <div class="pad-new">
-              <h2>Special Amenities</h2>
+              <h2>Facility Management Services</h2>
               <hr />
               <h5>Leading Service provider with exceptional quality management skills.</h5>
               <p
                 style="color:#323232"
-              >Integrated security services with expert solutions to minimize the risks and render smooth running of your operations. Having a basic security presence around your residential, commercial or industrial site will ensure that your assets are strictly protected. We have the required expertise and resources to identify customizable security programs and strategies specific to meet the security needs of each client.</p>
+              >PK Group is integrated with the most innovative and advanced state of the art features to digitalize all kinds of maintenance and operational activities of gated societies. We offer a smart platform for a better managed and strongly connected society by leveraging our technology expertise. Our services ensure efficient and robust handling of day to day operations of the society. With heightened features and innovative amenities, we offer smooth rendering of society facilities like pool, gym etc</p>
               <nuxt-link type="button" to="/specialamenities" class="btn btn-security">Read More</nuxt-link>
             </div>
           </div>
@@ -317,10 +325,10 @@
             <div class="pad-new">
               <h2>Detective Services</h2>
               <hr />
-              <h5>Leading Service provider with exceptional quality management skills..</h5>
+              <h5>Gain the information edge with expert, efficient legal investigation.</h5>
               <p
-                style="color:#323232"
-              >Integrated security services with expert solutions to minimize the risks and render smooth running of your operations. Having a basic security presence around your residential, commercial or industrial site will ensure that your assets are strictly protected. We have the required expertise and resources to identify customizable security programs and strategies specific to meet the security needs of each client.</p>
+                style="color:#323232;line-height:1.4"
+              >Proficient, competent, dependable and professionally handled leading Private Investigation Agency. We take much pride in stating that we are one of the Premier Private Investigation Organization who had a humble beginning as a small detective agency. We have earned a reputation over the years by successfully completing numerous investigation matters. Our each and every staff are experienced and believes in obtaining information legitimate through keen observation, thorough investigation, careful and accurate examination with fine line analysis. Our wide network of Detectives consists of experienced personal from various fields. No matter what your issues may be we are here just a phone call away.</p>
               <nuxt-link type="button" to="/detectiveservices" class="btn btn-security">Read More</nuxt-link>
             </div>
           </div>
@@ -420,26 +428,7 @@
                   <span class="middle" style="height:50px">Extensive Client-Base Locations in Kamrup</span>
                 </div>
                 <div>
-                  <GMap
-                    ref="gMap"
-                    :center="{ lat: 25.2473, lng: 93.5374 }"
-                    :options="{ fullscreenControl: false }"
-                    :zoom="6"
-                  >
-                    <GMapMarker
-                      v-for="location in allClientListKamrup"
-                      :key="location.id"
-                      :position="{
-                          lat: location.latitude,
-                          lng: location.longitude
-                        }"
-                      @click="currentLocation = location"
-                    >
-                      <GMapInfoWindow>
-                        <code>{{ location.name }}</code>
-                      </GMapInfoWindow>
-                    </GMapMarker>
-                  </GMap>
+                  <img class="w-100" src="/images/1.jpg" alt />
                 </div>
               </div>
             </div>
@@ -451,26 +440,7 @@
                     style="height:50px"
                   >Expanding Client Territory in North East and beyond</span>
                 </div>
-                <GMap
-                  ref="gMap"
-                  :center="{ lat: 25.2473, lng: 93.5374 }"
-                  :options="{ fullscreenControl: false }"
-                  :zoom="6"
-                >
-                  <GMapMarker
-                    v-for="location in allClientListOutside"
-                    :key="location.id"
-                    :position="{
-                        lat: location.latitude,
-                        lng: location.longitude
-                      }"
-                    @click="currentLocation = location"
-                  >
-                    <GMapInfoWindow>
-                      <code>{{ location.name }}</code>
-                    </GMapInfoWindow>
-                  </GMapMarker>
-                </GMap>
+                <img class="w-100" src="/images/2.jpg" alt />
               </div>
             </div>
           </div>
@@ -483,7 +453,7 @@
       <div class="container-small">
         <div class="row">
           <div class="col-12 col-lg-8 p-0">
-            <img class="career-photo" style="width:100%" src="/images/careerphoto.png" alt />
+            <img class="career-photo" style="width:100%" src="/images/security_01.jpg" alt />
           </div>
           <div class="col-12 col-lg-4 d-flex flex-column justify-content-around">
             <div>
@@ -578,7 +548,7 @@
             <slide v-for="p in alltestimonial" :key="p.id">
               <div class="testimony-slide">
                 <img
-                  style="margin:auto;width: 150px;height: 150px;border-radius: 50%;"
+                  style="margin:auto;width: 150px;height: 150px;border-radius: 50%;object-fit:contain"
                   class="middle"
                   :src="p.image"
                   alt
@@ -603,12 +573,14 @@
           <h4 class="text-center">Accredited By</h4>
           <p
             class="text-center"
-          >PK Security Services is an ISO 9001:2015 certified organization approved by Government for rendering quality services around the country.</p>
+          >PK Security Services is an ISO 9001:2015 certified organization approved by Government and also in collaboration with Assam Skill Development Empowering Local Youth.</p>
           <client-only>
             <carousel
-              :per-page="10"
+              :per-page="8"
               :mouse-drag="true"
               :loop="true"
+              :direction="right"
+              :autoplay="true"
               style="height: 100px"
               paginationColor="#e91e63"
               paginationActiveColor="#ffffff"
@@ -884,6 +856,9 @@ h2 {
   padding: 10px 20px;
   color: #fff;
   font-size: 15px;
+}
+.btn1:hover {
+  background: #9e7b5f;
 }
 
 /* .container {

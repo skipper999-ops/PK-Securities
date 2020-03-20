@@ -56,13 +56,13 @@
               </p>
             </span>
           </div>
-        </div>
-        <div
-          @click="showMenu"
-          class="show-on-medium-and-down hide-on-large-only menu"
-          style="align-items: center;"
-        >
-          <img src="~static/menu.svg" style="height:20px" />
+          <div
+            @click="showMenu"
+            class="show-on-medium-and-down hide-on-large-only menu"
+            style="align-items: center;"
+          >
+            <img src="~static/menu.svg" style="height:20px" />
+          </div>
         </div>
       </div>
       <div class="container hide-on-med-and-down">
@@ -77,7 +77,7 @@
       </div>
     </div>
     <div class="custom-nav hide-on-med-and-down">
-      <div class="container d-flex justify-content-center" style="position:relative;width: 100%;">
+      <div class="container d-flex justify-content-around" style="position:relative;width: 100%;">
         <div class="nav-link">
           <nuxt-link class="link" to="/" exact>HOME</nuxt-link>
         </div>
@@ -88,7 +88,7 @@
           <nuxt-link class="link" to="#">SERVICES</nuxt-link>
           <div
             v-if="showMenu1"
-            style="z-index: 9999; position: absolute;background-color:#110b0b;padding: 10px;top: 53px;width: 160px;"
+            style="z-index: 9999; position: absolute;background-color:#110b0b;padding: 10px;top:50px;width:auto;"
           >
             <ul style="list-style:none">
               <li>
@@ -98,12 +98,12 @@
                 <nuxt-link class="link" to="/detectiveservices">Detective Services</nuxt-link>
               </li>
               <li>
-                <nuxt-link class="link" to="/specialamenities">Special Amenities</nuxt-link>
+                <nuxt-link class="link" to="/specialamenities">Facility Management Services</nuxt-link>
               </li>
             </ul>
           </div>
         </div>
-        <div class="nav-link">
+        <!-- <div class="nav-link">
           <nuxt-link class="link" to="/pknetwork">PK NETWORK</nuxt-link>
         </div>
         <div class="nav-link">
@@ -111,7 +111,7 @@
         </div>
         <div class="nav-link">
           <nuxt-link class="link" to="/ourclients">OUR CLIENTS</nuxt-link>
-        </div>
+        </div>-->
         <div class="nav-link">
           <nuxt-link class="link" to="/career2">CAREERS</nuxt-link>
         </div>
@@ -129,9 +129,9 @@
         >
           <div class="nav-link hide-on-med-and-down">
             <nuxt-link class="link" to="/">Home</nuxt-link>
-            <nuxt-link class="link" to="/pknetwork">PK NETWORK</nuxt-link>
+
             <nuxt-link class="link" to="/services">Services</nuxt-link>
-            <nuxt-link class="link" to="/ourwork">Our Work</nuxt-link>
+
             <nuxt-link class="link" to="/about">About Us</nuxt-link>
             <nuxt-link class="link" to="/contact">Contact Us</nuxt-link>
           </div>
@@ -153,12 +153,10 @@
         <div class="mobile-nav opacity-hide">
           <div class="nav">
             <nuxt-link class="link" to="/">Home</nuxt-link>
-            <nuxt-link class="link" to="/pknetwork">PK Network</nuxt-link>
-            <nuxt-link class="link" to="/whoweare2">Who We Are</nuxt-link>
-            <nuxt-link class="link" to="/services">Services</nuxt-link>
+            <nuxt-link class="link" to="/securityservices">Security Services</nuxt-link>
+            <nuxt-link class="link" to="/detectiveservices">Detective Services</nuxt-link>
+            <nuxt-link class="link" to="/specialamenities">Facility Management Services</nuxt-link>
             <nuxt-link class="link" to="/career2">Careers</nuxt-link>
-            <nuxt-link class="link" to="/trainingandorientation">Training AND Orientation</nuxt-link>
-            <nuxt-link class="link" to="/ourclients">Our Clients</nuxt-link>
             <nuxt-link class="link" to="/contactus2">Contact Us</nuxt-link>
           </div>
           <div @click="closeMenu" class="show-on-medium-and-down hamburger">
@@ -330,7 +328,7 @@ ul li {
 .custom-nav a {
   text-decoration: none;
   color: #fff;
-  font-size: 13px;
+  font-size: 18px;
   padding: 11px 0;
 }
 

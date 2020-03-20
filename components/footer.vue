@@ -6,7 +6,7 @@
           <div class="col-12 col-lg-4 pt-5">
             <div class="d-flex">
               <img style="width: 100px;height: 100%;" src="/images/PK1_new.png" alt />
-              <img style="width: 100px;height: 100%;" src="/images/PK2.png" alt />
+              <img style="width: 100px;height: 100%;" src="/images/PK2_new.png" alt />
             </div>
             <div class="mt-3 d-flex justify-content-between">
               <!-- <img style="height:300px;width:auto" src="/images/certficate1.jpg" alt /> -->
@@ -32,7 +32,8 @@
               <span>
                 <span class="text-white">ADDRESS:</span>
                 <span class="text-white" style="opacity:.8">
-                  Head Office:
+                  Head Office: Protech Center, 4th Floor, Ganeshguri, G.S.Road, Guwahati-781006
+                  <br />Administrative Office:
                   Protech Centre,4th Floor,Ganeshguri,G.S. Road,Guwahati - 781006
                 </span>
               </span>
@@ -62,16 +63,16 @@
           </div>
         </div>
         <div class="d-flex justify-content-center mt-4">
-          <div class="px-3 border-right">
+          <div class="px-2 border-right">
             <a style="color:white;text-decoration:none" href="/">Home</a>
           </div>
-          <div class="px-3 border-right">
+          <div class="px-2 px-lg-3 border-right">
             <a style="color:white;text-decoration:none" href="#">About Us</a>
           </div>
-          <div class="px-3 border-right">
+          <div class="px-2 px-lg-3 border-right">
             <a style="color:white;text-decoration:none" href="/career2">Career</a>
           </div>
-          <div class="px-3">
+          <div class="px-2 px-lg-3">
             <a style="color:white;text-decoration:none" href="/contactus2">Contact Us</a>
           </div>
         </div>

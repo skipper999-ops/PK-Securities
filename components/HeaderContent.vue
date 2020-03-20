@@ -43,13 +43,13 @@
       </g>
     </svg>
     <div class="header-content">
-      <span class="heading--1">We provide</span>
+      <span class="heading--1">beyond ordinary</span>
       <span class="heading--2">
-        <span class="coloured">security</span> that
+        <span class="coloured">integrated</span> security services
       </span>
       <span class="heading--3">
-        Never
-        <span class="coloured">sleeps</span>
+        with
+        <span class="coloured">expert solutions</span>
       </span>
       <span class="btn-container">
         <button class="button button--1" @click="goTo('whoweare2')">About Us</button>
@@ -61,13 +61,9 @@
 
 <script>
 export default {
-  methods:{
-    goTo(id){
-
-
-
-      this.$router.push('/'+ id)
-
+  methods: {
+    goTo(id) {
+      this.$router.push("/" + id);
     }
   }
 };
@@ -86,12 +82,14 @@ export default {
   border-bottom: 1px solid #9e7b5f;
   padding-bottom: 6px;
   margin-bottom: 10px;
+  font-size: 25px;
+  font-weight: 600;
 }
 
 .heading--2,
 .heading--3 {
   font-weight: 700;
-  font-size: 35px;
+  font-size: 20px;
 }
 
 .heading--1,
@@ -143,20 +141,20 @@ export default {
     top: 0!important
   } */
 
-  .svg-main-container svg{
-    display: none
+  .svg-main-container svg {
+    display: none;
   }
 
-  .heading--1{
-    font-size: 25px
+  .heading--1 {
+    font-size: 25px;
   }
 
-  .heading--2{
-    font-size: 30px
+  .heading--2 {
+    font-size: 20px;
   }
 
-  .heading--3{
-    font-size: 25px
+  .heading--3 {
+    font-size: 18px;
   }
 }
 

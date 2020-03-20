@@ -8,7 +8,9 @@
             <img class="coma" src="/images/asset1.png" alt />
           </div>
           <div class="container">
-            <p>PK Security has a deeply connected, truly vast network that ensures people receive consistent, high-quality, distinctive, world-class service. We are one of India's largest, most awarded, integrated security services agency. We’ll work with you to assess your security and a holistic approach to other needs and structure our services accordingly. Just reach out to any of our key office contacts below and we will help you with uninterrupted service.</p>
+            <p
+              style="color:white!important;opacity:.7"
+            >PK Security has a deeply connected, truly vast network that ensures people receive consistent, high-quality, distinctive, world-class service. We are one of India's largest, most awarded, integrated security services agency. We’ll work with you to assess your security and a holistic approach to other needs and structure our services accordingly. Just reach out to any of our key office contacts below and we will help you with uninterrupted service.</p>
           </div>
           <div class="d-flex justify-content-end">
             <img style="right:100%" class="coma" src="/images/asset3.png" alt />
@@ -21,8 +23,7 @@
     </div>
   </div>
 </template>
-<style scoped>
-</style>
+
 <script>
 import Breadcrumbs from "@/components/breadcrumbs.vue";
 
@@ -32,3 +33,5 @@ export default {
   }
 };
 </script>
+<style scoped>
+</style>

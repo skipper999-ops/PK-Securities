@@ -1,6 +1,6 @@
 <template>
   <div>
-     <Breadcrumbs title="Our Clients" subtitle="" crumbs="Home > Our Clients"></Breadcrumbs>
+    <Breadcrumbs title="Our Clients" subtitle crumbs="Home > Our Clients"></Breadcrumbs>
     <div class="bg-black">
       <div class="container-small p-0">
         <div>
@@ -13,7 +13,7 @@
                 <thead>
                   <tr>
                     <th width="100px" class="text-center">Sl. No</th>
-                    <th class="text-center">Name of Sites</th>
+                    <th class="text-center">Name of Sites in North-East and Beyond</th>
                     <th class="text-center">Location</th>
                   </tr>
                 </thead>
@@ -33,7 +33,7 @@
                 <thead>
                   <tr>
                     <th width="100px" class="text-center">Sl. No</th>
-                    <th class="text-center">Name of Sites</th>
+                    <th class="text-center">Name of Sites in Kamrup</th>
                     <th class="text-center">Location</th>
                   </tr>
                 </thead>
