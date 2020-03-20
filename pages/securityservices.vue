@@ -53,7 +53,7 @@
           </div>
         </div>
         <div class="col-12 mt-5 mt-md-0 col-sm-6 col-lg-3">
-          <div class="pk-cards" style="background-image:url('/images/serv4.png')">
+          <div class="pk-cards" style="background-image:url('/images/specialevent.jpg')">
             <div class="pk-card-text">
               <div style="background-color: #9e7b5f; width: 80%; z-index: 10000000;">
                 <p class="mb-0 py-1 px-1" style="color:white">Special Event Security Services</p>
@@ -73,25 +73,29 @@
                 <p class="mb-0 py-1 px-1" style="color:white">Unarmed Manned Gaurding</p>
               </div>
               <div style="background-color:white;margin:0!important;padding:12px 10px!important">
-                <p>The effective protection of your office, restaurant or any commercial premises cannot be undervalued. Our manned guarding services will not only safeguard your property from intruders and vandals, they will keep your staff, sensitive company information and any other valuables secure</p>
+                <p
+                  style="line-height:1.2"
+                >The effective protection of your office, restaurant or any commercial premises cannot be undervalued. Our manned guarding services will not only safeguard your property from intruders and vandals, they will keep your staff, sensitive company information and any other valuables secure</p>
               </div>
             </div>
           </div>
         </div>
         <div class="col-12 mt-5 mt-md-0 col-sm-6 col-lg-3">
-          <div class="pk-cards" style="background-image:url('/images/images_5.png')">
+          <div class="pk-cards" style="background-image:url('/images/hotelsecurity.jpg')">
             <div class="pk-card-text">
               <div style="background-color: #9e7b5f; width: 80%; z-index: 10000000;">
                 <p class="mb-0 py-1 px-1" style="color:white">Hotel Security Services</p>
               </div>
               <div style="background-color:white;margin:0!important;padding:12px 10px!important">
-                <p>Hotels are mostly vulnerable to cyber attacks, break-ins, and other crimes. Our vetted security professionals aim at securing the interior, lobby, and guestrooms; exterior and parking area along with the necessary service and protection to the Hotel guests and staff.</p>
+                <p
+                  style="line-height:1.2"
+                >Hotels are mostly vulnerable to cyber attacks, break-ins, and other crimes. Our vetted security professionals aim at securing the interior, lobby, and guestrooms; exterior and parking area along with the necessary service and protection to the Hotel guests and staff.</p>
               </div>
             </div>
           </div>
         </div>
         <div class="col-12 mt-5 mt-md-0 col-sm-6 col-lg-3">
-          <div class="pk-cards" style="background-image:url('/images/images_6.png')">
+          <div class="pk-cards" style="background-image:url('/images/schoolsecurity.jpg')">
             <div class="pk-card-text">
               <div style="background-color: #9e7b5f; width: 80%; z-index: 10000000;">
                 <p class="mb-0 py-1 px-1" style="color:white">School Security Services</p>
