@@ -275,7 +275,7 @@
                 <p
                   class="mt-3 text-white"
                   style="font-size:18px;line-height:1.25;text-align:justify;opacity:.88"
-                >PK Security Service is the trusted provider of cutting-edge quality security service. We are committed to providing reliable service through custom-designed security strategies.</p>
+                >PK Group is the trusted provider of cutting-edge quality service not only in the areas of security but also in providing the perfect solution to make living in any society or complex a pleasant and convenient experience - for the residents, the managing committee, and the security staff. Gain improved access control to your property with a range of customized total solutions package.</p>
                 <img class="w-100" src="/images/man-shadow.png" alt />
               </div>
             </div>
@@ -288,7 +288,7 @@
                 <p
                   class="text-white mt-4"
                   style="font-size:18px"
-                >Our extensive security industry experience enables us to exceed customers expectations.We now have around 120 satisfied customers and still counting.</p>
+                >Our extensive industry experience enables us to exceed customers expectations.We now have around 120 satisfied customers and still counting.</p>
               </div>
               <div class="mt-5">
                 <div class="d-flex align-items-center">
