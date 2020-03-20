@@ -457,34 +457,52 @@
           </div>
           <div class="col-12 col-lg-4 d-flex flex-column justify-content-around">
             <div>
-              <h3 class="text-center">CAREER OPORTUNITIES</h3>
+              <h3 class="text-center">JOIN OUR TEAM AT PK</h3>
               <hr style="width:20%;margin:auto" />
             </div>
-            <div class="d-flex mt-5 align-items-center">
+            <div class="d-flex mt-5 align-items-center justify-content-between">
               <span style="color:#fff">
-                Security Officer/P413/52400/1
-                Salary: Rs10.46 – Rs10.46
-                Location: Nagaon
+                Field Officer
+                <br />Salary: Market related
+                <br />Location: Guwahati
               </span>
-              <img style="height:25px;width:25px;margin-left:10px" src="/images/left-arrow.svg" alt />
+              <nuxt-link to="/career2">
+                <img
+                  style="height:25px;width:25px;margin-left:10px"
+                  src="/images/left-arrow.svg"
+                  alt
+                />
+              </nuxt-link>
             </div>
             <hr style="width:100%" />
-            <div class="d-flex mt-5 align-items-center">
+            <div class="d-flex mt-5 align-items-center justify-content-between">
               <span style="color:#fff">
-                Security Officer/P413/52400/1
-                Salary: Rs10.46 – Rs10.46
-                Location: Nagaon
+                Security Guard
+                <br />Salary: Market related
+                <br />Location: Guwahati
               </span>
-              <img style="height:25px;width:25px;margin-left:10px" src="/images/left-arrow.svg" alt />
+              <nuxt-link to="/career2">
+                <img
+                  style="height:25px;width:25px;margin-left:10px"
+                  src="/images/left-arrow.svg"
+                  alt
+                />
+              </nuxt-link>
             </div>
             <hr style="width:100%" />
-            <div class="d-flex mt-5 align-items-center">
+            <div class="d-flex mt-5 align-items-center justify-content-between">
               <span style="color:#fff">
-                Security Officer/P413/52400/1
-                Salary: Rs10.46 – Rs10.46
-                Location: Nagaon
+                Housekeeping janitors
+                <br />Salary: Market related
+                <br />Location: Guwahati
               </span>
-              <img style="height:25px;width:25px;margin-left:10px" src="/images/left-arrow.svg" alt />
+              <nuxt-link to="/career2">
+                <img
+                  style="height:25px;width:25px;margin-left:10px"
+                  src="/images/left-arrow.svg"
+                  alt
+                />
+              </nuxt-link>
             </div>
             <hr style="width:100%" />
           </div>
