@@ -104,7 +104,7 @@
       <div class="container-small p-0 bg-black">
         <div class="p-4 pt-2">
           <div class="row mt-5">
-            <div class="col-12 col-sm-6">
+            <div class="col-12 col-md-12 col-lg-6">
               <div>
                 <h3 style="font-weight:700;color:#fff;font-size:19px">We provide</h3>
                 <h5
@@ -123,31 +123,32 @@
                 </p>
               </div>
               <nuxt-link to="/whoweare2" class="custom-link" style="color:#9e7b5f" href>READ MORE</nuxt-link>
-              <div class="row mt-3">
-                <div class="col-12 col-lg-4">
+              <Observer @intersect="intersected" class="nav-observer" />
+              <div class="row mt-3 incremental">
+                <div class="col-12 col-md-4">
                   <p class="text-center text-white" style="font-size:17px">OUR CUSTOMERS</p>
                   <div class="circle middle">
-                    <p class="m-0 text-center text-white" style="font-size:20px">103</p>
+                    <p class="m-0 text-center text-white" style="font-size:20px">{{customer}}</p>
                     <span class="align-items-center" style="color:#9e7b5f;font-size:10px">CUSTOMERS</span>
                   </div>
                 </div>
-                <div class="col-12 mt-4 mt-sm-0 col-lg-4">
+                <div class="col-12 mt-4 mt-sm-0 col-md-4">
                   <p class="text-center text-white" style="font-size:17px">OUR TEAM</p>
                   <div class="circle middle">
-                    <p class="m-0 text-center text-white" style="font-size:20px">1862</p>
+                    <p class="m-0 text-center text-white" style="font-size:20px">{{employee}}</p>
                     <span class="align-items-center" style="color:#9e7b5f;font-size:10px">EMPLOYEES</span>
                   </div>
                 </div>
-                <div class="col-12 mt-4 mt-sm-0 col-lg-4">
+                <div class="col-12 mt-4 mt-sm-0 col-md-4">
                   <p class="text-center text-white" style="font-size:17px">CITIES</p>
                   <div class="circle middle">
-                    <p class="m-0 text-center text-white" style="font-size:20px">1862</p>
+                    <p class="m-0 text-center text-white" style="font-size:20px">{{cities}}</p>
                     <span class="align-items-center" style="color:#9e7b5f;font-size:10px">CITIES</span>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-12 col-sm-6">
+            <div class="col-12 col-md-12 col-lg-6">
               <div>
                 <h4 class="text-center" style="color:#9e7b5f">THE EXPERTS</h4>
                 <h3 class="text-center" style="color:#9e7b5f">VIDEO DEMO</h3>
@@ -586,73 +587,18 @@
           </carousel>
         </client-only>
       </div>
-      <div class="pt-5 pb-5" style="background-color: white;margin-top: 60px;">
-        <div class="container-small">
+      <div class="p-5" style="background-color: white;margin-top: 60px;">
+        <div class="container-small" style="position: relative">
           <h4 class="text-center">Accredited By</h4>
           <p
             class="text-center"
           >PK Security Services is an ISO 9001:2015 certified organization approved by Government and also in collaboration with Assam Skill Development Empowering Local Youth.</p>
-          <client-only>
-            <carousel
-              :per-page="8"
-              :mouse-drag="true"
-              :loop="true"
-              :direction="right"
-              :autoplay="true"
-              style="height: 100px"
-              paginationColor="#e91e63"
-              paginationActiveColor="#ffffff"
-            >
-              <slide>
-                <img class style="height:70px" src="/c_logo/amul.jpg" alt="First slide" />
-              </slide>
-              <slide>
-                <img class style="height:70px" src="/c_logo/Picture1.jpg" alt="First slide" />
-              </slide>
-              <slide>
-                <img class style="height:70px" src="/c_logo/Picture3.png" alt="First slide" />
-              </slide>
-              <slide>
-                <img class style="height:70px" src="/c_logo/Picture4.jpg" alt="First slide" />
-              </slide>
-              <slide>
-                <img class style="height:70px" src="/c_logo/Picture5.jpg" alt="First slide" />
-              </slide>
-              <slide>
-                <img class style="height:70px" src="/c_logo/Picture6.jpg" alt="First slide" />
-              </slide>
-              <slide>
-                <img class style="height:70px" src="/c_logo/Picture7.png" alt="First slide" />
-              </slide>
-              <slide>
-                <img class style="height:70px" src="/c_logo/Picture8.png" alt="First slide" />
-              </slide>
-              <slide>
-                <img class style="height:70px" src="/c_logo/Picture9.png" alt="First slide" />
-              </slide>
-              <slide>
-                <img class style="height:70px" src="/c_logo/Picture10.jpg" alt="First slide" />
-              </slide>
-              <slide>
-                <img class style="height:70px" src="/c_logo/Picture11.jpg" alt="First slide" />
-              </slide>
-              <slide>
-                <img class style="height:70px" src="/c_logo/Picture12.jpg" alt="First slide" />
-              </slide>
-              <slide>
-                <img class style="height:70px" src="/c_logo/Picture13.jpg" alt="First slide" />
-              </slide>
-              <slide>
-                <img class style="height:70px" src="/c_logo/Picture14.jpg" alt="First slide" />
-              </slide>
-              <slide>
-                <img class style="height:70px" src="/c_logo/Picture15.jpg" alt="First slide" />
-              </slide>
-              <slide>
-                <img class style="height:70px" src="/c_logo/poll.jpg" alt="First slide" />
-              </slide>
-            </carousel>
-          </client-only>
+
+          <VueSlickCarousel v-bind="sliderSettings" ref="carousel">
+            <div v-for="p in 15" :key="p">
+              <img class="slider-image" :src="'/c_logo/Picture' + p + '.jpg'" alt="First slide" />
+            </div>
+          </VueSlickCarousel>
         </div>
       </div>
 
@@ -670,6 +616,44 @@ export default {
   data() {
     return {
       currentLocation: {},
+      sliderSettings: {
+        dots: false,
+        dotsClass: "slick-dots custom-dot-class",
+        infinite: true,
+        speed: 500,
+        draggable: false,
+        autoplay: false,
+        autoplaySpeed: 100,
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        arrows: true,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+              initialSlide: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      },
       locations: [
         {
           lat: 26.1445,
@@ -688,11 +672,17 @@ export default {
       name: "",
       phone_number: "",
       email: "",
-      address: ""
+      address: "",
+      isDone: false,
+      customer: 0,
+      employee: 0,
+      cities: 0,
+      count_intersect: 0
     };
   },
   components: {
-    MainHeader
+    MainHeader,
+    Observer: () => import("@/components/observer")
   },
   computed: {
     ...mapState(["allClientListKamrup"]),
@@ -715,6 +705,29 @@ export default {
     }
   },
   methods: {
+    // Detect intersection of the element observer while scrolling and add/remove shadow & fixed class to Navbar
+    intersected() {
+      this.count_intersect++;
+      if (this.count_intersect == 2) {
+        console.log("intersect");
+        this.isDone = true;
+        this.incremental(56, 'customer');
+        this.incremental(231, 'employee');
+        this.incremental(24, 'cities');
+      }
+    },
+    incremental: function(target, model) {
+      var number = 0;
+      var target = target;
+
+      var that = this
+
+      var interval = setInterval(function() {
+        that[model] = number
+        if (number >= target) clearInterval(interval);
+        number++;
+      }, 1);
+    },
     createQuery: function() {
       var payload = new FormData();
 
@@ -802,6 +815,13 @@ hr {
 
 .bg-black {
   background-color: #000000;
+}
+
+.slider-image {
+  height: 140px;
+  width: 100%;
+  object-fit: contain;
+  padding: 20px;
 }
 
 .container .row {

@@ -39,6 +39,24 @@ body {
   margin: 0;
 }
 
+/* Slick Fix */
+
+.slick-track {
+  display: flex;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-prev:before, .slick-next:before{
+  color: black!important
+}
+
+.slick-slider.slick-initialized{
+  position: relative;
+}
+
 .middle {
   display: flex;
   justify-content: center;
@@ -58,6 +76,7 @@ body {
 .nuxt-link-exact-active.nuxt-link-active {
   color: #fdb06c !important;
 }
+
 
 .header-carousel .VueCarousel-pagination {
   position: absolute;
