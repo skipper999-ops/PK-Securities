@@ -22,10 +22,6 @@
                 <a href="tel:8486027325" class="footer-sub">+91 8486027325</a>
               </span>
               <span class="d-flex">
-                <p style="color:white">FAX:</p>
-                <a href="tel:8486027325" class="footer-sub">+91 8486027325</a>
-              </span>
-              <span class="d-flex">
                 <p style="color:white">E-MAIL:</p>
                 <a href="mailto:pawan@pkservices.in" class="footer-sub">pawan@pkservices.in</a>
               </span>

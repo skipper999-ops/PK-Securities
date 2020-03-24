@@ -13,7 +13,7 @@
                 Transforming Service Management
                 into an Innovative Force.
               </h5>
-              <p class="text-justify" style="color:#323232;line-height:1.4">
+              <p class="text-justify" style="font-family:sans-serif;color:#323232;line-height:1.4">
                 With years of experience, we understand the challenges to the ever-evolving security environment. We have become the most preferred partners of a huge clientele by setting a benchmark in creating smart measures.
                 PK Security surpasses competitors by providing our clients with the most competent, motivated and caring staff of professionals. This is the result of our industry-leading recruiting, training, compensation and recognition programs.
               </p>
@@ -30,7 +30,7 @@
                     <div class="d-flex justify-content-center">
                       <img src="/images/policeman.png" alt />
                     </div>
-                    <p>Unarmed Manned Guarding</p>
+                    <p style="font-family:sans-serif">Unarmed Manned Guarding</p>
                   </div>
                   <div
                     class="services-pad d-flex flex-column justify-content-center align-items-center"
@@ -38,7 +38,7 @@
                     <div class="d-flex justify-content-center">
                       <img src="/images/hotel.png" alt />
                     </div>
-                    <p>Hotel Security</p>
+                    <p style="font-family:sans-serif">Hotel Security</p>
                   </div>
                 </div>
                 <div class="col-6 px-0 border-right col-sm-6 col-md-4 col-lg-3">
@@ -48,7 +48,7 @@
                     <div class="d-flex justify-content-center">
                       <img src="/images/key.png" alt />
                     </div>
-                    <p>Residential Security</p>
+                    <p style="font-family:sans-serif">Residential Security</p>
                   </div>
                   <div
                     class="services-pad d-flex flex-column justify-content-center align-items-center"
@@ -56,7 +56,7 @@
                     <div class="d-flex justify-content-center">
                       <img src="/images/event.png" alt />
                     </div>
-                    <p>Event Security</p>
+                    <p style="font-family:sans-serif">Event Security</p>
                   </div>
                 </div>
                 <div class="col-6 px-0 border-right col-sm-6 col-md-4 col-lg-3">
@@ -66,7 +66,7 @@
                     <div class="d-flex justify-content-center">
                       <img src="/images/sociology.png" alt />
                     </div>
-                    <p>Commercial Security</p>
+                    <p style="font-family:sans-serif">Commercial Security</p>
                   </div>
                   <div
                     class="services-pad d-flex flex-column justify-content-center align-items-center"
@@ -74,7 +74,7 @@
                     <div class="d-flex justify-content-center">
                       <img src="/images/school.png" alt />
                     </div>
-                    <p>School Security</p>
+                    <p style="font-family:sans-serif">School Security</p>
                   </div>
                 </div>
                 <div class="col-6 px-0 col-sm-6 col-md-4 col-lg-3">
@@ -84,7 +84,7 @@
                     <div class="d-flex justify-content-center">
                       <img src="/images/hospital.png" alt />
                     </div>
-                    <p>Hospital Security</p>
+                    <p style="font-family:sans-serif">Hospital Security</p>
                   </div>
                   <div
                     class="services-pad d-flex flex-column justify-content-center align-items-center"
@@ -92,7 +92,7 @@
                     <div class="d-flex justify-content-center">
                       <img src="/images/surface1.png" alt />
                     </div>
-                    <p>Industrial Security</p>
+                    <p style="font-family:sans-serif">Industrial Security</p>
                   </div>
                 </div>
               </div>
@@ -177,7 +177,7 @@
               <hr />
               <h5>Leading Service provider with exceptional quality management skills.</h5>
               <p
-                style="color:#323232"
+                style="color:#323232;font-family:sans-serif"
               >PK Group is integrated with the most innovative and advanced state of the art features to digitalize all kinds of maintenance and operational activities of gated societies. We offer a smart platform for a better managed and strongly connected society by leveraging our technology expertise. Our services ensure efficient and robust handling of day to day operations of the society. With heightened features and innovative amenities, we offer smooth rendering of society facilities like pool, gym etc</p>
               <nuxt-link type="button" to="/specialamenities" class="btn btn-security">Read More</nuxt-link>
             </div>
@@ -192,7 +192,7 @@
                     <div class="d-flex justify-content-center">
                       <img src="/images/electrician.png" alt />
                     </div>
-                    <p>Electrical Services</p>
+                    <p style="font-family:sans-serif">Electrical Services</p>
                   </div>
                   <div
                     class="services-pad d-flex flex-column justify-content-center align-items-center"
@@ -200,7 +200,7 @@
                     <div class="d-flex justify-content-center">
                       <img src="/images/water.png" alt />
                     </div>
-                    <p>Swimming Pool Maintenance</p>
+                    <p style="font-family:sans-serif">Swimming Pool Maintenance</p>
                   </div>
                 </div>
                 <div class="col-6 px-0 border-right col-sm-6 col-md-4 col-lg-3">
@@ -210,7 +210,7 @@
                     <div class="d-flex justify-content-center">
                       <img src="/images/cctv.png" alt />
                     </div>
-                    <p>Electronic Security Systems</p>
+                    <p style="font-family:sans-serif">Electronic Security Systems</p>
                   </div>
                   <div
                     class="services-pad d-flex flex-column justify-content-center align-items-center"
@@ -218,7 +218,7 @@
                     <div class="d-flex justify-content-center">
                       <img src="/images/mop.png" alt />
                     </div>
-                    <p>Housekeeping Services</p>
+                    <p style="font-family:sans-serif">Housekeeping Services</p>
                   </div>
                 </div>
                 <div class="col-6 px-0 border-right col-sm-6 col-md-4 col-lg-3">
@@ -228,7 +228,7 @@
                     <div class="d-flex justify-content-center">
                       <img src="/images/cleaning.png" alt />
                     </div>
-                    <p>Mechanized Cleaning Services</p>
+                    <p style="font-family:sans-serif">Mechanized Cleaning Services</p>
                   </div>
                   <div
                     class="services-pad d-flex flex-column justify-content-center align-items-center"
@@ -236,7 +236,7 @@
                     <div class="d-flex justify-content-center">
                       <img src="/images/plumbing.png" alt />
                     </div>
-                    <p>Plumbing Services</p>
+                    <p style="font-family:sans-serif">Plumbing Services</p>
                   </div>
                 </div>
                 <div class="col-6 px-0 col-sm-6 col-md-4 col-lg-3">
@@ -246,7 +246,7 @@
                     <div class="d-flex justify-content-center">
                       <img src="/images/empire-state-building.png" alt />
                     </div>
-                    <p>Maintenance Services</p>
+                    <p style="font-family:sans-serif">Maintenance Services</p>
                   </div>
                   <div
                     class="services-pad d-flex flex-column justify-content-center align-items-center"
@@ -254,7 +254,7 @@
                     <div class="d-flex justify-content-center">
                       <img src="/images/guard1.png" alt />
                     </div>
-                    <p>STP/WTP Maintenance</p>
+                    <p style="font-family:sans-serif">STP/WTP Maintenance</p>
                   </div>
                 </div>
               </div>
@@ -328,7 +328,7 @@
               <hr />
               <h5>Gain the information edge with expert, efficient legal investigation.</h5>
               <p
-                style="color:#323232;line-height:1.4"
+                style="color:#323232;line-height:1.4;font-family:sans-serif"
               >Proficient, competent, dependable and professionally handled leading Private Investigation Agency. We take much pride in stating that we are one of the Premier Private Investigation Organization who had a humble beginning as a small detective agency. We have earned a reputation over the years by successfully completing numerous investigation matters. Our each and every staff are experienced and believes in obtaining information legitimate through keen observation, thorough investigation, careful and accurate examination with fine line analysis. Our wide network of Detectives consists of experienced personal from various fields. No matter what your issues may be we are here just a phone call away.</p>
               <nuxt-link type="button" to="/detectiveservices" class="btn btn-security">Read More</nuxt-link>
             </div>
@@ -343,7 +343,7 @@
                     <div class="d-flex justify-content-center">
                       <img src="/images/surface1_2.png" alt />
                     </div>
-                    <p>Personal Investigation</p>
+                    <p style="font-family:sans-serif">Personal Investigation</p>
                   </div>
                   <div
                     class="services-pad d-flex flex-column justify-content-center align-items-center"
@@ -351,7 +351,7 @@
                     <div class="d-flex justify-content-center">
                       <img src="/images/world.png" alt />
                     </div>
-                    <p>Survellience</p>
+                    <p style="font-family:sans-serif">Survellience</p>
                   </div>
                 </div>
                 <div class="col-6 px-0 border-right col-sm-6 col-md-4 col-lg-3">
@@ -361,7 +361,7 @@
                     <div class="d-flex justify-content-center">
                       <img src="/images/insight.png" alt />
                     </div>
-                    <p>Corporate Investigation</p>
+                    <p style="font-family:sans-serif">Corporate Investigation</p>
                   </div>
                   <div
                     class="services-pad d-flex flex-column justify-content-center align-items-center"
@@ -369,7 +369,7 @@
                     <div class="d-flex justify-content-center">
                       <img src="/images/detective.png" alt />
                     </div>
-                    <p>Pre-Matrimonial Investigation</p>
+                    <p style="font-family:sans-serif">Pre-Matrimonial Investigation</p>
                   </div>
                 </div>
                 <div class="col-6 px-0 border-right col-sm-6 col-md-4 col-lg-3">
@@ -379,7 +379,7 @@
                     <div class="d-flex justify-content-center">
                       <img src="/images/files-and-folders.png" alt />
                     </div>
-                    <p>Legal Services</p>
+                    <p style="font-family:sans-serif">Legal Services</p>
                   </div>
                   <div
                     class="services-pad d-flex flex-column justify-content-center align-items-center"
@@ -387,7 +387,7 @@
                     <div class="d-flex justify-content-center">
                       <img src="/images/research.png" alt />
                     </div>
-                    <p>Post-Matrimonial Investigation</p>
+                    <p style="font-family:sans-serif">Post-Matrimonial Investigation</p>
                   </div>
                 </div>
                 <div class="col-6 px-0 col-sm-6 col-md-4 col-lg-3">
@@ -397,7 +397,7 @@
                     <div class="d-flex justify-content-center">
                       <img src="/images/footprint.png" alt />
                     </div>
-                    <p>Missing Person/Help Tracing</p>
+                    <p style="font-family:sans-serif">Missing Person/Help Tracing</p>
                   </div>
                   <div
                     class="services-pad d-flex flex-column justify-content-center align-items-center"
@@ -405,7 +405,7 @@
                     <div class="d-flex justify-content-center">
                       <img src="/images/loupe.png" alt />
                     </div>
-                    <p>Post-Employment Verification</p>
+                    <p style="font-family:sans-serif">Post-Employment Verification</p>
                   </div>
                 </div>
               </div>
@@ -554,6 +554,25 @@
             <span>Testimonials</span>
           </h4>
         </div>
+        <!-- <VueSlickCarousel v-bind="sliderSettings2" ref="carousel">
+          <div v-for="p in alltestimonial" :key="p.id">
+            <div class="testimony-slide">
+              <img
+                style="margin:auto;width: 150px;height: 150px;border-radius: 50%;object-fit:contain"
+                class="middle"
+                :src="p.image"
+                alt
+              />
+              <div>
+                <p class="text2 mt-5 text-white" style="height:auto;opacity:.8">{{ p.testimonial }}</p>
+                <div class="d-flex justify-content-center flex-column">
+                  <p class="text-white text-center m-0" style="opacity:.8">{{ p.name }}</p>
+                  <p class="text-white text-center m-0 small" style="opacity:.8">{{ p.user_type }}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </VueSlickCarousel>-->
         <client-only>
           <carousel
             class="header-carousel container"
@@ -622,8 +641,8 @@ export default {
         infinite: true,
         speed: 500,
         draggable: false,
-        autoplay: false,
-        autoplaySpeed: 100,
+        autoplay: true,
+        autoplaySpeed: 3000,
         slidesToShow: 6,
         slidesToScroll: 1,
         arrows: true,
@@ -653,6 +672,18 @@ export default {
             }
           }
         ]
+      },
+      sliderSettings2: {
+        dots: false,
+        dotsClass: "slick-dots custom-dot-class",
+        infinite: true,
+        speed: 500,
+        draggable: false,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: true
       },
       locations: [
         {
@@ -711,19 +742,19 @@ export default {
       if (this.count_intersect == 2) {
         console.log("intersect");
         this.isDone = true;
-        this.incremental(56, 'customer');
-        this.incremental(231, 'employee');
-        this.incremental(24, 'cities');
+        this.incremental(56, "customer");
+        this.incremental(231, "employee");
+        this.incremental(24, "cities");
       }
     },
     incremental: function(target, model) {
       var number = 0;
       var target = target;
 
-      var that = this
+      var that = this;
 
       var interval = setInterval(function() {
-        that[model] = number
+        that[model] = number;
         if (number >= target) clearInterval(interval);
         number++;
       }, 1);

@@ -1,6 +1,10 @@
 <template>
   <div class="bg-black">
-    <Breadcrumbs title="Special Amenities" subtitle crumbs="Home > Special Amenities"></Breadcrumbs>
+    <Breadcrumbs
+      title="Facility Management Services"
+      subtitle
+      crumbs="Home > Facility Management Services"
+    ></Breadcrumbs>
     <div class="container-small">
       <div style="padding-top: 40px">
         <div class="w-100">
@@ -8,7 +12,7 @@
             <img class="coma" src="/images/asset1.png" alt />
           </div>
           <div class="container">
-            <p>With an extensive knowledge and expertise, PK security has invested in various innovative amenities to minimise security risks and deter threats. We strive to lead within the security industry, in supplying professional, innovative and proactive security service solutions that exceed customers’ expectations.</p>
+            <p>PK Group provides comprehensive society and facility management services with robust and innovative amenities. We focus on every aspect of apartment block management to take care of the complete sphere of activities involved in overall administration, simplifying them at every stage, introducing transparency so that they are carried out in with the highest efficiency.</p>
           </div>
           <div class="d-flex justify-content-end">
             <img style="right:100%" class="coma" src="/images/asset3.png" alt />
