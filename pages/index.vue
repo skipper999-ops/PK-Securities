@@ -506,6 +506,12 @@
               </nuxt-link>
             </div>
             <hr style="width:100%" />
+            <button class="btn btn-vacancy w-100">
+              <nuxt-link
+                style="text-decoration:none;color:white"
+                to="/career2"
+              >VIEW ALL OUR VACANCIES</nuxt-link>
+            </button>
           </div>
         </div>
       </div>
@@ -835,6 +841,12 @@ hr {
   font-family: Roboto;
 }
 
+.btn-vacancy {
+  background-color: #9e7b5f;
+  height: 75px;
+  color: white;
+  text-decoration: none;
+}
 .btn-security {
   height: 31px;
   width: 128px;
