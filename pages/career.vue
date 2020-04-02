@@ -53,12 +53,30 @@
 import { mapState } from "vuex";
 
 export default {
+  data(){
+    return{
+      careers : []
+    }
+  },
   computed: {
     ...mapState(["career"])
   },
 
   mounted() {
-    this.$store.dispatch("getAllCareer");
+    this.$store.dispatch("getAllCareer").then(res =>{
+       this.careers = this.groupBy(res.data, 'category_name');
+    });
+  },
+  methods: {
+    groupBy(arr, property) {
+      return arr.reduce(function(memo, x) {
+        if (!memo[x[property]]) {
+          memo[x[property]] = [];
+        }
+        memo[x[property]].push(x);
+        return memo;
+      }, {});
+    }
   }
 };
 </script>

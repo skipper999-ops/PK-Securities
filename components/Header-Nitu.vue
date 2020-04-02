@@ -1,23 +1,39 @@
 <template>
   <div class="header">
-    <div
-      v-for="(data, i) in slideData"
-      :key="i"
-      :style="{transform: i === 0 ? 'translateX(0%)' : 'translateX(100%)', backgroundImage: `linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(${data.img})`}"
-      class="header-slide"
+    <HeaderContent
+      style="position: absolute;z-index: 99;left: 0;right: 0;margin: auto;top: 0;bottom: 0;"
+    />
+
+    <VueSlickCarousel class="homepageSlider"
+      v-if="HomepageSliderImages && HomepageSliderImages.length > 1"
+      v-bind="sliderSettings"
+      ref="carousel"
     >
-      <HeaderContent />
-    </div>
-    <!-- <span @click="goLeft" class="controle controle--left">
-      <img src="/arrow.svg" />
-    </span> -->
-    <!-- <span @click="goRight" class="controle controle--right">
-      <img src="/arrow.svg" />
-    </span> -->
+      <div v-for="p in HomepageSliderImages" :key="p.id">
+        <img class="d-block w-100 img1" :src="p.image" alt="First slide" />
+      </div>
+    </VueSlickCarousel>
+    <!-- <client-only>
+      <carousel
+        class=""
+        :per-page="1"
+        :autoplay="true"
+        :mouse-drag="true"
+        :navigationEnabled="true"
+        paginationColor="#e91e63"
+        paginationActiveColor="#ffffff"
+      >
+        <slide v-for="p in HomepageSliderImages" :key="p.id">
+          <img class="d-block w-100 img1" :src="p.image" alt="First slide" />
+        </slide>
+      </carousel>
+    </client-only>-->
   </div>
 </template>
 
 <script>
+import { mapState } from "vuex";
+
 import { TweenLite, TimelineLite, Power4, Power0 } from "gsap";
 import HeaderContent from "./HeaderContent";
 
@@ -26,6 +42,18 @@ export default {
   data() {
     return {
       slideData: [{ img: "/1.jpeg" }, { img: "/1.jpeg" }],
+      sliderSettings: {
+        dots: false,
+        dotsClass: "slick-dots custom-dot-class",
+        infinite: true,
+        speed: 500,
+        draggable: false,
+        autoplay: false,
+        autoplaySpeed: 3000,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: true
+      },
       activeSlide: 0,
       heading1: [],
       heading2: [],
@@ -46,6 +74,13 @@ export default {
     this.svgContainers.forEach(item => {
       this.timelines.push(new TimelineLite());
     });
+  },
+
+  created() {
+    this.$store.dispatch("getHomepageSliderImages");
+  },
+  computed: {
+    ...mapState(["HomepageSliderImages"])
   },
   methods: {
     goRight() {
@@ -119,12 +154,30 @@ export default {
   transform: rotate(180deg);
 }
 
-
 @media only screen and (max-width: 600px) {
-
-  .header{
-    height:380px!important
+  .header {
+    height: 380px !important;
   }
 }
+
+.img1 {
+  height: 100%;
+  width: 100%;
+  object-fit: cover !important;
+}
+
+.header {
+  position: relative;
+}
+.header:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #00000078;
+}
+
 
 </style>

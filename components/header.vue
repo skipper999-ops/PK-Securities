@@ -207,12 +207,12 @@ export default {
   },
 
   computed: {
-    ...mapState(["HomepageSliderImages"]),
+    // ...mapState(["HomepageSliderImages"]),
     ...mapState(["allNews"])
   },
 
   mounted() {
-    this.$store.dispatch("getHomepageSliderImages");
+    // this.$store.dispatch("getHomepageSliderImages");
 
     this.$store.dispatch("getAllNews").then(res => {
       this.blog = Object.assign([], res.data).splice(0, 5);
@@ -328,7 +328,7 @@ ul li {
 .custom-nav a {
   text-decoration: none;
   color: #fff;
-  font-size: 18px;
+  font-size: 14px;
   padding: 11px 0;
 }
 

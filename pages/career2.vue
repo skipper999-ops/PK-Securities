@@ -1,6 +1,6 @@
 <template>
   <div class="bg-black">
-     <Breadcrumbs title="Training and Orientation" subtitle="" crumbs="Home > Training and Orientation"></Breadcrumbs>
+    <Breadcrumbs title="Training and Orientation" subtitle crumbs="Home > Training and Orientation"></Breadcrumbs>
     <div class="container-small" style="padding-top:40px">
       <div>
         <div class="w-100">
@@ -19,24 +19,25 @@
       </div>
       <div class="mt-5">
         <h2 class="text-center text-white">CURRENT OPENING</h2>
-        <div class="accordion mt-5 border-0" id="accordionExample">
-          <div class="card border-bottom">
+        <div class="accordion mt-5 mb-5 border-0 " id="accordionExample">
+          <div
+            v-for="(p, index) in careers" :key="p.id"
+            class="card border-bottom cursor-pointer"
+            data-toggle="collapse"
+            :data-target="'#collapseOne-' + index.replace(/[\s.;,?&%0-9]/g, '-')"
+            aria-expanded="true"
+            aria-controls="collapseOne"
+          >
             <div class="card-header" id="headingOne">
-
-                <button
-                  class="btn"
-                  type="button"
-                  style="color:white;font-size:20px;text-align:left"
-                  data-toggle="collapse"
-                  data-target="#collapseOne"
-                  aria-expanded="true"
-                  aria-controls="collapseOne"
-                >Account Officer</button>
-
+              <button
+                class="btn"
+                type="button"
+                style="color:white;font-size:20px;text-align:left"
+              >{{index}}</button>
             </div>
 
             <div
-              id="collapseOne"
+              :id="'collapseOne-' + index.replace(/[\s.;,?&%0-9]/g, '-')"
               class="collapse"
               aria-labelledby="headingOne"
               data-parent="#accordionExample"
@@ -48,60 +49,17 @@
                       <th>Experience</th>
                       <th>Location</th>
                       <th>Position Open</th>
+                      <th>Position Type</th>
                       <th>Salary Offered</th>
                     </tr>
                   </thead>
-                  <tbody>
+                  <tbody v-for="q in p" :key="q.id">
                     <tr>
-                      <td>2-5 years</td>
-                      <td>Guwahati</td>
-                      <td>5</td>
-                      <td>1.5-2.5 LPA</td>
-                    </tr>
-                  </tbody>
-                </table>
-                <div class="d-flex justify-content-center m-4">
-                  <!-- <button class="btn btn-apply" type="button">APPLY NOW</button> -->
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card border-0">
-            <div class="card-header" id="headingTwo">
-              <h2 class="mb-0">
-                <button
-                  class="btn collapsed"
-                  type="button"
-                  style="color:white;font-size:20px"
-                  data-toggle="collapse"
-                  data-target="#collapseTwo"
-                  aria-expanded="false"
-                  aria-controls="collapseTwo"
-                >Branch Manager</button>
-              </h2>
-            </div>
-            <div
-              id="collapseTwo"
-              class="collapse"
-              aria-labelledby="headingTwo"
-              data-parent="#accordionExample"
-            >
-              <div class="card-body">
-                <table class="table">
-                  <thead>
-                    <tr>
-                      <th>Experience</th>
-                      <th>Location</th>
-                      <th>Position Open</th>
-                      <th>Salary Offered</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>2-5 years</td>
-                      <td>Guwahati</td>
-                      <td>5</td>
-                      <td>1.5-2.5 LPA</td>
+                      <td>{{q.experience}}</td>
+                      <td>{{q.location}}</td>
+                      <td>{{q.open_positions}}</td>
+                      <td>{{q.job_type}}</td>
+                      <td>{{q.salary_range}}</td>
                     </tr>
                   </tbody>
                 </table>
@@ -120,10 +78,36 @@
   
 <script>
 import Breadcrumbs from "@/components/breadcrumbs.vue";
+import { mapState } from "vuex";
 
 export default {
+  data() {
+    return {
+      careers: []
+    };
+  },
   components: {
     Breadcrumbs
+  },
+  computed: {
+    ...mapState(["career"])
+  },
+
+  mounted() {
+    this.$store.dispatch("getAllCareer").then(res => {
+      this.careers = this.groupBy(res.data, "category_name");
+    });
+  },
+  methods: {
+    groupBy(arr, property) {
+      return arr.reduce(function(memo, x) {
+        if (!memo[x[property]]) {
+          memo[x[property]] = [];
+        }
+        memo[x[property]].push(x);
+        return memo;
+      }, {});
+    }
   }
 };
 </script>
@@ -177,5 +161,9 @@ export default {
   height: 48px;
   width: 160px;
   border-radius: 0;
+}
+
+.cursor-pointer{
+  cursor: pointer;
 }
 </style>

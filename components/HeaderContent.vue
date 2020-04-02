@@ -97,6 +97,7 @@ export default {
 .heading--3,
 .btn-container {
   /* opacity: 0; */
+  color: white
 }
 
 .coloured {
