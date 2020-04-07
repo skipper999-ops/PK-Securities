@@ -44,8 +44,8 @@
               <p style="color:white">GET A QUOTE</p>
               <div class="mt-5">
                 <form action>
-                  <input type="text" name="quote" id />
-                  <button class="ml-5 btn btn-go">GO</button>
+                  <input type="text" name="quote" v-model="email" style="height: 36px" />
+                  <button type="button" class="btn btn-go" @click="getAQuote">GO</button>
                 </form>
               </div>
               <div class="justify-content-between mt-4 w-100">
@@ -80,6 +80,33 @@
     </div>
   </div>
 </template>
+
+
+<script>
+export default {
+  data(){
+    return{
+      email: ""
+    }
+  },
+  methods:{
+    getAQuote: function(){
+
+        var payload = {
+          email: this.email
+        }
+
+        this.$store.dispatch('getAQuote', payload).then(res =>{
+          alert("Email Sent Successfully")
+        })
+
+
+    }
+  }
+}
+</script>
+
+
 <style scoped>
 .bg-grey {
   background-color: #323232;
