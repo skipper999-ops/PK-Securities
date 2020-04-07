@@ -82,7 +82,7 @@
           <nuxt-link class="link" to="/" exact>HOME</nuxt-link>
         </div>
         <div class="nav-link">
-          <nuxt-link class="link" to="/whoweare2">ABOUT US</nuxt-link>
+          <nuxt-link class="link" to="/whoweare">ABOUT US</nuxt-link>
         </div>
         <div class="nav-link hover" @mouseover="showMenuOpen" @mouseleave="showMenuClose">
           <nuxt-link class="link" to="#">SERVICES</nuxt-link>
@@ -113,10 +113,10 @@
           <nuxt-link class="link" to="/ourclients">OUR CLIENTS</nuxt-link>
         </div>-->
         <div class="nav-link">
-          <nuxt-link class="link" to="/career2">CAREERS</nuxt-link>
+          <nuxt-link class="link" to="/career">CAREERS</nuxt-link>
         </div>
         <div class="nav-link">
-          <nuxt-link class="link" to="/contactus2">CONTACT US</nuxt-link>
+          <nuxt-link class="link" to="/contactus">CONTACT US</nuxt-link>
         </div>
       </div>
     </div>
@@ -156,8 +156,8 @@
             <nuxt-link class="link" to="/securityservices">Security Services</nuxt-link>
             <nuxt-link class="link" to="/detectiveservices">Detective Services</nuxt-link>
             <nuxt-link class="link" to="/specialamenities">Facility Management Services</nuxt-link>
-            <nuxt-link class="link" to="/career2">Careers</nuxt-link>
-            <nuxt-link class="link" to="/contactus2">Contact Us</nuxt-link>
+            <nuxt-link class="link" to="/career">Careers</nuxt-link>
+            <nuxt-link class="link" to="/contactus">Contact Us</nuxt-link>
           </div>
           <div @click="closeMenu" class="show-on-medium-and-down hamburger">
             <img src="~static/close.svg" style="height:20px" />
@@ -207,12 +207,12 @@ export default {
   },
 
   computed: {
-    ...mapState(["HomepageSliderImages"]),
+    // ...mapState(["HomepageSliderImages"]),
     ...mapState(["allNews"])
   },
 
   mounted() {
-    this.$store.dispatch("getHomepageSliderImages");
+    // this.$store.dispatch("getHomepageSliderImages");
 
     this.$store.dispatch("getAllNews").then(res => {
       this.blog = Object.assign([], res.data).splice(0, 5);
@@ -328,7 +328,7 @@ ul li {
 .custom-nav a {
   text-decoration: none;
   color: #fff;
-  font-size: 18px;
+  font-size: 14px;
   padding: 11px 0;
 }
 

@@ -4,8 +4,8 @@ var url
 
 if (process.env.NODE_ENV == "development") {
 
-    var url = "http://api.pkservices.in/backend/";
-    // var url = "http://127.0.0.1:8000/backend/";
+    // var url = "http://api.pkservices.in/backend/";
+    var url = "http://127.0.0.1:8000/backend/";
 
 } else {
 
@@ -35,6 +35,7 @@ export const state = () => ({
     getAllBlogs: url + "news/getAllBlog",
     getSingleBlog: url + "news/getSingleBlog/", //id
     getAllTestimonialAPI: url + "homepage/testimonial",
+    getAQuote: url + "queries/sendmail",
 
     whatwedosecurity: url + "whatwedo/security",
     whatwedoservices: url + "whatwedo/services",
@@ -361,6 +362,27 @@ export const actions = {
             axios({
                     method: 'POST',
                     url: state.createContact,
+                    data: payload,
+                    contentType: 'application/json'
+                })
+                .then(res => {
+                    console.log(res.data);
+                    resolve(res);
+                })
+                .catch((error) => {
+                    console.log(error)
+                    reject(error);
+                })
+        })
+    },
+
+    getAQuote({ commit, state }, payload) {
+
+        return new Promise((resolve, reject) => {
+
+            axios({
+                    method: 'POST',
+                    url: state.getAQuote,
                     data: payload,
                     contentType: 'application/json'
                 })

@@ -1,141 +1,169 @@
 <template>
-  <div>
-    <div class="bg-black">
-      <div class="container-small bg-white p-0">
-        <div class="pad-career">
-          <h5 style="font-size:12px;margin-bottom: 25px">
-            <nuxt-link style="color: #B71C1C" to="/">HOME</nuxt-link>/ CAREER
-          </h5>
-          <div class="align">
-            <div>
-              <h2 style="text-align:center">Join Our Team</h2>
-              <div class="w-100 d-flex justify-content-center coloured-rule"></div>
-            </div>
-            <div class="pb-0" style="padding: 3rem 0;">
-              <p>
-                PK Security Service is the trusted provider of cutting-edge
-                quality security service. We are committed to providing reliable
-                service through custom-designed security strategies. Gain
-                improved access control to your property with a range of total
-                solutions security package. PK Security service has a reputation
-                of being the top player in providing exclusive security services
-                across Guwahati and North-East. We follow stringent benchmarked
-                standards of security services with a holistic approach towards
-                securing your property. With a firm foothold in the industry,
-                our clientele represents a wide range of specialized industry
-                sectors. Our security services are flexible and encompass all
-                requirements as per our clients dictate. PK Security has always
-                managed to impress clients with a degree of professionalism that
-                is second to none. Our office is based in Guwahati at a
-                prominent location easily accessible via various modes of
-                transport.
-              </p>
-            </div>
+  <div class="bg-black">
+    <Breadcrumbs title="Training and Orientation" subtitle crumbs="Home > Training and Orientation"></Breadcrumbs>
+    <div class="container-small" style="padding-top:40px">
+      <div>
+        <div class="w-100">
+          <div>
+            <img class="coma" src="/images/asset1.png" alt />
+          </div>
+          <div class="container">
+            <p
+              style="color:white;opacity:.71;font-size:20px"
+            >Career at pk has been said to be the most stable and safe for the employees working with Pk. At present there are more than 70000 security personnel working for the company and around 4000 administrative and supervisory staff is working round the clock for the company. More than 50% of employees working in BIS has completed more than 10 years of services. The PF contribution itself validate the number of employees working in BIS. We are one of the biggest contributor to PF in Mumbai for which the PF commissioner has awarded and appreciated at different occasion.</p>
+          </div>
+          <div class="d-flex justify-content-end">
+            <img style="right:100%" class="coma" src="/images/asset3.png" alt />
           </div>
         </div>
-        <div class="pad-table para">
-          <div class v-for="p in career" :key="p.id">
-            <p class="fonts">{{p.category_name}}</p>
-            <div class="d-flex justify-content-between">
-              <p class="fonts-primary">{{p.title}}</p>
-              <p class="fonts-secondary">Location:{{p.location}}</p>
-              <p class="fonts-secondary">{{p.job_type}}</p>
+      </div>
+      <div class="mt-5">
+        <h2 class="text-center text-white">CURRENT OPENING</h2>
+        <div class="accordion mt-5 mb-5 border-0 " id="accordionExample">
+          <div
+            v-for="(p, index) in careers" :key="p.id"
+            class="card border-bottom cursor-pointer"
+            data-toggle="collapse"
+            :data-target="'#collapseOne-' + index.replace(/[\s.;,?&%0-9]/g, '-')"
+            aria-expanded="true"
+            aria-controls="collapseOne"
+          >
+            <div class="card-header" id="headingOne">
+              <button
+                class="btn"
+                type="button"
+                style="color:white;font-size:20px;text-align:left"
+              >{{index}}</button>
             </div>
-            <hr />
+
+            <div
+              :id="'collapseOne-' + index.replace(/[\s.;,?&%0-9]/g, '-')"
+              class="collapse"
+              aria-labelledby="headingOne"
+              data-parent="#accordionExample"
+            >
+              <div class="card-body">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>Experience</th>
+                      <th>Location</th>
+                      <th>Position Open</th>
+                      <th>Position Type</th>
+                      <th>Salary Offered</th>
+                    </tr>
+                  </thead>
+                  <tbody v-for="q in p" :key="q.id">
+                    <tr>
+                      <td>{{q.experience}}</td>
+                      <td>{{q.location}}</td>
+                      <td>{{q.open_positions}}</td>
+                      <td>{{q.job_type}}</td>
+                      <td>{{q.salary_range}}</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="d-flex justify-content-center m-4">
+                  <!-- <button class="btn btn-apply" type="button">APPLY NOW</button> -->
+                </div>
+              </div>
+            </div>
           </div>
+
         </div>
       </div>
     </div>
   </div>
 </template>
-
+  
 <script>
+import Breadcrumbs from "@/components/breadcrumbs.vue";
 import { mapState } from "vuex";
 
 export default {
+  data() {
+    return {
+      careers: []
+    };
+  },
+  components: {
+    Breadcrumbs
+  },
   computed: {
     ...mapState(["career"])
   },
 
   mounted() {
-    this.$store.dispatch("getAllCareer");
+    this.$store.dispatch("getAllCareer").then(res => {
+      this.careers = this.groupBy(res.data, "category_name");
+    });
+  },
+  methods: {
+    groupBy(arr, property) {
+      return arr.reduce(function(memo, x) {
+        if (!memo[x[property]]) {
+          memo[x[property]] = [];
+        }
+        memo[x[property]].push(x);
+        return memo;
+      }, {});
+    }
   }
 };
 </script>
 
-
-
-
 <style scoped>
-.pad-career {
-  padding: 70px;
+.bg-black {
+  background-color: black;
 }
 
-.coloured-rule {
-  border-top: 2px solid #b71c1c;
-  width: 5%;
-}
-.align {
-  text-align: center;
-}
-.home {
-  text-decoration: none;
-}
-.para {
-  background-color: #f3f3f3;
-}
-.fonts {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-.fonts-primary {
-  color: #d82533;
-  font-size: 0.8rem;
-  font-weight: 500;
-}
-.fonts-secondary {
-  color: #221f1f;
-  font-size: 0.8rem;
-  font-weight: 500;
-}
-.fonts-next {
-  font-size: 1.5rem;
-  font-weight: 500;
+.accordion {
+  background-color: #333333;
 }
 
-/***************************************************Contact Us***********************************************/
-img {
-  object-fit: contain;
+.accordion > .card {
+  border-bottom: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: #9e7b5f;
 }
-.pad {
-  padding: 0.63rem;
+
+.card-body {
+  background-color: #333333;
 }
-.logo-margin {
-  margin: 0.3rem;
+
+.btn:focus {
+  box-shadow: none;
 }
-.primary-input {
-  background: #f6f6f6;
-  border: none;
-  width: 30rem;
-  height: 3rem;
-  margin-bottom: 1.5rem;
-}
-.secondary-input {
-  background: #f6f6f6;
-  border: none;
-  width: 30rem;
-  height: 7rem;
-}
-.information-block {
-  text-align: end;
-}
-.red-button {
-  background: #b71c1c;
+
+.table thead th {
+  vertical-align: bottom;
   color: white;
-  border: none;
+  border-bottom: none;
 }
 
-.pad-table {
-  padding: 80px 100px;
+.table td,
+.table th {
+  padding: 0.75rem;
+  vertical-align: top;
+  color: white;
+  border-top: none;
+}
+
+.table {
+  background-color: #6c6c6c;
+}
+
+.btn-apply {
+  color: white;
+  font-size: 18px;
+  background-color: #9e7b5f;
+  height: 48px;
+  width: 160px;
+  border-radius: 0;
+}
+
+.cursor-pointer{
+  cursor: pointer;
 }
 </style>

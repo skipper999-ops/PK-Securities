@@ -49,11 +49,12 @@ body {
   overflow: hidden;
 }
 
-.slick-prev:before, .slick-next:before{
-  color: black!important
+.slick-prev:before,
+.slick-next:before {
+  color: black !important;
 }
 
-.slick-slider.slick-initialized{
+.slick-slider.slick-initialized {
   position: relative;
 }
 
@@ -76,7 +77,6 @@ body {
 .nuxt-link-exact-active.nuxt-link-active {
   color: #fdb06c !important;
 }
-
 
 .header-carousel .VueCarousel-pagination {
   position: absolute;
@@ -345,5 +345,52 @@ input[type="email"] {
   border: 1px solid #e8e8e8;
   padding: 5px;
   border-radius: 2px;
+}
+
+.homepageSlider img{
+  height: 700px;
+}
+.homepageSlider .slick-prev {
+  left: 80px !important;
+}
+
+.homepageSlider .slick-next {
+  right: 80px !important;
+}
+
+.homepageSlider .slick-prev,
+.homepageSlider .slick-next {
+  z-index: 99;
+  top: 300px !important;
+}
+
+.homepageSlider .slick-prev:before,
+.homepageSlider .slick-next:before {
+  font-size: 60px;
+  opacity: 1;
+  color: white !important;
+}
+
+@media screen and (max-width: 601px) {
+  .homepageSlider .slick-prev:before,
+  .homepageSlider .slick-next:before {
+    font-size: 25px;
+    opacity: 1;
+    color: white !important;
+  }
+
+  .homepageSlider .slick-prev,
+  .homepageSlider .slick-next {
+    z-index: 99;
+    top: 190px !important;
+  }
+
+  .homepageSlider .slick-prev {
+    left: 2px !important;
+  }
+
+  .homepageSlider .slick-next {
+    right: 5px !important;
+  }
 }
 </style>
