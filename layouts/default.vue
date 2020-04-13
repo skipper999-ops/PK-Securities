@@ -354,6 +354,7 @@ input[type="email"] {
   left: 80px !important;
 }
 
+
 .homepageSlider .slick-next {
   right: 80px !important;
 }
@@ -393,4 +394,5 @@ input[type="email"] {
     right: 5px !important;
   }
 }
+
 </style>

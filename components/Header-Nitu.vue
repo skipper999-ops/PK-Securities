@@ -5,9 +5,13 @@
     />
 
     <client-only>
-      <slick :options="slickOptions">
-        <div v-for="p in HomepageSliderImages" :key="p.id">
-          <img class="d-block w-100 img1" :src="p.image" alt="First slide" />
+      <slick class="homepageSlider" ref="carousel" :options="slickOptions">
+        <div v-for="p in homeslider" :key="p.id">
+          <img
+            class="d-block w-100 img1"
+            :src="p.image"
+            alt="First slide"
+          />
         </div>
       </slick>
     </client-only>
@@ -41,21 +45,17 @@ export default {
   data() {
     return {
       slickOptions: {
-        slidesToShow: 1
-        // Any other options that can be got from plugin documentation
-      },
-      slideData: [{ img: "/1.jpeg" }, { img: "/1.jpeg" }],
-      sliderSettings: {
         dots: false,
         dotsClass: "slick-dots custom-dot-class",
         infinite: true,
         speed: 500,
         draggable: false,
-        autoplay: false,
-        autoplaySpeed: 3000,
+        autoplay: true,
+        autoplaySpeed: 2000,
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: true
+        // Any other options that can be got from plugin documentation
       },
       activeSlide: 0,
       heading1: [],
@@ -64,7 +64,8 @@ export default {
       btnContainers: [],
       slides: [],
       svgContainers: [],
-      timelines: []
+      timelines: [],
+      homeslider: []
     };
   },
   mounted() {
@@ -80,10 +81,13 @@ export default {
   },
 
   created() {
-    this.$store.dispatch("getHomepageSliderImages");
-  },
-  computed: {
-    ...mapState(["HomepageSliderImages"])
+    this.$store.dispatch("getHomepageSliderImages").then(res => {
+      this.$refs.carousel.destroy();
+      this.homeslider = res.data;
+      this.$nextTick(() => {
+        this.$refs.carousel.create();
+      });
+    });
   },
   methods: {
     goRight() {
