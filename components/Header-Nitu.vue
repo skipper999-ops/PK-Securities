@@ -4,15 +4,14 @@
       style="position: absolute;z-index: 99;left: 0;right: 0;margin: auto;top: 0;bottom: 0;"
     />
 
-    <VueSlickCarousel class="homepageSlider"
-      v-if="HomepageSliderImages && HomepageSliderImages.length > 1"
-      v-bind="sliderSettings"
-      ref="carousel"
-    >
-      <div v-for="p in HomepageSliderImages" :key="p.id">
-        <img class="d-block w-100 img1" :src="p.image" alt="First slide" />
-      </div>
-    </VueSlickCarousel>
+    <client-only>
+      <slick :options="slickOptions">
+        <div v-for="p in HomepageSliderImages" :key="p.id">
+          <img class="d-block w-100 img1" :src="p.image" alt="First slide" />
+        </div>
+      </slick>
+    </client-only>
+
     <!-- <client-only>
       <carousel
         class=""
@@ -41,6 +40,10 @@ export default {
   components: { HeaderContent },
   data() {
     return {
+      slickOptions: {
+        slidesToShow: 1
+        // Any other options that can be got from plugin documentation
+      },
       slideData: [{ img: "/1.jpeg" }, { img: "/1.jpeg" }],
       sliderSettings: {
         dots: false,
@@ -178,6 +181,4 @@ export default {
   bottom: 0;
   background-color: #00000078;
 }
-
-
 </style>
