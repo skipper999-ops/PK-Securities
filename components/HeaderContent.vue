@@ -84,12 +84,14 @@ export default {
   margin-bottom: 10px;
   font-size: 25px;
   font-weight: 600;
+  text-transform: uppercase;
 }
 
 .heading--2,
 .heading--3 {
   font-weight: 700;
   font-size: 20px;
+  text-transform: uppercase;
 }
 
 .heading--1,
@@ -97,7 +99,7 @@ export default {
 .heading--3,
 .btn-container {
   /* opacity: 0; */
-  color: white
+  color: white;
 }
 
 .coloured {
