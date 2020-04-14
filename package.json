@@ -12,13 +12,15 @@
         "test": "jest"
     },
     "dependencies": {
-        "core-js": "^2.6.5",
         "@nuxtjs/axios": "^5.3.6",
         "@nuxtjs/pwa": "^3.0.0-0",
+        "core-js": "^2.6.5",
+        "gsap": "^3.1.1",
         "nuxt": "^2.0.0",
+        "jquery": "3.4.1",
         "nuxt-gmaps": "^1.1.7",
         "vue-carousel": "^0.18.0",
-        "gsap": "^3.1.1",
+        "vue-slick": "^1.1.15",
         "vue-slick-carousel": "^1.0.2"
     },
     "devDependencies": {

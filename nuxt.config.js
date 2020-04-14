@@ -63,7 +63,7 @@ export default {
      ** Plugins to load before mounting the App
      */
     plugins: [{ src: "~/plugins/carousel", lang: "js", ssr: false },
-        { src: "~/plugins/slick-carousel", lang: "js" }
+        { src: "~/plugins/slick-carousel", lang: "js", ssr: false }
     ],
     /*
      ** Nuxt.js dev-modules
