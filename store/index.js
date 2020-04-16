@@ -3,10 +3,10 @@ console.log(process.env.NODE_ENV);
 var url;
 
 if (process.env.NODE_ENV == "development") {
-    var url = "http://api.pkservices.in/backend/";
+    var url = "https://api.pkservices.in/backend/";
     // var url = "http://127.0.0.1:8000/backend/";
 } else {
-    var url = "http://api.pkservices.in/backend/";
+    var url = "https://api.pkservices.in/backend/";
 }
 
 import axios from "axios";
