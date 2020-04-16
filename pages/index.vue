@@ -1072,7 +1072,7 @@ h2 {
 
 @media only screen and (max-width: 600px) {
   .img1 {
-    height: 300px;
+    height: 380px!important;
   }
   .padding-choose {
     padding: 3rem;
