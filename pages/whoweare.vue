@@ -1,35 +1,46 @@
 <template>
   <div style="background-color:black">
-    <Breadcrumbs title="About Us" subtitle="Unmatchable Quality meets Unbeatable Price Quote" crumbs="Home > Security Companies > About Us"></Breadcrumbs>
+    <Breadcrumbs
+      title="About Us"
+      subtitle="Unmatchable Quality meets Unbeatable Price Quote"
+      crumbs="Home > Security Companies > About Us"
+    ></Breadcrumbs>
     <div class="container-small">
       <div class="row mt-5">
         <div class="col-12 col-lg-8">
           <div>
             <p class="text-whoweare">
-              PK Security Service is the trusted provider of cutting-edge quality
-              security service. We are committed to providing reliable service
-              through custom-designed security strategies.
+              It gives us immense pleasure in introducing ourselves as Security,
+              Housekeeping and Maintenance Service provider,
+              popularly known as P.K. Services and P.K. Security Services,
+              Established in 2014.
+              We undertake to unload you of the burden and worries connected with all security
+              and housekeeping aspects of your organization by effective and reliable security
+              and maintenance services through our trained personnel, who posses sound professional
+              knowledge, in vigilance, patrolling, gate controls searches,
+              and leave you free to devote the time and energy in your own work.
+              Smartly turned out in MODERN dress, our staff would
+              immensely enhance the prestige and charm of your organization
+              . We being men of profession fully recognize the significance of,
+              and realize the implication of a dependable security system and
+              it is exactly that, we promise you
             </p>
             <p class="text-whoweare">
-              Gain improved access
-              control to your property with a range of total solutions security
-              package. PK Security service has a reputation of being the top
-              player in providing exclusive security services across Guwahati and
-              North-East.
+              Our Head Ofice is situated at Protech Center Ganeshguri
+              and our Branch office is situated at house no.5, Sanjog Path,
+              Hengrabari Road, Hengrabari, Guwahati – 6 and we are approved
+              license holder from IGP ( TAP ) Govt. of Assam in the name of P K Security Services.
             </p>
             <p class="text-whoweare">
-              We follow stringent benchmarked standards of security
-              services with a holistic approach towards securing your property.
-              With a firm foothold in the industry, our clientele represents a
-              wide range of specialized industry sectors.
-            </p>
-            <p class="text-whoweare">
-              Our security services
-              are flexible and encompass all requirements as per our clients
-              dictate. PK Security has always managed to impress clients with a
-              degree of professionalism that is second to none. Our office is
-              based in Guwahati at a prominent location easily accessible via
-              various modes of transport.
+              We understand that the development of a long term relationship
+              between client and vendor requires us to have knowledge of the
+              client’s organization, as well as providing immediate access to
+              our main office support, effective management teams and qualified
+              and trained responsible personnel. Our success in the industry has
+              come from our extensively trained personnel backed by the supervision
+              of our own staff. You will be thoroughly satisfied with our approach to
+              effective management solutions, professional support, courtesy, patrols
+              and qualitative service. Take time to compare, we believe competition yields greater productivity.
             </p>
           </div>
         </div>
@@ -56,22 +67,18 @@
           </div>
           <div class="col-12 col-sm-12 col-md-12 col-lg-4">
             <div>
-              <div>
+              <div style="min-height:195px">
                 <p class="p-header">MISSION</p>
                 <p class="p-header-sub">
-                  Our mission is to provide innovative and proactive security
-                  solutions to every client, regardless of the industry. We
-                  want to focus on building a smart and intuitive team of
-                  security personnel who can offer the best solutions during a
-                  time of emergency.
+                  To provide competitive and competent Facility Management Service.
+                  P.K. Services is an organization committed to supplying quality professional individuals as per your needs.
                 </p>
               </div>
-              <div>
+              <div style="min-height:195px">
                 <p class="p-header">OUR MOTTO</p>
                 <p class="p-header-sub">
-                  To work towards building a secure environment and protect it
-                  from any sabotage with responsiveness, diligence, and
-                  professionalism.
+                  "If we don’t take care of our clients,
+                  We know that someone else will."
                 </p>
               </div>
             </div>

@@ -1,6 +1,6 @@
 <template>
   <div class="bg-black">
-    <Breadcrumbs title="Training and Orientation" subtitle crumbs="Home > Training and Orientation"></Breadcrumbs>
+    <Breadcrumbs title="Career" subtitle crumbs="Home > Career"></Breadcrumbs>
     <div class="container-small" style="padding-top:40px">
       <div>
         <div class="w-100">
@@ -19,9 +19,10 @@
       </div>
       <div class="mt-5">
         <h2 class="text-center text-white">CURRENT OPENING</h2>
-        <div class="accordion mt-5 mb-5 border-0 " id="accordionExample">
+        <div class="accordion mt-5 mb-5 border-0" id="accordionExample">
           <div
-            v-for="(p, index) in careers" :key="p.id"
+            v-for="(p, index) in careers"
+            :key="p.id"
             class="card border-bottom cursor-pointer"
             data-toggle="collapse"
             :data-target="'#collapseOne-' + index.replace(/[\s.;,?&%0-9]/g, '-')"
@@ -69,7 +70,6 @@
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </div>
@@ -163,7 +163,7 @@ export default {
   border-radius: 0;
 }
 
-.cursor-pointer{
+.cursor-pointer {
   cursor: pointer;
 }
 </style>

@@ -52,8 +52,8 @@
         <span class="coloured">expert solutions</span>
       </span>
       <span class="btn-container">
-        <button class="button button--1" @click="goTo('whoweare2')">About Us</button>
-        <button class="button button--2" @click="goTo('contactus2')">Contact</button>
+        <button class="button button--1" @click="goTo('whoweare')">About Us</button>
+        <button class="button button--2" @click="goTo('contactus')">Contact</button>
       </span>
     </div>
   </div>
