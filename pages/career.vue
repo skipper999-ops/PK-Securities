@@ -10,7 +10,7 @@
           <div class="container">
             <p
               style="color:white;opacity:.71;font-size:20px"
-            >Career at pk has been said to be the most stable and safe for the employees working with Pk. At present there are more than 70000 security personnel working for the company and around 4000 administrative and supervisory staff is working round the clock for the company. More than 50% of employees working in BIS has completed more than 10 years of services. The PF contribution itself validate the number of employees working in BIS. We are one of the biggest contributor to PF in Mumbai for which the PF commissioner has awarded and appreciated at different occasion.</p>
+            >Career at pk has been said to be the most stable and safe for the employees working with Pk. At present there are more than 500 personnel working for the company and around 100 administrative and supervisory staff is working round the clock for the company.</p>
           </div>
           <div class="d-flex justify-content-end">
             <img style="right:100%" class="coma" src="/images/asset3.png" alt />

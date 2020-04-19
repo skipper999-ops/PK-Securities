@@ -47,14 +47,17 @@
         <div class="col-12 col-lg-4">
           <div>
             <div class="about-next py-2 position-relative">
-              <div class="about position-absolute">About PK Security & Services</div>
-              <ul class="px-5">
-                <li>About PK Security</li>
-                <li>Corporate Social Responsibility</li>
-                <li>Quality Policy</li>
-                <li>Gallery</li>
-                <li>FAQ</li>
-                <li>Privacy Policy</li>
+              <div class="about position-absolute">Good Reasons To Consider P.K. Services</div>
+              <ul class="px-3">
+                <li>We will not let you down</li>
+                <li>What we say we do, we do</li>
+                <li>We place value on long terms relations with our customers</li>
+                <li>We will not tie you down to a complicated, one-sided contract.</li>
+                <li>We will not sub contract your assignment out to other companies</li>
+                <li>We will not make promises we cannot keep</li>
+                <li>Your assignment will be handled by fully trained, experienced, professional operatives</li>
+                <li>We are on your side when you need to speak to our management team; they are approachable, helpful and available to you 24 hours a day, 7 days a week.</li>
+                <li>We are totally committed to giving you a quality, first class, professional service without compromise to you or your organization.</li>
               </ul>
             </div>
           </div>
@@ -72,6 +75,8 @@
                 <p class="p-header-sub">
                   To provide competitive and competent Facility Management Service.
                   P.K. Services is an organization committed to supplying quality professional individuals as per your needs.
+                  We are totally committed to giving you a quality, first class,
+                  Professional services without compromise to you or your company.
                 </p>
               </div>
               <div style="min-height:195px">
@@ -79,6 +84,7 @@
                 <p class="p-header-sub">
                   "If we don’t take care of our clients,
                   We know that someone else will."
+                  We at P K Security Services are having both Ex-servicemen, Trained Security Personal including Lady Security Personal too.
                 </p>
               </div>
             </div>
@@ -104,6 +110,40 @@
                 </p>
               </div>
             </div>
+          </div>
+          <div class="col-12 mt-5 text-justify">
+            <h2 class="text-center">TRAINING FACILITIES</h2>
+            <p
+              class="text-white"
+              style="opacity:.6"
+            >For a super-effective Facility Management Services organization, training of the security / other personnel with most exacting standards is a must. This is why we at P.K. Services & P.K. Security Services provide with a specially designed training program to all our staff to meet the client needs. Training is an integral part of our modern facility considering Recruitment, Training and Administration.</p>
+            <h2 class="text-center mt-5">RECRUITMENT</h2>
+            <p
+              class="text-white"
+              style="opacity:.6"
+            >It is done as per the format specially designed catering to the physical and educational standards of the prospective staff. Besides focus is laid to do a proper background check with an eye on his past history and employment with a view to rule out the entry of undesired persons. This is done through references and also police/personnel verification.</p>
+            <h2 class="text-center mt-5">TRAINING</h2>
+            <p
+              class="text-white"
+              style="opacity:.6"
+            >Basic training is imparted and the bearing of a raw person is perfected. He is taught to put on uniform, how to stand at attention and at ease and to salute. The person is then acquainted with the means, active and passive, that allow to conduct activities within the organization without disruption. The training is based on two principles viz., Intelligence and Control.</p>
+            <h2 class="text-center mt-5">EQUIPMENTS</h2>
+            <p
+              class="text-white"
+              style="opacity:.6"
+            >We use Flipper machines / Single Disc Scrubber Machines / High Pressure Water Cleaning Machine / Scrubber and Dryer Machines / Vacuum Cleaners and other traditional equipments as and when required to keep the premises neat and clean. Our security staffs are well Trained to use Metal Detectors / Metal Detectors Gate / CC Cameras / Walkie Talkie and other security gadgets as and when required</p>
+            <h2 class="text-center mt-5">ADMINISTRATION</h2>
+            <p class="text-white" style="opacity:.6">
+              Administration of the men is our responsibility. We look after their recruitment training, leave, wages, ESI and PF and any other legal responsibility such as retrenchment etc. The enterprise is at liberty to direct us to remove, replace any of our men at any time not suited to its needs by giving a reasonable cause/ notice. Thus the clients are relieved of the entire administrative set up.
+              <br />
+              <br />We have a Central Control System. Our field staff are equipped with communication skills to meet emergent situations of our clients. Beside we are planning to introduce a centrally computerized monitoring system, to give the best to our clients, as part of our modernization initiative.
+              We are committed to providing you with skilled, competent, experienced staff, suitable to meet your needs.
+              <br />
+              <br />The most suitable candidates available to meet your individual needs cover an intense recruitment and selection program, ensuring your assignment.
+              The most cost-effective means to suit your requirements and budget without compromise to the quality of service we are offering you.
+              <br />
+              <br />A professional attitude and approach by our company coupled with a personal service, never forgetting that your assignment is of paramount importance to our company.
+            </p>
           </div>
         </div>
       </div>
@@ -147,6 +187,8 @@ export default {
   font-size: 18px;
   left: 50%;
   transform: translateX(-50%);
+  text-align: justify;
+  padding: 1px 13px;
 }
 
 .about-next {
@@ -154,14 +196,15 @@ export default {
   background-color: #333333;
 }
 
-ul li {
+.about-next ul li {
   list-style: disc inside url(##9e7b5f);
   color: #fff;
   opacity: 0.58;
-  margin-top: 20px;
+  margin-top: 18px;
+  text-align: justify;
 }
 
-ul li:first-child {
+.about-next ul li:first-child {
   margin-top: 50px;
 }
 

@@ -18,19 +18,21 @@
             <p class="footer-head">GET IN TOUCH</p>
             <div class="h-50 d-flex flex-column justify-content-around">
               <span class="d-flex mt-5">
-                <p style="color:white">PHONE NUMBER:</p>
-                <a href="tel:8486027325" class="footer-sub">+91 8486027325</a>
+                <p style="color:white; margin-right:10px">PHONE NUMBER :</p>
+                <a href="tel:8486027325" class="footer-sub">+ 91 8486027325</a>
               </span>
               <span class="d-flex">
-                <p style="color:white">E-MAIL:</p>
+                <p style="color:white;margin-right:10px">E-MAIL :</p>
                 <a href="mailto:pawan@pkservices.in" class="footer-sub">pawan@pkservices.in</a>
               </span>
               <span>
-                <span class="text-white">ADDRESS:</span>
+                <span class="text-white">ADDRESS :</span>
                 <span class="text-white" style="opacity:.8">
-                  Head Office: Protech Center, 4th Floor, Ganeshguri, G.S.Road, Guwahati-781006
-                  <br />Administrative Office:
-                  Protech Centre,4th Floor,Ganeshguri,G.S. Road,Guwahati - 781006
+                  <span style="margin-right:5px">Head Office :</span>Protech Center, 4th Floor, Ganeshguri, G.S.Road, Guwahati-781006
+                  <br />
+                  <br />
+                  <span style="margin-right:5px">Administrative Office :</span>
+                  House No.5, Sanjog Path, Hengrabari Road, Hengrabari, Guwahati-6
                 </span>
               </span>
             </div>
@@ -40,20 +42,25 @@
               <p style="color:white">GET A QUOTE</p>
               <div class="mt-5">
                 <form action>
-                  <input type="text" name="quote" v-model="email" style="height: 36px" />
+                  <input
+                    type="text"
+                    placeholder="E-mail"
+                    name="quote"
+                    v-model="email"
+                    style="height: 36px"
+                  />
                   <button type="button" class="btn btn-go" @click="getAQuote">GO</button>
                 </form>
               </div>
               <div class="justify-content-between mt-4 w-100">
                 <img style="height:15px;width:auto;margin-right:15px" src="/icons/facebook.svg" alt />
-                <img style="height:15px;width:auto;margin-right:15px" src="/icons/google.svg" alt />
+                <img style="height:15px;width:auto;margin-right:15px" src="/icons/linkedin.svg" alt />
                 <img
                   style="height:15px;width:auto;margin-right:15px"
                   src="/icons/instagram.svg"
                   alt
                 />
                 <img style="height:15px;width:auto;margin-right:15px" src="/icons/twitter.svg" alt />
-                <img style="height:15px;width:auto" src="/icons/pinterest.svg" alt />
               </div>
             </div>
           </div>
@@ -80,26 +87,23 @@
 
 <script>
 export default {
-  data(){
-    return{
+  data() {
+    return {
       email: ""
-    }
+    };
   },
-  methods:{
-    getAQuote: function(){
+  methods: {
+    getAQuote: function() {
+      var payload = {
+        email: this.email
+      };
 
-        var payload = {
-          email: this.email
-        }
-
-        this.$store.dispatch('getAQuote', payload).then(res =>{
-          alert("Email Sent Successfully")
-        })
-
-
+      this.$store.dispatch("getAQuote", payload).then(res => {
+        alert("Email Sent Successfully");
+      });
     }
   }
-}
+};
 </script>
 
 

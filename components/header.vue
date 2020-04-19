@@ -44,14 +44,14 @@
             <span class="d-flex">
               <img class="mr-2" style="height:18px" src="/images/clock.png" alt />
               <p style="color:#fff;font-size: 13px;">
-                Working Hours
+                Working Times
                 <br />24 X 7
               </p>
             </span>
             <span class="d-flex" style="margin-left:10px">
               <img class="lkasdkl mr-2" style="height:18px" src="/images/email.png" alt />
               <p style="color:#fff;font-size: 13px;">
-                MAIL US,
+                Mail Us,
                 <br />pawan@pkservices.in
               </p>
             </span>
