@@ -26,13 +26,12 @@
                 <a href="mailto:pawan@pkservices.in" class="footer-sub">pawan@pkservices.in</a>
               </span>
               <span>
-                <span class="text-white">ADDRESS :</span>
-                <span class="text-white" style="opacity:.8">
-                  <span style="margin-right:5px">Head Office :</span>Protech Center, 4th Floor, Ganeshguri, G.S.Road, Guwahati-781006
+                <span class="text-white">
+                  <span class="text-white" style="margin-right:5px">HEAD OFFICE :</span>Protech Center, 4th Floor, Ganeshguri, G.S.Road, Guwahati-781006
                   <br />
                   <br />
-                  <span style="margin-right:5px">Administrative Office :</span>
-                  House No.5, Sanjog Path, Hengrabari Road, Hengrabari, Guwahati-6
+                  <span class="text-white" style="margin-right:5px">ADMINISTRATIVE OFFICE :</span>
+                  House No.5, Sanjog Path, Hengrabari Road, Hengrabari, Guwahati-781006
                 </span>
               </span>
             </div>
@@ -70,13 +69,13 @@
             <a style="color:white;text-decoration:none" href="/">Home</a>
           </div>
           <div class="px-2 px-lg-3 border-right">
-            <a style="color:white;text-decoration:none" href="#">About Us</a>
+            <a style="color:white;text-decoration:none" href="/whoweare">About Us</a>
           </div>
           <div class="px-2 px-lg-3 border-right">
-            <a style="color:white;text-decoration:none" href="/career2">Career</a>
+            <a style="color:white;text-decoration:none" href="/career">Career</a>
           </div>
           <div class="px-2 px-lg-3">
-            <a style="color:white;text-decoration:none" href="/contactus2">Contact Us</a>
+            <a style="color:white;text-decoration:none" href="/contactus">Contact Us</a>
           </div>
         </div>
       </div>

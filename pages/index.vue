@@ -178,8 +178,8 @@
               <h5>Leading Service provider with exceptional quality management skills.</h5>
               <p
                 style="color:#323232;font-family:sans-serif"
-              >PK Group is integrated with the most innovative and advanced state of the art features to digitalize all kinds of maintenance and operational activities of gated societies. We offer a smart platform for a better managed and strongly connected society by leveraging our technology expertise. Our services ensure efficient and robust handling of day to day operations of the society. With heightened features and innovative amenities, we offer smooth rendering of society facilities like pool, gym etc</p>
-              <nuxt-link type="button" to="/specialamenities" class="btn btn-security">Read More</nuxt-link>
+              >PK Security & PK Services is integrated with the most innovative and advanced state of the art features to digitalize all kinds of maintenance and operational activities of gated societies. We offer a smart platform for a better managed and strongly connected society by leveraging our technology expertise. Our services ensure efficient and robust handling of day to day operations of the society. With heightened features and innovative amenities, we offer smooth rendering of society facilities like pool, gym etc</p>
+              <nuxt-link type="button" to="/facilitymanagement" class="btn btn-security">Read More</nuxt-link>
             </div>
           </div>
           <div class="col-12 col-lg-7 p-0">
@@ -276,7 +276,7 @@
                 <p
                   class="mt-3 text-white"
                   style="font-size:18px;line-height:1.25;text-align:justify;opacity:.88"
-                >PK Group is the trusted provider of cutting-edge quality service not only in the areas of security but also in providing the perfect solution to make living in any society or complex a pleasant and convenient experience - for the residents, the managing committee, and the security staff. Gain improved access control to your property with a range of customized total solutions package.</p>
+                >PK Security & PK Services is the trusted provider of cutting-edge quality service not only in the areas of security but also in providing the perfect solution to make living in any society or complex a pleasant and convenient experience - for the residents, the managing committee, and the security staff. Gain improved access control to your property with a range of customized total solutions package.</p>
                 <img class="w-100" src="/images/man-shadow.png" alt />
               </div>
             </div>
@@ -509,7 +509,7 @@
             <button class="btn btn-vacancy w-100">
               <nuxt-link
                 style="text-decoration:none;color:white"
-                to="/career2"
+                to="/career"
               >VIEW ALL OUR VACANCIES</nuxt-link>
             </button>
           </div>
@@ -1072,7 +1072,7 @@ h2 {
 
 @media only screen and (max-width: 600px) {
   .img1 {
-    height: 380px!important;
+    height: 380px !important;
   }
   .padding-choose {
     padding: 3rem;

@@ -98,7 +98,7 @@
                 <nuxt-link class="link" to="/detectiveservices">Detective Services</nuxt-link>
               </li>
               <li>
-                <nuxt-link class="link" to="/specialamenities">Facility Management Services</nuxt-link>
+                <nuxt-link class="link" to="/facilitymanagement">Facility Management Services</nuxt-link>
               </li>
             </ul>
           </div>
@@ -155,7 +155,7 @@
             <nuxt-link class="link" to="/">Home</nuxt-link>
             <nuxt-link class="link" to="/securityservices">Security Services</nuxt-link>
             <nuxt-link class="link" to="/detectiveservices">Detective Services</nuxt-link>
-            <nuxt-link class="link" to="/specialamenities">Facility Management Services</nuxt-link>
+            <nuxt-link class="link" to="/facilitymanagement">Facility Management Services</nuxt-link>
             <nuxt-link class="link" to="/career">Careers</nuxt-link>
             <nuxt-link class="link" to="/contactus">Contact Us</nuxt-link>
           </div>
