@@ -8,7 +8,7 @@
       </div>
       <div
         class="p-0 bg-img overlay"
-        style="background-color:#ededed;background-image: url('~static/images/contact.png');"
+        :style='"background-color:#ededed;background-image: url(/images/"+ image +")"'
       >
         <!-- <img class="d-block w-100 img1" src="~static/images/contact.png" /> -->
       </div>
