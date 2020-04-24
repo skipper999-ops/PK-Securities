@@ -4,6 +4,7 @@
       title="About Us"
       subtitle="Unmatchable Quality meets Unbeatable Price Quote"
       crumbs="Home > Security Companies > About Us"
+      image="breadcrumb.jpg"
     ></Breadcrumbs>
     <div class="container-small">
       <div class="row mt-5">

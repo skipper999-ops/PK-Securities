@@ -6,7 +6,10 @@
         <h5>{{subtitle}}</h5>
         <p>{{crumbs}}</p>
       </div>
-      <div class="p-0 bg-img overlay" style="background-color:#ededed">
+      <div
+        class="p-0 bg-img overlay"
+        style="background-color:#ededed;background-image: url('~static/images/contact.png');"
+      >
         <!-- <img class="d-block w-100 img1" src="~static/images/contact.png" /> -->
       </div>
     </div>
@@ -24,7 +27,7 @@ export default {
     };
   },
 
-  props: ["title", "subtitle", "crumbs"],
+  props: ["title", "subtitle", "crumbs", "image"],
   methods: {
     createContact: function() {
       var payload = new FormData();
@@ -61,12 +64,13 @@ export default {
   position: relative;
 }
 
-h3, h5, p{
-  color: white
+h3,
+h5,
+p {
+  color: white;
 }
 
 .bg-img {
-  background-image: url("~static/images/contact.png");
   height: 420px;
   background-size: cover;
 }
@@ -76,19 +80,19 @@ h3, h5, p{
   font-weight: bold;
 }
 .img-text {
-    position: absolute;
-    z-index: 98;
-    margin: 0 auto;
-    max-width: 1280px;
-    left: 0;
-    right: 0;
-    TOP: 0;
-    height: 100%;
-    bottom: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 80%;
+  position: absolute;
+  z-index: 98;
+  margin: 0 auto;
+  max-width: 1280px;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100%;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
 }
 
 .overlay:after {

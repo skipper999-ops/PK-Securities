@@ -748,9 +748,9 @@ export default {
       if (this.count_intersect == 2) {
         console.log("intersect");
         this.isDone = true;
-        this.incremental(56, "customer");
-        this.incremental(231, "employee");
-        this.incremental(24, "cities");
+        this.incremental(121, "customer");
+        this.incremental(430, "employee");
+        this.incremental(11, "cities");
       }
     },
     incremental: function(target, model) {
