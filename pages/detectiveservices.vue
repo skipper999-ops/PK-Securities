@@ -1,6 +1,6 @@
 <template>
   <div class="bg-black">
-    <Breadcrumbs title="Detective Services" subtitle crumbs="Home > Detective Services"></Breadcrumbs>
+    <Breadcrumbs title="Detective Services" subtitle crumbs="Home > Detective Services" image="breadcrumb3.jpg"></Breadcrumbs>
     <div class="container-small">
       <div style="padding-top: 40px">
         <div class="w-100">
