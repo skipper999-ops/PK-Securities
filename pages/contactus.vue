@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Breadcrumbs title="Contact Us" subtitle crumbs="Home > Contact Us"></Breadcrumbs>
+    <Breadcrumbs title="Contact Us" subtitle crumbs="Home > Contact Us" image="breadcrumb4.jpg"></Breadcrumbs>
     <div class="container-small p-3 py-4" style="background-color: #353535;">
       <p class="contact m-0">Contact Us</p>
       <span>We're here to help. Let us know if you have any questions at all.</span>

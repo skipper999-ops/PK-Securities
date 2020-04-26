@@ -75,6 +75,7 @@ p {
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
+
 }
 
 .img-text h3 {

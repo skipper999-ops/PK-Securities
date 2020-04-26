@@ -13,7 +13,7 @@
             <img class="coma" src="/images/asset1.png" alt />
           </div>
           <div class="container">
-            <p>PK Group provides comprehensive society and facility management services with robust and innovative amenities. We focus on every aspect of apartment block management to take care of the complete sphere of activities involved in overall administration, simplifying them at every stage, introducing transparency so that they are carried out in with the highest efficiency.</p>
+            <p>PK Services provides comprehensive society and facility management services with robust and innovative amenities. We focus on every aspect of apartment block management to take care of the complete sphere of activities involved in overall administration, simplifying them at every stage, introducing transparency so that they are carried out in with the highest efficiency.</p>
           </div>
           <div class="d-flex justify-content-end">
             <img style="right:100%" class="coma" src="/images/asset3.png" alt />
