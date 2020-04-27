@@ -461,41 +461,15 @@
               <h3 class="text-center">JOIN OUR TEAM AT PK</h3>
               <hr style="width:20%;margin:auto" />
             </div>
-            <div class="d-flex mt-5 align-items-center justify-content-between">
+            <div
+              class="d-flex mt-5 align-items-center justify-content-between"
+              v-for="(p, index) in careers"
+              :key="p.id"
+            >
               <span style="color:#fff">
-                Field Officer
-                <br />Salary: Market related
-                <br />Location: Guwahati
-              </span>
-              <nuxt-link to="/career2">
-                <img
-                  style="height:25px;width:25px;margin-left:10px"
-                  src="/images/left-arrow.svg"
-                  alt
-                />
-              </nuxt-link>
-            </div>
-            <hr style="width:100%" />
-            <div class="d-flex mt-5 align-items-center justify-content-between">
-              <span style="color:#fff">
-                Security Guard
-                <br />Salary: Market related
-                <br />Location: Guwahati
-              </span>
-              <nuxt-link to="/career2">
-                <img
-                  style="height:25px;width:25px;margin-left:10px"
-                  src="/images/left-arrow.svg"
-                  alt
-                />
-              </nuxt-link>
-            </div>
-            <hr style="width:100%" />
-            <div class="d-flex mt-5 align-items-center justify-content-between">
-              <span style="color:#fff">
-                Housekeeping janitors
-                <br />Salary: Market related
-                <br />Location: Guwahati
+                {{p.title}}
+                <br />Salary:{{p.salary_range}}
+                <br />Location: {{p.location}}
               </span>
               <nuxt-link to="/career2">
                 <img
@@ -537,11 +511,15 @@
                 <!-- <p
                   class="text-white text-justify clamp4" style="height:100px"
                 >{{p.body}}</p>-->
-                <div class="text-white text-justify clamp4" style="height:100px" v-html="p.body"></div>
+                <div
+                  class="text-white text-justify clamp4"
+                  style="height:100px;font-size: 13px"
+                  v-html="p.body"
+                ></div>
                 <div class="d-flex justify-content-center">
                   <button
                     class="btn btn1"
-                    style="font-size:14px"
+                    style="font-size:14px;margin-top:20px"
                     type="button"
                     @click="goToSingleBlog(p.id)"
                   >Read More</button>
@@ -592,7 +570,7 @@
             <slide v-for="p in alltestimonial" :key="p.id">
               <div class="testimony-slide">
                 <img
-                  style="margin:auto;width: 150px;height: 150px;border-radius: 50%;object-fit:contain"
+                  style="margin:auto;width: 150px;height: 150px;border-radius: 50%;"
                   class="middle"
                   :src="p.image"
                   alt
@@ -714,7 +692,8 @@ export default {
       customer: 0,
       employee: 0,
       cities: 0,
-      count_intersect: 0
+      count_intersect: 0,
+      careers: []
     };
   },
   components: {
@@ -735,6 +714,10 @@ export default {
     this.$store.dispatch("getAllNews");
     this.$store.dispatch("getAllBlogs");
     this.$store.dispatch("getAlltestimonial");
+
+    this.$store.dispatch("getAllCareer").then(res => {
+      this.careers = JSON.parse(JSON.stringify(res.data)).splice(0, 2)
+    });
   },
   filters: {
     striphtml: function(string) {
@@ -764,6 +747,15 @@ export default {
         if (number >= target) clearInterval(interval);
         number++;
       }, 1);
+    },
+    groupBy(arr, property) {
+      return arr.reduce(function(memo, x) {
+        if (!memo[x[property]]) {
+          memo[x[property]] = [];
+        }
+        memo[x[property]].push(x);
+        return memo;
+      }, {});
     },
     createQuery: function() {
       var payload = new FormData();
