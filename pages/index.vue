@@ -471,7 +471,7 @@
                 <br />Salary:{{p.salary_range}}
                 <br />Location: {{p.location}}
               </span>
-              <nuxt-link to="/career2">
+              <nuxt-link to="/career">
                 <img
                   style="height:25px;width:25px;margin-left:10px"
                   src="/images/left-arrow.svg"
