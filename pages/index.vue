@@ -115,7 +115,7 @@
                   class="mt-4"
                   style="font-size:16px !important;line-height:1.4;color:#fff;opacity:0.71"
                 >
-                  PK Security Service is the trusted provider of cutting-edge
+                  PK Security and PK Services is the trusted provider of cutting-edge
                   quality security service. We are committed to providing
                   reliable service through custom-designed security strategies.
                   Gain improved access control to your property with a range of
@@ -178,7 +178,7 @@
               <h5>Leading Service provider with exceptional quality management skills.</h5>
               <p
                 style="color:#323232;font-family:sans-serif"
-              >PK Security & PK Services is integrated with the most innovative and advanced state of the art features to digitalize all kinds of maintenance and operational activities of gated societies. We offer a smart platform for a better managed and strongly connected society by leveraging our technology expertise. Our services ensure efficient and robust handling of day to day operations of the society. With heightened features and innovative amenities, we offer smooth rendering of society facilities like pool, gym etc</p>
+              >PK Services is integrated with the most innovative and advanced state of the art features to digitalize all kinds of maintenance and operational activities of gated societies. We offer a smart platform for a better managed and strongly connected society by leveraging our technology expertise. Our services ensure efficient and robust handling of day to day operations of the society. With heightened features and innovative amenities, we offer smooth rendering of society facilities like pool, gym etc</p>
               <nuxt-link type="button" to="/facilitymanagement" class="btn btn-security">Read More</nuxt-link>
             </div>
           </div>

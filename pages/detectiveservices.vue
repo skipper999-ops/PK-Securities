@@ -8,7 +8,7 @@
             <img class="coma" src="/images/asset1.png" alt />
           </div>
           <div class="container">
-            <p>Gain the information edge with expert, efficient legal investigation. Whether you are an individual, law firm, business, or insurance company, the private detectives PK Security has the track record and proven experience to provide the investigation services specific to your needs. We employ only experienced private detectives from varied background and experience that meet the high standard requirement of experience required to meet each client's specific need.</p>
+            <p style="text-align:justify">Gain the information edge with expert, efficient legal investigation. Whether you are an individual, law firm, business, or insurance company, the private detectives PK Security has the track record and proven experience to provide the investigation services specific to your needs. We employ only experienced private detectives from varied background and experience that meet the high standard requirement of experience required to meet each client's specific need.</p>
           </div>
           <div class="d-flex justify-content-end">
             <img style="right:100%" class="coma" src="/images/asset3.png" alt />

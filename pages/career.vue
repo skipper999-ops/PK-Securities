@@ -9,7 +9,7 @@
           </div>
           <div class="container">
             <p
-              style="color:white;opacity:.71;font-size:20px"
+              style="color:white;opacity:.71;font-size:20px;text-align:justify"
             >Career at PK Security & PK Services has been said to be the most stable and safe for the employees working with us. At present there are more than 400+ personnel working for the company and around 100+ administrative and supervisory staff is working round the clock for the company.</p>
           </div>
           <div class="d-flex justify-content-end">
