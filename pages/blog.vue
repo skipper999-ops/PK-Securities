@@ -8,8 +8,8 @@
             <h3>{{singleBlog.title}}</h3>
             <p class="text-white">{{date}}</p>
           </div>
-          <div class="col-12 train" v-html="singleBlog.image">
-            <img class="w-100 blog-img" :src="image" alt />
+          <div class="col-12 train">
+            <img class="w-100 blog-img" :src="singleBlog.image" alt />
           </div>
           <div class="col-12">
             <div class="train-pad text-white" v-html="singleBlog.body">
