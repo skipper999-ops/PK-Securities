@@ -37,19 +37,19 @@
       <div class="secondary-nav pt-3 pb-3">
         <div class="container p-0 d-flex justify-content-between align-items-center">
           <nuxt-link to="/">
-            <img class="logo" style="margin-right:10px" src="~/static/images/PK1_new.png" />
-            <img class="logo" src="~/static/images/PK2_new.png" />
+            <img class="logo" style="margin-right:10px" src="~/static/images/PK1_new.png" alt="pksecuritylogo" />
+            <img class="logo" src="~/static/images/PK2_new.png" alt="pkserviceslogo" />
           </nuxt-link>
           <div class="d-flex hide-on-med-and-down">
             <span class="d-flex">
-              <img class="mr-2" style="height:18px" src="/images/clock.png" alt />
+              <img class="mr-2" style="height:18px" src="/images/clock.png" alt="workinghours" />
               <p style="color:#fff;font-size: 13px;">
                 Working Times
                 <br />24 X 7
               </p>
             </span>
             <span class="d-flex" style="margin-left:10px">
-              <img class="lkasdkl mr-2" style="height:18px" src="/images/email.png" alt />
+              <img class="lkasdkl mr-2" style="height:18px" src="/images/email.png" alt="pkcontact" />
               <p style="color:#fff;font-size: 13px;">
                 Mail Us,
                 <br />pawan@pkservices.in
@@ -61,7 +61,7 @@
             class="show-on-medium-and-down hide-on-large-only menu"
             style="align-items: center;"
           >
-            <img src="~static/menu.svg" style="height:20px" />
+            <img src="~static/menu.svg" style="height:20px" alt="pknav" />
           </div>
         </div>
       </div>

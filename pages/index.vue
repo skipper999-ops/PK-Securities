@@ -28,7 +28,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center border-bottom"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/policeman.png" alt />
+                      <img src="/images/policeman.png" alt="unarmed gaurding" />
                     </div>
                     <p style="font-family:sans-serif">Unarmed Manned Guarding</p>
                   </div>
@@ -36,7 +36,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/hotel.png" alt />
+                      <img src="/images/hotel.png" alt="hotel security" />
                     </div>
                     <p style="font-family:sans-serif">Hotel Security</p>
                   </div>
@@ -46,7 +46,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center border-bottom"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/key.png" alt />
+                      <img src="/images/key.png" alt="residential security" />
                     </div>
                     <p style="font-family:sans-serif">Residential Security</p>
                   </div>
@@ -54,7 +54,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/event.png" alt />
+                      <img src="/images/event.png" alt="event security" />
                     </div>
                     <p style="font-family:sans-serif">Event Security</p>
                   </div>
@@ -64,7 +64,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center border-bottom"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/sociology.png" alt />
+                      <img src="/images/sociology.png" alt="commercial security" />
                     </div>
                     <p style="font-family:sans-serif">Commercial Security</p>
                   </div>
@@ -72,7 +72,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/school.png" alt />
+                      <img src="/images/school.png" alt="school security" />
                     </div>
                     <p style="font-family:sans-serif">School Security</p>
                   </div>
@@ -82,7 +82,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center border-bottom"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/hospital.png" alt />
+                      <img src="/images/hospital.png" alt="hospital security" />
                     </div>
                     <p style="font-family:sans-serif">Hospital Security</p>
                   </div>
@@ -90,7 +90,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/surface1.png" alt />
+                      <img src="/images/surface1.png" alt="industrial security" />
                     </div>
                     <p style="font-family:sans-serif">Industrial Security</p>
                   </div>
@@ -190,7 +190,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center border-bottom"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/electrician.png" alt />
+                      <img src="/images/electrician.png" alt="electrical services" />
                     </div>
                     <p style="font-family:sans-serif">Electrical Services</p>
                   </div>
@@ -198,7 +198,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/water.png" alt />
+                      <img src="/images/water.png" alt="swimming pool mainteinance" />
                     </div>
                     <p style="font-family:sans-serif">Swimming Pool Maintenance</p>
                   </div>
@@ -208,7 +208,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center border-bottom"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/cctv.png" alt />
+                      <img src="/images/cctv.png" alt="electronic security system" />
                     </div>
                     <p style="font-family:sans-serif">Electronic Security Systems</p>
                   </div>
@@ -216,7 +216,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/mop.png" alt />
+                      <img src="/images/mop.png" alt="housekeeping services" />
                     </div>
                     <p style="font-family:sans-serif">Housekeeping Services</p>
                   </div>
@@ -226,7 +226,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center border-bottom"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/cleaning.png" alt />
+                      <img src="/images/cleaning.png" alt="mechanized cleaning services" />
                     </div>
                     <p style="font-family:sans-serif">Mechanized Cleaning Services</p>
                   </div>
@@ -234,7 +234,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/plumbing.png" alt />
+                      <img src="/images/plumbing.png" alt="plumbing services" />
                     </div>
                     <p style="font-family:sans-serif">Plumbing Services</p>
                   </div>
@@ -244,7 +244,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center border-bottom"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/empire-state-building.png" alt />
+                      <img src="/images/empire-state-building.png" alt="maintenance services" />
                     </div>
                     <p style="font-family:sans-serif">Maintenance Services</p>
                   </div>
@@ -252,7 +252,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/guard1.png" alt />
+                      <img src="/images/guard1.png" alt="stp wtp maintenance" />
                     </div>
                     <p style="font-family:sans-serif">STP/WTP Maintenance</p>
                   </div>
@@ -277,13 +277,13 @@
                   class="mt-3 text-white"
                   style="font-size:18px;line-height:1.25;text-align:justify;opacity:.88"
                 >PK Security & PK Services is the trusted provider of cutting-edge quality service not only in the areas of security but also in providing the perfect solution to make living in any society or complex a pleasant and convenient experience - for the residents, the managing committee, and the security staff. Gain improved access control to your property with a range of customized total solutions package.</p>
-                <img class="w-100" src="/images/man-shadow.png" alt />
+                <img class="w-100" src="/images/man-shadow.png" alt="pk security and services" />
               </div>
             </div>
             <div class="col-12 col-md-6 mt-3 mt-sm-0 d-flex flex-column justify-content-around">
               <div>
                 <div class="d-flex align-items-center">
-                  <img src="/images/like.png" alt />
+                  <img src="/images/like.png" alt="security satisfied customer" />
                   <span class="ml-5" style="color:#fff;font-size:20px">Satisfied Customers</span>
                 </div>
                 <p
@@ -293,7 +293,7 @@
               </div>
               <div class="mt-5">
                 <div class="d-flex align-items-center">
-                  <img src="/images/support1.png" alt />
+                  <img src="/images/support1.png" alt="pk security pk services support" />
                   <span class="ml-5" style="color:#fff;font-size:20px">24/7 Support</span>
                 </div>
                 <p
@@ -303,7 +303,7 @@
               </div>
               <div class="mt-5">
                 <div class="d-flex align-items-center">
-                  <img src="/images/goal.png" alt />
+                  <img src="/images/goal.png" alt="pk security pk services support" />
                   <span class="ml-5" style="color:#fff;font-size:20px">Accredited</span>
                 </div>
                 <p
@@ -341,7 +341,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center border-bottom"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/surface1_2.png" alt />
+                      <img src="/images/surface1_2.png" alt="personal investigation" />
                     </div>
                     <p style="font-family:sans-serif">Personal Investigation</p>
                   </div>
@@ -349,7 +349,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/world.png" alt />
+                      <img src="/images/world.png" alt="survellience" />
                     </div>
                     <p style="font-family:sans-serif">Survellience</p>
                   </div>
@@ -359,7 +359,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center border-bottom"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/insight.png" alt />
+                      <img src="/images/insight.png" alt="corporate investigation" />
                     </div>
                     <p style="font-family:sans-serif">Corporate Investigation</p>
                   </div>
@@ -367,7 +367,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/detective.png" alt />
+                      <img src="/images/detective.png" alt="Pre-Matrimonial Investigation" />
                     </div>
                     <p style="font-family:sans-serif">Pre-Matrimonial Investigation</p>
                   </div>
@@ -377,7 +377,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center border-bottom"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/files-and-folders.png" alt />
+                      <img src="/images/files-and-folders.png" alt="Legal Services" />
                     </div>
                     <p style="font-family:sans-serif">Legal Services</p>
                   </div>
@@ -385,7 +385,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/research.png" alt />
+                      <img src="/images/research.png" alt="Post matrimonial investigation" />
                     </div>
                     <p style="font-family:sans-serif">Post-Matrimonial Investigation</p>
                   </div>
@@ -395,7 +395,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center border-bottom"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/footprint.png" alt />
+                      <img src="/images/footprint.png" alt="Missing Person Help Tracing" />
                     </div>
                     <p style="font-family:sans-serif">Missing Person/Help Tracing</p>
                   </div>
@@ -403,7 +403,7 @@
                     class="services-pad d-flex flex-column justify-content-center align-items-center"
                   >
                     <div class="d-flex justify-content-center">
-                      <img src="/images/loupe.png" alt />
+                      <img src="/images/loupe.png" alt="Post employment Verification" />
                     </div>
                     <p style="font-family:sans-serif">Post-Employment Verification</p>
                   </div>
@@ -429,7 +429,7 @@
                   <span class="middle" style="height:50px">Extensive Client-Base Locations in Kamrup</span>
                 </div>
                 <div>
-                  <img class="w-100" src="/images/1.jpg" alt />
+                  <img class="w-100" src="/images/1.jpg" alt="Kamrup" />
                 </div>
               </div>
             </div>
@@ -441,7 +441,7 @@
                     style="height:50px"
                   >Expanding Client Territory in North East and beyond</span>
                 </div>
-                <img class="w-100" src="/images/2.jpg" alt />
+                <img class="w-100" src="/images/2.jpg" alt="North-east map" />
               </div>
             </div>
           </div>
@@ -454,7 +454,7 @@
       <div class="container-small">
         <div class="row">
           <div class="col-12 col-lg-8 p-0">
-            <img class="career-photo" style="width:100%" src="/images/security_01.jpg" alt />
+            <img class="career-photo" style="width:100%" src="/images/security_01.jpg" alt="career security" />
           </div>
           <div class="col-12 col-lg-4 d-flex flex-column justify-content-around">
             <div>

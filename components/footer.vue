@@ -5,13 +5,13 @@
         <div class="row">
           <div class="col-12 col-lg-4 pt-5">
             <div class="d-flex">
-              <img style="width: 100px;height: 100%;" src="/images/PK1_new.png" alt />
-              <img style="width: 100px;height: 100%;" src="/images/PK2_new.png" alt />
+              <img style="width: 100px;height: 100%;" src="/images/PK1_new.png" alt="pksecurity" />
+              <img style="width: 100px;height: 100%;" src="/images/PK2_new.png" alt="pkservices" />
             </div>
             <div class="mt-3 d-flex justify-content-between">
               <!-- <img style="height:300px;width:auto" src="/images/certficate1.jpg" alt /> -->
-              <img style="height:220px;width:auto" src="/images/securitycertificate.jpg" alt />
-              <img style="height:220px;width:auto" src="/images/servicescertificate.jpg" alt />
+              <img style="height:220px;width:auto" src="/images/securitycertificate.jpg" alt="pksecuritycertificate" />
+              <img style="height:220px;width:auto" src="/images/servicescertificate.jpg" alt="pkservicescertificate" />
             </div>
           </div>
           <div class="col-12 col-md-12 col-lg-4 pt-5">
@@ -52,14 +52,14 @@
                 </form>
               </div>
               <div class="justify-content-between mt-4 w-100">
-                <img style="height:15px;width:auto;margin-right:15px" src="/icons/facebook.svg" alt />
-                <img style="height:15px;width:auto;margin-right:15px" src="/icons/linkedin.svg" alt />
+                <img style="height:15px;width:auto;margin-right:15px" src="/icons/facebook.svg" alt="facebook" />
+                <img style="height:15px;width:auto;margin-right:15px" src="/icons/linkedin.svg" alt="linkedin" />
                 <img
                   style="height:15px;width:auto;margin-right:15px"
                   src="/icons/instagram.svg"
                   alt
                 />
-                <img style="height:15px;width:auto;margin-right:15px" src="/icons/twitter.svg" alt />
+                <img style="height:15px;width:auto;margin-right:15px" src="/icons/twitter.svg" alt="twitter" />
               </div>
             </div>
           </div>

@@ -5,7 +5,7 @@
       <div>
         <div class="w-100">
           <div>
-            <img class="coma" src="/images/asset1.png" alt />
+            <img class="coma" src="/images/asset1.png" alt="" />
           </div>
           <div class="container">
             <p

@@ -9,7 +9,7 @@
             <p class="text-white">{{date}}</p>
           </div>
           <div class="col-12 train">
-            <img class="w-100 blog-img" :src="singleBlog.image" alt />
+            <img class="w-100 blog-img" :src="singleBlog.image" alt="blog" />
           </div>
           <div class="col-12">
             <div class="train-pad text-white" v-html="singleBlog.body">
