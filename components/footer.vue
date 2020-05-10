@@ -52,14 +52,14 @@
                 </form>
               </div>
               <div class="justify-content-between mt-4 w-100">
-                <img style="height:15px;width:auto;margin-right:15px" src="/icons/facebook.svg" alt="facebook" />
-                <img style="height:15px;width:auto;margin-right:15px" src="/icons/linkedin.svg" alt="linkedin" />
+               <a href="https://www.facebook.com/P-K-Services-529106550586812/?ref=br_rs" target="_blank"><img style="height:15px;width:auto;margin-right:15px" src="/icons/facebook.svg" alt="facebook" /></a> 
+                <!-- <img style="height:15px;width:auto;margin-right:15px" src="/icons/linkedin.svg" alt="linkedin" />
                 <img
                   style="height:15px;width:auto;margin-right:15px"
                   src="/icons/instagram.svg"
                   alt
                 />
-                <img style="height:15px;width:auto;margin-right:15px" src="/icons/twitter.svg" alt="twitter" />
+                <img style="height:15px;width:auto;margin-right:15px" src="/icons/twitter.svg" alt="twitter" /> -->
               </div>
             </div>
           </div>

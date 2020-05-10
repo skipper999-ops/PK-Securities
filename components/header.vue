@@ -34,7 +34,7 @@
       </div>
     </div>-->
     <div class="nav-header-main">
-      <div class="secondary-nav pt-3 pb-3">
+      <div class="secondary-nav pt-3 pb-1">
         <div class="container p-0 d-flex justify-content-between align-items-center">
           <nuxt-link to="/">
             <img class="logo" style="margin-right:10px" src="~/static/images/PK1_new.png" alt="pksecuritylogo" />
@@ -51,8 +51,9 @@
             <span class="d-flex" style="margin-left:10px">
               <img class="lkasdkl mr-2" style="height:18px" src="/images/email.png" alt="pkcontact" />
               <p style="color:#fff;font-size: 13px;">
-                Mail Us,
-                <br />pawan@pkservices.in
+                Mail or Call us <br/>
+                <a style="color:#fff;text-decoration:none" href="mailto:pawan@pkservices.in">pawan@pkservices.in</a> <br/>
+                <a style="color:#fff;text-decoration:none" href="tel:+918486027325">+91 8486027325</a>
               </p>
             </span>
           </div>

@@ -376,7 +376,7 @@ input[type="email"] {
   .homepageSlider .slick-prev:before,
   .homepageSlider .slick-next:before {
     font-size: 25px;
-    opacity: 1;
+    opacity: 0;
     color: white !important;
   }
 

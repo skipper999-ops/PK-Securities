@@ -137,7 +137,7 @@ export default {
   .svg-main-container {
     position: relative;
     height: 200px;
-    width: 460px;
+    width: 320px;
   }
 
   /* .header-content{
@@ -153,7 +153,7 @@ export default {
   }
 
   .heading--2 {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .heading--3 {
