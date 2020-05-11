@@ -562,6 +562,7 @@
             class="header-carousel container"
             :per-page="1"
             :autoplay="true"
+            :loop="true"
             :mouse-drag="true"
             :navigationEnabled="true"
             paginationColor="#e91e63"
@@ -570,7 +571,7 @@
             <slide v-for="p in alltestimonial" :key="p.id">
               <div class="testimony-slide">
                 <img
-                  style="margin:auto;width: 150px;height: 150px;border-radius: 50%;"
+                  style="margin:auto;width: 150px;height: 150px;border-radius: 0;object-fit:contain"
                   class="middle"
                   :src="p.image"
                   alt
