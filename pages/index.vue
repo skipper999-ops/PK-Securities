@@ -565,6 +565,7 @@
             :loop="true"
             :mouse-drag="true"
             :navigationEnabled="true"
+            :speed="1200"
             paginationColor="#e91e63"
             paginationActiveColor="#ffffff"
           >
