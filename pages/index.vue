@@ -154,22 +154,22 @@
                 <h3 class="text-center" style="color:#9e7b5f">VIDEO DEMO</h3>
                 <hr style="margin:auto;width:20%" />
               </div>
-              <embed
+              <!-- <embed
                 class="h-100 w-100"
                 src="/video/video2.webm"
                 autostart="false"
                 height="30"
                 width="144"
                 style="height:300px;width:545px"
-              />
+              /> -->
               <!-- <video class="h-100 w-100" controls style="height:300px;width:545px">
                 <source src="/video/video2.webm" type="video/webm; codecs='vp8.0, vorbis'" />
               </video>-->
 
-              <video controls width="250">
-                <source src="/media/examples/flower.webm" type="video/webm" />
+              <video class="w-100 pt-5" controls>
+                <source src="/video/video2.webm" type="video/webm" />
 
-                <source src="/media/examples/flower.mp4" type="video/mp4" />Sorry, your browser doesn't support embedded videos.
+                <source src="/video/video2.mp4" type="video/mp4" />Sorry, your browser doesn't support embedded videos.
               </video>
             </div>
           </div>
