@@ -165,6 +165,12 @@
               <!-- <video class="h-100 w-100" controls style="height:300px;width:545px">
                 <source src="/video/video2.webm" type="video/webm; codecs='vp8.0, vorbis'" />
               </video>-->
+
+              <video controls width="250">
+                <source src="/media/examples/flower.webm" type="video/webm" />
+
+                <source src="/media/examples/flower.mp4" type="video/mp4" />Sorry, your browser doesn't support embedded videos.
+              </video>
             </div>
           </div>
         </div>
@@ -454,7 +460,12 @@
       <div class="container-small">
         <div class="row">
           <div class="col-12 col-lg-8 p-0">
-            <img class="career-photo" style="width:100%" src="/images/security_01.jpg" alt="career security" />
+            <img
+              class="career-photo"
+              style="width:100%"
+              src="/images/security_01.jpg"
+              alt="career security"
+            />
           </div>
           <div class="col-12 col-lg-4 d-flex flex-column justify-content-around">
             <div>
@@ -468,8 +479,10 @@
             >
               <span style="color:#fff">
                 {{p.title}}
-                <br />Salary:{{p.salary_range}}
-                <br />Location: {{p.location}}
+                <br />
+                Salary:{{p.salary_range}}
+                <br />
+                Location: {{p.location}}
               </span>
               <nuxt-link to="/career">
                 <img
@@ -718,7 +731,7 @@ export default {
     this.$store.dispatch("getAlltestimonial");
 
     this.$store.dispatch("getAllCareer").then(res => {
-      this.careers = JSON.parse(JSON.stringify(res.data)).splice(0, 2)
+      this.careers = JSON.parse(JSON.stringify(res.data)).splice(0, 2);
     });
   },
   filters: {
