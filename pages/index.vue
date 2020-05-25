@@ -167,8 +167,6 @@
               </video>-->
 
               <video class="w-100 pt-5" controls>
-                <source src="/video/video2.webm" type="video/webm" />
-
                 <source src="/video/video2.mp4" type="video/mp4" />Sorry, your browser doesn't support embedded videos.
               </video>
             </div>
