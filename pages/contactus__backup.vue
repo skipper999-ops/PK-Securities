@@ -2,10 +2,10 @@
   <div>
     <div style="background-color:black">
       <div class="container-small overlay p-0" style="background-color:#ededed">
-        <img
+        <!-- <img
           class="d-block w-100 img1"
-          src="~static/images/contact.png"
-        />
+          src="/images/contact.png"
+        /> -->
       </div>
     </div>
     <div class="bg-black">
