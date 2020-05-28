@@ -463,12 +463,12 @@ ul li {
   left: 0;
   bottom: 0;
   color: white;
-  background-color: rgba(35, 35, 35, 0.91);
+  background-color: rgba(35, 35, 35, 0.98);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  z-index: 99;
+  z-index: 100;
   transition: all 0.5s;
 }
 
