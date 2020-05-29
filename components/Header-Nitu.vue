@@ -7,11 +7,7 @@
     <client-only>
       <slick class="homepageSlider" ref="carousel" :options="slickOptions">
         <div v-for="p in homeslider" :key="p.id">
-          <img
-            class="d-block w-100 img1"
-            :src="p.image"
-            alt="First slide"
-          />
+          <img class="d-block w-100 img1" :src="p.image" alt="First slide" />
         </div>
       </slick>
     </client-only>
@@ -83,6 +79,11 @@ export default {
   created() {
     this.$store.dispatch("getHomepageSliderImages").then(res => {
       this.$refs.carousel.destroy();
+      this.$store.dispatch("getAllClientListOutside");
+      this.$store.dispatch("getAllClientListKamrup");
+      this.$store.dispatch("getAllNews");
+      this.$store.dispatch("getAllBlogs");
+      this.$store.dispatch("getAlltestimonial");
       this.homeslider = res.data;
       this.$nextTick(() => {
         this.$refs.carousel.create();

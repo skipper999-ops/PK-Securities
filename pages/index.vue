@@ -722,11 +722,7 @@ export default {
   },
 
   mounted() {
-    this.$store.dispatch("getAllClientListOutside");
-    this.$store.dispatch("getAllClientListKamrup");
-    this.$store.dispatch("getAllNews");
-    this.$store.dispatch("getAllBlogs");
-    this.$store.dispatch("getAlltestimonial");
+
 
     this.$store.dispatch("getAllCareer").then(res => {
       this.careers = JSON.parse(JSON.stringify(res.data)).splice(0, 2);
