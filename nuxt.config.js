@@ -51,6 +51,29 @@ export default {
             }
         ]
     },
+
+
+    pwa: {
+        manifest: {
+            name: 'PK Services',
+            description: "PK Securities and Services. Transforming Service Management into an Innovative Force.",
+            lang: 'en',
+            display: "standalone",
+            background_color: "#e5b214",
+            theme_color: "#e5b214"
+        },
+        workbox: {
+            runtimeCaching: [{
+                // Should be a regex string. Compiles into new RegExp('https://my-cdn.com/.*')
+                urlPattern: 'http://pkservices.in/.*',
+                // Defaults to `networkFirst` if omitted
+                // handler: 'networkFirst',
+                // Defaults to `GET` if omitted
+                // method: 'GET'
+            }]
+        }
+    },
+
     /*
      ** Customize the progress-bar color
      */
@@ -63,7 +86,8 @@ export default {
      ** Plugins to load before mounting the App
      */
     plugins: [{ src: "~/plugins/carousel", lang: "js", ssr: false },
-        { src: "~/plugins/slick-carousel", lang: "js", ssr: false }
+        { src: "~/plugins/slick-carousel", lang: "js", ssr: false },
+        { src: "~/plugins/ga", lang: "js", ssr: false }
     ],
     /*
      ** Nuxt.js dev-modules

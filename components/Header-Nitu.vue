@@ -74,9 +74,7 @@ export default {
     this.svgContainers.forEach(item => {
       this.timelines.push(new TimelineLite());
     });
-  },
 
-  created() {
     this.$store.dispatch("getHomepageSliderImages").then(res => {
       this.$refs.carousel.destroy();
       this.$store.dispatch("getAllClientListOutside");
@@ -90,6 +88,7 @@ export default {
       });
     });
   },
+
   methods: {
     goRight() {
       if (this.activeSlide === this.slideData.length - 1) return;
