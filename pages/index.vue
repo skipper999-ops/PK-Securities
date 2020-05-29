@@ -281,7 +281,7 @@
                   class="mt-3 text-white"
                   style="font-size:18px;line-height:1.25;text-align:justify;opacity:.88"
                 >PK Security & PK Services is the trusted provider of cutting-edge quality service not only in the areas of security but also in providing the perfect solution to make living in any society or complex a pleasant and convenient experience - for the residents, the managing committee, and the security staff. Gain improved access control to your property with a range of customized total solutions package.</p>
-                <img class="w-100" src="/images/man-shadow.png" alt="pk security and services" />
+                <img class="w-100" src="/images/man-shadow.jpg" alt="pk security and services" />
               </div>
             </div>
             <div class="col-12 col-md-6 mt-3 mt-sm-0 d-flex flex-column justify-content-around">
