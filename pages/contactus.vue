@@ -16,7 +16,8 @@
                 4th Floor, Protech Centre, Ganeshguri, Ganeshguri, Guwahati -
                 781006,
               </span>
-              <span>Administrative Office: House No. 51; 1st Floor, Sanjog Path, Hengrabari Road, Guwahati -781006</span>
+              <span>Administrative Office: House No. 51; 1st Floor, Sanjog Path, Hengrabari Road, Guwahati -781006,</span><br/>
+              <span>Kolkata Office: 21A, Mahendra Road, Bhowanipur, Kolkata - 700025</span>
             </div>
           </div>
         </div>

@@ -16,8 +16,8 @@
           </div>
           <div class="col-12 col-md-12 col-lg-4 pt-5">
             <p class="footer-head">GET IN TOUCH</p>
-            <div class="h-50 d-flex flex-column justify-content-around">
-              <span class="d-flex mt-5">
+            <div class="d-flex flex-column justify-content-around">
+              <span class="d-flex">
                 <p style="color:white; margin-right:10px">PHONE NUMBER :</p>
                 <a href="tel:8486027325" class="footer-sub">+ 91 8486027325</a>
               </span>
@@ -29,9 +29,13 @@
                 <span class="text-white">
                   <span class="text-white" style="margin-right:5px">HEAD OFFICE :</span>Protech Center, 4th Floor, Ganeshguri, G.S.Road, Guwahati-781006
                   <br />
-                  <br />
+                  <br/>
                   <span class="text-white" style="margin-right:5px">ADMINISTRATIVE OFFICE :</span>
                   House No.5, Sanjog Path, Hengrabari Road, Hengrabari, Guwahati-781006
+                  <br/>
+                  <br/>
+                   <span class="text-white" style="margin-right:5px">KOLKATA OFFICE :</span>
+                   21A, Mahendra Road, Bhowanipur, Kolkata - 700025.
                 </span>
               </span>
             </div>
